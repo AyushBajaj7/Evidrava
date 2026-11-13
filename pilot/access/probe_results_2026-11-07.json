@@ -1,0 +1,215 @@
+{
+  "plan_sha256": "863da8c804333526534d1303e419268cb61f5306f7764f502acc343027203edf",
+  "plan_date_local": "2026-11-07",
+  "timezone": "Asia/Kolkata",
+  "request_policy": "One sequential GET per planned daily file; no retries or bypass",
+  "web_checks": [
+    {
+      "url": "https://www.nseindia.com/all-reports",
+      "result": "Opened in web tool; legacy cash Bhavcopy discontinued 8 July 2024; UDiFF listed"
+    },
+    {
+      "url": "https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx",
+      "result": "Web tool returned 403 Forbidden; no bypass attempted"
+    }
+  ],
+  "probes": [
+    {
+      "date": "2012-01-02",
+      "format": "legacy",
+      "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2012/JAN/cm02JAN2012bhav.csv.zip",
+      "started_at_utc": "2026-11-06T19:31:17.741201+00:00",
+      "http_status": 200,
+      "result": "PARSED_AND_DATE_MATCHED",
+      "raw_data_retained": false,
+      "content_type": "application/zip",
+      "final_url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2012/JAN/cm02JAN2012bhav.csv.zip",
+      "download_bytes": 52248,
+      "zip_sha256": "32f1779fc6529270ac99b3ccef5f8abeab6f07bb557e7bd2d64a44448b527754",
+      "csv_member": "cm02JAN2012bhav.csv",
+      "csv_sha256": "2cbbd97c007252203573ff25f644b170f32c495e16854b42755c1e5c3a92f4af",
+      "headers": [
+        "SYMBOL",
+        "SERIES",
+        "OPEN",
+        "HIGH",
+        "LOW",
+        "CLOSE",
+        "LAST",
+        "PREVCLOSE",
+        "TOTTRDQTY",
+        "TOTTRDVAL",
+        "TIMESTAMP",
+        "TOTALTRADES",
+        "ISIN"
+      ],
+      "row_count_before_universe_filter": 1526,
+      "nonempty_isin_rows": 1526,
+      "distinct_nonempty_isins": 1526,
+      "missing_required_headers": [],
+      "observed_date_values": {
+        "TIMESTAMP": [
+          "2012-01-02"
+        ]
+      },
+      "dates_match_request": true,
+      "elapsed_seconds": 0.475
+    },
+    {
+      "date": "2020-01-02",
+      "format": "legacy",
+      "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/JAN/cm02JAN2020bhav.csv.zip",
+      "started_at_utc": "2026-11-06T19:31:18.717740+00:00",
+      "http_status": 200,
+      "result": "PARSED_AND_DATE_MATCHED",
+      "raw_data_retained": false,
+      "content_type": "application/zip",
+      "final_url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/JAN/cm02JAN2020bhav.csv.zip",
+      "download_bytes": 69955,
+      "zip_sha256": "b3cdc49a3f683b236b5ad5ffc00eb9eb37f684d34598ced3109d5b2c154b88e3",
+      "csv_member": "cm02JAN2020bhav.csv",
+      "csv_sha256": "755549c51aa0636efb942e2f8fc3feada7b467a30899a5847720327745c9a6cd",
+      "headers": [
+        "SYMBOL",
+        "SERIES",
+        "OPEN",
+        "HIGH",
+        "LOW",
+        "CLOSE",
+        "LAST",
+        "PREVCLOSE",
+        "TOTTRDQTY",
+        "TOTTRDVAL",
+        "TIMESTAMP",
+        "TOTALTRADES",
+        "ISIN"
+      ],
+      "row_count_before_universe_filter": 1956,
+      "nonempty_isin_rows": 1956,
+      "distinct_nonempty_isins": 1956,
+      "missing_required_headers": [],
+      "observed_date_values": {
+        "TIMESTAMP": [
+          "2020-01-02"
+        ]
+      },
+      "dates_match_request": true,
+      "elapsed_seconds": 0.3151
+    },
+    {
+      "date": "2024-01-02",
+      "format": "legacy",
+      "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm02JAN2024bhav.csv.zip",
+      "started_at_utc": "2026-11-06T19:31:19.534386+00:00",
+      "http_status": 200,
+      "result": "PARSED_AND_DATE_MATCHED",
+      "raw_data_retained": false,
+      "content_type": "application/zip",
+      "final_url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm02JAN2024bhav.csv.zip",
+      "download_bytes": 100665,
+      "zip_sha256": "bc3f9ff6586c56248f2cfc678d7f873ac9c4a86f8a83395ebca2d91990157356",
+      "csv_member": "cm02JAN2024bhav.csv",
+      "csv_sha256": "723972f78af6f28bacf208b3b2eba6ffcb3750d7ddd6abc82ff2d362fc71849a",
+      "headers": [
+        "SYMBOL",
+        "SERIES",
+        "OPEN",
+        "HIGH",
+        "LOW",
+        "CLOSE",
+        "LAST",
+        "PREVCLOSE",
+        "TOTTRDQTY",
+        "TOTTRDVAL",
+        "TIMESTAMP",
+        "TOTALTRADES",
+        "ISIN"
+      ],
+      "row_count_before_universe_filter": 2658,
+      "nonempty_isin_rows": 2658,
+      "distinct_nonempty_isins": 2658,
+      "missing_required_headers": [],
+      "observed_date_values": {
+        "TIMESTAMP": [
+          "2024-01-02"
+        ]
+      },
+      "dates_match_request": true,
+      "elapsed_seconds": 0.301
+    },
+    {
+      "date": "2025-01-02",
+      "format": "udiff",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250102_F_0000.csv.zip",
+      "started_at_utc": "2026-11-06T19:31:20.337326+00:00",
+      "http_status": 200,
+      "result": "PARSED_AND_DATE_MATCHED",
+      "raw_data_retained": false,
+      "content_type": "application/zip",
+      "final_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250102_F_0000.csv.zip",
+      "download_bytes": 171515,
+      "zip_sha256": "4a4b668c477ea6182d7c3e4f6bd963486c266849dacc91d4afc7d3735ea5a07f",
+      "csv_member": "BhavCopy_NSE_CM_0_0_0_20250102_F_0000.csv",
+      "csv_sha256": "9207e4f7ec5487620ddc1ac729b960d5c79db2f4cfbd151f197d27751dce2a1f",
+      "headers": [
+        "TradDt",
+        "BizDt",
+        "Sgmt",
+        "Src",
+        "FinInstrmTp",
+        "FinInstrmId",
+        "ISIN",
+        "TckrSymb",
+        "SctySrs",
+        "XpryDt",
+        "FininstrmActlXpryDt",
+        "StrkPric",
+        "OptnTp",
+        "FinInstrmNm",
+        "OpnPric",
+        "HghPric",
+        "LwPric",
+        "ClsPric",
+        "LastPric",
+        "PrvsClsgPric",
+        "UndrlygPric",
+        "SttlmPric",
+        "OpnIntrst",
+        "ChngInOpnIntrst",
+        "TtlTradgVol",
+        "TtlTrfVal",
+        "TtlNbOfTxsExctd",
+        "SsnId",
+        "NewBrdLotQty",
+        "Rmks",
+        "Rsvd1",
+        "Rsvd2",
+        "Rsvd3",
+        "Rsvd4"
+      ],
+      "row_count_before_universe_filter": 2930,
+      "nonempty_isin_rows": 2930,
+      "distinct_nonempty_isins": 2930,
+      "missing_required_headers": [],
+      "observed_date_values": {
+        "TradDt": [
+          "2025-01-02"
+        ],
+        "BizDt": [
+          "2025-01-02"
+        ]
+      },
+      "dates_match_request": true,
+      "elapsed_seconds": 0.3603
+    }
+  ],
+  "limitations": [
+    "Access/format checks only, not complete history or source-vintage verification.",
+    "No per-episode warm-up, corporate-action, historical-identity or legal-evidence audit was performed.",
+    "All row counts precede the cash-equity research universe filter.",
+    "Public retrieval does not establish project-specific usage or redistribution permission.",
+    "No raw market files or prices were retained."
+  ],
+  "completed_at_utc": "2026-11-06T19:31:20.696665+00:00",
+  "total_download_bytes": 394383
+}

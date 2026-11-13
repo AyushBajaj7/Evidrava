@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1",
+  "run_id": "design_example",
+  "mode": "synthetic",
+  "purpose": "registry_validation",
+  "assessment_at": "2026-11-05T12:00:00+05:30",
+  "deadline_at": "2026-12-04T23:59:59+05:30",
+  "collection_cutoff": {
+    "precision": "date",
+    "value": "2020-01-15"
+  },
+  "timezone": "Asia/Kolkata",
+  "fit_cutoff": "2020-01-13T09:15:00+05:30",
+  "score_time": "2020-01-13T09:15:00+05:30",
+  "protocol": {
+    "id": "synthetic_protocol",
+    "state": "DRAFT",
+    "frozen_at": null,
+    "sha256": null,
+    "slot_policy": "all_included_versions",
+    "slot_rules": [
+      {
+        "field": "conduct_start",
+        "subject_type": "label_version",
+        "critical": true
+      },
+      {
+        "field": "conduct_end",
+        "subject_type": "label_version",
+        "critical": true
+      },
+      {
+        "field": "alleged_scheme",
+        "subject_type": "label_version",
+        "critical": false
+      },
+      {
+        "field": "instrument",
+        "subject_type": "episode",
+        "critical": true
+      },
+      {
+        "field": "isin",
+        "subject_type": "episode",
+        "critical": true
+      },
+      {
+        "field": "legal_status",
+        "subject_type": "matter",
+        "critical": false
+      },
+      {
+        "field": "order_date",
+        "subject_type": "matter",
+        "critical": false
+      }
+    ],
+    "date_only_policy": "next_session",
+    "pass_min_episodes": 20,
+    "conditional_min_episodes": 10,
+    "min_independent_groups": 10,
+    "min_verified_share": 0.95,
+    "warmup_sessions": 60,
+    "primary_horizon_years": 3,
+    "sensitivity_horizon_years": [
+      2,
+      4
+    ],
+    "legal_policy_id": null,
+    "universe_policy_id": null
+  },
+  "cohort": {
+    "sample_manifest_sha256": null,
+    "frame_sha256": null,
+    "target_matters": 1,
+    "inventory_complete": true,
+    "members": [
+      {
+        "matter_id": "M1",
+        "episode_ids": [
+          "E1"
+        ],
+        "label_version_ids": [
+          "V1"
+        ],
+        "inventory_review_id": "R_inventory"
+      }
+    ]
+  },
+  "calendar": [
+    {
+      "session": "2020-01-06",
+      "opens_at": "2020-01-06T09:15:00+05:30",
+      "closes_at": "2020-01-06T15:30:00+05:30"
+    },
+    {
+      "session": "2020-01-07",
+      "opens_at": "2020-01-07T09:15:00+05:30",
+      "closes_at": "2020-01-07T15:30:00+05:30"
+    },
+    {
+      "session": "2020-01-08",
+      "opens_at": "2020-01-08T09:15:00+05:30",
+      "closes_at": "2020-01-08T15:30:00+05:30"
+    },
+    {
+      "session": "2020-01-09",
+      "opens_at": "2020-01-09T09:15:00+05:30",
+      "closes_at": "2020-01-09T15:30:00+05:30"
+    },
+    {
+      "session": "2020-01-10",
+      "opens_at": "2020-01-10T09:15:00+05:30",
+      "closes_at": "2020-01-10T15:30:00+05:30"
+    },
+    {
+      "session": "2020-01-13",
+      "opens_at": "2020-01-13T09:15:00+05:30",
+      "closes_at": "2020-01-13T15:30:00+05:30"
+    }
+  ],
+  "artifact_refs": {
+    "market_coverage_report": null,
+    "identity_report": null,
+    "leakage_report": null,
+    "baseline_report": null
+  }
+}

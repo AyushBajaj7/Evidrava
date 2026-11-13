@@ -1,0 +1,417 @@
+{
+  "schema_version": "0.1",
+  "dataset_kind": "synthetic",
+  "release_id": "fixture_release_1",
+  "authored_at": "2026-11-05T12:00:00+05:30",
+  "selected_claim_ids": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+  ],
+  "reviewers": [
+    {
+      "id": "H1",
+      "display_name": "Fictional reviewer H1",
+      "kind": "human"
+    },
+    {
+      "id": "H2",
+      "display_name": "Fictional reviewer H2",
+      "kind": "human"
+    }
+  ],
+  "matters": [
+    {
+      "id": "M1",
+      "independence_group_id": "G1",
+      "review_state": "audited",
+      "inventory_state": "complete",
+      "legal_history_state": "unknown",
+      "legal_checked_on": "2026-11-05"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "E1",
+      "matter_id": "M1",
+      "first_disclosure_evidence_id": "EV1",
+      "observability": "indeterminate",
+      "observability_recorded_at": "2026-11-05T12:00:00+05:30"
+    }
+  ],
+  "label_versions": [
+    {
+      "id": "V1",
+      "episode_id": "E1",
+      "version_no": 1,
+      "supersedes_id": null,
+      "change_kind": "initial",
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_note": "Synthetic initial version"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "subject_type": "label_version",
+      "subject_id": "V1",
+      "field": "conduct_start",
+      "value": {
+        "kind": "date",
+        "data": "2020-01-06"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    },
+    {
+      "id": "C2",
+      "subject_type": "label_version",
+      "subject_id": "V1",
+      "field": "conduct_end",
+      "value": {
+        "kind": "date",
+        "data": "2020-01-08"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    },
+    {
+      "id": "C3",
+      "subject_type": "label_version",
+      "subject_id": "V1",
+      "field": "alleged_scheme",
+      "value": {
+        "kind": "text",
+        "data": "Fictional scheme"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    },
+    {
+      "id": "C4",
+      "subject_type": "episode",
+      "subject_id": "E1",
+      "field": "instrument",
+      "value": {
+        "kind": "text",
+        "data": "Fictional instrument"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    },
+    {
+      "id": "C5",
+      "subject_type": "episode",
+      "subject_id": "E1",
+      "field": "isin",
+      "value": {
+        "kind": "text",
+        "data": "SYNTHETIC-ISIN"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    },
+    {
+      "id": "C6",
+      "subject_type": "matter",
+      "subject_id": "M1",
+      "field": "legal_status",
+      "value": {
+        "kind": "text",
+        "data": "Fictional interim allegation"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    },
+    {
+      "id": "C7",
+      "subject_type": "matter",
+      "subject_id": "M1",
+      "field": "order_date",
+      "value": {
+        "kind": "date",
+        "data": "2020-01-10"
+      },
+      "revision": 1,
+      "supersedes_id": null,
+      "recorded_at": "2026-11-05T12:00:00+05:30",
+      "change_kind": "initial",
+      "change_note": "Synthetic initial value"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fixture_text",
+      "uri": "urn:sebi:fictional-source:1",
+      "local_path": "fictional_source.txt",
+      "sha256": "ffb2ee42b198fc5b3a1004de6bac350cf0d954d8e068713e8ed3dafb25f50beb",
+      "page_count": null,
+      "publication": {
+        "basis": "verified",
+        "precision": "timestamp",
+        "value": "2020-01-10T10:00:00+05:30",
+        "basis_source_id": "S1"
+      },
+      "retrieved_at": "2026-11-05T12:00:00+05:30"
+    }
+  ],
+  "orders": [
+    {
+      "id": "O1",
+      "matter_id": "M1",
+      "source_id": "S1",
+      "order_date": "2020-01-10"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV1",
+      "claim_id": "C1",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 3
+      },
+      "extracted_value": {
+        "kind": "date",
+        "data": "2020-01-06"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    },
+    {
+      "id": "EV2",
+      "claim_id": "C2",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 4
+      },
+      "extracted_value": {
+        "kind": "date",
+        "data": "2020-01-08"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    },
+    {
+      "id": "EV3",
+      "claim_id": "C3",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 5
+      },
+      "extracted_value": {
+        "kind": "text",
+        "data": "Fictional scheme"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    },
+    {
+      "id": "EV4",
+      "claim_id": "C4",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 6
+      },
+      "extracted_value": {
+        "kind": "text",
+        "data": "Fictional instrument"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    },
+    {
+      "id": "EV5",
+      "claim_id": "C5",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 7
+      },
+      "extracted_value": {
+        "kind": "text",
+        "data": "SYNTHETIC-ISIN"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    },
+    {
+      "id": "EV6",
+      "claim_id": "C6",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 8
+      },
+      "extracted_value": {
+        "kind": "text",
+        "data": "Fictional interim allegation"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    },
+    {
+      "id": "EV7",
+      "claim_id": "C7",
+      "source_id": "S1",
+      "order_id": "O1",
+      "locator": {
+        "kind": "fixture_line",
+        "line": 9
+      },
+      "extracted_value": {
+        "kind": "date",
+        "data": "2020-01-10"
+      },
+      "recorded_at": "2026-11-05T12:00:00+05:30"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "R1",
+      "subject_type": "evidence",
+      "subject_id": "EV1",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "189b3373906aeeae39829ad5e593470825a13595fcecb957728ac2a9e532bbfd",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R2",
+      "subject_type": "evidence",
+      "subject_id": "EV2",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "617d543cc55884339ee8a5020048a4dee3ab81b032e1ccb7a16e4f885988f42c",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R3",
+      "subject_type": "evidence",
+      "subject_id": "EV3",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "2336bd95d45326b591689d063a298e71d44d89a70582f7ffb8a3c7d3b4b44385",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R4",
+      "subject_type": "evidence",
+      "subject_id": "EV4",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "44d1bbe90f318272c8dc131f3ddb98aae77abcf0d83af4195e6b059fb96c8a5c",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R5",
+      "subject_type": "evidence",
+      "subject_id": "EV5",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "4231e352144fc0184b2adf2191a427aee1a8a777b0cf9fc74688abede8b3c48e",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R6",
+      "subject_type": "evidence",
+      "subject_id": "EV6",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "bb649444136c637143312131d6502fabdbcb6ccde19202043a272a46c4834119",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R7",
+      "subject_type": "evidence",
+      "subject_id": "EV7",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": "6b62bf7a1fac4b388e57aae5cc8d0811a094a8752ef7d64a904e2f02d7239970",
+      "rule_id": null,
+      "note": "Fictional identities; no real human audit asserted"
+    },
+    {
+      "id": "R_inventory",
+      "subject_type": "inventory",
+      "subject_id": "M1",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": null,
+      "rule_id": null,
+      "note": "Synthetic inventory complete"
+    },
+    {
+      "id": "R_group",
+      "subject_type": "group",
+      "subject_id": "G1",
+      "extractor_id": "H1",
+      "auditor_id": "H2",
+      "extracted_on": "2026-11-04",
+      "audited_on": "2026-11-05",
+      "outcome": "agreed",
+      "value_digest": null,
+      "rule_id": null,
+      "note": "Synthetic independent group assignment"
+    }
+  ],
+  "legal_events": [],
+  "selection_events": []
+}

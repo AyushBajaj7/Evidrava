@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-11-13",
+  "scope": "public name screening; not global exclusivity or trademark clearance",
+  "candidates": [
+    {
+      "name": "Evidrava",
+      "exact_web_query": "\"Evidrava\"",
+      "exact_web_result": "No results returned",
+      "targeted_web_query": "\"Evidrava\" (site:github.com OR site:pypi.org OR site:npmjs.com OR site:arxiv.org)",
+      "targeted_web_result": "No results returned",
+      "github_repository_query": "Evidrava",
+      "github_repository_matches_returned": 0
+    },
+    {
+      "name": "Chroniqva",
+      "exact_web_query": "\"Chroniqva\"",
+      "exact_web_result": "No results returned",
+      "targeted_web_query": "\"Chroniqva\" (site:github.com OR site:pypi.org OR site:npmjs.com OR site:arxiv.org)",
+      "targeted_web_result": "No results returned",
+      "github_repository_query": "Chroniqva",
+      "github_repository_matches_returned": 0
+    },
+    {
+      "name": "Asoventra",
+      "exact_web_query": "\"Asoventra\"",
+      "exact_web_result": "No results returned",
+      "targeted_web_query": "\"Asoventra\" (site:github.com OR site:pypi.org OR site:npmjs.com OR site:arxiv.org)",
+      "targeted_web_result": "No results returned",
+      "github_repository_query": "Asoventra",
+      "github_repository_matches_returned": 0
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Chronivra",
+      "reason": "Existing public project/site name",
+      "source": "https://chronivra.com/"
+    }
+  ],
+  "not_checked": [
+    "Trademark registers",
+    "Domain registration or availability",
+    "Private/unindexed projects",
+    "Every spelling variant"
+  ],
+  "project_renamed": false
+}

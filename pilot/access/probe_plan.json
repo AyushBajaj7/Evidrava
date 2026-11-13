@@ -1,0 +1,14 @@
+{
+  "plan_date_local": "2026-11-07",
+  "timezone": "Asia/Kolkata",
+  "purpose": "Bounded access and file-format reconnaissance before choosing the pilot scope",
+  "selection_rule": "Four dates fixed before retrieval: 2 January in 2012, 2020, 2024 and 2025. No security or enforcement outcome selection.",
+  "max_daily_archive_requests": 4,
+  "raw_market_data_retained": false,
+  "requests": [
+    {"date": "2012-01-02", "format": "legacy", "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2012/JAN/cm02JAN2012bhav.csv.zip"},
+    {"date": "2020-01-02", "format": "legacy", "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/JAN/cm02JAN2020bhav.csv.zip"},
+    {"date": "2024-01-02", "format": "legacy", "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm02JAN2024bhav.csv.zip"},
+    {"date": "2025-01-02", "format": "udiff", "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250102_F_0000.csv.zip"}
+  ]
+}

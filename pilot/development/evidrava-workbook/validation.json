@@ -1,0 +1,59 @@
+{
+  "validation_only": true,
+  "research_decision": "NOT_EVALUATED",
+  "protocol_status": "DRAFT",
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "CUTOFF_MISSING",
+      "sheet": "Rules",
+      "cell": "B7",
+      "message": "Set a valid date-only collection cutoff before freeze"
+    }
+  ],
+  "metrics": {
+    "matters": 0,
+    "episodes": 0,
+    "registered_people": 0,
+    "required_slots": 0,
+    "valid_audited_slots": 0,
+    "review_completed_slots": 0,
+    "missing_valid_audit_slots": 0,
+    "audit_share": null,
+    "review_completion_share": null,
+    "documented_legal_events": 0,
+    "unverified_legal_events": 0,
+    "verified_delay_observations": 0,
+    "disclosure_excluded_episodes": 0,
+    "verified_delay_median_days": null
+  },
+  "readiness": [
+    "Protocol remains DRAFT; screening, software work and provisional extraction may continue",
+    "Independent reviewer is not registered; this does not block engineering or provisional annotation",
+    "No in-scope study matters entered; row 5 examples are excluded",
+    "A separately preserved selected-matter manifest is required before accepting a frozen cohort",
+    "Source passages, reviewer identity, legal interpretation and actual market coverage require human verification",
+    "Model evaluation and research PASS/CONDITIONAL/FAIL are not computed by this preparation checker"
+  ],
+  "validation_status": "VALID",
+  "counts_provisional": false,
+  "checker_version": "0.3.0",
+  "created_at_utc": "2026-11-13T17:29:17.487270+00:00",
+  "source_name": "SEBI_Episode_Registry_v3_3.xlsx",
+  "workbook_sha256": "b4e7a944eda1fba7509c61122cb670d8e1173070f2f5eef01f0d30df0789cd96",
+  "contract_sha256": "f57142d021c63172a71f8619d122a99be569e14a1d0275dff8166db3700deaa0",
+  "additional_inputs": {},
+  "checker_source_sha256": {
+    "__init__.py": "1336e635e84aaa6f8d5628f7ad28363010ea7eebf092f6812dd953b344bd1608",
+    "__main__.py": "d7f9642eb676fa3d54a629d8fe3c60e454e8dfd1e616044d239083d81448fead",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "sources.py": "2dc29bd23ee3d9e9641ec9b0777a84ff3e870002ceb82662b8fbedf6eea04d59",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "python_version": "3.12.14",
+  "formula_calculation": "NOT_RUN",
+  "supplied_workbook_suite": "NOT_RUN"
+}

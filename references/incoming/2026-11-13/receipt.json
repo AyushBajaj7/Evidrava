@@ -1,0 +1,56 @@
+{
+  "received_on": "2026-11-13",
+  "archive_name": "files (3).zip",
+  "archive_sha256": "9d67a942c5c54771c8eff9185983c3172bd056796a5d840af660532373749d8e",
+  "nested_tests_sha256": "65b09ab0a63fc000aa285961483c91a2a09c19f38d8d67462eff94c6e6d8c7d5",
+  "supplied_scenarios": 114,
+  "supplied_mutations_caught": 11,
+  "native_calculations_reproduced_locally": false,
+  "files": [
+    {
+      "path": "references/incoming/2026-11-13/SEBI_Episode_Registry_v3_3.xlsx",
+      "bytes": 688183,
+      "sha256": "b4e7a944eda1fba7509c61122cb670d8e1173070f2f5eef01f0d30df0789cd96"
+    },
+    {
+      "path": "references/incoming/2026-11-13/Research_Proposal_v2.4_DRAFT_SEBI_Point_in_Time_Benchmark.docx",
+      "bytes": 15700,
+      "sha256": "69e13c9d97602f0a2675e50fbcff0c4a1654ba447f92ffc29fce090f26a1c972"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/last_run_report.txt",
+      "bytes": 11772,
+      "sha256": "958a0a40e9a625c6bd43463cbe60ad2a4e84528bec39cc3aca609dd739060d5d"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/README.md",
+      "bytes": 3410,
+      "sha256": "35453498ade5ffc4d8dd0611c1776c4e96e68bce7870a18b85ab6d0dea5c6624"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/expected_outputs.json",
+      "bytes": 70489,
+      "sha256": "c4ec262eacde916a66bbc9864cdd6deee5d11eb49d989b0e4cdfbfaae27f982a"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/mutation_check.md",
+      "bytes": 1909,
+      "sha256": "2fb50015c40b174917bae80bb49e06b77065de6a134bbcb61966af8933a9b1ac"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/fixtures.py",
+      "bytes": 62870,
+      "sha256": "721db989f1d2ce6949f0b3ba947307b86ede9c747788c750d6659ca81dd2ed84"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/run_tests.py",
+      "bytes": 10876,
+      "sha256": "5f17f376c1df352a36e6585788ed7eb6b8cb7c13c5ebc9a50aa2000e11401aa6"
+    },
+    {
+      "path": "references/incoming/2026-11-13/registry_tests_v33/maps.json",
+      "bytes": 5875,
+      "sha256": "5aca3ab68f6ebdca5dc8b7bfa870957b0e545cce57ff42acbf94150e780f5768"
+    }
+  ]
+}

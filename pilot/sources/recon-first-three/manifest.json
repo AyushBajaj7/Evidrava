@@ -1,0 +1,198 @@
+{
+  "kind": "source-acquisition",
+  "version": "0.3.0",
+  "created_at_utc": "2026-11-13T17:26:41.329864+00:00",
+  "reference_provenance": {
+    "reference_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+    "manifest_sha256": "2ab12ca3ac3c856699a80c03e3fd0a062390c41d07949ae45fd38d822a660c9f",
+    "preparer_sha256": "e327f05c7f76564ffc7cbc52808bbd2b7f2beb6526ec166aab684c1c77761048",
+    "verified_raw_captures": 9
+  },
+  "python_version": "3.12.14",
+  "pypdf_version": "6.21.4",
+  "collector_source_sha256": {
+    "__init__.py": "1336e635e84aaa6f8d5628f7ad28363010ea7eebf092f6812dd953b344bd1608",
+    "__main__.py": "d7f9642eb676fa3d54a629d8fe3c60e454e8dfd1e616044d239083d81448fead",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "sources.py": "f5d4f10b3c8e123fdf75151242c38455dc11e2e54aff0555b3c6c8f57d4b147a",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "records": [
+    {
+      "screening_id": "RECON-01",
+      "title": "Adjudcation order against Amrapali Films",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/adjudcation-order-against-amrapali-films_31392.html",
+      "listing_response_sha256": "946d46e792bdabab94ba517a95fba98f6a7356a6f99da5daebf2a723ac81c5e5",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451564097390.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1451564097390.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/adjudcation-order-against-amrapali-films_31392.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/adjudcation-order-against-amrapali-films_31392.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "fe72783f0f2032afcacb965b2403dc424a6304693e51a11889c79999d69273fa",
+        "retrieved_at_utc": "2026-11-13T17:26:41.513364+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-01/page.html",
+        "bytes": 7924
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451564097390.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451564097390.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "e1fce4cec79ebf4768629f1902967bd6cd5543b9090230ba7b5d71627e708d1d",
+        "retrieved_at_utc": "2026-11-13T17:26:42.994425+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-01/source.pdf",
+        "bytes": 222957
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 5,
+        "page_errors": [],
+        "path": "records/RECON-01/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-02",
+      "title": "Order in the matter of Home Trade Ltd.",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-the-matter-of-home-trade-ltd-_31394.html",
+      "listing_response_sha256": "946d46e792bdabab94ba517a95fba98f6a7356a6f99da5daebf2a723ac81c5e5",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451566347115.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1451566347115.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-the-matter-of-home-trade-ltd-_31394.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-the-matter-of-home-trade-ltd-_31394.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "603ec326fce598bef7f5e92ccc3afc1a92ab6090f45a1e6ee537e6c3575e8e1c",
+        "retrieved_at_utc": "2026-11-13T17:26:44.279117+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-02/page.html",
+        "bytes": 7942
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451566347115.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451566347115.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "674c3740db32ee4818fd5c9382afdea40f785697c3cf6c7c9bae35a55068fd53",
+        "retrieved_at_utc": "2026-11-13T17:26:45.812852+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-02/source.pdf",
+        "bytes": 450063
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 32,
+        "page_errors": [],
+        "path": "records/RECON-02/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-03",
+      "title": "Order in respect of Khandwala Securities Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-respect-of-khandwala-securities-limited_31373.html",
+      "listing_response_sha256": "946d46e792bdabab94ba517a95fba98f6a7356a6f99da5daebf2a723ac81c5e5",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451534604416.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1451534604416.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-respect-of-khandwala-securities-limited_31373.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-respect-of-khandwala-securities-limited_31373.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "eb3beb7c92dda53dc1cd6c4028d26ca1afe7482906a8120f2c89ae2d9170a4a5",
+        "retrieved_at_utc": "2026-11-13T17:26:48.002842+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-03/page.html",
+        "bytes": 8054
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451534604416.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451534604416.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "8c3bc6ded9f651b9eba50c49737f3ef4040f62ea221c8e36d61f8f42203dcc7b",
+        "retrieved_at_utc": "2026-11-13T17:26:49.596086+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-03/source.pdf",
+        "bytes": 422071
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 20,
+        "page_errors": [],
+        "path": "records/RECON-03/pages.json"
+      },
+      "status": "ACQUIRED"
+    }
+  ],
+  "human_screening_completed": false,
+  "research_decision": "NOT_EVALUATED",
+  "publication_dates_verified": false,
+  "native_pdf_text_only": true,
+  "limits": {
+    "max_records": 30,
+    "page_bytes": 2000000,
+    "pdf_bytes": 20000000,
+    "timeout_seconds_per_request": 20,
+    "max_redirects_per_fetch": 4,
+    "max_retries": 0
+  },
+  "limitations": [
+    "Automated retrieval and text extraction are not human screening or independent audit",
+    "Listing dates, retrieval timestamps and HTTP Last-Modified are not verified publication dates",
+    "Page numbers are PDF page positions; printed page labels may differ",
+    "Native text may omit tables, scans or layout; inspect the original PDF",
+    "This fixed reconnaissance batch is not the random research sample"
+  ],
+  "status": "COMPLETE",
+  "counts": {
+    "requested": 3,
+    "acquired": 3,
+    "failed": 0
+  },
+  "successful_response_bytes": 1119011,
+  "successful_response_requests_including_redirects": 6,
+  "fetch_attempts": 6,
+  "failed_request_counts_incomplete": false,
+  "files": {
+    "records/RECON-01/page.html": "fe72783f0f2032afcacb965b2403dc424a6304693e51a11889c79999d69273fa",
+    "records/RECON-01/pages.json": "4db055be02d769888b9cd964ade5479ab5d749be782bc35aea7346f8fa2f0b19",
+    "records/RECON-01/source.pdf": "e1fce4cec79ebf4768629f1902967bd6cd5543b9090230ba7b5d71627e708d1d",
+    "records/RECON-01/text.txt": "2e4e14ea1647cc945bf7b5382109f4f7fc5701c055b52f2eb0cd642598493a10",
+    "records/RECON-02/page.html": "603ec326fce598bef7f5e92ccc3afc1a92ab6090f45a1e6ee537e6c3575e8e1c",
+    "records/RECON-02/pages.json": "18fc82486db17e4f0b10b2b03eec3272b8b9610d544413818bbf831dcee24c55",
+    "records/RECON-02/source.pdf": "674c3740db32ee4818fd5c9382afdea40f785697c3cf6c7c9bae35a55068fd53",
+    "records/RECON-02/text.txt": "983c1fb1018bb6c6ac9b51e402423fc2b984650c5a9fd3c8dc878af9bc0653fd",
+    "records/RECON-03/page.html": "eb3beb7c92dda53dc1cd6c4028d26ca1afe7482906a8120f2c89ae2d9170a4a5",
+    "records/RECON-03/pages.json": "4d121b065f10d794879ec2e39b97a7842eb30af169b0a4a723352b1237b00527",
+    "records/RECON-03/source.pdf": "8c3bc6ded9f651b9eba50c49737f3ef4040f62ea221c8e36d61f8f42203dcc7b",
+    "records/RECON-03/text.txt": "a9deceb12ff1325cf25704d0442e9b59dca29ec2185b81b2fe9db7a63d5359bf",
+    "report.html": "da867d52537923ce3542d6b20b6a6b17f725d56513f7c9104b19a065b65508ec"
+  }
+}

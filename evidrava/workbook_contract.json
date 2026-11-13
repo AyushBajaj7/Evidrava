@@ -1,0 +1,485 @@
+{
+  "schema_version": "3.3",
+  "source_sha256": "b4e7a944eda1fba7509c61122cb670d8e1173070f2f5eef01f0d30df0789cd96",
+  "sheets": [
+    "README",
+    "Rules",
+    "Gates",
+    "Protocol",
+    "People",
+    "Matters",
+    "Orders",
+    "Episodes",
+    "Versions",
+    "LegalStatus",
+    "Evidence",
+    "SelectionLog",
+    "Snapshot",
+    "Lists",
+    "Meta"
+  ],
+  "headers": {
+    "People": [
+      "Name exactly as typed on Evidence",
+      "Role",
+      "Independent of the project lead? (Yes / No)",
+      "Notes",
+      "Name check (auto)"
+    ],
+    "Matters": [
+      "Matter ID (e.g., M001)",
+      "Matter name (as titled by SEBI)",
+      "Primary alleged scheme",
+      "Time stratum (first public order year)",
+      "Review status",
+      "Current legal status",
+      "Later developments checked up to (date)",
+      "Related-matter group (blank = own ID)",
+      "Group reviewed by a second person? (Yes also for singletons)",
+      "Episode list complete? (all episodes of this matter listed)",
+      "Notes",
+      "First public order date (auto, descriptive)",
+      "First public year (auto)",
+      "Latest conduct end (auto, descriptive)",
+      "Matter-level delay, days (auto, descriptive only)",
+      "Status history documented? (auto)",
+      "Orders (auto)",
+      "Episodes (auto)",
+      "Strict usable episodes (auto)",
+      "Slot: legal_status audited (auto)",
+      "Slot: order_date audited (auto)",
+      "Matter slots done: audited or confirmed unresolved (auto)",
+      "Group key (auto)",
+      "Counts as 1 independent group with a strict episode (auto)",
+      "ID check (auto)",
+      "Selection log entry? (auto)"
+    ],
+    "Orders": [
+      "Order ID (e.g., O001)",
+      "Matter ID",
+      "Order type",
+      "Date on the order",
+      "Date first public (Clock B)",
+      "Basis for public date",
+      "Source URL",
+      "Pages (whole number)",
+      "Text extractable?",
+      "Related order IDs",
+      "Notes",
+      "Public date verified? (auto)",
+      "Order check (auto)"
+    ],
+    "Episodes": [
+      "Episode ID (e.g., E001)",
+      "Matter ID",
+      "Instrument name (as in order)",
+      "ISIN (12 characters)",
+      "Exchange",
+      "Segment",
+      "Symbol history with dates",
+      "Corporate actions in window",
+      "Market data: conduct window",
+      "Market data: feature warm-up window",
+      "Market data source note (no raw prices)",
+      "IDs verified from official source?",
+      "Daily data plausibly informative?",
+      "Needs intraday data?",
+      "Needs participant-level data?",
+      "Notes",
+      "ID status (auto)",
+      "In scope? (auto)",
+      "Label versions (auto)",
+      "Latest version (auto)",
+      "Conduct start, latest version (auto)",
+      "Conduct end, latest version (auto)",
+      "Scheme, latest version (auto)",
+      "Bounded period? (auto)",
+      "Observability category (auto)",
+      "First disclosure date: earliest valid evidence row marked as disclosing the episode (auto)",
+      "First disclosure date verified? (auto)",
+      "Delay (verified first disclosure only): version-1 conduct end to first disclosure, days (auto)",
+      "Slot: instrument (auto)",
+      "Slot: isin (auto)",
+      "Identity slots audited? (auto)",
+      "Critical evidence audited, latest version? (auto)",
+      "Label availability date, latest version (auto)",
+      "Latest version strict? (auto)",
+      "Market data sufficient (both windows)? (auto)",
+      "USABLE? (auto)",
+      "STRICT USABLE? (auto)",
+      "Label mature at primary horizon? (auto)",
+      "Slots expected, per Rules B18 (auto)",
+      "Slots audited (auto)",
+      "Slots done: audited or confirmed unresolved (auto)"
+    ],
+    "Versions": [
+      "Version ID (e.g., E001-v1)",
+      "Episode ID",
+      "Version number (1, 2, 3, ...)",
+      "Conduct start in this version",
+      "Conduct end in this version",
+      "Alleged scheme in this version",
+      "What changed from the previous version, and which order says so",
+      "Key (auto)",
+      "ID status (auto)",
+      "In scope? (auto)",
+      "Bounded period? (auto)",
+      "Slot: conduct_start (auto)",
+      "Slot: conduct_end (auto)",
+      "Slot: alleged_scheme (auto)",
+      "Slots audited (auto)",
+      "Slots done: audited or confirmed unresolved (auto)",
+      "Earliest verified public date: conduct_start claim (auto)",
+      "Earliest verified public date: conduct_end claim (auto)",
+      "Earliest verified public date: instrument claim (auto)",
+      "Earliest verified public date: isin claim (auto)",
+      "Earliest verified public date: scheme claim (auto)",
+      "LABEL AVAILABILITY DATE: all critical claims public (auto)",
+      "Available by the cutoff? (auto)"
+    ],
+    "LegalStatus": [
+      "Matter ID",
+      "Event date",
+      "Date this event became public",
+      "Status after this event",
+      "Applies to",
+      "Episode ID (if specific)",
+      "Source order ID (same matter)",
+      "Source URL, version or note",
+      "Short summary (own words)",
+      "Reviewer",
+      "Key (auto)",
+      "Check (auto)"
+    ],
+    "Evidence": [
+      "Evidence ID",
+      "Matter ID",
+      "Episode ID (needed for episode and version fields)",
+      "Version ID (needed for conduct_start, conduct_end, alleged_scheme)",
+      "Field",
+      "Extracted value",
+      "Order ID",
+      "Source page (whole number)",
+      "Locator (paragraph or table; own words)",
+      "Confidence",
+      "Reviewer 1 (from People)",
+      "Review date 1",
+      "Auditor, a different person (from People)",
+      "Audit date",
+      "Audit result",
+      "ID status (auto)",
+      "Required slot? (auto)",
+      "Public date of the cited order (auto)",
+      "Cited order's public date verified? (auto)",
+      "Matter, episode and version link valid? (auto)",
+      "Order, page and cutoff valid? (auto)",
+      "Both reviewers listed on People? (auto)",
+      "Auditor independent of the lead? (auto)",
+      "Two reviewers and audit valid? (auto)",
+      "Value matches registry? (auto)",
+      "VALID AND AUDITED? (auto)",
+      "Confirmed unresolved by two reviewers? (auto)",
+      "Passage discloses this episode? (Yes / No)"
+    ],
+    "SelectionLog": [
+      "Log ID",
+      "Date",
+      "Candidate matter (name or URL)",
+      "Sampling frame (source, filters, date range)",
+      "Random seed or selection rule",
+      "Decision",
+      "Exclusion reason",
+      "Matter ID if included",
+      "Notes",
+      "Log check (auto)"
+    ]
+  },
+  "formulas": {
+    "README": {
+      "count": 0,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "Rules": {
+      "count": 1,
+      "sha256": "76b45399fbc83a3a0d36e4c23db076fc2ca724fe8333c2535fee94b1c1b4c248"
+    },
+    "Gates": {
+      "count": 141,
+      "sha256": "baf5a07fc45f8f3f70306e5f8672793296893175ac8701dfac8417511753dd00"
+    },
+    "Protocol": {
+      "count": 0,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "People": {
+      "count": 40,
+      "sha256": "004d2ec6c61a7ee3b610208d193ca6925e15fc5bbed467a46110322ed2669795"
+    },
+    "Matters": {
+      "count": 1500,
+      "sha256": "837b53da9b10fd95b50d2e21bb9c2edc163268b30c008ce1480b413187111a55"
+    },
+    "Orders": {
+      "count": 300,
+      "sha256": "abc8a54fa86029c5458882430b1f3fab719b97fd6cc777501ad39f8087a98666"
+    },
+    "Episodes": {
+      "count": 3750,
+      "sha256": "70eb17b5419ec4866a64e1c71fcd9f02c642178528d81b0eebadf9fc1b53c87f"
+    },
+    "Versions": {
+      "count": 4000,
+      "sha256": "a15a5a03a8f6cf59ea3a97565047b6844145ec02582d8f1c58a0f659fe52d54f"
+    },
+    "LegalStatus": {
+      "count": 500,
+      "sha256": "c85b0c677cf81ee2858d238ccc5b2447e0d5e220da7000bb200b281f8cec5a81"
+    },
+    "Evidence": {
+      "count": 9600,
+      "sha256": "7018dac5f59674630bd1e792fd732cda467f9116313413bdbc4cc4cf9d4e6a00"
+    },
+    "SelectionLog": {
+      "count": 300,
+      "sha256": "b1b08dbf3520abc09dc855c5773b772c35ff0ab0f2342059168e64407e18d829"
+    },
+    "Snapshot": {
+      "count": 1351,
+      "sha256": "9053ef323315cf3f7dbb93932fc7aa8d3ec1042eb5e7a7de0a9946f4e7feb571"
+    },
+    "Lists": {
+      "count": 0,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "Meta": {
+      "count": 0,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    }
+  },
+  "tables": {
+    "People": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "last_row": 45,
+      "example": {
+        "A": "A. Example (fictional)",
+        "B": "Project lead",
+        "C": "No",
+        "D": "FICTIONAL EXAMPLE"
+      }
+    },
+    "Matters": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "last_row": 105,
+      "example": {
+        "A": "EX-001",
+        "B": "ABC Ltd (fictional example)",
+        "C": "Pump and dump",
+        "D": "2021-2025",
+        "E": "Not started",
+        "F": "Interim order",
+        "G": "2026-11-01T00:00:00",
+        "H": "G-EX",
+        "I": "Yes",
+        "J": "Yes",
+        "K": "FICTIONAL EXAMPLE. Ignored by every formula. Type your first real matter in the next row."
+      }
+    },
+    "Orders": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "last_row": 155,
+      "example": {
+        "A": "EX-O1",
+        "B": "EX-001",
+        "C": "Interim order",
+        "D": "2024-06-10T00:00:00",
+        "E": "2024-06-14T00:00:00",
+        "F": "Stated on SEBI website",
+        "G": "https://www.sebi.gov.in/enforcement/orders/... (example only)",
+        "H": 38,
+        "I": "Yes",
+        "J": null,
+        "K": "FICTIONAL EXAMPLE"
+      }
+    },
+    "Episodes": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "last_row": 155,
+      "example": {
+        "A": "EX-E1",
+        "B": "EX-001",
+        "C": "ABC Ltd (fictional)",
+        "D": "INEXAMPLE001",
+        "E": "NSE",
+        "F": "SME platform",
+        "G": "ABCLTD (from 2020-03)",
+        "H": "Stock split",
+        "I": "Complete",
+        "J": "Complete",
+        "K": "Exchange daily report (example; no prices stored)",
+        "L": "Yes",
+        "M": "Yes",
+        "N": "No",
+        "O": "No",
+        "P": "FICTIONAL EXAMPLE"
+      }
+    },
+    "Versions": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "last_row": 255,
+      "example": {
+        "A": "EX-E1-v1",
+        "B": "EX-E1",
+        "C": 1,
+        "D": "2021-07-14T00:00:00",
+        "E": "2022-07-14T00:00:00",
+        "F": "Pump and dump",
+        "G": "First public version (interim order EX-O1). FICTIONAL EXAMPLE."
+      }
+    },
+    "LegalStatus": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "last_row": 255,
+      "example": {
+        "A": "EX-001",
+        "B": "2024-06-14T00:00:00",
+        "C": "2024-06-14T00:00:00",
+        "D": "Interim order",
+        "E": "Whole matter",
+        "F": null,
+        "G": "EX-O1",
+        "H": "URL, version or note (example)",
+        "I": "Interim order issued; further hearing expected (fictional).",
+        "J": "A"
+      }
+    },
+    "Evidence": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "AB"
+      ],
+      "last_row": 805,
+      "example": {
+        "A": "EX-V1",
+        "B": "EX-001",
+        "C": "EX-E1",
+        "D": "EX-E1-v1",
+        "E": "conduct_end",
+        "F": "2022-07-14",
+        "G": "EX-O1",
+        "H": 4,
+        "I": "Para 1, investigation period",
+        "J": "High",
+        "K": "A",
+        "L": "2026-10-20T00:00:00",
+        "M": "B",
+        "N": "2026-10-22T00:00:00",
+        "O": "Agree",
+        "AB": "Yes"
+      }
+    },
+    "SelectionLog": {
+      "input_columns": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "last_row": 305,
+      "example": {
+        "A": "EX-L1",
+        "B": "2026-11-09T00:00:00",
+        "C": "ABC Ltd interim order (fictional)",
+        "D": "SEBI enforcement listing, 2022-2024, filters noted here (example)",
+        "E": "Seed and rule noted here (example)",
+        "F": "Included",
+        "G": null,
+        "H": "EX-001",
+        "I": "FICTIONAL EXAMPLE"
+      }
+    }
+  }
+}

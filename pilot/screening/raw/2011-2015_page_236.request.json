@@ -1,0 +1,25 @@
+{
+  "parameters": {
+    "nextValue": "1",
+    "next": "n",
+    "search": "",
+    "fromDate": "01-01-2011",
+    "toDate": "31-12-2015",
+    "fromYear": "",
+    "toYear": "",
+    "deptId": "-1",
+    "sid": "2",
+    "ssid": "9",
+    "smid": "0",
+    "ssidhidden": "9",
+    "intmid": "-1",
+    "sText": "Enforcement",
+    "ssText": "Orders",
+    "smText": "-- All Sub Section List --",
+    "doDirect": "236"
+  },
+  "status": 200,
+  "retrieved_at_utc": "2026-11-06T19:32:13.877616+00:00",
+  "elapsed_seconds": 0.4351421999745071,
+  "sha256": "93f341c168ce79798a90825385fdaa394b826e3f84073793f4b97d66e18a0e51"
+}

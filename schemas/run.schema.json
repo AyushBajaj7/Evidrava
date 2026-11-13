@@ -1,0 +1,448 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sebi:run:0.1",
+  "title": "Run configuration draft 0.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+    },
+    "mode": {
+      "enum": [
+        "synthetic",
+        "research"
+      ]
+    },
+    "purpose": {
+      "enum": [
+        "registry_validation",
+        "evaluation"
+      ]
+    },
+    "assessment_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deadline_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "collection_cutoff": {
+      "anyOf": [
+        {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "precision": {
+                  "const": "date"
+                },
+                "value": {
+                  "type": "string",
+                  "format": "date"
+                }
+              },
+              "required": [
+                "precision",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "precision": {
+                  "const": "timestamp"
+                },
+                "value": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              },
+              "required": [
+                "precision",
+                "value"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "fit_cutoff": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "score_time": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "protocol": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+        },
+        "state": {
+          "enum": [
+            "DRAFT",
+            "FROZEN"
+          ]
+        },
+        "frozen_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "slot_policy": {
+          "enum": [
+            "all_included_versions"
+          ]
+        },
+        "slot_rules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "enum": [
+                  "conduct_start",
+                  "conduct_end",
+                  "alleged_scheme",
+                  "instrument",
+                  "isin",
+                  "legal_status",
+                  "order_date"
+                ]
+              },
+              "subject_type": {
+                "enum": [
+                  "matter",
+                  "episode",
+                  "label_version"
+                ]
+              },
+              "critical": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "field",
+              "subject_type",
+              "critical"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "date_only_policy": {
+          "enum": [
+            "next_session"
+          ]
+        },
+        "pass_min_episodes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "conditional_min_episodes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "min_independent_groups": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "min_verified_share": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "warmup_sessions": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "primary_horizon_years": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sensitivity_horizon_years": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "legal_policy_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "universe_policy_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "state",
+        "frozen_at",
+        "sha256",
+        "slot_policy",
+        "slot_rules",
+        "date_only_policy",
+        "pass_min_episodes",
+        "conditional_min_episodes",
+        "min_independent_groups",
+        "min_verified_share",
+        "warmup_sessions",
+        "primary_horizon_years",
+        "sensitivity_horizon_years",
+        "legal_policy_id",
+        "universe_policy_id"
+      ],
+      "additionalProperties": false
+    },
+    "cohort": {
+      "type": "object",
+      "properties": {
+        "sample_manifest_sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "frame_sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "target_matters": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "inventory_complete": {
+          "type": "boolean"
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "matter_id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+              },
+              "episode_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+                }
+              },
+              "label_version_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+                }
+              },
+              "inventory_review_id": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "matter_id",
+              "episode_ids",
+              "label_version_ids",
+              "inventory_review_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "sample_manifest_sha256",
+        "frame_sha256",
+        "target_matters",
+        "inventory_complete",
+        "members"
+      ],
+      "additionalProperties": false
+    },
+    "calendar": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "session": {
+            "type": "string",
+            "format": "date"
+          },
+          "opens_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "closes_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "session",
+          "opens_at",
+          "closes_at"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "artifact_refs": {
+      "type": "object",
+      "properties": {
+        "market_coverage_report": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "identity_report": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leakage_report": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "baseline_report": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "market_coverage_report",
+        "identity_report",
+        "leakage_report",
+        "baseline_report"
+      ],
+      "additionalProperties": false
+    },
+    "timezone": {
+      "const": "Asia/Kolkata"
+    }
+  },
+  "required": [
+    "schema_version",
+    "run_id",
+    "mode",
+    "purpose",
+    "assessment_at",
+    "deadline_at",
+    "collection_cutoff",
+    "fit_cutoff",
+    "score_time",
+    "protocol",
+    "cohort",
+    "calendar",
+    "artifact_refs",
+    "timezone"
+  ],
+  "additionalProperties": false
+}

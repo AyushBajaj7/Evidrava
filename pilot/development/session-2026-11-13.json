@@ -1,0 +1,42 @@
+{
+  "session_date": "2026-11-13",
+  "timezone": "Asia/Calcutta",
+  "scope": "v3.3 adoption, read-only preparation checker and documentation",
+  "implementation_observed_start_utc": "2026-11-13T04:28:29+00:00",
+  "verification_completed_utc": "2026-11-13T04:42:21.814151+00:00",
+  "prior_engineering_hours": null,
+  "human_active_engineering_hours": null,
+  "twenty_hour_cap_compliance": "UNKNOWN: prior effort was not measured; agent wall time is not human active effort",
+  "reviewer_status": "UNCONFIRMED",
+  "protocol_status": "DRAFT",
+  "local_python_tests": 43,
+  "local_tests_exit_code": 0,
+  "local_test_log": "local-tests-2026-11-13.txt",
+  "local_test_log_sha256": "13dbb2fb7622b3d0d256e114957f40acf1c5ffc8187eafe9d8d69d30d1ec2510",
+  "test_environment": {
+    "python": "3.12.14",
+    "requirements": "requirements-pilot.lock"
+  },
+  "supplied_workbook_scenarios": 114,
+  "supplied_workbook_scenarios_reexecuted_locally": 0,
+  "excel_compatibility": "UNVERIFIED",
+  "design_check": {
+    "schemas": 3,
+    "examples": 3,
+    "shape_mutations": 12
+  },
+  "screening_capture_check": {
+    "records": 30,
+    "network_requests": 0
+  },
+  "research_decision": "NOT_EVALUATED",
+  "changes": [
+    "Immutable received v3.3 and v2.4 adoption",
+    "Duplicate Included matter and external sample manifest checks",
+    "Input/source/evidence/date/reviewer validation",
+    "Template formula/header/example fingerprints",
+    "Atomic local JSON/HTML report generation",
+    "Five authored Markdown documents refreshed; reviewer workstream parallel"
+  ],
+  "observed_agent_elapsed_minutes": 13.88
+}

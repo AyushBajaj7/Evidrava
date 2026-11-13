@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sebi:report:0.1",
+  "title": "Validation report draft 0.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+    },
+    "mode": {
+      "enum": [
+        "synthetic",
+        "research"
+      ]
+    },
+    "stage": {
+      "enum": [
+        "registry_validation",
+        "evaluation"
+      ]
+    },
+    "research_decision": {
+      "enum": [
+        "DRAFT",
+        "NOT_VALID",
+        "IN_PROGRESS",
+        "INCOMPLETE",
+        "PASS",
+        "CONDITIONAL",
+        "FAIL"
+      ]
+    },
+    "delivery_status": {
+      "enum": [
+        "IN_PROGRESS",
+        "COMPLETE",
+        "INCOMPLETE"
+      ]
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "selected_matters": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "strict_episodes": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "independent_groups": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "expected_slots": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "verified_slots": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reviewed_slots": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "selected_matters",
+        "strict_episodes",
+        "independent_groups",
+        "expected_slots",
+        "verified_slots",
+        "reviewed_slots"
+      ],
+      "additionalProperties": false
+    },
+    "shares": {
+      "type": "object",
+      "properties": {
+        "verified": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "review_completion": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "denominator_complete": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "verified",
+        "review_completion",
+        "denominator_complete"
+      ],
+      "additionalProperties": false
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "enum": [
+              "schema",
+              "integrity",
+              "quality",
+              "readiness",
+              "limitation"
+            ]
+          },
+          "scope": {
+            "enum": [
+              "in_scope",
+              "out_of_scope",
+              "unknown"
+            ]
+          },
+          "entity_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "code",
+          "category",
+          "scope",
+          "entity_id",
+          "path",
+          "message"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "checks": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "enum": [
+            "PASSED",
+            "FAILED"
+          ]
+        },
+        "domain": {
+          "enum": [
+            "NOT_RUN",
+            "PASSED",
+            "FAILED"
+          ]
+        },
+        "market": {
+          "enum": [
+            "NOT_RUN",
+            "PASSED",
+            "FAILED"
+          ]
+        },
+        "leakage": {
+          "enum": [
+            "NOT_RUN",
+            "PASSED",
+            "FAILED"
+          ]
+        },
+        "baselines": {
+          "enum": [
+            "NOT_RUN",
+            "PASSED",
+            "FAILED"
+          ]
+        }
+      },
+      "required": [
+        "schema",
+        "domain",
+        "market",
+        "leakage",
+        "baselines"
+      ],
+      "additionalProperties": false
+    },
+    "manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "run_id",
+    "mode",
+    "stage",
+    "research_decision",
+    "delivery_status",
+    "counts",
+    "shares",
+    "diagnostics",
+    "checks",
+    "manifest_path",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

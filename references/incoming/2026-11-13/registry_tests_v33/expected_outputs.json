@@ -1,0 +1,3711 @@
+[
+ {
+  "name": "00_base_pass",
+  "group": "base",
+  "description": "Good data. Every gate passes.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   },
+   {
+    "type": "gate",
+    "name": "p_total",
+    "col": "C",
+    "equals": 8,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_total",
+    "col": "C",
+    "equals": 10,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_matters",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_indep",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_legal",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_strict",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_notstrict",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_unres",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_subset",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_frac",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_indep_share",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_inventory",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "strict_usable",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "disclosure_verified",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "latest_avail_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": 701
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "delay_days",
+    "equals": 366
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_expected_total",
+    "equals": 5
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "observability",
+    "equals": "Daily-data candidate"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "observability",
+    "equals": "Intraday-data dependent"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "label_mature",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "avail_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 1,
+    "key": "avail_date",
+    "equals": "2023-03-02"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "min_pub_scheme",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 0,
+    "key": "status_documented",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 0,
+    "key": "n_strict",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 0,
+    "key": "group_first_strict",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "01_draft_not_frozen",
+  "group": "base",
+  "description": "No freeze date: the dashboard must say DRAFT.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "DRAFT"
+   }
+  ]
+ },
+ {
+  "name": "02_cutoff_missing",
+  "group": "base",
+  "description": "Frozen but no cutoff: NOT VALID.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: set the observation cutoff"
+   }
+  ]
+ },
+ {
+  "name": "03_leak_test_failing",
+  "group": "base",
+  "description": "A failing leak test blocks every decision.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   },
+   {
+    "type": "gate",
+    "name": "p_leak",
+    "col": "C",
+    "equals": "Yes",
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "04a_in_progress",
+  "group": "base",
+  "description": "One matter unreviewed: IN PROGRESS.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "IN PROGRESS (1 of 2 matters reviewed)",
+    "startswith": null
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "04b_incomplete_at_deadline",
+  "group": "base",
+  "description": "Same, deadline reached: INCOMPLETE.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "INCOMPLETE (1 of 2 matters reviewed)",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "D1a_blank_page_count_page_99",
+  "group": "defect1_pages",
+  "description": "DEFECT 1: an order with no page count used to let page 99 pass.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 0,
+    "key": "order_check",
+    "equals": "PAGES INVALID"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "identity_ok",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "D1b_page_beyond_known_count",
+  "group": "defect1_pages",
+  "description": "Page 99 in a 40-page order is invalid. The review is then not complete.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete"
+   }
+  ]
+ },
+ {
+  "name": "D1c_non_integer_page",
+  "group": "defect1_pages",
+  "description": "A page number must be a whole number.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "valid",
+    "equals": 0
+   }
+  ]
+ },
+ {
+  "name": "D1d_zero_page_count",
+  "group": "defect1_pages",
+  "description": "A page count must be a positive whole number.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 0,
+    "key": "order_check",
+    "equals": "PAGES INVALID"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID"
+   }
+  ]
+ },
+ {
+  "name": "D2_duplicate_ids",
+  "group": "defect2_duplicates",
+  "description": "DEFECT 2: duplicate episode, order and evidence IDs must block evaluation and not inflate counts.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "p_dups",
+    "col": "C",
+    "equals": 6,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "id_status",
+    "equals": "DUPLICATE ID"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "in_scope",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 0,
+    "key": "order_check",
+    "equals": "DUPLICATE ID"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 0,
+    "key": "id_status",
+    "equals": "DUPLICATE ID"
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "D3_all_dates_assumed_no_strict",
+  "group": "defect3_strict",
+  "description": "DEFECT 3: with zero strict episodes the old workbook still passed.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "FAIL",
+    "startswith": null
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_usable",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_notstrict",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_strict",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "usable",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "strict_usable",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "avail_date",
+    "equals": null
+   }
+  ]
+ },
+ {
+  "name": "D4a_claim_from_later_assumed_order",
+  "group": "defect4_claim_dates",
+  "description": "DEFECT 4: a critical claim backed only by a later order with an assumed date must not be strict.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "usable",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "strict_usable",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "min_pub_end",
+    "equals": null
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "D4b_conditional_uses_strict_count",
+  "group": "defect4_claim_dates",
+  "description": "CONDITIONAL needs strict episodes too: 1 strict < 2 gives FAIL.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "FAIL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "D5_legal_event_without_status_or_source",
+  "group": "defect5_legal",
+  "description": "DEFECT 5: a legal event with only dates used to count as documented.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 2,
+    "key": "check",
+    "equals": "STATUS MISSING"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "status_documented",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_legal",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "D6_order_public_after_cutoff",
+  "group": "defect6_cutoff",
+  "description": "DEFECT 6: an order public after the cutoff must block the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 2,
+    "key": "order_check",
+    "equals": "AFTER CUTOFF"
+   },
+   {
+    "type": "gate",
+    "name": "p_after",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 8,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 8,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "B1_public_date_equals_cutoff",
+  "group": "boundary",
+  "description": "A public date equal to the cutoff is allowed (inclusive).",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 2,
+    "key": "order_check",
+    "equals": "OK"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 1,
+    "key": "avail_date",
+    "equals": "2026-10-31"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 1,
+    "key": "avail_by_cutoff",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "strict_usable",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "first_disclosure_date",
+    "equals": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "name": "B2_public_date_one_day_after_cutoff",
+  "group": "boundary",
+  "description": "One day after the cutoff blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 2,
+    "key": "order_check",
+    "equals": "AFTER CUTOFF"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "B3a_label_maturity_exact_horizon",
+  "group": "boundary",
+  "description": "Cutoff minus conduct end = 1096 days is at least 3 x 365.25 = 1095.75: mature.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "label_mature",
+    "equals": "Yes"
+   },
+   {
+    "type": "maturity",
+    "key": "mat_primary",
+    "col": "C",
+    "equals": 2
+   },
+   {
+    "type": "maturity",
+    "key": "mat_primary",
+    "col": "D",
+    "equals": 2
+   }
+  ]
+ },
+ {
+  "name": "B3b_label_maturity_one_day_short",
+  "group": "boundary",
+  "description": "1095 days is below 1095.75: not mature.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "label_mature",
+    "equals": "No"
+   },
+   {
+    "type": "maturity",
+    "key": "mat_primary",
+    "col": "C",
+    "equals": 1
+   },
+   {
+    "type": "maturity",
+    "key": "mat_primary",
+    "col": "D",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "W1_warmup_partial",
+  "group": "warmup",
+  "description": "Partial warm-up data: not usable.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "market_sufficient",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "strict_usable",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_usable",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "W2_warmup_none",
+  "group": "warmup",
+  "description": "No warm-up data: not usable.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "market_sufficient",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "W3_conduct_window_partial",
+  "group": "warmup",
+  "description": "Complete warm-up but partial conduct window: not usable.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "market_sufficient",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "usable",
+    "equals": "No"
+   }
+  ]
+ },
+ {
+  "name": "C0a_snapshot_day_before_availability",
+  "group": "snapshot",
+  "description": "One day before E2's label became public: nothing available.",
+  "expect": [
+   {
+    "type": "snapshot_count",
+    "equals": 0
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "label_available",
+    "equals": "No"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "label_available",
+    "equals": "No"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "version_asof",
+    "equals": null
+   }
+  ]
+ },
+ {
+  "name": "C0b_lag0_exact_availability_day",
+  "group": "snapshot",
+  "description": "LAG 0: on the availability day itself the label is available.",
+  "expect": [
+   {
+    "type": "snapshot_count",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "label_available",
+    "equals": "No"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "label_available",
+    "equals": "Yes"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "conduct_end_asof",
+    "equals": "2022-03-01"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": null
+   }
+  ]
+ },
+ {
+  "name": "C0b_lag1_exact_availability_day",
+  "group": "snapshot",
+  "description": "LAG 1 (default): on the availability day itself nothing is available yet.",
+  "expect": [
+   {
+    "type": "snapshot_count",
+    "equals": 0
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "label_available",
+    "equals": "No"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "version_asof",
+    "equals": null
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": null
+   }
+  ]
+ },
+ {
+  "name": "C0b_lag1_day_after_availability",
+  "group": "snapshot",
+  "description": "LAG 1: the day after, the label and the legal status are available.",
+  "expect": [
+   {
+    "type": "snapshot_count",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "label_available",
+    "equals": "Yes"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   }
+  ]
+ },
+ {
+  "name": "C0_snapshot_S1_reference",
+  "group": "snapshot",
+  "description": "Reference snapshot S1 = 2025-01-01 before any later correction.",
+  "expect": [
+   {
+    "type": "snapshot_count",
+    "equals": 2
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-07-14"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "scheme_asof",
+    "equals": "Pump and dump"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "episode_status_asof",
+    "equals": null
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   }
+  ]
+ },
+ {
+  "name": "C0c_snapshot_S2_before_correction",
+  "group": "snapshot",
+  "description": "Snapshot S2 = 2026-06-01 without any correction.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-07-14"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": "Final order"
+   }
+  ]
+ },
+ {
+  "name": "C1a_later_correction_earlier_snapshot_unchanged",
+  "group": "snapshot",
+  "description": "A later label correction (version 2, public 2026-04-10) must leave the 2025-01-01 snapshot unchanged.",
+  "expect": [
+   {
+    "type": "snapshot_same_as",
+    "scenario": "C0_snapshot_S1_reference"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-07-14"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "n_versions",
+    "equals": 2
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "latest_version_no",
+    "equals": 2
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "cur_end",
+    "equals": "2022-09-30"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "latest_avail_date",
+    "equals": "2026-04-10"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": 701
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_expected_total",
+    "equals": 8
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "C1b_later_correction_visible_later",
+  "group": "snapshot",
+  "description": "The same correction is visible in the 2026-06-01 snapshot.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 2
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-09-30"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": "Final order"
+   }
+  ]
+ },
+ {
+  "name": "C1c_correction_day_before_public",
+  "group": "snapshot",
+  "description": "The day before version 2 became public, version 1 is still in force.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-07-14"
+   }
+  ]
+ },
+ {
+  "name": "C1d_lag0_correction_exact_public_day",
+  "group": "snapshot",
+  "description": "LAG 0: on the day version 2 became public it is in force.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 2
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-09-30"
+   }
+  ]
+ },
+ {
+  "name": "C1e_lag1_correction_exact_public_day",
+  "group": "snapshot",
+  "description": "LAG 1: on the public day version 1 is still in force.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-07-14"
+   }
+  ]
+ },
+ {
+  "name": "C1f_lag1_correction_day_after",
+  "group": "snapshot",
+  "description": "LAG 1: the day after, version 2 is in force.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 2
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-09-30"
+   }
+  ]
+ },
+ {
+  "name": "C2a_later_legal_update_earlier_snapshot_unchanged",
+  "group": "snapshot",
+  "description": "A later legal update must leave the 2025-01-01 snapshot unchanged.",
+  "expect": [
+   {
+    "type": "snapshot_same_as",
+    "scenario": "C0_snapshot_S1_reference"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "C2b_later_legal_update_visible_later",
+  "group": "snapshot",
+  "description": "The same legal update is visible in the 2026-06-01 snapshot.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": "Final order"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": "Final order"
+   }
+  ]
+ },
+ {
+  "name": "V1_duplicate_version_number",
+  "group": "validation",
+  "description": "Two versions of one episode with the same number block evaluation.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "id_status",
+    "equals": "DUPLICATE KEY"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "n_versions",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "p_dups",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "V2_version_for_unknown_episode",
+  "group": "validation",
+  "description": "A version pointing at a missing episode is an invalid record.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 2,
+    "key": "id_status",
+    "equals": "UNKNOWN EPISODE"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "V3_non_integer_version_number",
+  "group": "validation",
+  "description": "A version number must be a whole number.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "id_status",
+    "equals": "BAD VERSION NO"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID"
+   }
+  ]
+ },
+ {
+  "name": "L1_legal_source_from_other_matter",
+  "group": "validation",
+  "description": "A legal event whose source order belongs to another matter is invalid.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 2,
+    "key": "check",
+    "equals": "SOURCE ORDER MISSING OR WRONG"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "status_documented",
+    "equals": "No"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "L2_legal_public_before_event",
+  "group": "validation",
+  "description": "An event cannot become public before it happens.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 0,
+    "key": "check",
+    "equals": "PUBLIC BEFORE EVENT"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID"
+   }
+  ]
+ },
+ {
+  "name": "L3_specific_episode_event_without_episode",
+  "group": "validation",
+  "description": "A specific-episode event needs an episode of the same matter.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 0,
+    "key": "check",
+    "equals": "EPISODE MISSING OR WRONG"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID"
+   }
+  ]
+ },
+ {
+  "name": "L4_last_checked_before_latest_event",
+  "group": "validation",
+  "description": "A last-checked date older than the latest event does not document the history.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 0,
+    "key": "status_documented",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_legal",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "E1_evidence_probes",
+  "group": "evidence",
+  "description": "Fifteen extra evidence rows, each with one defect. Only the non-slot control row is valid; the base slots stay at 100%.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 0,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 1,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 2,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 4,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 5,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 6,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 7,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 8,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 9,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 10,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 11,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 12,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 13,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 15,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 16,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 17,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 18,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 19,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 20,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 21,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 22,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 23,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 24,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 25,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 26,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 27,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 28,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 23,
+    "key": "required",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 26,
+    "key": "unresolved_ok",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "review_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 15,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 16,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 17,
+    "key": "value_matches",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 18,
+    "key": "scope_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 22,
+    "key": "scope_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 24,
+    "key": "scope_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 25,
+    "key": "scope_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 27,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 28,
+    "key": "reviewers_listed",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 28,
+    "key": "review_ok",
+    "equals": 0
+   }
+  ]
+ },
+ {
+  "name": "E2_evidence_from_order_after_cutoff",
+  "group": "evidence",
+  "description": "Evidence citing an order made public after the cutoff never counts, and the order blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 3,
+    "key": "order_check",
+    "equals": "AFTER CUTOFF"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "source_ok",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "R1_all_slots_done_one_unresolved_episode",
+  "group": "completion",
+  "description": "An unresolved episode stays in the denominator. All its slots are confirmed unresolved: review is complete, verified share is 14/19.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 0.7368421052631579,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_subset",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_unres",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 2,
+    "key": "slots_expected_total",
+    "equals": 5
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 2,
+    "key": "slots_valid_total",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 2,
+    "key": "slots_done_total",
+    "equals": 5
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 2,
+    "key": "usable",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_obs",
+    "col": "D",
+    "equals": "NOT YET",
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "unresolved_ok",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 15,
+    "key": "unresolved_ok",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "R2_only_two_slots_done",
+  "group": "completion",
+  "description": "Only two of E3's five slots are confirmed unresolved: the review is not complete, so no final decision.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 0.7368421052631579,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 0.8421052631578947,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete: 84%"
+   }
+  ]
+ },
+ {
+  "name": "IM1_too_few_independent_groups",
+  "group": "completion",
+  "description": "Two strict episodes from two groups, but three groups are required.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "g_indep",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "g_indep",
+    "col": "D",
+    "equals": "NOT YET",
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "DT1_two_publication_dates",
+  "group": "two_dates",
+  "description": "First disclosure (2024-06-14) differs from label availability (2026-04-10) when conduct_end is only public in the final order.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "latest_avail_date",
+    "equals": "2026-04-10"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": 701
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "strict_usable",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "min_pub_end",
+    "equals": "2026-04-10"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "min_pub_start",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "ST0_no_frame_sizes_no_interval",
+  "group": "estimates",
+  "description": "Without frame sizes there is a sample fraction but no frame-wide estimate or interval.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "i_frac",
+    "col": "C",
+    "equals": 0.6666666666666666,
+    "tol": 1e-06
+   },
+   {
+    "type": "stratum",
+    "row": 0,
+    "col": "C",
+    "equals": 2
+   },
+   {
+    "type": "stratum",
+    "row": 1,
+    "col": "D",
+    "equals": 1
+   },
+   {
+    "type": "gate",
+    "name": "est",
+    "col": "C",
+    "equals": "n/a",
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "lo",
+    "col": "C",
+    "equals": "n/a",
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "ST1_stratified_estimate",
+  "group": "estimates",
+  "description": "With frame sizes 100, 200, 300 the stratified estimate, SE and interval match the closed-form values.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "i_frac",
+    "col": "C",
+    "equals": 0.6666666666666666,
+    "tol": 1e-06
+   },
+   {
+    "type": "stratum",
+    "row": 0,
+    "col": "C",
+    "equals": 2
+   },
+   {
+    "type": "stratum",
+    "row": 1,
+    "col": "D",
+    "equals": 1
+   },
+   {
+    "type": "gate",
+    "name": "est",
+    "col": "C",
+    "equals": 0.5833333333333333,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "se",
+    "col": "C",
+    "equals": 0.29930474993446615,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "lo",
+    "col": "C",
+    "equals": 0.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "hi",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "N01_two_matters_one_group",
+  "group": "v31_groups",
+  "description": "Two matters in one related-matter group count as ONE independent group.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "g_indep",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 0,
+    "key": "group_first_strict",
+    "equals": 1
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "group_first_strict",
+    "equals": 0
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N02_group_not_reviewed",
+  "group": "v31_groups",
+  "description": "A group that no second person reviewed counts for nothing.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "g_indep",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "group_first_strict",
+    "equals": 0
+   },
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N03_blank_group_defaults_to_own_id",
+  "group": "v31_groups",
+  "description": "A blank group is the matter's own ID (a reviewed singleton).",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "group_key",
+    "equals": "M2"
+   },
+   {
+    "type": "gate",
+    "name": "g_indep",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N04_reviewer_not_on_people_sheet",
+  "group": "v31_people",
+  "description": "An unlisted auditor makes the row invalid, so the slot is neither audited nor unresolved.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "reviewers_listed",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 3,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete"
+   }
+  ]
+ },
+ {
+  "name": "N05_independence_optional_when_set_to_no",
+  "group": "v31_people",
+  "description": "B19 set to No: a non-independent auditor is accepted and the share is only reported.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   },
+   {
+    "type": "gate",
+    "name": "i_indep_share",
+    "col": "C",
+    "equals": 0.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 0,
+    "key": "auditor_independent",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 0,
+    "key": "valid",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "N06_independence_required_not_met",
+  "group": "v31_people",
+  "description": "B19 = Yes and the auditor is not independent: no evidence counts, the review is not complete.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 0,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 0.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete: 0%"
+   }
+  ]
+ },
+ {
+  "name": "N07_independence_required_met",
+  "group": "v31_people",
+  "description": "B19 = Yes with an independent auditor: PASS and the independent share is 100%.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   },
+   {
+    "type": "gate",
+    "name": "i_indep_share",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "N08_people_duplicate_name",
+  "group": "v31_people",
+  "description": "A duplicate name on the People sheet blocks the decision.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "p_dups",
+    "col": "C",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "People",
+    "row": 0,
+    "key": "id_check",
+    "equals": "DUPLICATE ID"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "N09a_empty_slot_not_ready",
+  "group": "v31_readiness",
+  "description": "A required slot with no evidence and no unresolved confirmation: no final decision yet.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete"
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 0.9285714285714286,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 0.9285714285714286,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "N09b_empty_slot_at_deadline",
+  "group": "v31_readiness",
+  "description": "Same at the deadline: INCOMPLETE (review).",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "INCOMPLETE (review not complete"
+   }
+  ]
+ },
+ {
+  "name": "N10_episode_list_not_complete",
+  "group": "v31_readiness",
+  "description": "A matter whose episode list is not marked complete blocks the final decision.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "i_inventory",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_inventory",
+    "col": "B",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete: 100% of required slots done; 1 of 2 matters"
+   }
+  ]
+ },
+ {
+  "name": "N11a_scheme_hidden_until_its_evidence_is_public",
+  "group": "v31_scheme",
+  "description": "Conduct dates are public in 2024 but the scheme only in the 2026 order: the 2025 snapshot shows no scheme.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "conduct_end_asof",
+    "equals": "2022-07-14"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "scheme_asof",
+    "equals": null
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "min_pub_scheme",
+    "equals": "2026-04-10"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "latest_avail_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "strict_usable",
+    "equals": "Yes"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N11b_scheme_visible_later",
+  "group": "v31_scheme",
+  "description": "After the scheme evidence became public (plus lag) the scheme is shown.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "scheme_asof",
+    "equals": "Pump and dump"
+   }
+  ]
+ },
+ {
+  "name": "N11c_scheme_lag1_on_public_day",
+  "group": "v31_scheme",
+  "description": "LAG 1: on the day the scheme evidence became public it is still hidden.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "scheme_asof",
+    "equals": null
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "N11d_scheme_lag1_day_after",
+  "group": "v31_scheme",
+  "description": "LAG 1: the day after, it is shown.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "scheme_asof",
+    "equals": "Pump and dump"
+   }
+  ]
+ },
+ {
+  "name": "N12_unrelated_earlier_order_is_not_first_disclosure",
+  "group": "v31_disclosure",
+  "description": "An earlier order with no evidence row about the episode does not become its first disclosure.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": 701
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N13_first_disclosure_not_verified_when_date_assumed",
+  "group": "v31_disclosure",
+  "description": "If the earliest evidence order has only an assumed public date, the first disclosure date is flagged unverified.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "disclosure_verified",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": null
+   },
+   {
+    "type": "gate",
+    "name": "d_count",
+    "col": "B",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "d_excl",
+    "col": "B",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "d_median",
+    "col": "B",
+    "equals": 366,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "N14_episode_event_earlier_snapshot_unchanged",
+  "group": "v31_scope",
+  "description": "An episode-scoped event dated 2025-03-02 does not change the 2025-01-01 snapshot.",
+  "expect": [
+   {
+    "type": "snapshot_same_as",
+    "scenario": "C0_snapshot_S1_reference"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N15_episode_event_shown_for_its_episode_only",
+  "group": "v31_scope",
+  "description": "Later, E1 shows its own episode status next to the whole-matter status; E2 shows none. Conflicts are preserved.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "episode_status_asof",
+    "equals": "Modified on appeal"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "episode_status_asof",
+    "equals": null
+   },
+   {
+    "type": "snapshot",
+    "row": 1,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   }
+  ]
+ },
+ {
+  "name": "N16_episode_event_for_episode_of_another_matter",
+  "group": "v31_scope",
+  "description": "An event scoped to an episode of another matter is invalid.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 3,
+    "key": "check",
+    "equals": "EPISODE MISSING OR WRONG"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "N17a_denominator_latest_version_only",
+  "group": "v31_settings",
+  "description": "B18 set to Latest version only: version 1 needs no evidence once version 2 is audited.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_expected_total",
+    "equals": 5
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_valid_total",
+    "equals": 5
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 1.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N17b_denominator_all_versions",
+  "group": "v31_settings",
+  "description": "All versions: version 1 now needs its slots too (3 of 17 missing), so the share is 14/17 and the review is not complete.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_expected_total",
+    "equals": 8
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_valid_total",
+    "equals": 5
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 0.8235294117647058,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete"
+   }
+  ]
+ },
+ {
+  "name": "N18_row_typed_below_the_formula_range",
+  "group": "v31_layout",
+  "description": "A matter typed in row 106, below the 100-row formula range, blocks the decision.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "p_over",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "DEF1_workbook_defaults",
+  "group": "v32_defaults",
+  "description": "Untouched workbook: Rules B18 is All versions and B19 is Yes, and good data still passes.",
+  "expect": [
+   {
+    "type": "cellref",
+    "sheet": "Rules",
+    "ref": "B18",
+    "equals": "All versions"
+   },
+   {
+    "type": "cellref",
+    "sheet": "Rules",
+    "ref": "B19",
+    "equals": "Yes"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "DEF2_default_requires_independent_auditor",
+  "group": "v32_defaults",
+  "description": "With the workbook's own B19 default, a non-independent auditor means no evidence counts.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 0,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "gate",
+    "name": "i_complete",
+    "col": "C",
+    "equals": 0.0,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete: 0%"
+   }
+  ]
+ },
+ {
+  "name": "DEF3_default_counts_every_version",
+  "group": "v32_defaults",
+  "description": "With the workbook's own B18 default, version 1 still needs its slots after version 2 exists.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_expected_total",
+    "equals": 8
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "slots_valid_total",
+    "equals": 5
+   },
+   {
+    "type": "gate",
+    "name": "g_slots",
+    "col": "C",
+    "equals": 0.8235294117647058,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "IN PROGRESS (review not complete"
+   }
+  ]
+ },
+ {
+  "name": "N12b_identity_only_citation_blank_flag",
+  "group": "v32_disclosure",
+  "description": "A valid, audited identity row from an earlier order, flag left blank, does not set the first disclosure.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": 701
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": 1
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N12c_identity_only_citation_flag_no",
+  "group": "v32_disclosure",
+  "description": "The same row marked No does not set the first disclosure either.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "N12d_passage_marked_as_disclosing_counts",
+  "group": "v32_disclosure",
+  "description": "The same row marked Yes (the passage itself discloses the episode) sets the first disclosure to 2024-01-02.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-01-02"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "disclosure_verified",
+    "equals": "Yes"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": 537
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "latest_avail_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "N12e_marked_but_not_audited_is_ignored",
+  "group": "v32_disclosure",
+  "description": "A row marked Yes that was not audited is not valid, so it cannot set the first disclosure.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": 0
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   }
+  ]
+ },
+ {
+  "name": "N12f_matter_level_row_has_no_episode",
+  "group": "v32_disclosure",
+  "description": "A matter-level row (no episode ID) marked Yes does not set any episode's first disclosure.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": "2024-06-14"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 1,
+    "key": "first_disclosure_date",
+    "equals": "2023-03-02"
+   }
+  ]
+ },
+ {
+  "name": "L5_legal_public_one_day_before_source",
+  "group": "v32_legal",
+  "description": "An event public on 2024-06-13 cites an order made public (verified) on 2024-06-14: invalid, blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 0,
+    "key": "check",
+    "equals": "PUBLIC BEFORE SOURCE"
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "L6a_legal_public_same_day_as_source",
+  "group": "v32_legal",
+  "description": "Same day as the source order is allowed.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 0,
+    "key": "check",
+    "equals": "OK"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "L6b_legal_public_day_after_source",
+  "group": "v32_legal",
+  "description": "The day after the source order is allowed.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 0,
+    "key": "check",
+    "equals": "OK"
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "L7_source_date_only_assumed_kept_unverified",
+  "group": "v33_legal",
+  "description": "If the source order's public date is only assumed, the event is kept as SOURCE DATE UNVERIFIED. It does not block the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 3,
+    "key": "strict_ok",
+    "equals": "No"
+   },
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 3,
+    "key": "check",
+    "equals": "SOURCE DATE UNVERIFIED"
+   },
+   {
+    "type": "gate",
+    "name": "i_legal_unver",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "L7b_unverified_event_not_in_snapshot",
+  "group": "v33_legal",
+  "description": "The unverified appeal (public 2024-07-01, assumed source date 2024-08-01) is not shown in a snapshot of 2024-08-05; the last verified status is.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "matter_status_asof",
+    "equals": "Interim order"
+   }
+  ]
+ },
+ {
+  "name": "L8_matter_with_only_unverified_event_not_documented",
+  "group": "v33_legal",
+  "description": "A matter whose only legal event is unverified does not count as documented; the normal gate shows it.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 2,
+    "key": "check",
+    "equals": "SOURCE DATE UNVERIFIED"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "status_documented",
+    "equals": "No"
+   },
+   {
+    "type": "gate",
+    "name": "g_legal",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_legal_unver",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "ID1_orders_blank_id",
+  "group": "v32_missing_ids",
+  "description": "An order with data but no order ID is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 3,
+    "key": "order_check",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID2_episodes_blank_id",
+  "group": "v32_missing_ids",
+  "description": "An episode with data but no episode ID is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 2,
+    "key": "id_status",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID3_matters_blank_id",
+  "group": "v32_missing_ids",
+  "description": "A matter with data but no matter ID is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 2,
+    "key": "id_check",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID4_versions_blank_id",
+  "group": "v32_missing_ids",
+  "description": "A label version with data but no version ID is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 2,
+    "key": "id_status",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "n_versions",
+    "equals": 1
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID5_legal_blank_matter_id",
+  "group": "v32_missing_ids",
+  "description": "A legal event with data but no matter ID is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "LegalStatus",
+    "row": 3,
+    "key": "check",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID6_evidence_blank_id",
+  "group": "v32_missing_ids",
+  "description": "An evidence row with data but no evidence ID is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "id_status",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "cell",
+    "sheet": "Evidence",
+    "row": 14,
+    "key": "valid",
+    "equals": null
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID7_people_blank_name",
+  "group": "v32_missing_ids",
+  "description": "A person row with a role but no name is flagged and blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "People",
+    "row": 2,
+    "key": "id_check",
+    "equals": "ID MISSING"
+   },
+   {
+    "type": "gate",
+    "name": "p_refs",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID8_selectionlog_blank_id",
+  "group": "v32_missing_ids",
+  "description": "A selection-log row with a candidate but no log ID blocks the decision.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "p_log",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "ID9_blank_links_read_as_unknown",
+  "group": "v32_missing_ids",
+  "description": "A blank matter or episode link is UNKNOWN, never silently accepted.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Orders",
+    "row": 0,
+    "key": "order_check",
+    "equals": "UNKNOWN MATTER"
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "id_status",
+    "equals": "UNKNOWN MATTER"
+   },
+   {
+    "type": "cell",
+    "sheet": "Versions",
+    "row": 0,
+    "key": "id_status",
+    "equals": "UNKNOWN EPISODE"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "CX0_control_conditional",
+  "group": "v32_conditional",
+  "description": "Control: this data alone gives CONDITIONAL.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "CX1_leak_test_failing",
+  "group": "v32_conditional",
+  "description": "Conditional-level data with a failing leak test is NOT VALID, not CONDITIONAL.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "CX2_duplicate_id",
+  "group": "v32_conditional",
+  "description": "Conditional-level data with a duplicate order ID is NOT VALID.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "CX3_missing_id",
+  "group": "v32_conditional",
+  "description": "Conditional-level data with a row that has no ID is NOT VALID.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "CX4_legal_before_source",
+  "group": "v32_conditional",
+  "description": "Conditional-level data with a legal event before its source is NOT VALID.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "CX5_leak_test_not_run",
+  "group": "v32_conditional",
+  "description": "Documented behaviour: a leak test that has not been run is not a failure, so CONDITIONAL is still shown. Only Failing blocks.",
+  "expect": [
+   {
+    "type": "decision",
+    "equals": "CONDITIONAL",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "C3a_public_friday_snapshot_friday",
+  "group": "v32_lag",
+  "description": "Public on Friday 2024-06-14: on the same Friday it is not usable (lag 1).",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "label_available",
+    "equals": "No"
+   }
+  ]
+ },
+ {
+  "name": "C3b_public_friday_snapshot_monday",
+  "group": "v32_lag",
+  "description": "Public on Friday: the next session is Monday 2024-06-17 and the label is usable then. Calendar lag and next-session rule agree on a session date.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "label_available",
+    "equals": "Yes"
+   },
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "version_asof",
+    "equals": 1
+   }
+  ]
+ },
+ {
+  "name": "C3c_public_friday_snapshot_saturday",
+  "group": "v32_lag",
+  "description": "Documented limit: on Saturday (not a trading session) the calendar-day lag already shows the label. Use trading sessions as snapshot dates.",
+  "expect": [
+   {
+    "type": "snapshot",
+    "row": 0,
+    "key": "label_available",
+    "equals": "Yes"
+   }
+  ]
+ },
+ {
+  "name": "DX0_delay_statistics_all_verified",
+  "group": "v33_delay",
+  "description": "Both first-disclosure dates verified: two delays, nothing left out.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "d_count",
+    "col": "B",
+    "equals": 2,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "d_excl",
+    "col": "B",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "d_median",
+    "col": "B",
+    "equals": 533.5,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "i_legal_unver",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "DX2_no_disclosing_row_left_out",
+  "group": "v33_delay",
+  "description": "E1 has no row marked as disclosing it: no first disclosure, no delay, counted as left out.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "first_disclosure_date",
+    "equals": null
+   },
+   {
+    "type": "cell",
+    "sheet": "Episodes",
+    "row": 0,
+    "key": "delay_days",
+    "equals": null
+   },
+   {
+    "type": "gate",
+    "name": "d_count",
+    "col": "B",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "d_excl",
+    "col": "B",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "gate",
+    "name": "d_median",
+    "col": "B",
+    "equals": 366,
+    "tol": 1e-06
+   }
+  ]
+ },
+ {
+  "name": "SEL1_included_matter_not_in_registry",
+  "group": "v33_selection",
+  "description": "An Included row whose matter is not in Matters blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "SelectionLog",
+    "row": 2,
+    "key": "log_check",
+    "equals": "MATTER NOT IN REGISTRY"
+   },
+   {
+    "type": "gate",
+    "name": "p_log",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "SEL2_log_id_without_decision",
+  "group": "v33_selection",
+  "description": "A log ID with no decision blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "SelectionLog",
+    "row": 2,
+    "key": "log_check",
+    "equals": "DECISION MISSING"
+   },
+   {
+    "type": "gate",
+    "name": "p_log",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "SEL3_matter_without_log_entry",
+  "group": "v33_selection",
+  "description": "An in-scope matter with no Included log row blocks the decision.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "sel_entry",
+    "equals": "NO LOG ENTRY"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 0,
+    "key": "sel_entry",
+    "equals": "OK"
+   },
+   {
+    "type": "gate",
+    "name": "p_log",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "NOT VALID: fix the integrity checks"
+   }
+  ]
+ },
+ {
+  "name": "SEL4_documented_exclusions_raise_no_error",
+  "group": "v33_selection",
+  "description": "An Excluded log row with a reason, and a matter excluded after review with no Included row, are documented exclusions: no error.",
+  "expect": [
+   {
+    "type": "cell",
+    "sheet": "SelectionLog",
+    "row": 2,
+    "key": "log_check",
+    "equals": "OK"
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 2,
+    "key": "sel_entry",
+    "equals": "Excluded after review"
+   },
+   {
+    "type": "gate",
+    "name": "p_log",
+    "col": "C",
+    "equals": 0,
+    "tol": 1e-06
+   },
+   {
+    "type": "decision",
+    "equals": "PASS",
+    "startswith": null
+   }
+  ]
+ },
+ {
+  "name": "SEL5_draft_shown_first_errors_visible",
+  "group": "v33_selection",
+  "description": "While the protocol is not frozen, DRAFT is the decision text and the selection-log error is still counted on Gates.",
+  "expect": [
+   {
+    "type": "gate",
+    "name": "p_log",
+    "col": "C",
+    "equals": 1,
+    "tol": 1e-06
+   },
+   {
+    "type": "cell",
+    "sheet": "Matters",
+    "row": 1,
+    "key": "sel_entry",
+    "equals": "NO LOG ENTRY"
+   },
+   {
+    "type": "decision",
+    "equals": null,
+    "startswith": "DRAFT"
+   }
+  ]
+ }
+]

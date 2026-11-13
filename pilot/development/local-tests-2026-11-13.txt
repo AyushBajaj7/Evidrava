@@ -1,0 +1,48 @@
+test_all_versions_count_even_without_evidence (test_checker.CheckerTests.test_all_versions_count_even_without_evidence) ... ok
+test_assumed_source_is_nonblocking_but_not_documented (test_checker.CheckerTests.test_assumed_source_is_nonblocking_but_not_documented) ... ok
+test_bad_review_date (test_checker.CheckerTests.test_bad_review_date) ... ok
+test_complete_inputs_are_not_research_pass (test_checker.CheckerTests.test_complete_inputs_are_not_research_pass) ... ok
+test_dateonly_scope_rejects_intraday_publication (test_checker.CheckerTests.test_dateonly_scope_rejects_intraday_publication) ... ok
+test_documented_exclusion_exempt (test_checker.CheckerTests.test_documented_exclusion_exempt) ... ok
+test_duplicate_episode_quarantined (test_checker.CheckerTests.test_duplicate_episode_quarantined) ... ok
+test_duplicate_included_new_guard (test_checker.CheckerTests.test_duplicate_included_new_guard) ... ok
+test_failed_leak_check_invalidates_preparation (test_checker.CheckerTests.test_failed_leak_check_invalidates_preparation) ... ok
+test_frozen_requires_manifest (test_checker.CheckerTests.test_frozen_requires_manifest) ... ok
+test_future_order_cannot_support_evidence (test_checker.CheckerTests.test_future_order_cannot_support_evidence) ... ok
+test_identity_only_evidence_does_not_set_disclosure (test_checker.CheckerTests.test_identity_only_evidence_does_not_set_disclosure) ... ok
+test_independence_required (test_checker.CheckerTests.test_independence_required) ... ok
+test_input_not_mutated (test_checker.CheckerTests.test_input_not_mutated) ... ok
+test_legal_public_before_verified_source (test_checker.CheckerTests.test_legal_public_before_verified_source) ... ok
+test_manifest_detects_deleted_matter (test_checker.CheckerTests.test_manifest_detects_deleted_matter) ... ok
+test_missing_evidence_remains_in_denominator (test_checker.CheckerTests.test_missing_evidence_remains_in_denominator) ... ok
+test_missing_legal_status (test_checker.CheckerTests.test_missing_legal_status) ... ok
+test_missing_selection_decision (test_checker.CheckerTests.test_missing_selection_decision) ... ok
+test_missing_selection_record (test_checker.CheckerTests.test_missing_selection_record) ... ok
+test_missing_version_carries_placeholder (test_checker.CheckerTests.test_missing_version_carries_placeholder) ... ok
+test_non_session_snapshot (test_checker.CheckerTests.test_non_session_snapshot) ... ok
+test_page_outside_known_bounds (test_checker.CheckerTests.test_page_outside_known_bounds) ... ok
+test_policy_changes_are_diagnosed (test_checker.CheckerTests.test_policy_changes_are_diagnosed) ... ok
+test_reviewer_absence_allows_preparation (test_checker.CheckerTests.test_reviewer_absence_allows_preparation) ... ok
+test_same_reviewer_gains_no_audit_credit (test_checker.CheckerTests.test_same_reviewer_gains_no_audit_credit) ... ok
+test_session_snapshot_allowed (test_checker.CheckerTests.test_session_snapshot_allowed) ... ok
+test_snapshot_needs_calendar (test_checker.CheckerTests.test_snapshot_needs_calendar) ... ok
+test_unknown_page_count_cannot_accept_page_99 (test_checker.CheckerTests.test_unknown_page_count_cannot_accept_page_99) ... ok
+test_unknown_selected_matter (test_checker.CheckerTests.test_unknown_selected_matter) ... ok
+test_unregistered_reviewer (test_checker.CheckerTests.test_unregistered_reviewer) ... ok
+test_unresolved_completes_review_without_audit_credit (test_checker.CheckerTests.test_unresolved_completes_review_without_audit_credit) ... ok
+test_unresolved_requires_locator (test_checker.CheckerTests.test_unresolved_requires_locator) ... ok
+test_whitespace_id_is_missing (test_checker.CheckerTests.test_whitespace_id_is_missing) ... ok
+test_wrong_order (test_checker.CheckerTests.test_wrong_order) ... ok
+test_wrong_value (test_checker.CheckerTests.test_wrong_value) ... ok
+test_changed_example_row_is_not_silently_skipped (test_checker.WorkbookIntegrationTests.test_changed_example_row_is_not_silently_skipped) ... ok
+test_cli_writes_report_and_refuses_overwrite (test_checker.WorkbookIntegrationTests.test_cli_writes_report_and_refuses_overwrite) ... ok
+test_formula_tampering_is_detected (test_checker.WorkbookIntegrationTests.test_formula_tampering_is_detected) ... ok
+test_formulas_in_input_rejected (test_checker.WorkbookIntegrationTests.test_formulas_in_input_rejected) ... ok
+test_header_layout_change_rejected (test_checker.WorkbookIntegrationTests.test_header_layout_change_rejected) ... ok
+test_overflow_is_not_silently_ignored (test_checker.WorkbookIntegrationTests.test_overflow_is_not_silently_ignored) ... ok
+test_received_template_signature_and_empty_study_rows (test_checker.WorkbookIntegrationTests.test_received_template_signature_and_empty_study_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 5.046s
+
+OK

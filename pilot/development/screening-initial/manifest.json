@@ -1,0 +1,9 @@
+{
+  "kind": "screening-workload",
+  "completed": true,
+  "publication": "local_only",
+  "files": {
+    "report.html": "7f95e854131ab02236fcdfa73a0212d4317527b5711dcbbf8ee80de4db9ac28e",
+    "screening.json": "454fdb7209f3f35762f5159a7cecae467f3f1063503368c9597c3ba0eb2dc07b"
+  }
+}

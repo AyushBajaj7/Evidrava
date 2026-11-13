@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1",
+  "run_id": "design_example",
+  "mode": "synthetic",
+  "stage": "registry_validation",
+  "research_decision": "DRAFT",
+  "delivery_status": "IN_PROGRESS",
+  "counts": {
+    "selected_matters": null,
+    "strict_episodes": null,
+    "independent_groups": null,
+    "expected_slots": null,
+    "verified_slots": null,
+    "reviewed_slots": null
+  },
+  "shares": {
+    "verified": null,
+    "review_completion": null,
+    "denominator_complete": false
+  },
+  "diagnostics": [],
+  "checks": {
+    "schema": "PASSED",
+    "domain": "NOT_RUN",
+    "market": "NOT_RUN",
+    "leakage": "NOT_RUN",
+    "baselines": "NOT_RUN"
+  },
+  "manifest_path": "manifest.json",
+  "limitations": [
+    "Illustrative output shape only; application/domain checks have not run."
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "missing_episode_id",
+    "scenario": "AC01",
+    "target": "registry",
+    "operation": "remove",
+    "path": "/episodes/0/id",
+    "value": null,
+    "schema_should_accept": false,
+    "domain_expected_not_executed": "MISSING_ID"
+  },
+  {
+    "id": "bad_timestamp",
+    "scenario": "AC17",
+    "target": "run",
+    "operation": "replace",
+    "path": "/score_time",
+    "value": "2020-13-99",
+    "schema_should_accept": false,
+    "domain_expected_not_executed": "INVALID_TIMESTAMP"
+  },
+  {
+    "id": "fractional_page_count",
+    "scenario": "AC05",
+    "target": "registry",
+    "operation": "replace",
+    "path": "/sources/0/page_count",
+    "value": 2.5,
+    "schema_should_accept": false,
+    "domain_expected_not_executed": "INVALID_PAGE_COUNT"
+  },
+  {
+    "id": "unknown_field",
+    "scenario": "AC01",
+    "target": "registry",
+    "operation": "add",
+    "path": "/unexpected",
+    "value": 1,
+    "schema_should_accept": false,
+    "domain_expected_not_executed": "UNKNOWN_FIELD"
+  },
+  {
+    "id": "missing_evidence",
+    "scenario": "AC07",
+    "target": "registry",
+    "operation": "remove",
+    "path": "/evidence/0",
+    "value": null,
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "MISSING_EVIDENCE; expected slots stay 7"
+  },
+  {
+    "id": "same_reviewer",
+    "scenario": "AC10",
+    "target": "registry",
+    "operation": "replace",
+    "path": "/reviews/0/auditor_id",
+    "value": "H1",
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "REVIEW_NOT_INDEPENDENT"
+  },
+  {
+    "id": "wrong_value",
+    "scenario": "AC11",
+    "target": "registry",
+    "operation": "replace",
+    "path": "/evidence/0/extracted_value/data",
+    "value": "2020-01-07",
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "VALUE_MISMATCH"
+  },
+  {
+    "id": "wrong_matter",
+    "scenario": "AC03",
+    "target": "registry",
+    "operation": "replace",
+    "path": "/orders/0/matter_id",
+    "value": "M999",
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "UNKNOWN_REFERENCE"
+  },
+  {
+    "id": "duplicate_episode",
+    "scenario": "AC02",
+    "target": "registry",
+    "operation": "append_copy",
+    "path": "/episodes",
+    "value": "/episodes/0",
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "DUPLICATE_EPISODE_ID"
+  },
+  {
+    "id": "deleted_episode",
+    "scenario": "AC09",
+    "target": "registry",
+    "operation": "remove",
+    "path": "/episodes/0",
+    "value": null,
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "COHORT_REFERENCE_MISSING; obligations retained"
+  },
+  {
+    "id": "fit_after_score",
+    "scenario": "AC27",
+    "target": "run",
+    "operation": "replace",
+    "path": "/fit_cutoff",
+    "value": "2020-01-14T09:15:00+05:30",
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "FIT_AFTER_SCORE_TIME"
+  },
+  {
+    "id": "fake_source_in_research",
+    "scenario": "AC25",
+    "target": "registry",
+    "operation": "replace",
+    "path": "/dataset_kind",
+    "value": "research",
+    "schema_should_accept": true,
+    "domain_expected_not_executed": "SYNTHETIC_SOURCE_IN_RESEARCH; mode mismatch"
+  }
+]

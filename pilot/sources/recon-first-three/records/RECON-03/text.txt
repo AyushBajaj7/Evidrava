@@ -1,0 +1,680 @@
+=== PDF page 1 ===
+Page 1 of 20 
+ 
+WTM/SR/SEBI/EFD/198/12/2015 
+ 
+BEFORE THE SECURITIES AND EXCHANGE BOARD OF INDIA 
+      CORAM: S RAMAN, WHOLE TIME MEMBER 
+ 
+ORDER 
+ 
+Under Regulations 28(2) read with R egulations 38 (2)  of the SEBI (Intermediaries) 
+Regulations, 2008 in respect of Khandwala Securities L imited (earlier known as 
+Khandwala Finance L imited)(SEBI Registration No. INB 230600030 ) in the matter of 
+DSQ Biotech Ltd.  
+  
+1. Securities and Exchange Board of India ( 'SEBI') conducted investigation into the trading in the 
+scrip of M/s DSQ Biotech Ltd. (hereinafter referred to as ‘ DSQ' / 'Company’) for the period 
+from December 1999 to January 2001  ('investigation period ')to ascertain any instances of 
+irregularity in the preferential allotment of shares by the company, price manipulation in t he 
+scrip and subsequent off -loading of the unlisted shares in the securities market by DSQ and 
+related entities. The shares of DSQ w ere listed on the Ahmedabad Stock Exchange ("ASE"), 
+BSE Ltd (" BSE"), Calcutta Stock Exchange Association Ltd. ("CSE"), Delhi Stock Exchange 
+Ltd.("DSE"), Madras Stock Exchange ("MSE")and National Stock Exchange of India Limited 
+("NSE") during the relevant time.  
+ 
+2. It was noticed that DSQ had increased the share capital through a preferential issue during the 
+investigation period. It was observed that prior to and after the period of the said issue i.e., 
+between December 1999 and January 2001 , abnormal trading activity in the scrip was noticed at 
+NSE and BSE. The price and the volume in the scrip during the above mentioned period we re 
+attributed to the alleged synchronized trades and fictitious trades executed by certain entities 
+through several stock brokers.  
+ 
+3. It was observed that M/s Khandwala Securities L imited ('the Noticee'), a stock broker of NSE 
+had dealt in the scrip of DSQ for up to 33 clients at NSE during the period December 1999 to 
+April 2000 (12 clients) and September 2000 to January 2001 (21 clients). Th e scrip of DSQ was 
+available for trading on the weekly account period settlement as well as the rolling settlement 
+segments during the investigation period. The total quantity traded during the period December 
+01, 1999 to May 02, 2000 on the account segment was 37,62,400 shares. Investigation prime facie 
+
+=== PDF page 2 ===
+Page 2 of 20 
+ 
+revealed that the Noticee had executed structured/synchronized trade s and various cross deals 
+in the scrip on behalf of its clients, and, thereby, aided and abetted its clients in the creation of 
+false market in the scrip. It was also observed that the Noticee had given advance pay -out of the 
+sales proceeds to the clients who were related to DSQ and also  led to the creation of false 
+market in the scrip by executing transactions without the intention to transfer the beneficial 
+interest in the security.  
+ 
+4. In view of the  findings of  investigation, SEBI vide order dated July 07, 2005 initiated enquiry 
+proceedings against the Noticee in terms of the SEBI (Procedure for Holding Enquiry by 
+Enquiry Officer and Imposing Penalty) Regulations, 2002 ( 'Enquiry Regulations '). 
+Subsequently, as the Enquiry Regulations were repealed and  SEBI (Intermediaries) Regulations, 
+2008 ( ‘Intermediaries Regulations’ ) were notified, in terms of  Regulation 24 of the 
+Intermediaries Regulations another Designated Authority ('DA') was appointed vide order dated 
+February 23, 2012 to enquire into the alleged violations mentioned above. 
+ 
+5. In the enquiry proceedings the following allegations were levelled against the Noticee vide SCN 
+dated March 30, 2012 
+ 
+a. Noticee executed cross deals for its clients who were alleged to be DSQ related 
+entities, 
+b. Noticee made advance pay outs of the sale proceeds to the clients who were 
+related to DSQ, 
+c. Noticee executed synchronized trades/matched orders/structured trades for its 
+clients who were DSQ related entities and there was no change in beneficial 
+ownership thereby created artificial liquidity in the scrip of DSQ, 
+d. Noticee failed to exercise due care and diligence in following KYC norms, 
+e. Noticee thus allegedly aided and abetted its clients in creation of artificial trading. 
+ 
+6. It is also further alleged that by d oing the above acts the N oticee had violated Clause A 
+(1),(2),(3),(4) and (5) of Schedule II of the Regulation 7 of the SEBI (Stock brokers and Sub -
+brokers) Regulations, 1992 (hereinafter referred to as 'Brokers Regulations') and Regulation 4 
+(b), (c), (d) of SEBI (Prohibition of Fraudulent and Unfair Trade Practices Relating to Securities 
+Markets) Regulations, 1995(hereinafter referred to as 'PFUTP Regulations'). It was also alleged 
+
+=== PDF page 3 ===
+Page 3 of 20 
+ 
+that Noticee had violated SEBI Circular no. SMD -1/23341 dated November 18,  1993, 
+SMD/POLICY/IECG/1-97dated February 11, 1997 and SMD/POLICY/CIRCULAR/5 -97 
+dated April 11, 1997 by not following the necessary procedures for client registration. 
+ 
+7. On completion of the proceedings, DA vide R eport dated July 31, 2013 recommend ed 
+suspension of the certificate of registration of the Noticee for a period of one week for the 
+alleged violations of  the provisions of Regulation 4 (b), (c), (d) of PFUTP  Regulations and 
+Clause A (1),(2),(3),(4) and (5) of Schedule II of the Regulation 7 of the Brokers Regulations read 
+with SEBI Circular no. SMD -1/23341 dated November18, 1993, SMD/POLICY/IECG/1 -97 
+dated February 11, 1997 and SMD/POLICY/CIRCULAR/5-97 dated April 11, 1997. 
+ 
+8. Subsequently, SEBI issued Show Cause Notice dated August 23, 2013 (' SCN') under Regulation 
+28(1) of the Intermediaries Regulations to the Noticee "to show cause as to why the action should not be 
+taken against the Noticee as recommended by the DA or higher penalty as deemed fit ". The Noticee was 
+advised to reply to the SCN withi n twenty one days of the receipt thereof. A copy of the 
+Enquiry Report was also forwarded to the Noticee along with the SCN. 
+ 
+9. The Noticee vide letter dated September 13, 2013, replied to the SCN and sought the following 
+documents: 
+i. Copy of Investigation Report, 
+ii. Copy of Trade log - Order Log for the investigation period in the scrip of DSQ on both NSE  and 
+BSE, 
+iii. Copy of correspondence by and between DSQ, SEBI and the Stock Exchanges, 
+iv. Details of shareholding and List of Allottees of the said preferential allotments, 
+v. Copy of disclosures by DSQ or its Promoters to SEBI and Stock Exchanges (where its shares were 
+listed), on Group companies prior to investigation period, 
+vi. Copy of all evidences/ data collected/ procured by SEBI during investigation and till date, 
+pertaining to the present proceedings. 
+ 
+10. As regards the documents mentioned above at Sl.  No. (ii) to (vi) , it is noted that DA has 
+furnished the documents relied upon in the enquiry to the Noticee. Vide letter dated November 
+26, 2013, relevant extract  of the investigation report was also provided to the Noticee. Vide 
+
+=== PDF page 4 ===
+Page 4 of 20 
+ 
+letter dated January 01, 2014, the Noticee sought for a personal hearing in the matter and the 
+same was granted on February 12, 2014 . Mr. Paresh Khandwala, Managing director, Mr. Pranav 
+Khadwala, Director, Mr. Vinay Chauhan, Advocate and Mr. Prashant Ingle, Advocate appeared 
+for the Noticee and made oral submission s. The Noticee was  also directed to submit additional 
+written submissions, if any, by February 19, 2014. The Noticee vide letters dated February 21, 
+2014 and March 12, 2014 submitted inter alia  as under: 
+a) "At the outset, we deny all the allegations levelled against us in the Notice. It is categorically 
+denied that we have violated the provisions of Regulation 4 (b), (c), (d) of PFU TP Regulations 
+and Clause A (1),(2),(3),(4) and (5) of Schedule II of the Regulation 7 of the Brokers 
+Regulations read with SEBI Circular no. SMD -1/23341 dated November 18, 1993, SMD/ 
+POLICY/ IECG/ 1-97 dated February 11, 1997 and SMD/ POLICY/CIRCULAR/5-
+97 dated April 11, 1997 as alleged. We have not indulged in any fraudulent and unfair trade 
+practices relating to the securities so as to warrant any kind of punitive directions. The findings in 
+the Enquiry Report are totally unfounded and a product of confused reasoning.  
+b) We specifically repeat, reiterate and confirm the submissions made by us in our various 
+replies/submissions including reply dated December 03, 2012 to the enquiry Notice dated March 
+30, 2012 issued by the Designated Authority in the proceedings and the same may be read as part 
+and parcel of this reply. 
+Preliminary Submissions: 
+Before giving para-wise reply to the findings in the Enquiry Report, we would like to raise the issue 
+of jurisdiction and inordinate delay in conducting of the reference proceedings, which goes to the root 
+of the matter and vitiate the whole proceedings. 
+Jurisdiction: 
+c) It is pertinent to point out that the Show Cause Notice has been issued without jurisdiction and 
+thus it is legally untenable, violative of the pro visions of the law and ultra vires . The alleged 
+transactions pertain to the year 1999 -2001. In the same matter and same scrip for the same 
+investigation period and for the same alleged violations, an Enquiry officer was duly appointed by 
+SEBI and Show Cause Notice dated October 25, 2005 was issued to us. We had already replied 
+to the said Show Cause Notice of  October 25, 2005  vide our letter dated February 10, 2006 
+and attended personal hearing on March 21, 2006. Evidently, nothing further happened in the  
+said matter till date. In this background, appointment of another Enquiry Officer/Designated 
+
+=== PDF page 5 ===
+Page 5 of 20 
+ 
+Authority  to enquire into the same matter is in excess of jurisdiction and powers available with 
+SEBI under the SEBI Act...  
+Inordinate Delay: 
+d) Admittedly, SEBI h as appointed DA on February 23, 2012 under SEBI (Intermediaries) 
+Regulations, 2008, for conducting enquiry proceedings against us for certain transactions executed 
+by us on behalf of our clients in the scrip of DSQ Biotech Ltd (DSQ) during December 1999 to  
+April 2000. Thus the Enquiry Officer was appointed virtually after the lapse of 12 years from the 
+date of execution of the impugned transactions. Ex-facie, the delay in initiation of the enquiry is 
+exceedingly inordinate and the proceedings are liable to be quashed on this ground alone.  
+ In this regard, your attention is invited to the order passed on  March 31, 2008 by the 
+Hon'ble Securities Appellate Tribunal in the matter of Libord Finance Ltd Vs. SEBI.  
+"...we cannot resist observing that there has been an inordinate delay in initiating action 
+against the Appellant. It is alleged to have committed the irregularities in the earlier part 
+of the year 1996 an d the show cause notice was admittedly issued in June 2004. How 
+could anyone file a proper reply after a lapse of more than eight years. This long delay 
+itself causes grave injustice to the delinquent and results in the violation of principles of 
+natural justice..." 
+ Further, your attention is also invited to the order passed on August 27, 2013 by the 
+Hon'ble Securities Appellate Tribunal in the matter of  H B Stockholding Ltd. Vs. 
+SEBI (SAT Appeal No. 114 of 2012). "... in the instant case admittedly the all eged 
+trades took place in the year 2000. The first show cause notice itself was issued by the 
+Respondent on September 2, 2005 i.e. after a period of more than five years had already 
+lapsed... Even after the conclusion of hearings in April and May 2011, the  Respondent 
+took a period of around one year to pass the impugned order in question on May 9, 
+2012. This unnatural delay of about 11 to 12 years in initiation and completion of the 
+proceedings against the Appellants has caused definite prejudice to them. . .. Thus, the 
+existence of unnatural and unexplained delay of more than a decade is writ large in the 
+matter. Therefore, the impugned order deserves to be quashed on this ground as well." 
+e) There is no allegation of jacking up the price of the scrip while trading on behalf of the clients. 
+Allegation is limited to aiding and abetting the clients in creation of false market. Significantly, it 
+has been completely ignored and overlooked that the impugned trades were delivery based, wherein 
+
+=== PDF page 6 ===
+Page 6 of 20 
+ 
+beneficial ownership has changed. In the absence of any allegation/finding that the beneficial 
+ownership has not changed, charge of creation of false volume cannot survive. 
+f) Admittedly, the investigation period s pan from December 1999 to January 2001i.e. around 26 
+months involving around 272 trading days. Fact is that the impugned trades, which have  allegedly 
+resulted in creation of false market have taken place only of 13 days... At the relevant time, the 
+main p romoter of DSQ group was not a tainted person. It was only somewhere around 2003, 
+when SEBI passed orders against him, information regarding the fraudulent and manipulative  
+activities came in public domain and limelight... 
+g) At the relevant time, there were no alerts or warnings issued either by the exchanges or SEBI or 
+any other regulatory body regarding something suspicious in trading of the scrip or in the DSQ 
+Group. Thus, in the absence of anything to excite our suspicion as to something amiss either in t he 
+DSQ or its related entities who were their clients, we had traded bonafide on behalf of our clients in 
+the ordinary course of business. 
+h) Admittedly, at the relevant time there were 33 different clients  who had dealt through us in the 
+scrip of DSQ. It may be noted that the said 33 clients were dealing through us in the various scrips 
+and their trading was not restricted to scrip of DSQ only. 
+Structured Trades between Noticee and Credit Suisse First Boston (I) Securities Pvt. Ltd 
+i) The allegation of executing  structured trades is based only on one stray trade executed by us on 
+behalf of our client F.R.M.A.N Investments PTE Limited  on 24/02/2000. We point out that 
+F.R.M.A.N Investments PTE Limited was an offshore fund/entity who had traded through us 
+during re levant time in hundred of crores in various scrips including DSQ. Admittedly, 
+F.R.M.A.N Investments PTE Limited is not related to DSQ in any manner. Even there is no 
+allegation to this effect. 
+j) We are not aware of the trading of Credit Suissee First Boston (I) Securities Private Limited or 
+that it had traded in the weekly account segment. It is denied that any structured deal was executed 
+by us with Credit Suissee First Boston (I) Securities Private Limited as alleged. It is submitted 
+that we do not have any  kind of relationship with Credit Suissee First Boston (I) Securities 
+Private Limited or its client C. Mackertich Limited or any of their directors/promoters/officers. 
+k) We had transacted at the instruction of our client F.R.M.A.N Investments PTE Limited as per 
+the instructions given by it and at price, quantity and time instructed by them as per the 
+Rules/Regulations framed by SEBI/Stock Exchanges .  At the relevant time we did not have 
+knowledge of the fact that the quantity traded by us would be 7.79% of th e total quantity traded 
+
+=== PDF page 7 ===
+Page 7 of 20 
+ 
+through us and that C. Mackertich Limited was the selling client through Credit Suissee First 
+Boston (I) Securities Private Limited as the same is not possible to know on the prudent screen 
+based trading mechanism of the Stock Excha nge.... Further, the transactions were Payment & 
+delivery based and there is no allegation that transactions did not result in change in beneficial 
+ownership. There was no significant change in the price.  
+Cross Deals by KSL on the Account period Segment: 
+l) All the transactions (the alleged 14 cross deals carried out on 6 different days viz., 24/02/2000, 
+06/03/2000, 7/3/2000, 21/3/2000 and 24/3/2000) carried out by us were in the normal 
+course of business and in good faith. It is submitted that all the trades  were carried out on screen 
+based trading system over which we had no control except for punching the orders and same have 
+resulted delivery and payments.  
+m) It is further submitted that we had received both buy and sell orders from various clients and we 
+had simply executed the same on the terminals as per the instruction of the clients at a price, time 
+and quantity instructed by them. It is further submitted that we had no role whatsoever in 
+determining the price of the transactions entered into by us as the price and quantity instructed by 
+the clients. It may be noted that all the said cross deals were delivery based and payment based 
+which resulted in change in beneficial ownership.  
+n) In so far as allegations arising out of LTP variations, ranging from 0.06% to 5.20% is concerned, 
+it may be noted that out of the 14 cross deals, there is no (0%) LTP variation in 7 cases, 
+marginal +ve LTP variation (less than 1%) in 4 cross  deals, +ve LTP variation of 1.53% in 1 
+cross deal, +ve LTP variation of 5.20% in 1 cross deal and -ve LTP variation of 0.06% in 1 
+cross deal. Further, it may be noted that in the Notice dated 30.3.12 the Designated Authority 
+had itself stated that "the % change to LTP due to this deal is not significant".   
+o) Here it may be appreciated that the allegation is based on 14 cross deals executed on behalf of 
+clients pursuant to their instructions, over a period spreading over 5 months (i.e. December 1999 to 
+April 2000) wherein we had executed several trades in the scrip on behalf of the various clients. 
+Admittedly, the quantum of the alleged cross deals was negligible1.31% only.   
+p) It may be noted that, as per the table there are only 3 trades executed  by us in our own account, on 
+3 different days viz., 21/2/00, 1/3/00,22/3/00. We executed all the 3 trades in the ordinary 
+course of business based on our commercial wisdom de hors sinister motives. Further, all these 
+trades were delivery based. No fault was found with the proprietary trades per se viz., that the said 
+3 trades are structured, or have resulted in price escalation or the trade is artificial etc.  
+
+=== PDF page 8 ===
+Page 8 of 20 
+ 
+q) Merely because trading done by us in the rolling segment during December 1999 to April 2000 
+accounted for 99.83%, no adverse inference can be drawn against us. It is reiterated that the 
+trading was on behalf of the clients in the ordinary course pursuant to their instructions& all such 
+trades effected in to Delivery & Payments through Exchange norms.. . Further, it is nobody's case 
+that the execution of trades in the rolling segment resulted in increase in price in any manner(since 
+all the trades were executed at prevalent market prices in both the segments) or resulted in creation 
+of artificial volumes  (since all the trades were delivery based wherein beneficial ownership had 
+changed). 
+r) All the cross deals have been executed pursuant to instructions of various clients. It may be noted 
+that DSQ related clients were sellers as well as major buyers. Cross deals have been executed on 
+behalf of various clients and it is not restricted t allege d DSQ group entities. Admittedly, the 
+alleged cross deals executed by us on behalf of clients on 1/3/2000, 14.3/2000 and 
+22/3/2000 pertain to clients who do not belong to alleged DSQ group entities. 
+s) As a result of alleged cross deals, the percentage change  in price is between the ranges of -16.48% 
+to 3.3%. There was no jacking up of prices of the scrip as a result of cross deals. 
+t) In so far as execution of cross deals on behalf of clients are concerned it is stated that all the deals 
+were in the nature of ne gotiated deals and the same were executed by us on behalf of the clients in 
+accordance with the Board's circular dated September 14 , 1999...in order to implement a 
+negotiated deal through the trading system of a stock exchange , the buy and sell orders hav e to be 
+synchronized by the parties and put into the system simultaneously and therefore, in negotiated 
+deals parties also agree as to the time of orders. 
+u) In this context we invite your attention to Order dated August 17, 2010 passed by the Hon'ble 
+Securities Appellate Tribunal in the matter of  M/s Prashant J Patel Vs. SEBI  (Appeal No. 
+150 of 2006), wherein the Hon'ble Tribunal , inter alia, held that: " ...In the case before us, it is 
+the appellant's own case that he executed negotiated deals/trades on beha lf of his clients whose 
+details were furnished by him to the Board in the reply to the show cause notice. The motive with 
+which the appellant's clients executed negotiated deals can best be explained by the clients 
+themselves and not by the appellant who w as only a broker. It is really surprising that the Board 
+did not question the clients in this regard. Since negotiated trades are legal and the appellant was 
+the broker on both the sides, he had no reason to suspect any foul play and it was no part of his 
+due diligence to question his clients as to why they were executing such trades. A stock broker is 
+
+=== PDF page 9 ===
+Page 9 of 20 
+ 
+required to execute faithfully the instructions of his clients if they are not in conflict with any rules, 
+regulations or circulars issued by the Board..." 
+Advance pay out of sale proceeds: 
+v) In so far as pay -out made for transaction on 21.2.2000 is concerned, it may be noted that the 
+advance payment was made on 24.2.2000 by us to Square D post sale of shares by it. Prior to 
+payment of the said amount of Rs. 23, 62,55,167/- to Square D on 24.2.2000, we had on 
+23.2.2000 received  an amount of Rs. 12,96,95,000/ - and Rs. 10, 00,00,000/ - from its 
+buyers towards purchase of shares of DSQ. The receipt of said amount is also borne out by our 
+Bank Statement...and ledger statement of clients... Thus from the aforesaid it is clear that we have 
+not funded Square D as alleged. All that we had done was that out of the funds received from the 
+clients towards purchase of shares  of DSQ we had made the advance pay -out to  Square D at its 
+request.  
+w) Admittedly, on 21.2.00 Square D Textile & Exports Ltd has sold 500,000 shares. Said 
+shares have been sold as follows: (a)250,000 shares on Rolling segment and (b) 250,000 shares 
+on Account period segment. In the trades carried out in the Rolling segment, counter party buyers to 
+the trades of Square D were not part of alleged DSQ related clients. Further, in so far as trades on 
+Account period segment are concerned, on 21.2.2000, none of the alleged DSQ related clients have 
+bought 250,000 sh ares. Same is evident from the total bought quantity of all the alleged DSQ 
+related clients...Therefore, the whole theory that "in this fashion the client has also ensured that the 
+beneficial interest in the securities so transacted also does not change an d it remains within the 
+entities in the group" collapses since there was no relationship between Square D and the counter 
+party to its trades. 
+x) It is denied that we have aided the clients in carrying out their objectives as alleged. If we had aided 
+the clients (which were 33 in number) as alleged, which we strongly deny, what is the action SEBI 
+has taken against the said 33 clients. 
+y) It is denied that we were direct recipient of 15 lakh shares as alleged. In fact the said shares were 
+transferred to us by the client, which it had sold in the market through us. It is nobody's case that 
+the said shares were owned by us or sold by us in our proprietary account.   
+z) A stock broker cannot be held responsible for the transactions of the clients unless it is establi shed 
+that the broker was aware of the intention of the clients. In this regard, it is submitted that 
+Hon'ble Tribunal in the matter of Kasat Securities Pvt. Ltd Vs. SEBI (Appeal no. 27/2006) 
+wherein  Hon'ble Tribunal has clearly held that to hold a broker i n violation of any regulations or 
+
+=== PDF page 10 ===
+Page 10 of 20 
+ 
+to make it liable to any penalty sufficient material on record is to be placed to establish that he was 
+aware of the nature of the transaction.  
+aa) It is submitted that no penalty is warranted. Suspension restricts the intermediary from carrying 
+out its business, thus affecting its livelihood. Further, we also invite your attention to the Order 
+dated 12.11.2012 passed by the Hon'ble Tribunal in the ma tter of M/s Prashant J Patel Vs. 
+SEBI (Appeal No. 150 of 2006) that " We have held hereinabove that the finding of the Whole 
+time member with regard to the wrong doing of the appellant is upheld. However, considering the 
+significant mitigating factor of de lay in finalization of proceedings, we find that suspension of 
+certificate of registration of the appellant belatedly for a period of one week is not justifiable. 
+Considering the facts on record, we are of the view that a warning to the appellant to be cau tious in 
+future would meet the ends of justice."... 
+11. The Noticee submitted that the allegations in the captioned Show Cause Notice are  against 
+Khandwala Finance Ltd. (hereinafter referred to as 'KFL') in its capacity as a Stock broker 
+registered with SEBI. Noticee submitted that at the relevant time when the alleged violations 
+took place i.e. December 1999 to April 2000 and September 200 0 to January 2001, the Noticee 
+was not a broker registered with SEBI and  Khandwala Finance Ltd. got merged with the 
+Noticee only on October 17, 2001. Considering this, the Noticee contended that it cannot be 
+held liable for any act committed by Khandwala Finance Ltd before the merger.    
+12. It is noted that the Hon’ble Securities Appellate Tribunal had already dealt with this issue  in 
+another similar case (KSL's dealings in the scrip of Kopran Limited) viz., Appeal No. 19/ 2012 
+in Khandwala Securities Ltd. Vs. SEBI. The Hon’ble Securities Appellate Tribunal vide order dated 
+September 7, 2002 had upheld the decision of SEBI that the action can be taken against 
+Khandwala Securities Ltd  for the wrong doing s committed by KFL before merger.  Hon’ble 
+Securities Appellate Tribunal while reaching this conclusion had relied upon the following clause 
+of the   approved scheme of Amalgamation as mentioned in the scheme of amalgamation The 
+said clause 5.1 of the scheme states as under: 
+"If any suit, appeal or other legal proceedings of whatsoever nature by or against KFL is 
+pending, the same shall not abate or be discontinued or in any way be prejudicially affected by 
+reason of the amalgamation and by anything contained in this scheme, b ut the said suit, appeal 
+or other legal proceedings may be continued, prosecuted and enforced by or against KSL in the 
+same manner and to the same extent as it would or might have been continued, prosecuted and 
+
+=== PDF page 11 ===
+Page 11 of 20 
+ 
+enforced by or against KSL in the same manner  and to the same extent as it would or might 
+have been continued, prosecuted and enforced by or against KFL as if this scheme had not been 
+made."  
+13. Hon’ble Securities Appellate Tribunal also relied upon   the undertaking given by the Noticee 
+vide letter dated March 08, 2002 to SEBI. Their undertaking stated as under: 
+“We hereby undertake that all notices and correspondences from the SEBI on the matter of 
+pending investigation and enquiry against KFL or any of its directors or any other matter, shall 
+be addressed to KSL and its directors as the case may be and further that such correspondences 
+and notices shall be received and acted upon by KSL and also further that all actions that may 
+be taken against KFL shall be taken against KSL who shall not at any point of time raise any 
+jurisdictional issue."      
+14. Since the issue as to whether KSL is  liable for the wrong doings of KFL has already been 
+decided by the Hon’ble Securities Appellate Tribunal,   I find that the Noticee is indeed liable for 
+the actions of KFL. 
+15. As regards the issue of jurisdiction raised by the Noticee , SEBI has the power to appoint  
+another Designated Authority ('DA') in this case  in terms of Regulation 24 of the Intermediaries 
+Regulations in view of the fact that the earlier Enquiry Regulations (under which the  earlier 
+enquiry proceedings were initiated) were repealed and SEBI (Intermediaries) Regulations, 2008 
+(‘Intermediaries Regulations’ ) were notified  in its place.  The present proceedings do not 
+therefore suffer from lack of jurisdiction as contended by the Noticee.   
+ 
+Consideration of Issues and Findings: 
+ 
+16. I have considered the material available on record  i.e. Enquiry report dated July 31, 2013, the 
+SCN dated August 23, 2013 and the replies filed by Noticee  and submissions made during the 
+course of personal hearing before me.  
+17. It is noted that DA  in his Report found that that the Noticee had violated the provisions of 
+Clause A (1),(2),(3),(4) and (5) of Schedule II of the Regulation 7 of the Brokers Regulat ions and 
+Regulation 4(b), (c), (d) of PFUTP 1995, SEBI Circular no. SMD -1/23341 dated November 18, 
+1993, SMD/  POLICY/ IECG/ 1-97dated February 11, 1997 and SMD/  POLICY/ 
+CIRCULAR/ 5-97 dated April 11, 1997.  
+
+=== PDF page 12 ===
+Page 12 of 20 
+ 
+18. Before dealing with the aforesaid violations, the  relevant legal provisions,  the contravention of 
+which have been alleged in this case may be reproduced hereunder for the purpose of reference: 
+ 
+Brokers Regulations: 
+Stock-Brokers to abide by Code of Conduct. 
+Regulation 7. The stock-broker holding a certificate shall at all times abide by the Code of Conduct as 
+specified at Schedule II. 
+SCHEDULE II- Code Of Conduct For Stock Brokers 
+A. GENERAL 
+(1) Integrity: A stock-broker, shall maintain high standards of integrity, promptitude and fairness in the 
+conduct of all his business. 
+(2) Exercise of Due Skill and Care : A stock -broker, shall act with due skill, care and diligence in 
+the conduct of all his business. 
+(3) Manipulation: A stock-broker shall not indulge in manipulative, fraudulent or deceptive transactions 
+or schemes or spread rumours with a view to distorting market equilibrium or making personal gains. 
+(4) Malpractices: A stock -broker shall not create fa lse market either singly or in concert with others or 
+indulge in any act detrimental to the investors interest or which leads to interference with the fair and smooth 
+functioning of the market. A stock -broker shall not involve himself in excessive speculat ive business in the 
+market beyond reasonable levels not commensurate with his financial soundness. 
+ (5) Compliance with Statutory Requirements: A stock broker shall abide by all the provisions of 
+the Act and the rules, regulations issued by the Government, the Board and the Stock Exchange from time to 
+time as may be applicable to him. 
+ 
+ PFUTP Regulations. 
+Prohibition against Market Manipulation 
+ 4. No person shall- 
+  (b) indulge in any act, which is calculated to create a false or misleading  appearance of trading on the 
+ securities market; 
+  (c) indulge in any act which results in reflection of prices of securities based on transactions that are not 
+ genuine trade transactions; 
+
+=== PDF page 13 ===
+Page 13 of 20 
+ 
+  (d)enter into a purchase or sale of any securities, not intended to effect  transfer of beneficial ownership but 
+ intended to operate only as a device to inflate, depress, or cause fluctuations in the market price of securities; 
+ 
+19. In this context the issue for consideration is whether the Noticee  aided and ab etted its 
+clients to fraud, manipulate and unfair trade practice, while dealing in the shares of 
+DSQ? 
+ 
+Investigation revealed that company had made a preferential issue in March, 2000 to its related 
+entities to the tune of 80,30,000 equity share s priced at `275/- (`10/- face value) including 
+overseas corporate bodies and FIIs. Further, all these shares were offloaded into market through 
+several brokers including the Noticee. The dealing s of the Noticee in the scrip of DSQ and the 
+findings as regards the alleged violations are as under: 
+ 
+i. It is noted from the enquiry report that during the investigation period one structured 
+deal took place with Credit Suisse First Boston (I) Securities Pv t. Ltd. (Sell side broker)  
+and Noticee (Buy side broker). The total quantity traded through this deal was 1,00,000 
+shares, representing 2.26% of the gross quantity traded during the entire period and 
+7.79% of the gross quantity traded during the settlemen t. F.R.M.A.N. Investments PTE 
+Limited was Noticee’s client on the buy side and C. Mackertich Limited was the selling 
+client with Credit Suisse First Boston (I) Securities Pvt. Ltd as the counterparty broker to 
+this deal. The percentage change to L ast Traded Price ( “LTP”) due to this deal was 
+0.04%. 
+ 
+ii. It is noted that t he Noticee vide its reply dated February 21, 2014 stated that the said 
+structured deal was executed on behalf of its client F .R.M.A.N. Investments PTE 
+Limited on February 24, 2000. F.R.M.A.N. Investments was the Offshore entity and they 
+had traded through the Noticee during the investigation period in large volumes and in 
+various scrips and was not related to  DSQ. The Noticee further submitted that they had 
+no relationship with Credit Suisse First Boston (I) Securities Pvt. Ltd. or C. Mackertich 
+Ltd. or any of their directors/promoters/officers.  The Noticee submitted that it  had 
+transacted at the instruction of the client and it is a coincidence that the trades matched 
+
+=== PDF page 14 ===
+Page 14 of 20 
+ 
+with that of C. Mackertich. It is not possible to know the counterparty in  screen based 
+trading.  It is also stated by the Noticee  that the transactions were payment and delivery 
+based. So there were change s in benefi cial ownership and there was no  significant 
+change in the price. 
+ 
+iii. It is noted from the enquiry report that the Noticee executed 14 cross deals in 6 days for 
+4,92,600 shares, representing 1.31% of the gross quantity traded during the entire period 
+on accounting period segment. These deal s were executed at LTP variations ranging 
+from -0.06% to 5.20%. Out of 14 cross deals in as many as 11 times the Noticee was the 
+selling side which accounted 2,41,400 shares. 
+ 
+iv. In this regard, it is noted from the submissions of t he Noticee that all these t rades were 
+carried out on screen based trading system over which they had no control except for 
+punching the orders and its delivery and payments which resulted in change in beneficial 
+ownership. Further, in relation to LTP variation, the Noticee submitted that in 7 cr oss 
+deals there were no LTP variation, positive LTP variation (less than 1%) in 4 cross deals, 
+positive LTP of 1.53% in 1 cross deal, positive LTP variation of 5.20% in 1 cross deal 
+and negative LTP variation of 0.06% in 1 cross deal.  
+ 
+v. It is noted from the enquiry report that quantity traded during December 1999 to April 
+2000 in the scrip of DSQ , in the rolling segment was 32,00,652 shares . During this 
+period, the Noticee traded for 31,95,066 shares (approx.99%) in the scrip of DSQ  . It is 
+also noted that the following DSQ related entities had sold shares in rolling segment 
+through the Noticee and the details are as under: 
+ 
+Entity name No. of shares sold 
+DSQ Industries Ltd. 6,05,010 
+Pilliyar Pattiyar Textiles Ltd. 4,00,000 
+Square D Textiles & Exports Ltd 5,00,000 
+
+=== PDF page 15 ===
+Page 15 of 20 
+ 
+Total 15,05,010 
+ 
+vi. It was noticed that major sellers in the market were DSQ related entities and the Noticee 
+had also sold 75,000 shares and bought 3,75,000 shares in the rolling segment.  
+ 
+vii. The Noticee submitted that there were only 3 trades executed by them in its own 
+account and all these trades were delivery based trades and which are in the normal 
+course of business. The Noticee further submitted that there is no embargo in law that a 
+stockbroker cannot invest or trade in it s own account and proprietary trading is legally 
+permissible and well recognized. It is also contended by the Noticee  that though the  
+trading done by it in the rolling segment during December 1999 to April 2000 amounted 
+to 99.83% of the entire quantity of trades , all such trades were delivery and payment 
+based. 
+ 
+viii. The Noticee has also submitted that it trades on behalf of the clients on the platform 
+provided by the exchanges . W hen a client wants to trade on a particular segment, the 
+Noticee as a stock broker cannot refuse to trade on their behalf. The broker simply has 
+to execute the transaction as per the instructions of the client on the platform provided 
+by the exchange. Quantum of trading cannot be the solitary factor for alleging mala-fides 
+against its trading. Further , the Noticee contended that it was  executing trades at the 
+instructions of clients at the price quantity, time and the platform as instructed by them.      
+ 
+ix. It was observed in the investigation that Noticee was the  largest trading member on the 
+rolling segment. Out of the total traded quantity of 32,00,652 shares, Noticee accounted 
+for 31,95,066 shares, representing 99.83% of the gross quantity traded on the rolling 
+segment during the period under scrutiny. Out of t his, a total of 31,89,964 shares i.e. 
+99.67% of the market gross quantity was traded by the Noticee through 35 cross deals in 
+5 days.  It was noticed that in 9 cross deals DSQ related entities appeared in bot h sell 
+and buy side and in 7 cross deals the Not icee bought 3,50,000 shares from the DSQ 
+Industries Ltd. As a result of these deals, t he percentage of  LTP  ranged from  -16.48% 
+to 3.33%.  I t is noted that trades were in the nature of cross deals and the orders were 
+
+=== PDF page 16 ===
+Page 16 of 20 
+ 
+entered for same price, quantity and almost at the same time between the DSQ related 
+entities and the Noticee also.  
+ 
+ 
+x. It is noted that out of 35 cross deals executed on rolling segment, 9 cross deals were 
+between the DSQ related entities and 7 cross deals were between the Noticee and DSQ 
+related entities on February 21, 2000. Through these cross deals they had accounted 16 
+lacs shares in the market in one day.  
+ 
+xi. The Noticee submitted that the allegation is based on execution of 35 cross deals on 
+behalf of its various clients on 5 different days. All the said tran sactions were carried out 
+by it in the normal course of business and in good faith. All these trades were carried out 
+on screen based trading system over which  it had no control except for punching the 
+orders and all the trades resulted in delivery and payment. The Noticee had also stated  
+that cross deals were executed on behalf of various clients and it was not restricted to 
+alleged DSQ group entities. It is also submitted by the Noticee that out of the 35 alleged 
+cross deals, there was 0% LTP variation in 29 cross deals, +ve LTP variation (less than 
+4%) in 2 cross deals and -ve LTP variation in 3 cross deals. Thus, there has been no 
+jacking up of the price as a result of the alleged cross deals.    
+ 
+xii. The Noticee has submitted that execution of cross deals on behalf of the clients were in 
+the nature of negotiated deals and which involve consensual bargaining in which the 
+parties agree on the scrip to be traded, the quantity to be bought /sold and the price a t 
+which the scrip will be bought/sold. Further, Noticee submitted that in order to 
+implement a negotiated deal through the trading system of an exchange, the buy and sell 
+orders will necessarily have to be synchronized by the parties and put into system 
+simultaneously. 
+ 
+xiii. It is noted that there has been an attempt to synchronise the punching of the time of the 
+buy and sell orders for DSQ related entities. The regular frequency with which the trades 
+were being executed i.e. the shares were moving between a select few entities and also 
+the orders were placed with minimum time difference between the said entities on many 
+
+=== PDF page 17 ===
+Page 17 of 20 
+ 
+occasions cannot be called coincidence. The further fact tha t the Noticee itself is the 
+counter party in seven cross deals further belies the version of the Noticee that it was 
+only executing the instructions of the negotiated deal. Hence the submission s of the 
+Noticee as given above is devoid of any merit, hence, not acceptable. 
+ 
+xiv. As regards the allegation of advance pay -out, it is noted from the enquiry report that the 
+client Square D Textiles  & Exports Ltd. had sold 5,00,000 shares on February 21, 2000.  
+With respect to this transaction scheduled pay -in/ pay -out date as  per exchange was 
+February 28, 2000. The sale proceeds of `37,25,05,167.00 were due from the exchange 
+on the scheduled pay -out date. Investigation revealed that Noticee had made advance 
+pay-out of  `23,62,55,167 on February 23, 2000 ( by way of Book entry date and actual 
+credit date was February 24, 2000), `9,62,06,000  on February 26, 2000 and remaining 
+amount  `4,00,44,000 on March 01, 2000 i.e. after pay -out declared by the exchange. On 
+the basis of the said facts, it is alleged that the Noticee has funded the client to the extent 
+of the advance pay-out. 
+ 
+xv. In this regard, the Noticee submitted that they were the broker for both buy and sell 
+side. So, they had received money from the buyer and which was further transferred to 
+the Square D Textiles(seller) at their request. The details of the same as submitted by the 
+Noticee is as under: 
+ The Noticee received an amount of `12,96,95,000 from Bajaj Auto Ltd and 
+`10,00,00,000 from Niche Financial Services Ltd. on February 23, 2000 towards purchase 
+of shares of DSQ   prior to the payment to Square D Textiles  (Seller) on February 24, 
+2000.  
+ 
+xvi. In the ordinary course of settlement the proceeds of the sales would be due to be paid by 
+the broker to the client only on the pay-out declared by the exchange, while  on the buy 
+side the payment for the buy position has to be made before the pay -in, which always 
+precedes the pay -out. However, it is not so in the present case. The Noticee has 
+
+=== PDF page 18 ===
+Page 18 of 20 
+ 
+provided sale proceeds of the shares to Square D T extiles  & Exports Ltd received from 
+the client in advance.  
+xvii. It is noted from the  statement of Shri Devang Dhruv, Asst. Vice President of the 
+Noticee recorded on November 03, 2004 that the clients were introduced by Shri Paresh 
+Khandwala (one of the promoters of the Noticee) and there  was no other relation ship 
+with the clients. It is also stated by the Noticee that they were not aware of the trading 
+strategy of the clients and did not ask the clients about the same. The Noticee submitted 
+that the trades were done in good faith hence, no due diligence was done for the clients. 
+It is noted from the KYC forms and the agreements of certain clients with Noticee that 
+Client Registration form s were incomplete. With regard to the deficiency in the  client 
+agreement form and lack of exercise of due diligence , the Noticee did not submit any 
+credible explanation. The Noticee merely stated that it had no reasons to question the 
+motives of the clients. Further, the Noticee submitted that it had complied all statutory 
+compliances from time to time.  This contention is unacceptable.  It is noted from the  
+Member-Client Agreement  that the Noticee was duty -bound to know the investment 
+objective, genuineness and financial soundness of its clients. In view of its failure to 
+adhere to the requirements of KYC norms, I note that the Noticee  had failed to exercise 
+due skill, care and diligence expected from a prudent stock broker who had a duty not 
+only towards its client but also towards the securities market. 
+xviii. In view of the foregoing and considering the facts of the case and the evidence available 
+on record, I find that the Noticee has violated the  provision of regulation 4(b), (c), (d) of 
+PFUTP 1995. Further, the Noticee had bypassed the settlement mechanism of the Stock 
+Exchanges and also failed to adhere to the requirements of KYC norms thereby violated 
+Clause A (1),(2),(3),(4) and (5) of Schedule II of the Regulation 7 of the Brokers 
+Regulations and, SEBI Circular no. SMD -1/23341 dated November 18, 1993, SMD/  
+POLICY/ IECG/1-97dated February 11, 1997 and SMD/ POLICY/ CIRCULAR/5-97 
+dated April 11, 1997. 
+ 
+xix. It is noted that the Noticee has been in business for more than 20 years and registered 
+with SEBI as Stock Broker, Merchant Banker and Portfolio Manager having various 
+
+=== PDF page 19 ===
+Page 19 of 20 
+ 
+retail as well as institutional clients  (viz., Banks, Financial Institutions, FIIs, Mutual 
+Funds, etc. 
+ 
+xx. However, the following facts are also pertinent to be mentioned: 
+ It is noted that this case pertains to transactions which took place during 
+December 1999 to January 2001. 
+ It is noted that the Noticee had indeed executed several synchronized trades and 
+various cross deals in the scrip, however, no concrete connection with the clients 
+can be seen from the material available on record. 
+ There was no significant price variation in the scrip due to the trades executed by 
+the Noticee.  
+20. All th ings considered , I am of the view that the matter may be allowed to rest with a strong 
+warning to the Noticee to be more cautious in future. 
+ 
+Order 
+ 
+21. I, therefore, in exercise of the powers conferred upon me by virtue of Section 19 of Securities 
+and Exchange Board of India Act, 1992 read with Regulation 28(2) of the  Intermediaries 
+Regulations, hereby warn the Noticee to be careful and cautious in the conduct of its business 
+and to adhere to and comply with all the statutory provisions while carrying out its activities in 
+the securities market.  Any future lapse on its part in complying with the said provisions shall 
+invite stringent action. 
+ 
+22. The enquiry proceedings initiated against the Noticee is disposed of accordingly. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF page 20 ===
+Page 20 of 20 
+ 
+Place: Mumbai  
+Date:  December 30, 2015 
+S. RAMAN 
+WHOLE TIME MEMBER 
+SECURITIES AND EXCHANGE BOARD OF INDIA 
+ 
+ 

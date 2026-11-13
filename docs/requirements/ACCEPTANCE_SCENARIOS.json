@@ -1,0 +1,896 @@
+{
+  "schema_version": "0.1",
+  "created_on": "2026-11-05",
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "purpose": "Acceptance examples for Step 3 design and later implementation; not a test runner, real dataset, completed audit or frozen research protocol.",
+  "conventions": {
+    "diagnostic_codes": "Proposed identifiers; implementation may standardize names while preserving the stated behavior and updating traceability.",
+    "isolation": "Start with a valid synthetic fixture and mutate one condition per subcase unless explicitly stated otherwise.",
+    "humans": "H1/H2 are fictional human identities used in fixtures; they do not confirm a real reviewer.",
+    "gate_fixture": "GATE_VALID is a unit-level aggregate decision input: protocol frozen; explicit valid scope/cutoffs; 40 distinct sampled matters reviewed with completed inventory; 20 strict episodes in 10 independent groups; all their critical slots valid; 950 of 1000 expected applicable cohort slots valid and all 1000 review dispositions finalized; required legal/identity/market coverage gates satisfied; integrity and leakage checks passed; core baselines reproduced. These counts are not a materialized registry.",
+    "slot_fixture": "The 100-slot examples test only the slot-completeness function; they do not purport to realize the 40-matter aggregate gate fixture.",
+    "calendar": "CAL_SYNTHETIC defines S1=2020-01-06, S2=2020-01-07, S3=2020-01-08, S4=2020-01-09, S5=2020-01-10, opening 09:15 and closing 15:30 at +05:30. It is a fictional test calendar, not a verified exchange calendar.",
+    "timing": "Verified exact timestamps are inclusive; date-only publication usable at the next synthetic session open. Authoring/audit timestamps are separate.",
+    "validation_limit": "Only catalogue structure and traceability may be checked at this stage. No application behavior has been executed."
+  },
+  "scenarios": [
+    {
+      "id": "AC01",
+      "requirements": [
+        "FR01"
+      ],
+      "title": "Import boundary rows",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "records": [
+          "wholly empty row",
+          "explicit fictional example row",
+          "partly populated real row without ID",
+          "well-formed real row"
+        ]
+      },
+      "when": "Import with declared example markers",
+      "expected": {
+        "ignored": 2,
+        "rejected": 1,
+        "accepted": 1,
+        "diagnostic": "MISSING_ID",
+        "note": "Never infer a real row is fictional from an arbitrary row number alone."
+      }
+    },
+    {
+      "id": "AC02",
+      "requirements": [
+        "FR02"
+      ],
+      "title": "Duplicate episode does not inflate counts",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "episodes": [
+          "E1",
+          "E2"
+        ],
+        "accepted_before": 2
+      },
+      "when": "Append a second conflicting E1 record",
+      "expected": {
+        "accepted_after": 1,
+        "quarantined_ids": [
+          "E1"
+        ],
+        "diagnostic": "DUPLICATE_EPISODE_ID",
+        "rule": "All records in a collision are quarantined; no keep-first rule."
+      }
+    },
+    {
+      "id": "AC03",
+      "requirements": [
+        "FR02",
+        "FR15"
+      ],
+      "title": "References and parents agree",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "order": {
+          "id": "O1",
+          "matter_id": "M1"
+        },
+        "episode": {
+          "id": "E1",
+          "matter_id": "M2"
+        }
+      },
+      "when": "Create evidence that links O1 to E1, then separately test a nonexistent order/episode/matter",
+      "expected": {
+        "accepted_evidence": 0,
+        "diagnostics": [
+          "PARENT_MISMATCH",
+          "UNKNOWN_REFERENCE"
+        ],
+        "frozen_run_status": "NOT_VALID",
+        "rule": "One mutation per subcase; report the affected key and field."
+      }
+    },
+    {
+      "id": "AC04",
+      "requirements": [
+        "FR02"
+      ],
+      "title": "Order and evidence IDs are unique",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "otherwise_valid_records": true
+      },
+      "when": "Duplicate an order ID, then independently duplicate an evidence ID",
+      "expected": {
+        "diagnostics": [
+          "DUPLICATE_ORDER_ID",
+          "DUPLICATE_EVIDENCE_ID"
+        ],
+        "rule": "Quarantine every colliding record and its unusable dependents; extra evidence never creates extra satisfied slots."
+      }
+    },
+    {
+      "id": "AC05",
+      "requirements": [
+        "FR03"
+      ],
+      "title": "Known positive integer PDF page count",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "page": 1
+      },
+      "when": "Independently set page_count to null, 0, -1, 2.5 or 'unknown'",
+      "expected": {
+        "valid": false,
+        "diagnostic": "INVALID_PAGE_COUNT",
+        "rule": "No blank-count bypass even if the page is otherwise numeric."
+      }
+    },
+    {
+      "id": "AC06",
+      "requirements": [
+        "FR03"
+      ],
+      "title": "PDF locator and provenance are checkable",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "source_type": "pdf",
+        "page_count": 2,
+        "source_url": "https://example.invalid/fictional.pdf",
+        "source_hash": "synthetic fixture hash",
+        "retrieved_at": "2026-11-05T10:00:00+05:30"
+      },
+      "when": "Test page 2, then independently page 3, 0, 1.5, null; remove source hash in a separate subcase",
+      "expected": {
+        "page_2_valid": true,
+        "other_pages_valid": false,
+        "missing_provenance_valid": false,
+        "diagnostics": [
+          "INVALID_PAGE",
+          "MISSING_PROVENANCE"
+        ],
+        "note": "The invalid URL is a fixture identifier; this case performs no network request. Non-PDF locators need their own designed contract."
+      }
+    },
+    {
+      "id": "AC07",
+      "requirements": [
+        "FR04",
+        "FR06",
+        "FR15"
+      ],
+      "title": "Missing evidence row stays in the denominator",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "expected_applicable_slots": 100,
+        "valid_independently_audited_slots": 95,
+        "finalized_unresolved_slots": 5
+      },
+      "when": "Delete the five unresolved evidence/disposition rows without changing the expected-slot inventory",
+      "expected": {
+        "denominator": 100,
+        "verified_share": 0.95,
+        "review_completion_share": 0.95,
+        "pending_slots": 5,
+        "review_complete": false,
+        "rule": "Deleting rows does not change expected obligations; if a critical slot is deleted that episode loses strict eligibility."
+      }
+    },
+    {
+      "id": "AC08",
+      "requirements": [
+        "FR04",
+        "FR06"
+      ],
+      "title": "Review completion differs from verified evidence",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "expected_applicable_slots": 100,
+        "valid_independently_audited_slots": 95,
+        "finalized_unresolved_slots": 5
+      },
+      "when": "Calculate shares, then add a redundant support citation to one verified slot",
+      "expected": {
+        "verified_share": 0.95,
+        "review_completion_share": 1,
+        "verified_share_after_extra_citation": 0.95,
+        "rule": "A finalized unresolved disposition counts only as reviewed. Zero expected slots yields unavailable, not 100%."
+      }
+    },
+    {
+      "id": "AC09",
+      "requirements": [
+        "FR04",
+        "FR06",
+        "FR14"
+      ],
+      "title": "Ordinary usable flags and omitted matters cannot produce PASS",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "gate_fixture": "GATE_VALID",
+        "manual_usable_episode_flags": 20,
+        "derived_strict_episodes": 0,
+        "review_complete": true
+      },
+      "when": "Compute gates; separately omit a selected matter from the reviewed inventory",
+      "expected": {
+        "zero_strict_status": "FAIL",
+        "omitted_matter_status": "IN_PROGRESS",
+        "deadline_omitted_matter_status": "INCOMPLETE",
+        "rule": "Manual usable flags and workbook caches are ignored. The omitted matter is still a cohort obligation."
+      }
+    },
+    {
+      "id": "AC10",
+      "requirements": [
+        "FR05"
+      ],
+      "title": "Human reviewer independence",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "extractor_id": "H1",
+        "auditor_id": "H2",
+        "both_human": true,
+        "required_dates_present": true
+      },
+      "when": "Use H1 as auditor under another display name; separately replace H2 by an AI agent",
+      "expected": {
+        "valid": false,
+        "diagnostic": "REVIEW_NOT_INDEPENDENT",
+        "rule": "Two labels for one human do not create two reviewers; AI is not a human auditor."
+      }
+    },
+    {
+      "id": "AC11",
+      "requirements": [
+        "FR05"
+      ],
+      "title": "Reviewed value and registry version agree",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "slot_value": "2020-01-06",
+        "evidence_value": "2020-01-06",
+        "registry_version": "R1",
+        "audited_version": "R1"
+      },
+      "when": "Independently change the evidence value, reference another registry version, or remove a required reviewer date",
+      "expected": {
+        "valid": false,
+        "diagnostics": [
+          "VALUE_MISMATCH",
+          "AUDIT_VERSION_MISMATCH",
+          "MISSING_REVIEW_DATE"
+        ],
+        "rule": "Typed normalization is explicit; a superseded audit is not silently reused for a changed value."
+      }
+    },
+    {
+      "id": "AC12",
+      "requirements": [
+        "FR11",
+        "FR14"
+      ],
+      "title": "Protocol state and mandatory configuration",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "gate_fixture": "GATE_VALID"
+      },
+      "when": "Unfreeze protocol; separately keep it frozen but remove C or run scope",
+      "expected": {
+        "unfrozen_status": "DRAFT",
+        "frozen_missing_cutoff_status": "NOT_VALID",
+        "frozen_missing_scope_status": "NOT_VALID",
+        "rule": "Do not infer a collection cutoff from the computer clock."
+      }
+    },
+    {
+      "id": "AC13",
+      "requirements": [
+        "FR02",
+        "FR14"
+      ],
+      "title": "Strict counts and independent groups",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "gate_fixture": "GATE_VALID"
+      },
+      "when": "Apply each boundary vector independently",
+      "expected": {
+        "vectors": [
+          {
+            "strict": 20,
+            "groups": 10,
+            "verified_share": 0.95,
+            "status": "PASS"
+          },
+          {
+            "strict": 19,
+            "groups": 10,
+            "verified_share": 0.95,
+            "status": "CONDITIONAL"
+          },
+          {
+            "strict": 20,
+            "groups": 9,
+            "verified_share": 0.95,
+            "status": "CONDITIONAL"
+          },
+          {
+            "strict": 10,
+            "groups": 10,
+            "verified_share": 0.95,
+            "status": "CONDITIONAL"
+          },
+          {
+            "strict": 9,
+            "groups": 9,
+            "verified_share": 0.95,
+            "status": "FAIL"
+          },
+          {
+            "strict": 20,
+            "groups": 10,
+            "verified_share": 0.94,
+            "status": "CONDITIONAL"
+          }
+        ],
+        "rule": "Ten matter IDs in nine related groups count as nine independent groups. Gate vectors test the decision function, not invented registry records."
+      }
+    },
+    {
+      "id": "AC14",
+      "requirements": [
+        "FR07"
+      ],
+      "title": "Assumed claim date cannot inherit early disclosure",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "first_disclosure_verified": "2020-01-06",
+        "critical_claim_support": {
+          "order_id": "O2",
+          "date_basis": "assumed",
+          "public_date": "2020-02-03"
+        }
+      },
+      "when": "Evaluate strict eligibility",
+      "expected": {
+        "strict": false,
+        "diagnostic": "UNVERIFIED_PUBLICATION",
+        "rule": "An earlier verified matter/order date does not verify a later supporting claim's availability."
+      }
+    },
+    {
+      "id": "AC15",
+      "requirements": [
+        "FR07",
+        "FR12"
+      ],
+      "title": "Post-cutoff support excluded",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "collection_cutoff": "2020-01-07T23:59:59+05:30",
+        "only_critical_support_public_at": "2020-01-08T10:00:00+05:30"
+      },
+      "when": "Build the release snapshot and rerun with a later computer wall-clock date",
+      "expected": {
+        "support_in_snapshot": false,
+        "strict": false,
+        "history_retained": true,
+        "output_unchanged_by_wall_clock": true,
+        "rule": "Keep the obligation unmet; storing future history is not itself an integrity failure."
+      }
+    },
+    {
+      "id": "AC16",
+      "requirements": [
+        "FR08"
+      ],
+      "title": "Label readiness from necessary claim supports",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "critical_claim_A_verified_support_times": [
+          "2020-01-06T10:00:00+05:30",
+          "2020-01-08T10:00:00+05:30"
+        ],
+        "critical_claim_B_verified_support_times": [
+          "2020-01-07T10:00:00+05:30"
+        ],
+        "episode_disclosure_evidence": {
+          "source_id": "O1",
+          "passage": "Fictional passage explicitly identifying the episode allegation and conduct scope",
+          "verified_public_at": "2020-01-06T10:00:00+05:30"
+        },
+        "older_identity_support_public_at": "2019-12-01T10:00:00+05:30",
+        "noncritical_scheme_first_support": "2020-01-08T10:00:00+05:30"
+      },
+      "when": "Derive disclosure and label readiness",
+      "expected": {
+        "first_disclosure": "2020-01-06T10:00:00+05:30",
+        "label_ready": "2020-01-07T10:00:00+05:30",
+        "rule": "First disclosure uses evidence that actually discloses this episode, not the older identity record. For label readiness choose earliest valid support per critical claim, then the latest across required claims. Redundant later support for A does not delay readiness.",
+        "scheme_visible_at_label_ready": false,
+        "scheme_visible_at_its_verified_support_time": true
+      }
+    },
+    {
+      "id": "AC17",
+      "requirements": [
+        "FR12"
+      ],
+      "title": "Timestamp and date-only boundaries",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "calendar": "CAL_SYNTHETIC",
+        "verified_timestamp": "2020-01-06T10:00:00+05:30",
+        "date_only_publication": "2020-01-06"
+      },
+      "when": "Query just before and exactly at the verified timestamp, then evaluate the date-only source at S1 close and S2 open",
+      "expected": {
+        "exact_before_visible": false,
+        "exact_at_visible": true,
+        "date_only_S1_visible": false,
+        "date_only_S2_open_visible": true,
+        "rule": "Use the fixture convention, not the host timezone or a guessed real exchange calendar."
+      }
+    },
+    {
+      "id": "AC18",
+      "requirements": [
+        "FR07",
+        "FR08",
+        "FR12",
+        "FR22"
+      ],
+      "title": "Later public facts preserve earlier views",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "release": "R1",
+        "earlier_snapshot": "2020-01-07T12:00:00+05:30",
+        "claim_A_public_at": "2020-01-06T10:00:00+05:30"
+      },
+      "when": "Append a genuinely new correction/legal fact made public on January 8 and rebuild the earlier view",
+      "expected": {
+        "earlier_model_inputs_unchanged": true,
+        "earlier_label_version_unchanged": true,
+        "later_view_uses_new_version": true,
+        "rule": "Compare immutable releases with the same prior source interpretation; a researcher extraction correction is covered separately by AC19."
+      }
+    },
+    {
+      "id": "AC19",
+      "requirements": [
+        "FR07",
+        "FR22"
+      ],
+      "title": "Researcher extraction correction creates a new release",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "release": "R1",
+        "source_public_at": "2020-01-06T10:00:00+05:30",
+        "extracted_value_in_R1": "incorrect",
+        "source_value": "correct"
+      },
+      "when": "Correct the extraction in 2026 and generate R2",
+      "expected": {
+        "R1_retained": true,
+        "R2_records_correction": true,
+        "impact_log_required": true,
+        "R2_historical_value_may_change": true,
+        "rule": "Audit/authoring time does not replace public time. Do not falsely assert invariance between erroneous and corrected benchmark releases."
+      }
+    },
+    {
+      "id": "AC20",
+      "requirements": [
+        "FR09",
+        "FR15"
+      ],
+      "title": "Legal event requires status, source and dates",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "otherwise_valid_event": true
+      },
+      "when": "Independently remove status, resolvable source, event date, public date or target; separately set legal-history search to unknown",
+      "expected": {
+        "invalid_event_applied": false,
+        "malformed_in_scope_event_status": "NOT_VALID",
+        "unknown_search_means_no_appeal": false,
+        "diagnostics": [
+          "INVALID_LEGAL_EVENT",
+          "LEGAL_HISTORY_UNKNOWN"
+        ],
+        "rule": "An explicit finalized unknown is a quality/policy limitation, not a fabricated clean history. A missing required structural field is invalid."
+      }
+    },
+    {
+      "id": "AC21",
+      "requirements": [
+        "FR09"
+      ],
+      "title": "Legal changes affect only declared targets",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "episodes": [
+          "E1",
+          "E2"
+        ],
+        "legal_event": {
+          "target_episode_ids": [
+            "E1"
+          ],
+          "public_at": "2020-01-08T10:00:00+05:30"
+        }
+      },
+      "when": "Apply the event before and after its public availability",
+      "expected": {
+        "before_neither_changes": true,
+        "after_E1_changes": true,
+        "after_E2_unchanged": true,
+        "rule": "Do not propagate an episode-scoped legal event to the whole matter."
+      }
+    },
+    {
+      "id": "AC22",
+      "requirements": [
+        "FR10"
+      ],
+      "title": "Historical instrument linkage is time bounded",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "episode_window": [
+          "2020-01-06",
+          "2020-01-08"
+        ],
+        "mapping_valid_from": "2020-02-01",
+        "same_current_symbol": true
+      },
+      "when": "Attempt historical linkage using only that later mapping",
+      "expected": {
+        "linked": false,
+        "strict": false,
+        "diagnostic": "HISTORICAL_ID_UNVERIFIED",
+        "rule": "A current ticker match is insufficient. Venue and valid-time intervals belong in the identity contract."
+      }
+    },
+    {
+      "id": "AC23",
+      "requirements": [
+        "FR10",
+        "FR13"
+      ],
+      "title": "Warm-up and market data obey scoring time",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "required_prior_sessions": 3,
+        "available_prior_sessions": 2,
+        "score_at": "2020-01-08T09:15:00+05:30"
+      },
+      "when": "Add a future bar, then separately add the missing permitted past bar; perturb a later corporate-action adjustment",
+      "expected": {
+        "future_bar_fixes_coverage": false,
+        "past_bar_fixes_coverage": true,
+        "same_day_EOD_bar_allowed": false,
+        "later_action_must_not_change_earlier_features": true,
+        "rule": "Distinguish full conduct coverage from warm-up coverage. If point-in-time adjustment provenance is unavailable, record a limitation and do not claim verified invariance."
+      }
+    },
+    {
+      "id": "AC24",
+      "requirements": [
+        "FR11"
+      ],
+      "title": "Frozen frame and deterministic draw",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "synthetic_frame_ids": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "frame_hash": "computed from canonical fixture bytes",
+        "fixed_seed": 123,
+        "algorithm_version": "fixture-algorithm-v1"
+      },
+      "when": "Repeat draw; then mutate a frame row or a grouping rule after freeze",
+      "expected": {
+        "repeated_selected_ids_identical": true,
+        "mutation_diagnostic": "FROZEN_INPUT_CHANGED",
+        "mutation_requires_new_manifest": true,
+        "rule": "Record sorting/ranking and replacement rules. This test does not draw a real research sample."
+      }
+    },
+    {
+      "id": "AC25",
+      "requirements": [
+        "FR01",
+        "FR20"
+      ],
+      "title": "Input provenance and release manifests",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "inputs": "synthetic source and annotation files",
+        "same_code_and_environment": true
+      },
+      "when": "Run twice; separately mutate an input byte",
+      "expected": {
+        "original_input_files_unchanged": true,
+        "identical_input_hashes_on_repeat": true,
+        "changed_byte_changes_hash": true,
+        "manifest_required": [
+          "code_version_or_source_hash",
+          "environment_lock_hash",
+          "data_hashes",
+          "protocol_hash",
+          "frame_hash_or_not_applicable",
+          "schema_version",
+          "seeds",
+          "calendar_hash",
+          "commands"
+        ],
+        "rule": "Operational timestamps may differ; deterministic content and provenance references must agree. A frame-free synthetic run states not applicable explicitly."
+      }
+    },
+    {
+      "id": "AC26",
+      "requirements": [
+        "FR12",
+        "FR15"
+      ],
+      "title": "Authoring diagnostics versus run scope",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "frozen_run_scope": "explicit IDs/time boundary",
+        "valid_run_inputs": true
+      },
+      "when": "Append an unreviewed future record; separately append a malformed record known to be outside scope, then one with indeterminate scope",
+      "expected": {
+        "future_model_inputs_unchanged": true,
+        "known_outside_scope_diagnostic_retained": true,
+        "known_outside_scope_does_not_invalidate_run": true,
+        "unknown_scope_may_not_be_silently_excluded": true,
+        "in_scope_pending_review_blocks_readiness": true,
+        "rule": "A diagnostic can exist in the global authoring inventory without leaking into an earlier model snapshot."
+      }
+    },
+    {
+      "id": "AC27",
+      "requirements": [
+        "FR13"
+      ],
+      "title": "Group isolation and fitting boundaries",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "related_matters": [
+          "M1",
+          "M2"
+        ],
+        "independence_group": "G1",
+        "chronological_folds": true
+      },
+      "when": "Try to split M1/M2 across train/test; independently perturb test labels/prices and future observations; separately set fit cutoff c later than score time t.",
+      "expected": {
+        "group_split_rejected": true,
+        "forbidden_overlap_rejected": true,
+        "fitted_training_preprocessor_unchanged_by_test_data": true,
+        "threshold_selection_unchanged_by_test_labels": true,
+        "rule": "Historical labels and transforms must respect fit cutoff c; purge/embargo and matching rules must be explicit before real evaluation.",
+        "fit_after_prediction_rejected": true,
+        "fit_after_prediction_diagnostic": "FIT_AFTER_SCORE_TIME"
+      }
+    },
+    {
+      "id": "AC28",
+      "requirements": [
+        "FR14",
+        "FR21"
+      ],
+      "title": "Decision precedence and deadline",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "gate_fixture": "GATE_VALID"
+      },
+      "when": "Apply each mutation independently",
+      "expected": {
+        "vectors": [
+          {
+            "mutation": "protocol unfrozen",
+            "status": "DRAFT"
+          },
+          {
+            "mutation": "in-scope duplicate key",
+            "status": "NOT_VALID"
+          },
+          {
+            "mutation": "leakage test failed",
+            "status": "NOT_VALID"
+          },
+          {
+            "mutation": "pending review before deadline",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "mutation": "pending review at deadline",
+            "status": "INCOMPLETE"
+          },
+          {
+            "mutation": "leakage test not run and detector evaluation required",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "mutation": "same unfinished evaluation at deadline",
+            "status": "INCOMPLETE"
+          }
+        ],
+        "rule": "A completed registry-only conditional feasibility report may state detector validity unestablished. It cannot claim detector PASS. DRAFT does not suppress diagnostic details."
+      }
+    },
+    {
+      "id": "AC29",
+      "requirements": [
+        "FR16",
+        "FR20"
+      ],
+      "title": "Reproducible core baselines",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "dataset": "deterministic synthetic time series with explicit training/scoring partitions",
+        "seed": 123,
+        "environment": "pinned",
+        "numeric_tolerance": "declared per output before comparison"
+      },
+      "when": "Run statistical scores and Isolation Forest twice",
+      "expected": {
+        "integer_counts_and_splits_equal": true,
+        "numerical_outputs_within_declared_tolerance": true,
+        "settings_and_seed_recorded": true,
+        "no_paid_dependency_required": true,
+        "rule": "Performance is measured; no hardware-independent speed target is invented."
+      }
+    },
+    {
+      "id": "AC30",
+      "requirements": [
+        "FR16",
+        "FR17"
+      ],
+      "title": "Metrics preserve denominators and unknown labels",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "known_episodes": 4,
+        "known_episodes_detected": 2,
+        "scored_observations": 100,
+        "alerted_observations": 10,
+        "known_matter_groups": 3,
+        "detected_matter_groups": 2,
+        "scored_observation_unit": "instrument-session",
+        "known_matters": 4,
+        "detected_matters": 2,
+        "timing_subfixture": {
+          "E1": {
+            "conduct_start": "S1",
+            "first_matching_alert": "S2"
+          },
+          "E2": {
+            "conduct_start": "S2",
+            "first_matching_alert": "S4"
+          },
+          "E3": {
+            "conduct_start": "S1",
+            "first_matching_alert": null
+          },
+          "E4": {
+            "conduct_start": "S1",
+            "first_matching_alert": null
+          }
+        },
+        "cluster_subfixture": {
+          "instrument": "I1",
+          "alert_sessions": [
+            "S1",
+            "S2",
+            "S4"
+          ],
+          "rule": "Consecutive alerted sessions form one cluster; a non-alerted session ends a cluster."
+        }
+      },
+      "when": "Calculate metrics; separately set known episodes or scored observations to zero and create an infeasible fitting fold",
+      "expected": {
+        "known_episode_recall": 0.5,
+        "known_matter_recall": 0.5,
+        "zero_denominator": "UNAVAILABLE",
+        "infeasible_fold": "NOT_EVALUATED",
+        "unlabeled_alerts_are_false_positives": false,
+        "rule": "Count the known episode, matter and group denominators separately. Alerts use the actual prespecified scored universe. Timing is session-index(first matched alert) minus session-index(conduct start); misses stay NOT_DETECTED, not zero delay. Cluster and timing subfixtures are separate from the aggregate count fixture and define synthetic rules only; freeze actual matching/cooldown rules before real evaluation.",
+        "known_independent_group_recall": "2/3",
+        "alert_fraction": 0.1,
+        "alerts_per_1000_scored_instrument_sessions": 100,
+        "timing_subfixture_delay_sessions": {
+          "E1": 1,
+          "E2": 2,
+          "E3": "NOT_DETECTED",
+          "E4": "NOT_DETECTED"
+        },
+        "cluster_subfixture_count": 2
+      }
+    },
+    {
+      "id": "AC31",
+      "requirements": [
+        "FR18"
+      ],
+      "title": "H1 requires a label-dependent intervention",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "core_models": [
+          "statistical rules",
+          "Isolation Forest"
+        ],
+        "no_label_dependent_tuning": true
+      },
+      "when": "Attempt H1; then separately supply a feasible label-dependent model and compare runs",
+      "expected": {
+        "core_only_H1": "DEFERRED",
+        "label_dependent_run_changes_only": "permitted training-label information",
+        "fixed_between_runs": [
+          "features",
+          "splits",
+          "scoring_population",
+          "scoring_labels",
+          "model_settings_except_declared_label_intervention"
+        ],
+        "predictions_need_not_differ": true,
+        "rule": "A null empirical effect is valid. Using eventual labels only to score already frozen predictions does not itself leak into training."
+      }
+    },
+    {
+      "id": "AC32",
+      "requirements": [
+        "FR19"
+      ],
+      "title": "Sample fraction is not automatically a frame estimate",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "sampled_episodes": 40,
+        "strict_usable_episodes": 20,
+        "unequal_sampling_strata": true,
+        "stratum_frame_sizes": null
+      },
+      "when": "Generate feasibility summary; later provide valid matter-level frame sizes and inclusion probabilities",
+      "expected": {
+        "descriptive_sample_fraction": 0.5,
+        "initial_frame_wide_estimate": "UNAVAILABLE",
+        "initial_pooled_Wilson_interval_as_frame_inference": false,
+        "later_estimator_requires": "declared estimand, unit, design weights and matching uncertainty method",
+        "rule": "Order-listing counts are not eligible matter frame sizes. Episode yields within sampled matter clusters require explicit ratio/cluster treatment; do not silently use 20/40 as a matter estimate."
+      }
+    },
+    {
+      "id": "AC33",
+      "requirements": [
+        "FR21"
+      ],
+      "title": "Deadline release with unavailable reviewer",
+      "status": "DESIGNED_NOT_RUN",
+      "given": {
+        "implemented_increment": "synthetic registry-to-report workflow",
+        "independent_human_reviewer": null,
+        "real_case_audit_complete": false,
+        "deadline_reached": true,
+        "protocol_frozen": false
+      },
+      "when": "Prepare the local release/report",
+      "expected": {
+        "synthetic_results_labelled": true,
+        "invented_accepted_cases": 0,
+        "detector_quality_claims": false,
+        "missing_dependencies_listed": true,
+        "local_reproduction_instructions_present": true,
+        "rule": "Deadline delivery status describes unfinished promised work separately from the research decision, which stays DRAFT while unfrozen. No GitHub push or remote publication follows automatically from preparing a release.",
+        "delivery_status": "INCOMPLETE",
+        "research_decision": "DRAFT"
+      }
+    }
+  ]
+}

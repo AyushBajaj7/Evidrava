@@ -1,0 +1,68 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.3.0",
+  "name_finalized_by": "user",
+  "session_date": "2026-11-13",
+  "timezone": "Asia/Calcutta",
+  "scope": "Project naming, official-source acquisition, provisional text, robustness tests and documentation",
+  "verification_started_utc": "2026-11-13T17:31:07.786857+00:00",
+  "verification_completed_utc": "2026-11-13T17:31:15.844291+00:00",
+  "local_python_tests": 125,
+  "test_result": "PASS",
+  "test_duration_seconds": 7.54,
+  "test_command": "python -m unittest discover -s tests -v",
+  "test_log": "pilot/development/evidrava-tests-2026-11-13.txt",
+  "test_log_sha256": "465c46d94a005d036cae1ca5c88f1fa54a92613433dcc597ea5cdb0da605c6aa",
+  "test_scope": {
+    "workbook_preparation": 43,
+    "screening": 31,
+    "source_acquisition": 51
+  },
+  "live_source_collection": {
+    "manifest": "pilot/sources/recon-first-three/manifest.json",
+    "manifest_sha256": "3b09f5e794f310b30b40aa50985af38f270e6aa3d2583fcf7dda3bc465790db5",
+    "acquired": 3,
+    "pdf_page_counts": [
+      5,
+      32,
+      20
+    ],
+    "successful_response_bytes": 1119011,
+    "successful_response_requests": 6,
+    "files_verified": 13,
+    "note": "Capture preceded final redirect-body and truncated-response hardening. Captures had no redirects or partial responses; new paths are covered by offline regressions."
+  },
+  "source_files_sha256": {
+    "evidrava/__init__.py": "1336e635e84aaa6f8d5628f7ad28363010ea7eebf092f6812dd953b344bd1608",
+    "evidrava/__main__.py": "d7f9642eb676fa3d54a629d8fe3c60e454e8dfd1e616044d239083d81448fead",
+    "evidrava/checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "evidrava/report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "evidrava/screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "evidrava/screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "evidrava/sources.py": "2dc29bd23ee3d9e9641ec9b0777a84ff3e870002ceb82662b8fbedf6eea04d59",
+    "evidrava/workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057",
+    "sebi_benchmark/__init__.py": "f4b79398477954eba1cc0052ac925e04c68b3bfe1c533c6fee35ca415d687676",
+    "sebi_benchmark/__main__.py": "a9cef2e5a54cbcae752b8e5ac5ebf5f9d64d2f2ae3c07ba9f4c362b5fadbe320",
+    "tests/test_checker.py": "1d0a2ebcc4e604e193fbe3f8ff4b0810b804ca8c6adbfa538d2efb6f89ad9c3a",
+    "tests/test_screening.py": "97e83a5c8cdaae1ed9738ae9e56e4971292e6215ec492ba82a0607eccc1941f0",
+    "tests/test_sources.py": "335cf2dd43f260edaf5debbef204ac8bfec6c971634f23fddec752235be3c33a"
+  },
+  "received_files_unchanged": 9,
+  "human_screening_completed": 0,
+  "complete_human_timing_observations": 0,
+  "reviewer_status": "UNCONFIRMED",
+  "protocol_status": "DRAFT",
+  "research_decision": "NOT_EVALUATED",
+  "supplied_workbook_scenarios_reexecuted_locally": 0,
+  "excel_compatibility": "UNVERIFIED",
+  "human_active_engineering_hours": null,
+  "total_agent_active_hours": null,
+  "twenty_hour_cap_compliance": "UNKNOWN; prior work and interruptions are not a measured active-effort log",
+  "installation": {
+    "editable_install": "SUCCEEDED",
+    "module_invocation": "VERIFIED",
+    "console_launchers": "BLOCKED_BY_WINDOWS_APPLICATION_CONTROL",
+    "security_settings_changed": false
+  },
+  "published": false
+}

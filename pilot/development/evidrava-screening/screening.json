@@ -1,0 +1,1044 @@
+{
+  "report_kind": "screening-workload",
+  "status": "IN_PROGRESS",
+  "research_decision": "NOT_EVALUATED",
+  "summary": {
+    "expected_records": 30,
+    "completed_screening_attempts": 0,
+    "pending_records": 30,
+    "decisions": {
+      "include": 0,
+      "exclude": 0,
+      "uncertain": 0
+    },
+    "unresolved_records": 0,
+    "complete_timing_observations": 0,
+    "observed_minutes": {
+      "screening_active_minutes": {
+        "observations": 0,
+        "total": null
+      },
+      "grouping_active_minutes": {
+        "observations": 0,
+        "total": null
+      },
+      "predecessor_active_minutes": {
+        "observations": 0,
+        "total": null
+      },
+      "access_wait_minutes": {
+        "observations": 0,
+        "total": null
+      }
+    },
+    "logged_active_minutes": null,
+    "complete_active_minutes": {
+      "observations": 0,
+      "sum": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "strata": {
+    "2011-2015": {
+      "expected_records": 10,
+      "completed_screening_attempts": 0,
+      "pending_records": 10,
+      "decisions": {
+        "include": 0,
+        "exclude": 0,
+        "uncertain": 0
+      },
+      "unresolved_records": 0,
+      "complete_timing_observations": 0,
+      "observed_minutes": {
+        "screening_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "grouping_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "predecessor_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "access_wait_minutes": {
+          "observations": 0,
+          "total": null
+        }
+      },
+      "logged_active_minutes": null,
+      "complete_active_minutes": {
+        "observations": 0,
+        "sum": null,
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "2016-2020": {
+      "expected_records": 10,
+      "completed_screening_attempts": 0,
+      "pending_records": 10,
+      "decisions": {
+        "include": 0,
+        "exclude": 0,
+        "uncertain": 0
+      },
+      "unresolved_records": 0,
+      "complete_timing_observations": 0,
+      "observed_minutes": {
+        "screening_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "grouping_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "predecessor_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "access_wait_minutes": {
+          "observations": 0,
+          "total": null
+        }
+      },
+      "logged_active_minutes": null,
+      "complete_active_minutes": {
+        "observations": 0,
+        "sum": null,
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "2021-2025": {
+      "expected_records": 10,
+      "completed_screening_attempts": 0,
+      "pending_records": 10,
+      "decisions": {
+        "include": 0,
+        "exclude": 0,
+        "uncertain": 0
+      },
+      "unresolved_records": 0,
+      "complete_timing_observations": 0,
+      "observed_minutes": {
+        "screening_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "grouping_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "predecessor_active_minutes": {
+          "observations": 0,
+          "total": null
+        },
+        "access_wait_minutes": {
+          "observations": 0,
+          "total": null
+        }
+      },
+      "logged_active_minutes": null,
+      "complete_active_minutes": {
+        "observations": 0,
+        "sum": null,
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null
+      }
+    }
+  },
+  "records": [
+    {
+      "screening_id": "RECON-01",
+      "stratum": "2011-2015",
+      "title": "Adjudcation order against Amrapali Films",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/adjudcation-order-against-amrapali-films_31392.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-02",
+      "stratum": "2011-2015",
+      "title": "Order in the matter of Home Trade Ltd.",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-the-matter-of-home-trade-ltd-_31394.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-03",
+      "stratum": "2011-2015",
+      "title": "Order in respect of Khandwala Securities Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-in-respect-of-khandwala-securities-limited_31373.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-04",
+      "stratum": "2011-2015",
+      "title": "Order -Multi Purpose Bios India Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-multi-purpose-bios-india-limited_31356.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-05",
+      "stratum": "2011-2015",
+      "title": "In the matter of Mavi Investment Fund Ltd.",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-mavi-investment-fund-ltd-_25052.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-06",
+      "stratum": "2011-2015",
+      "title": "Appeal No. 1706 of 2013 filed by Mr. Shantaram Walavalkar.",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/appeal-no-1706-of-2013-filed-by-mr-shantaram-walavalkar-_25006.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-07",
+      "stratum": "2011-2015",
+      "title": "In the matter of Manjula Jain",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-manjula-jain_25004.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-08",
+      "stratum": "2011-2015",
+      "title": "Adjudication Order passed against Ruchiraj Share and Stock Brokers Pvt Ltd in the matter of Shree Yaax Pharma and Cosmetics Ltd",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/adjudication-order-passed-against-ruchiraj-share-and-stock-brokers-pvt-ltd-in-the-matter-of-shree-yaax-pharma-and-cosmetics-ltd_14502.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-09",
+      "stratum": "2011-2015",
+      "title": "Order In the matter of Design Auto Systems Ltd in respect of D. G. Goenka Equities Pvt Ltd",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/order-in-the-matter-of-design-auto-systems-ltd-in-respect-of-d-g-goenka-equities-pvt-ltd_14550.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-10",
+      "stratum": "2011-2015",
+      "title": "Appeal No. 1037 of 2010 filed by Mr. Madan Kumar Chaudhary",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/appeal-no-1037-of-2010-filed-by-mr-madan-kumar-chaudhary_14461.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-11",
+      "stratum": "2016-2020",
+      "title": "Exparte-Ad-Interim Order Cum Show Cause Notice dated Dec 31, 2020, In the matter of Rakhal Bharoti Fish and Food Processing Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/exparte-ad-interim-order-cum-show-cause-notice-dated-dec-31-2020-in-the-matter-of-rakhal-bharoti-fish-and-food-processing-limited_48629.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-12",
+      "stratum": "2016-2020",
+      "title": "Adjudication Order in respect of Mr. Jayesh Shah in the matter of Pyramid Saimira Theatre Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-mr-jayesh-shah-in-the-matter-of-pyramid-saimira-theatre-limited_48607.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-13",
+      "stratum": "2016-2020",
+      "title": "Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd.",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-comfort-intech-ltd-in-the-matter-of-ravi-kumar-distilleries-ltd-_48588.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-14",
+      "stratum": "2016-2020",
+      "title": "Adjudication Order in respect of Sunita Investments- Proprietor, Sunita Gupta in the matter of Mefcom Agro Industries Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-sunita-investments-proprietor-sunita-gupta-in-the-matter-of-mefcom-agro-industries-limited_48573.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-15",
+      "stratum": "2016-2020",
+      "title": "Appeal No. 3161 & 3162 of 2018 filed by Mr Piyush Shrivastava",
+      "url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3161-and-3162-of-2018-filed-by-mr-piyush-shrivastava_40356.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-16",
+      "stratum": "2016-2020",
+      "title": "Adjudication Order against 35 Entities in the matter of Shakti Pumps (India) Ltd., [SAT Appeal No.: 367/2019][SAT Appeal No.: 619 /2019] [SAT Appeal No.: 76/2019 & Misc App No. 120/2019][SAT Appeal No.: 103/2019 & Misc. App No.161/2019][SAT Appeal No.: 161/2019 & Misc.App.No.222/2019]",
+      "url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-17",
+      "stratum": "2016-2020",
+      "title": "Appeal No. 3155 of 2018 filed by Kunduru Sri Ranga Reddy",
+      "url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-18",
+      "stratum": "2016-2020",
+      "title": "Order in the matter of M/s. Express Cultivation Limited.",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-m-s-express-cultivation-limited-_31449.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-19",
+      "stratum": "2016-2020",
+      "title": "Adjudication order against Asian Closures Ltd (formerly knwon as Asian Consolidated Industries Ltd.) for non-redressal of investor grievance",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/adjudication-order-against-asian-closures-ltd-formerly-knwon-as-asian-consolidated-industries-ltd-for-non-redressal-of-investor-grievance_31420.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-20",
+      "stratum": "2016-2020",
+      "title": "Order in the matter of Godavari Biorefineries Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-godavari-biorefineries-limited_31404.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-21",
+      "stratum": "2021-2025",
+      "title": "Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/order-in-respect-of-paresh-nathalal-chauhan-in-the-matter-of-timbor-home-limited_98776.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-22",
+      "stratum": "2021-2025",
+      "title": "Exemption order in the matter of Neogen Chemicals Ltd.",
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/eo_neogen_chemicals.pdf",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-23",
+      "stratum": "2021-2025",
+      "title": "Appeal No. 6644 of 2025 filed by Surendra Champalaji Jain",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6644-of-2025-filed-by-surendra-champalaji-jain_98611.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-24",
+      "stratum": "2021-2025",
+      "title": "Appeal No. 6638 of 2025 filed by Sapan Shrivastava",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6638-of-2025-filed-by-sapan-shrivastava_98653.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-25",
+      "stratum": "2021-2025",
+      "title": "Appeal No. 5507 of 2022 filed by Kusum Gupta",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5507-of-2022-filed-by-kusum-gupta_66593.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-26",
+      "stratum": "2021-2025",
+      "title": "Appeal No 5503 of 2022 filed by Kusum Gupta",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5503-of-2022-filed-by-kusum-gupta_66449.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-27",
+      "stratum": "2021-2025",
+      "title": "Final Order in the matter of Bonaz Capital Investment Adviser",
+      "url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/final-order-in-the-matter-of-bonaz-capital-investment-adviser_66410.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-28",
+      "stratum": "2021-2025",
+      "title": "Adjudication Order in respect of Mobonair Wireless Private Limited in the matter of Thirani Projects Limited",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/adjudication-order-in-respect-of-mobonair-wireless-private-limited-in-the-matter-of-thirani-projects-limited_48686.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-29",
+      "stratum": "2021-2025",
+      "title": "Appeal no. 4004 of 2020 filed by Pradeep Kumar",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-4004-of-2020-filed-by-pradeep-kumar_48666.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    },
+    {
+      "screening_id": "RECON-30",
+      "stratum": "2021-2025",
+      "title": "Appeal No. 3998 of 2020 filed by Viibhu Aggarwaal",
+      "url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-3998-of-2020-filed-by-viibhu-aggarwaal_48634.html",
+      "decision": null,
+      "disposition_complete": false,
+      "timing_complete": false,
+      "unresolved": false,
+      "valid": true,
+      "missing_fields": [
+        "cash_equity_scope",
+        "document_opened",
+        "followup_needed",
+        "group_key_or_uncertain",
+        "human_decision_reason",
+        "human_reviewer_id",
+        "human_screening_decision",
+        "predecessor_search_status"
+      ],
+      "timings": {
+        "screening_active_minutes": null,
+        "grouping_active_minutes": null,
+        "predecessor_active_minutes": null,
+        "access_wait_minutes": null
+      },
+      "active_total_minutes": null
+    }
+  ],
+  "diagnostics": [],
+  "missing_records": [],
+  "planning_scenario": {
+    "requested_candidate_listings": null,
+    "illustrative_initial_screening_hours": null,
+    "assumptions": [
+      "Same listing mix and initial-screening effort as this positional batch",
+      "Excludes future follow-up, annotation, audit and data-linkage work",
+      "A planning scenario, not a population estimate or deadline forecast"
+    ]
+  },
+  "limitations": [
+    "Positional reconnaissance batch; not the random research sample",
+    "Human-entered decisions and minutes are recorded assertions, not independently audited facts",
+    "Missing minutes are unavailable; explicit zero is an observed value",
+    "Machine retrieval time and title triage do not count as human work",
+    "Unresolved follow-ups remain open even when the screening attempt is fully timed"
+  ],
+  "checker_version": "0.3.0",
+  "created_at_utc": "2026-11-13T17:29:16.874533+00:00",
+  "input_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+  "input_name": "screening_30.csv",
+  "reference_provenance": {
+    "reference_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+    "manifest_sha256": "2ab12ca3ac3c856699a80c03e3fd0a062390c41d07949ae45fd38d822a660c9f",
+    "preparer_sha256": "e327f05c7f76564ffc7cbc52808bbd2b7f2beb6526ec166aab684c1c77761048",
+    "verified_raw_captures": 9
+  },
+  "python_version": "3.12.14",
+  "checker_source_sha256": {
+    "__init__.py": "1336e635e84aaa6f8d5628f7ad28363010ea7eebf092f6812dd953b344bd1608",
+    "__main__.py": "d7f9642eb676fa3d54a629d8fe3c60e454e8dfd1e616044d239083d81448fead",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "sources.py": "2dc29bd23ee3d9e9641ec9b0777a84ff3e870002ceb82662b8fbedf6eea04d59",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  }
+}

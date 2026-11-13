@@ -1,0 +1,56 @@
+{
+  "validation_only": true,
+  "research_decision": "NOT_EVALUATED",
+  "protocol_status": "DRAFT",
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "CUTOFF_MISSING",
+      "sheet": "Rules",
+      "cell": "B7",
+      "message": "Set a valid date-only collection cutoff before freeze"
+    }
+  ],
+  "metrics": {
+    "matters": 0,
+    "episodes": 0,
+    "registered_people": 0,
+    "required_slots": 0,
+    "valid_audited_slots": 0,
+    "review_completed_slots": 0,
+    "missing_valid_audit_slots": 0,
+    "audit_share": null,
+    "review_completion_share": null,
+    "documented_legal_events": 0,
+    "unverified_legal_events": 0,
+    "verified_delay_observations": 0,
+    "disclosure_excluded_episodes": 0,
+    "verified_delay_median_days": null
+  },
+  "readiness": [
+    "Protocol remains DRAFT; screening, software work and provisional extraction may continue",
+    "Independent reviewer is not registered; this does not block engineering or provisional annotation",
+    "No in-scope study matters entered; row 5 examples are excluded",
+    "A separately preserved selected-matter manifest is required before accepting a frozen cohort",
+    "Source passages, reviewer identity, legal interpretation and actual market coverage require human verification",
+    "Model evaluation and research PASS/CONDITIONAL/FAIL are not computed by this preparation checker"
+  ],
+  "validation_status": "VALID",
+  "counts_provisional": false,
+  "checker_version": "0.1.0",
+  "created_at_utc": "2026-11-13T04:42:15.746782+00:00",
+  "source_name": "SEBI_Episode_Registry_v3_3.xlsx",
+  "workbook_sha256": "b4e7a944eda1fba7509c61122cb670d8e1173070f2f5eef01f0d30df0789cd96",
+  "contract_sha256": "f57142d021c63172a71f8619d122a99be569e14a1d0275dff8166db3700deaa0",
+  "additional_inputs": {},
+  "checker_source_sha256": {
+    "__init__.py": "bbb2b5539e90956ed39a91ccefc3e340e6fa7f0b29097a394a91f76bcaa1afcc",
+    "__main__.py": "02558cd05cc8e88cb8c1b88a3f8a5dd234fcc92b9e179c94f33b836f49bc3cae",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "report.py": "6d5d18f1546bec456a0175af67608f20afdf3fe06dbe656f8b59040cadd5f4ff",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "python_version": "3.12.14",
+  "formula_calculation": "NOT_RUN",
+  "supplied_workbook_suite": "NOT_RUN"
+}

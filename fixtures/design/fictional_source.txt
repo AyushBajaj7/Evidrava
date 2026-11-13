@@ -1,0 +1,9 @@
+FICTIONAL TEST SOURCE. No real security, proceeding or reviewer.
+Synthetic episode E1 alleges a price-volume pattern during the dates below.
+Alleged episode E1 conduct_start: 2020-01-06
+conduct_end: 2020-01-08
+alleged_scheme: Fictional scheme
+instrument: Fictional instrument
+isin: SYNTHETIC-ISIN
+legal_status: Fictional interim allegation
+order_date: 2020-01-10

@@ -1,0 +1,40 @@
+{
+  "session_date": "2026-11-13",
+  "timezone": "Asia/Calcutta",
+  "scope": "Offline screening workload command and bounded project-name research",
+  "observed_start_utc": "2026-11-13T07:50:03+00:00",
+  "verification_completed_utc": "2026-11-13T09:33:13.500295+00:00",
+  "observed_agent_elapsed_minutes": 103.18,
+  "human_active_engineering_hours": null,
+  "prior_engineering_hours": null,
+  "twenty_hour_cap_compliance": "UNKNOWN; observed agent elapsed time is not measured human engineering effort",
+  "local_python_tests": 71,
+  "test_result": "PASS",
+  "test_duration_seconds": 9.651,
+  "test_command": ".venv-pilot/Scripts/python.exe -m unittest discover -s tests -v",
+  "test_evidence": "Observed local unittest completion; no new native workbook formula run",
+  "supplied_workbook_scenarios_reexecuted_locally": 0,
+  "baseline_screening": {
+    "expected_records": 30,
+    "completed_attempts": 0,
+    "complete_timing_observations": 0,
+    "status": "IN_PROGRESS"
+  },
+  "original_csv_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+  "working_csv_created": "working/screening_30.csv",
+  "original_source_captures_verified": 9,
+  "network_requests_for_screening": 0,
+  "source_files_sha256": {
+    "sebi_benchmark/__init__.py": "a078f31c5219da296e9c0572a136abb562e0790e5d98306d02ae9f8bcf181321",
+    "sebi_benchmark/__main__.py": "7742f421d53e5ed0b97092b0c4150c3d249d6b94ec9ebdf8a4e1a9a8485054bd",
+    "sebi_benchmark/checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "sebi_benchmark/report.py": "6d5d18f1546bec456a0175af67608f20afdf3fe06dbe656f8b59040cadd5f4ff",
+    "sebi_benchmark/screening.py": "565ea26cafc2db6b541201443600d72f4a46a32cace27a5c8e7e6ebdea1916b3",
+    "sebi_benchmark/screening_report.py": "6a29b27a6d3665d812761dce2fe138cc9fdfe9439d6c668ff59faddd0ec2f6a8",
+    "sebi_benchmark/workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "name_research_record": "name-screening-2026-11-13.json",
+  "research_decision": "NOT_EVALUATED",
+  "project_renamed": false,
+  "published": false
+}

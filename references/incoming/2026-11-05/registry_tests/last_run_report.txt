@@ -1,0 +1,51 @@
+Building 47 scenario workbooks from /home/claude/SEBI_Episode_Registry_v3.xlsx ...
+Recalculating with LibreOffice (one process for all files) ...
+[PASS] 00_base_pass                                       decision: PASS
+[PASS] 01_draft_not_frozen                                decision: DRAFT: protocol not frozen. No valid decision yet.
+[PASS] 02_cutoff_missing                                  decision: NOT VALID: set the observation cutoff (Rules B7).
+[PASS] 03_leak_test_failing                               decision: NOT VALID: fix the integrity checks in section A.
+[PASS] 04a_in_progress                                    decision: IN PROGRESS (1 of 2 matters reviewed)
+[PASS] 04b_incomplete_at_deadline                         decision: INCOMPLETE (1 of 2 matters reviewed)
+[PASS] D1a_blank_page_count_page_99                       decision: NOT VALID: fix the integrity checks in section A.
+[PASS] D1b_page_beyond_known_count                        decision: CONDITIONAL
+[PASS] D1c_non_integer_page                               decision: CONDITIONAL
+[PASS] D1d_zero_page_count                                decision: NOT VALID: fix the integrity checks in section A.
+[PASS] D2_duplicate_ids                                   decision: NOT VALID: fix the integrity checks in section A.
+[PASS] D3_all_dates_assumed_no_strict                     decision: FAIL
+[PASS] D4a_claim_from_later_assumed_order                 decision: CONDITIONAL
+[PASS] D4b_conditional_uses_strict_count                  decision: FAIL
+[PASS] D5_legal_event_without_status_or_source            decision: NOT VALID: fix the integrity checks in section A.
+[PASS] D6_order_public_after_cutoff                       decision: NOT VALID: fix the integrity checks in section A.
+[PASS] B1_public_date_equals_cutoff                       decision: PASS
+[PASS] B2_public_date_one_day_after_cutoff                decision: NOT VALID: fix the integrity checks in section A.
+[PASS] B3a_label_maturity_exact_horizon                   decision: PASS
+[PASS] B3b_label_maturity_one_day_short                   decision: PASS
+[PASS] W1_warmup_partial                                  decision: CONDITIONAL
+[PASS] W2_warmup_none                                     decision: CONDITIONAL
+[PASS] W3_conduct_window_partial                          decision: CONDITIONAL
+[PASS] C0a_snapshot_day_before_availability               decision: PASS
+[PASS] C0b_snapshot_exact_availability_day                decision: PASS
+[PASS] C0_snapshot_S1_reference                           decision: PASS
+[PASS] C0c_snapshot_S2_before_correction                  decision: PASS
+[PASS] C1a_later_correction_earlier_snapshot_unchanged    decision: PASS
+[PASS] C1b_later_correction_visible_later                 decision: PASS
+[PASS] C1c_correction_day_before_public                   decision: PASS
+[PASS] C1d_correction_exact_public_day                    decision: PASS
+[PASS] C2a_later_legal_update_earlier_snapshot_unchanged  decision: PASS
+[PASS] C2b_later_legal_update_visible_later               decision: PASS
+[PASS] V1_duplicate_version_number                        decision: NOT VALID: fix the integrity checks in section A.
+[PASS] V2_version_for_unknown_episode                     decision: NOT VALID: fix the integrity checks in section A.
+[PASS] V3_non_integer_version_number                      decision: NOT VALID: fix the integrity checks in section A.
+[PASS] L1_legal_source_from_other_matter                  decision: NOT VALID: fix the integrity checks in section A.
+[PASS] L2_legal_public_before_event                       decision: NOT VALID: fix the integrity checks in section A.
+[PASS] L3_specific_episode_event_without_episode          decision: NOT VALID: fix the integrity checks in section A.
+[PASS] L4_last_checked_before_latest_event                decision: CONDITIONAL
+[PASS] E1_evidence_probes                                 decision: PASS
+[PASS] E2_evidence_from_order_after_cutoff                decision: NOT VALID: fix the integrity checks in section A.
+[PASS] R1_review_completion_vs_verified                   decision: CONDITIONAL
+[PASS] IM1_too_few_independent_matters                    decision: CONDITIONAL
+[PASS] DT1_two_publication_dates                          decision: PASS
+[PASS] ST0_no_frame_sizes_no_interval                     decision: PASS
+[PASS] ST1_stratified_estimate                            decision: PASS
+
+47 of 47 scenarios passed.

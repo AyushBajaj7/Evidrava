@@ -1,0 +1,9 @@
+{
+  "kind": "preparation-check",
+  "completed": true,
+  "publication": "local_only",
+  "files": {
+    "report.html": "1800a3b775da35522037a8284a08347b38b35e15e1b224ed574f452b643b11ac",
+    "validation.json": "d70aa2b0904f28ab29561e3675e98d7766eeb5cfe50e6d395245d6cde00c4d15"
+  }
+}
