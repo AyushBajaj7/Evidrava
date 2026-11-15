@@ -1,0 +1,102 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.5.0",
+  "completed_on": "2026-11-15",
+  "timezone": "Asia/Calcutta",
+  "scope": "Add structural candidate-frame validation and a deterministic, whole-related-matter-group draw that can operate only from a separately frozen protocol bound to exact frame bytes.",
+  "implementation": {
+    "commands": [
+      "frame-check",
+      "draw-sample"
+    ],
+    "frame_columns": [
+      "matter_id",
+      "related_matter_group",
+      "eligibility_status",
+      "eligibility_reason"
+    ],
+    "selection_algorithm": "evidrava-group-draw-v1",
+    "replacement_policy": "none",
+    "guardrails": [
+      "Eligible matters require a declared related-matter group and every row requires a reason.",
+      "A sample draw requires protocol state FROZEN, a timezone-aware freeze time and a matching lowercase frame SHA-256.",
+      "The draw selects whole related-matter groups, requires an exact matter target and refuses impossible targets.",
+      "DRAFT protocols, changed frame bytes and invalid frames create no draw output.",
+      "Neither command verifies eligibility evidence, grants audit credit, checks market coverage or changes the research decision."
+    ]
+  },
+  "verification": {
+    "local_test_suite": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest discover -s tests -v",
+      "result": "OK",
+      "tests_passed": 168,
+      "duration_seconds": 10.575,
+      "breakdown": {
+        "preparation": 43,
+        "screening": 31,
+        "source_acquisition": 51,
+        "provisional_brief": 22,
+        "predecessor_capture": 13,
+        "candidate_frame": 8
+      }
+    },
+    "design_contract": {
+      "command": ".\\.venv-design\\Scripts\\python.exe scripts/check_design.py",
+      "result": "PASS",
+      "schemas_checked": 3,
+      "examples_validated": 3,
+      "shape_mutations_checked": 12,
+      "application_acceptance_cases_executed": 0,
+      "supplied_workbook_scenarios_executed": 0
+    },
+    "synthetic_command_smoke": {
+      "frame_check": "READY_TO_FREEZE; 5 eligible synthetic matters in 3 groups",
+      "draw_sample": "DRAWN; 4 selected synthetic matters in 2 whole groups",
+      "research_decision": "NOT_EVALUATED"
+    },
+    "installed_wheel": {
+      "path": "dist/wheel-build-2026-11-15-frame/evidrava-0.5.0-py3-none-any.whl",
+      "sha256": "65ae8a7cbfd28fa15a928fa20994385ca0c8a2c39effb24a162eeafe57d078d7",
+      "isolated_import": "PASS",
+      "dependency_check": "PASS"
+    }
+  },
+  "artifacts": {
+    "frame_implementation": {
+      "path": "evidrava/frame.py",
+      "sha256": "b9a19b53611da6d815d7b04f57f359a39a7582e6f5f4f9e64ccabcadec1e2f5c"
+    },
+    "frame_report": {
+      "path": "evidrava/frame_report.py",
+      "sha256": "cdf29500f4bb10765e9afc0bc1ed547953186583421d197f4217610b11f3247d"
+    },
+    "frame_tests": {
+      "path": "tests/test_frame.py",
+      "sha256": "f5c661f138e92cd15db836533ade547eaa376de94f6f56dc610886ce720a68b1"
+    },
+    "synthetic_frame": {
+      "path": "fixtures/frame/candidate-frame-synthetic.csv",
+      "sha256": "04e33c6ba2f3b4ea174e09cf0938d75dfbd3206ae26d460ecb1a7f6db360c825"
+    },
+    "synthetic_frozen_protocol": {
+      "path": "fixtures/frame/frozen-protocol-synthetic.json",
+      "sha256": "ffbf660271f35850fdee29c56554f418274471a6bed921e0875f16945372fd84"
+    }
+  },
+  "research_status": {
+    "real_candidate_frame_created": false,
+    "real_protocol_frozen": false,
+    "real_sample_drawn": false,
+    "reviewer_confirmed": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "known_boundaries": [
+    "The 30-record human screening/timing exercise remains uncompleted.",
+    "The supplied 114-scenario workbook suite was not rerun in this increment and Excel compatibility remains unverified.",
+    "The implementation does not validate market-data coverage, historical availability, labels, leakage or detector performance.",
+    "The 20-hour engineering cap has not been measured."
+  ],
+  "previous_release_record": "pilot/development/evidrava-release-2026-11-15.json",
+  "planned_local_package": "dist/Evidrava_0.5.0_2026-11-15_frame-preparation.zip",
+  "publication": "NOT_PUBLISHED; no GitHub push or external sharing"
+}

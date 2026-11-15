@@ -1,0 +1,1487 @@
+=== PDF page 1 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 1 of 37 
+ 
+ 
+QJA/MN/IVD/ID11/31945/2025-26   
+ 
+SECURITIES AND EXCHANGE BOARD OF INDIA 
+ORDER 
+ 
+UNDER SECTIONS 11(1), 11(4) AND 11B(1) and 11B(2) OF THE SEBI ACT, 1992 READ 
+WITH RULE 4 OF THE SEBI (PROCEDURE FOR HOLDING INQUIRY AND IMP OSING 
+PENALTIES BY ADJUDICATING OFFICER) RULES, 1995 ( ‘SEBI ADJUDICATION 
+RULES’)  
+_______________________________________________________________________ 
+In respect of: 
+ 
+Noticee no. Name of the Noticee PAN 
+1  Paresh Nathalal Chauhan AAPPC4494H 
+ 
+                                                                   
+In the matter of Timbor Home Limited 
+ 
+Background 
+1. The current proceeding is emanating subsequent to the common remand directions 
+issued by the Hon’ble Securities Appellate Tribunal (“SAT”) in Appeal No. 483 and 484 
+of 2024, whereby the Hon’ble SAT, vide its order dated July 17, 2025 (hereinafter 
+referred to as the “ SAT Order”), remanded back the SEBI order No. WTM/AB/EFD -
+1/DRA1/16/2020-21 dated November 20, 2020 under Section 11B of the SEBI Act,  
+1992 as well as the adjudication order No. AP/AS/2020 -21/Order/AP/AS/2020-
+21/11046-11063 dated March 23, 2021 under Section 15 -I read with Section 15HA of 
+the SEBI Act, passed in the matter of Timbor Home Limited (hereinafter referred to as 
+the “Timbor”/ “the Company”), to SEBI for deciding the matter afresh qua Mr. Paresh 
+Nathalal Chauhan (hereinafter referred to as the “Noticee”).   
+ 
+2. The Hon’ble SAT observed that the Show Cause Notices dated September 21, 2018 in 
+the 11B proceeding and dated December 05 , 2018 in the A djudication proceeding 
+(hereinafter referred to as the “SCNs”) were not served upon the Noticee and the 
+Noticee was denied the right of reply to defend himself. The Hon’ble Tribunal 
+accordingly directed the Noticee to appear before SEBI on August 20, 2025.  
+ 
+3. I note that the Hon’ble SAT has set aside both the orders only in so far as they relate 
+to the present Noticee, on the limited ground that proper service of the SCN and 
+
+=== PDF page 2 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 2 of 37 
+ 
+ 
+compliance with the principles of natural justice were not establishe d in respect of this 
+Noticee. It is equally pertinent to note that, in other connected appeal no. 259/2022 
+arising from the same investigation and common order under Section 11B of the SEBI 
+Act, 1992 dated November 20, 2020 and a common adjudicatio n order dated March 
+23, 2021, the Hon’ble SAT has upheld the factual findings and conclusions on merits 
+regarding the scheme and modus operandi alleged in the SCN, both in respect of the 
+adjudication proc eedings as well as the Section 11B proceedings , as detailed in 
+subsequent paragraphs of this Order.  
+ 
+4. Accordingly, in compliance with the directions of the Hon’ble SAT, this present order is 
+passed disposing the SCNs dated September 21, 2018  and December 05, 2018 qua 
+the Noticee , on the basis of the facts already upheld and the material available, in 
+exercise of powers under Section 11B(1) and 11B(2) of the SEBI Act. 
+ 
+ 
+Service of the SCN and Hearing 
+5. Subsequent to the aforesaid Hon’ble SAT directions to the Noticee to appear before 
+SEBI, the Authorized Representative (“ AR”) of the Noticee appeared online and 
+submitted that they would collect the SCNs along with Annexures from the office of the 
+competent authority within 2 -3 days. Subsequently, the representative of the AR 
+collected both the aforesaid SCNs (11B and adjudication) along with its an nexures 
+(including 2 CDs) from the office of the competent authority on August 26, 2025. The 
+same was intimated to the Noticee as well as the AR, vide email dated August 26, 2025 
+and they were advised to acknowledge the receipt of the same. However, no reply was 
+received from the Noticee. 
+ 
+6. In the absence of any reply, and in accordance with principles of natural justice, an 
+opportunity of hearing was granted to the Noticee, vide hearing notice dated October 
+03, 2025  on October 13, 2025, which his AR, vide email dated October 11, 2025, 
+requested to adjourn, citing medical emergency. Further, vide mail dated October 13, 
+2025, Noticee also requested for adjournment of the hearing mentioning that he is  in 
+process of engaging an advocate and he further requested to provide a copy of SCNs 
+and Annexures along with the Investigation Report.  Though the  SCN was already 
+
+=== PDF page 3 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 3 of 37 
+ 
+ 
+served to the AR of the Noticee, the  scan copies of both the SCNs were provided to 
+him by email.  
+ 
+7. Subsequently, vide email dated October 14, 2025, one more opportunity of hearing was 
+granted to the Noticee on October 28, 2025. As the Noticee didn’t appear for the said 
+hearing, another hearing opportunity was granted t o the Noticee on November 10, 
+2025. However, vide letter dated November 10, 2025, the Noticee once again sought 
+more time to file the reply and adjournment of the hearing. Acceding to the request, one 
+more opportunity of hearing was provided to him on November 24, 2025. However, vide 
+email dated November 21, 2025, the new AR of the Noticee again sought adjournment, 
+acceding to which the hearing was adjourned to December 04, 2025, then to December 
+08, 2025 and finally to December 09, 2025 . Meanwhile, the Noticee submitted written 
+replies, vide letters dated December 08 and December 09, 2025.  
+ 
+8. Summary of the replies dated December 08 and December 09, 2025 of the Noticee are 
+as below:  
+8.1. The SCN does not contain any evidence of communication, coordination, meeting, 
+financial linkage, call data record, message or document showing his involvement 
+with promoters, SMS senders or alleged operators. 
+8.2. Mere receipt of shares throu gh off-market transfer and subsequent sale cannot 
+establish participation in a fraudulent scheme 
+8.3. His PAN, Aadhaar, signatures, demat account, trading account and proprietary 
+bank account were misused by one Mr. Ankit Mehta, his friend and CA, who 
+induced him to part with his KYC documents on the pretext of settling a financial 
+arrangement. 
+8.4. No involvement in LTP manipulation and bulk SMS circulation  
+8.5. He never authorised or executed any trades in the shares of Timbor Home Limited 
+and never operated the demat or trading accounts used for such transactions.  All 
+off-market receipt of shares, secondary market sales and routing of funds were 
+carried out entirely by Mr. Ankit Mehta without his knowledge or consent.  Ankit 
+Mehta committed offenses, cheating, forgery using forged documents. 
+8.6. He derived no benefit from the alleged trades and that sale proceeds were not 
+retained by him. 
+
+=== PDF page 4 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 4 of 37 
+ 
+ 
+8.7. Reply submitted by a promoter of the company, wherein it is stated that the entire 
+off-market movement of promoter shares was orchestrated  by the promoters 
+themselves through intermediaries, acknowledges that shares were transferred to 
+multiple demat accounts, including that of the Noticee, only as part of a financing 
+arrangement and under the promoters’ exclusive control and that the Noticee was 
+neither a beneficiary nor a decision-maker and that his demat account was merely 
+used as a temporary conduit. As admitted by that that promoter himself, the entire 
+monetary benefit from sale of shares  was received by the promotors , thereby 
+negating any allegation of gain or enrichment on his part. 
+8.8. The allegation that promoters transferred shares “free of cost” to him is 
+commercially implausible and contrary to basic principles of corporate finance and 
+market behavior and that such transfers were part of financing arrangements , 
+orchestrated by Sanjay Soni  rather than gifts.  The assumption of zero cost of 
+acquisition is unsupported by evidence and legally untenable. 
+8.9. Annexure-7 to the SCN incorrectly treats the entire sale value of shares as “ill -
+gotten g ains”. Disgorgement can only be of net unlawful gains and not gross 
+turnover or sale proceeds. SEBI has not computed purchase price, selling price, 
+net profit or gain attributable to him. SEBI’s own findings attribute the alleged 
+unlawful gains entirely to  promoters, and therefore proceedings for disgorgement 
+against him are arbitrary and unsustainable. 
+8.10. The disgorgement amount attributed to him in Annexure-7 of the SCN differs from 
+the amount ultimately directed to be disgorged in the impugned order, withou t 
+any explanation, recalculation, or opportunity of rebuttal.  No reasons, workings, 
+or revised calculations were supplied to justify the change in figures, nor was any 
+supplementary SCN issued. 
+8.11. The Show Cause Notice and the subsequent orders proceed on similar factual 
+premises in so far as the role and liability of another entity, Krishna Kumar Periwal 
+are concerned. However, the final findings recorded in the WTM Order do not put 
+any disgorgement amount on Krishna Kumar Periwal, despite the SCN attributing 
+a substantive role to him. 
+ 
+9. The AR of the Noticee appeared for the said hearing on December 0 9, 2025  and 
+requested for one more hearing. The said request was accepted and second 
+opportunity of hearing was granted to the Noticee on December 19, 2025. The said AR 
+
+=== PDF page 5 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 5 of 37 
+ 
+ 
+of the Noticee appeared in the second hearing and submitted the following, which were 
+recorded in the hearing minute s dated December 19, 2025 and also shared with the 
+Noticee on the same day: 
+9.1. There is discrepancy in the disgorgement amount, though the correct disgorgement 
+amount is not calculated by the Noticee. 
+9.2. Final order in Sanjay Soni and Others vs SEBI is pending in Hon’ble SAT. 
+9.3. Noticee’s bank account was only used as pass-through and he neither retained or 
+derived any economic benefit. 
+9.4. Noticee’s CA had all the KYC related documents who used those documents 
+without the knowledge of the Noticee to fraudulently open demat account, trading 
+account and bank account in the name of the Noticee. 
+9.5. The impugned bank account was not used frequently by the Noticee. 
+ 
+10. Accordingly, having complied with the principles of natural justice, and after examining 
+all material available on record, including the replies/submissions of the Noticee and 
+the findings of the investigation, I proceed to examine the matter, the issues involved 
+in the SCNs dated  September 21, 2018  and December 05, 2018 qua the Noticee  in 
+exercise of the powers conferred upon me under Sections  11(1),11(4) and11B(1) and 
+11B(2) of the SEBI Act, 1992 read with Rule 4 of the SEBI (Procedure for Holdi ng 
+Inquiry and Imposing Penalties by Adjudicating Officer) Rules, 1995 (“SEBI 
+Adjudication Rules”). 
+ 
+Background and Allegations: 
+11. M/s Timbor Home Limited was a listed company whose shares were listed on Bombay 
+Stock Exchange Limited ("BSE") and National Stock Exchange Limited ("NSE") during 
+the relevant period. SEBI undertook an investigation in the scrip of the Company 
+covering the period between April 01, 2014 and May 30, 2015 (hereinafter referred to 
+as “IP”/ “Investigation Period”), following a complaint received in the SEBI Complaints 
+Redressal System (“SCORES”) which mentioned that complainant had received SMS 
+with the recommendation of buying of shares of Timbor. The investigation was 
+conducted with respect to 2 Patches of investigation period i.e. from April 01, 2014 to 
+July 24, 2014 (Patch I) and from July 25, 2014 to May 30, 2015 (Patch II). 
+ 
+
+=== PDF page 6 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 6 of 37 
+ 
+ 
+12. During the investigation , it was noted that the shares of Timbor Home Limited (“the 
+Company”) were traded on the BSE and NSE during the period under exa mination. 
+During this period, SEBI received complaints regarding circulation of unsolicited bulk 
+SMS recommending purchase of the shares of the Company. The investigation 
+revealed abnormal and significant increase in trading volumes and price movement in 
+the scrip, despite the absence of any corresponding improvement in the financial 
+performance of the Company or any material corporate announcements justifying such 
+movement. 
+ 
+13. The investigation further revealed that, Promoter entities transferred a significa nt 
+quantity of shares through off -market transactions to certain non -promoter entities 
+connected to them , resulting in substantial reduction of the promoter shareholding in 
+the Company. Thereafter, one connected entity circulated bulk SMS, recommending 
+purchase of the shares of the company, subsequent to which such connected entities 
+first manipulated the price of the company and then sold the shares in the secondary 
+market during the period of inflated volumes, thereby offloading shares to unsuspecting 
+investors. 
+ 
+14. In this background, the role of the Noticee came under investigation. It was alleged that 
+the Noticee was a connected entity within the promoter -connected group and that he 
+received shares of the Company through off -market transfers from entities which had, 
+directly or indirectly, received shares from the promoters. It was further alleged that the 
+Noticee sold such shares in the secondary market during the period of heightened 
+trading volumes built on the circulation of bulk SMS recommending purcha se of the 
+shares of the Company and the price manipulation. 
+ 
+15. It was alleged that the Noticee was part of the aforesaid scheme and artifice, whereby 
+promoter-connected entities collectively facilitated the offloading of promoter shares in 
+the secondary mark et by creating artificial interest and volume in the scrip through 
+circulation of misleading unsolicited SMS and by manipulating the price. Such acts were 
+alleged to have resulted in deceptive trading activity, causing inducement of 
+unsuspecting investors and undermining the integrity of the securities market. 
+ 
+
+=== PDF page 7 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 7 of 37 
+ 
+ 
+16. On the basis of the above observations, it was alleged that the Noticee  violated the 
+provisions of Regulations 3(a), (b), (c) and  (d) read with Regulations 4(1), 4(2)(f) and 
+4(2)(r) of the SEBI (Proh ibition of Fraudulent and Unfair Trade Practices relating to 
+Securities Market) Regulations, 2003  (hereinafter referred to as the “ PFUTP 
+Regulations”). It was further alleged that the Noticee derived unlawful gains through 
+sale of shares as part of the fraudulent scheme, thereby attracting directions including 
+disgorgement under Sections 11 and 11B of the SEBI Act, 1992.  It was also alleged  
+that Noticee was liable for penalty under Section 15HA of SEBI Act. 
+ 
+17. In light of the above facts, allegations and the material placed on record, I note that the 
+following issues arise for consideration in the present proceedings: 
+ 
+Issue A: Whether there existed modus operandi, whereby the promotors transferred 
+the shares to the connected entities, who engaged in trading in small quan tities 
+contributing to an increase in the scrip price and in circulation of bulk SMS 
+recommending purchase of the shares of the Company, and thereafter such connected 
+entities offloaded the shares in the secondary market during the period of heightened 
+trading volume? 
+ 
+Issue B: Whether the Noticee , as alleged in the SCN,  was a connected entity within 
+the promoter -connected group of person, who received shares through off -market 
+transfers from entities connected, directly or indirectly, with the promotors of  the 
+company and thereafter sold such shares in the secondary market during the period 
+contemporaneous with the circulation of bulk SMS? 
+ 
+Issue C: Whether the acts and omissions attributed to the Noticee constituted 
+participation in a fraudulent and manipu lative scheme, thereby attracting violations of 
+Regulations 3(a), 3(b), 3(c), 3(d), 4(1), 4(2)(f) and 4(2)(r) of the SEBI (Prohibition of 
+Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003; 
+if so, whether Noticee is liable for an appropriate direction and monetary penalty? 
+ 
+Issue D: Whether the Noticee derived any unlawful gain as a consequence of the 
+alleged violations, warranting disgorgement under Section 11B(1) and 11B(2) read with 
+Sections 11(4) of the SEBI Act, 1992? 
+
+=== PDF page 8 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 8 of 37 
+ 
+ 
+18. Before proceeding to deal with the aforesaid issues, I find it appropriate to deal with the 
+preliminary objections / issues raised by the Noticee. 
+ 
+19. The Noticee has submitted that he has reserved the right to file an additional reply after 
+the final outcome of SEBI Appeal No. 47 of 2022 (Sanjay Soni and Others vs. SEBI), 
+pending before the Hon'ble Securities Appellate Tribunal. On this basis, the Noticee 
+seeks to indicate that the reply presently on recor d be treated as merely a preliminary 
+reply.   
+ 
+20. At the outset, it is noted that where a Noticee seeks to qualify his defence on account 
+of a pending appeal of some other entity, the burden squarely lies upon such Noticee 
+to demonstrate the relevance  of the said appeal to the issues arising in the present 
+proceedings. The Noticee is required to specifically establish which precise issue, 
+contention, or defence raised herein is contingent upon the outcome of the pending 
+appeal and how such outcome would have a  direct bearing on the adjudication of the 
+present matter. 
+ 
+21. Upon consideration of the submissions, I find that the Noticee has failed to discharge 
+this burden. The Noticee has neither identified any specific issue or factual aspect of 
+his defence that is dependent upon the outcome of the said appeal, nor explained the 
+manner in which the decision therein would affect the findings to be rendered in the 
+present proceedings. 
+ 
+22. The submission remains at a vague and general level, devoid of any concrete link 
+between the pendency of the appeal and the adjudication of the allegations in the 
+present case 
+ 
+23. Further, the Noticee has not specified any particular contention, explanation, or defence 
+which he proposes to raise or supplement at a later stage upon disposal of  the said 
+appeal. A plea that a reply is "preliminary" necessarily presupposes that certain 
+identifiable aspects of the Noticee's own case are being withheld or deferred. In the 
+present matter, no such identification has been made. In the absence of any cl arity as 
+to what is sought to be supplemen ted or deferred, the submission  that the reply is 
+preliminary remains unsubstantiated and without any basis. 
+
+=== PDF page 9 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 9 of 37 
+ 
+ 
+24. It is also relevant to note that no order of stay has been produced by the Noticee staying 
+the present proceedings. In the absence of the same and considering that the Noticee 
+has already been afforded adequate opportunity to present his defence, the contention 
+that the reply should be treated as merely preliminary remains unsubstantiated and 
+therefore cannot be accepted. 
+ 
+Issue A:  Whether there existed modus operandi , whereby the promotors 
+transferred the shares to the connected entities, who engaged in trading in small 
+quantities contributing to an increase in the scrip price and in circulation of bulk 
+SMS recommending purchase of the shares of the Company, and thereafter such 
+connected entities offloaded the shares in the secondary market during the 
+period of heightened trading volume? 
+ 
+25. I note the following findings of the investigation.  
+25.1. The promoters had sold/transferred their shareholding during the IP and the 
+promoter’s shareholding reduced from 29.90% at quarter ended March 2014 to 
+2.93% at quarter ended December 2014 and to 0.29% in quarter ended June 
+2015. The scrip was suspended by the Bombay Stock Exchange Ltd. (hereinafter 
+referred to as “ BSE”) and National Stock Exchange of India Ltd. (hereinafter 
+referred to as “ NSE”) from October 29, 2015, due to liquidation proceedings 
+initiated against the Company.   
+ 
+25.2. The price of the scrip at BSE opened at Rs.11.65, touched a low of Rs.3.26, high 
+of Rs.20.20, and closed at Rs.5.20 during the IP. The scrip closed at Rs.2.21 in 
+BSE on October 28, 2015.  Similarly, it was observed that the price of the scrip 
+at NSE opened at Rs.11. 70, touched a low of Rs.3.20, high of Rs.20.20, and 
+closed at Rs.5.10 during the IP. The scrip closed at Rs.2.75 on NSE on October 
+28, 2015. The Company’s financials were deteriorating during the relevant period 
+and there were no corporate developments justifying the observed price rise.  
+ 
+25.3. Out of top 10 buy and sell Clients who had traded in the scrip of Timbor during IP 
+at BSE and NSE, the Noticee was top seller in both BSE and NSE with a Gross 
+Sell Volume of Rs.14,88,625 with 14.26% of Sell traded Volume  in BSE and of 
+Rs.12,44,075 with 13.02% of Sell traded Volume in NSE. 
+
+=== PDF page 10 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 10 of 37 
+ 
+ 
+25.4. The contribution of the connected entities to gross sell volume was more in 
+comparison to gross buy volume. It was also observed that the connected entities 
+mainly traded through the exc hange mechanism (on market) during the 
+investigation period and two promotors transferred share through off market to 
+other connected entities.    
+ 
+25.5. During the investigation period, there were off -market transfers of shares of the 
+Company amongst various entities. On the basis of off­market transaction data, 
+Unique Client Code details  received from the exchanges and MCA data, it was 
+observed that twenty -one entities, including the Noticee were found to be 
+connected to each other by way of off market transfer, common address, common 
+phone number or common email id.  
+ 
+25.6. It was observed that the four promoters of Timbor transferred a total of 37,82,750 
+shares before and after circulation of bulk SMS directly or indirectly to other 
+connected entities.  
+ 
+25.7. Based on the timing of bulk SMS circulation period, the investigation period was 
+divided into pre SMS circulation period (Patch I) and post SMS circulation period 
+(Patch II).  During the pre SMS circulation period price rise were observed with 
+very low trading volume. Thereafter, price was observed to have fallen till the end 
+of the investigation period. However, the trading volumes were very high during 
+the post SMS circulation period. The following patches were identified, details of 
+which are given as under:  
+Patches Price/Volume 
+trend 
+Period Exch
+ange 
+Price Movement Average 
+Daily 
+Volume  
+From To Open High Low Close 
+Patch-I  (Pre SMS 
+Circulation Period) 
+Price rise with low 
+trading volume 01/04/2014 24/07/2014 BSE 11.65 20.20 10.58 12.70 20757 NSE 11.10 20.20 10.50 12.60 17107 
+Patch-II (Post SMS 
+Circulation Period) 
+Price fall with high 
+trading volume 25/07/2014 30/05/2015  BSE 13.20 13.80 3.26 5.20 44306 NSE 13.25 13.85 3.20 5.10 41528 
+ 
+ 
+Patch-I (Price rise) (01/04/2014 to 24/07/2014):  
+Exchange-BSE  
+25.8. The price of the scrip at BSE opened at Rs.11.65 (previous trading day closed at 
+Rs.11.13), touched a high of Rs.20.20 and closed at Rs.12.70. Out of 21 
+
+=== PDF page 11 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 11 of 37 
+ 
+ 
+connected entities, ten traded as buyer during the Patch -I and 5 contributed to 
+positive LTP for Rs.96.36 (43.33% of total market positive LTP) in 475 trades with 
+a trading volume 1,16 ,513 shares. It was observed that these five connected 
+entities contributed 35.47% of total market positive LTP, by putting orders for 
+small quantity i.e. 1-10 shares.   
+ 
+Exchange-NSE  
+25.9. The price of the scrip at NSE opened at Rs.11.70 (previous trading day closed at 
+Rs.11.30), touched a high of Rs.19.55 and closed at Rs.12.70.  Out of 21 
+connected entities, 10 traded as buyer during the Patch -I and 2 contributed to 
+positive LTP of Rs.55.35 (33.48% of total market positive LTP) in 205 trades with 
+a trading volume 17,659 shares. It was observed that these two connected 
+entities contributed 25.80% of total market positive LTP, by putting orders for 
+small quantity i.e. 1-10 shares.   
+ 
+25.10. A few of the connected entities (not the N oticee) were not acting as genuine 
+buyers on both NSE and BSE and had no bona fide intention to buy because 
+in-spite of sufficient sell order quantity being available in the market, they bought 
+small quantity of shares in each transaction. By these trades,  they were 
+instrumental in establishing a price higher than the last traded price and thus 
+contributed to increased scrip price with most of their trades. In view of the 
+repeated nature of such trades, it was observed that these connected entities 
+were acting in concert and contributed to manipulation in the scrip price and 
+created a misleading appearance of trading in  the scrip by such trades as 
+explained above.   
+ 
+Patch II and Circulation of Bulk SMS    
+25.11. As mentioned above, a complaint was lodged in SCORE S in the month of 
+August 2014 by a recipient of SMS recommending buying of shares of Timbor. 
+The SMS was circulated as DM -70000 with message “BEST BUY TIMBOR 
+HOME AT BSE (533444) & NSE (24316) AT CMP 14 SHORT TERM TGT @17 
+THIS WEEK N 25 WITHIN NEXT WEEK WI TH SAFESIDE SL 11.5 LONG 
+TERM TGT 60” from July 2014 onwards.   
+
+=== PDF page 12 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 12 of 37 
+ 
+ 
+25.12. One of the connected entities, who was also related to promotor of Timbor, 
+circulated the above bulk SMS containing buy recommendation in the scrip. 
+There was spurt in traded volumes and subst antial rise in volumes in the scrip 
+soon after the day of circulation of bulk SMS (i.e.25 July, 2014), which could be 
+attributed to the impact of such bulk SMS.   
+ 
+26. From the aforementioned facts, I note that the shares of the Company were listed on 
+BSE and NSE. SEBI received complaints during July  - August 2014 regarding 
+circulation of SMS advising purchase of the Company’s shares. The price of the scrip 
+has been noted to have fallen thereafter.  The price volume data of the scrip on BSE 
+and NSE for periods before, during, and after the investigation was detailed in the SCN 
+and it is noted that during the investigation period, the price of the scrip witnessed 
+considerable fluctuation and the trading volumes increased substantially. 
+ 
+27. The Company’s financials were deteriorating during the relevant period and there were 
+no corporate developments justifying the observed price rise. Preliminary examination 
+showed that the promoter shareholding reduced drastically during the same period 
+when unsolicited SMS were being circulated. Further, promoter shareholding fell from 
+29.90% in March 2014 to 2.93% in December 2014 and then to 0.29% by June 2015. 
+ 
+28. It was observed that the promoters had transferred substantial quantities of shares to 
+connected entities through off -market transfers around the period of SMS circulation 
+and that these connected entities subsequently sold the shares in the secondary market 
+to unsuspecting investors. 
+ 
+29. The Company was also facing winding -up proceedings, which were admitted by the 
+Hon’ble Gujarat High Court on June 29, 2015, and trading in the Company’s shares 
+was suspended by both stock exchanges from October 29, 2015. Ultimately, the 
+Company was ordered to be wound up by the High Court on June 16, 2016. It was in 
+this context that SEBI initiated investigation into the trading in the scrip. 
+ 
+
+=== PDF page 13 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 13 of 37 
+ 
+ 
+30. Based on preliminary examination of trading activity, UCC data, off -market transfers 
+and corporate records, SEBI identified twenty -one entities ( including the present 
+Noticee) as connected entities forming part of the alleged scheme. 
+ 
+31. It was observed that the promoters of the Company had transferred shares, both before 
+and after the SMS circulation, to certain connected entities. These entities (in cluding 
+the present Noticee) were alleged to have offloaded the shares in the secondary market 
+during the period of heightened investor interest created by the SMS campaign. 
+ 
+32. In view of the above facts, upon examination of the material on record, including  off-
+market transfer details , trading data,  and the sequence of events surrounding the 
+circulation of bulk SMS  as wells as manipulation of the price , I find that the pattern of 
+activities demonstrates that, there was off-market transfer of shares from promoters to 
+connected entities, followed by the circulation of unsolicited bulk SMS  and connected 
+entities being engaged in trades contributing to in creased liquidity in the scrip , and 
+subsequent sale of such shares in the secondary market during the period of artificially 
+enhanced trading volume generated post-SMS circulation. 
+ 
+33. The absence of any fundamental justification for the abnormal price and volume 
+movement further reinforces the conclusion that the trading activity was not driven by 
+genuine market forces. The coordinated nature of the transactions, viewed holistically, 
+evidences a pre-meditated scheme designed to create artificial demand and facilitate 
+exit of promoter-linked holdings at elevated prices. 
+ 
+33.1. From the above, I find the following modus operandi:  
+33.1.1. Promoters of the Company transferred shares to other connected entities 
+through off market route . Simultaneously, connected entities bought 
+small quantity of shares in each transaction , which contributed to 
+increase in scrip price.     
+33.1.2. Subsequently, one of the entities, circulated bulk SMS during July 25, 
+2014 to July 28, 2014 containing unsolicited advice re commending 
+purchase of shares of the Company and lured unsuspecting gullible 
+investors to buy the shares of the Company.  Pursuant to sending bulk 
+SMS in Patch II of the IP, seventeen connected entities and two 
+
+=== PDF page 14 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 14 of 37 
+ 
+ 
+promoters, offloaded shares of Timbor on BSE and seventeen connected 
+entities and one promoter offloaded shares on NSE.  
+33.1.3. It was also observed that in Patch II, connected entities traded among 
+themselves at BSE  and NSE, and thereby created an impression of 
+artificial volume generation, which invited the attention of gullible 
+investors towards the scrip.  
+33.1.4. The average daily trading volumes during Patch I (April 1, 2014 to July 
+24, 2014) i.e. before the bulk SMS circulation period were low vis -à-vis 
+average daily trading volumes during patch II (July 25,  2014 to May 30, 
+2015) i.e. after circulation of bulk SMS. 
+ 
+34. In this regard I note that the Hon’ble Securities Appellate Tribunal, in the matter of Kajal 
+Nimish Shah vs SEBI (259/2022), while upholding the SEBI adjudication order, in the 
+appeal filed by Kajal Nimish Shah in the same matter of Timbor, had held that: 
+"7. Having heard the learned counsel for the parties and having perused the record, we 
+find that the modus operandi was that four promoters of the Company had transferred 
+shares directly or indire ctly to other connected entities who in turn sold the shares in 
+the market. Prior to sending bulk SMS by one of the connected entity, some of the 
+entities bought small quantities of shares in each transaction which contributed to the 
+increase in the price of the scrip. Around the same time, promoters of the Company 
+transferred shares to other connected entities off market and, thereafter, one of the 
+entities, namely, Mr. Soni Sanjay Jethalal circulated bulk SMS recommending purchase 
+of shares of the Company  which led gullible investors to buy the shares of the 
+Company. Based on these bulk SMS the promoters and connected entities off loaded 
+their shares and made unlawful gains." 
+ 
+35. Accordingly, I find that the Issue No. 1 is answered in the affirmative.  
+ 
+Issue B: Whether the Noticee, as alleged in the SCN, was a connected entity within 
+the promoter-connected group of p erson, who received shares through off -market 
+transfers from entities connected, directly or indirectly, with the promotors of the 
+company and thereafter sold such shares in the secondary market during the period 
+contemporaneous with the circulation of bulk SMS? 
+ 
+
+=== PDF page 15 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 15 of 37 
+ 
+ 
+Issue C: Whether the acts and omissions attributed to the Noticee constituted 
+participation in a fraudulent and manipulative scheme, thereby attracting violations 
+of Regulations 3(a), (b), (c), (d), 4(1), 4(2)(f) and 4(2)(r) of the SEBI (Prohibitio n of 
+Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 
+2003; if so, whether Noticee is liable for an appropriate direction and monetary 
+penalty? 
+ 
+36. The allegation is that as part of the scheme, the Noticee received shares thro ugh off-
+market transfers from 6 entities namely Sanjay Jethalal Soni HUF, Nimish Shah, Amul 
+G Desai, Soni Krupa Sanj ay, Soni Sanjay Jethalal and Mahesh Somabhai Desai , 
+directly or indirectly connected to the promotors , who also received the shares of the 
+company through off market.  
+ 
+37. The Noticee has contended that he had no connection whatsoever with the promoters 
+or alleged masterminds of the scheme, and that there is no evidence of any telephonic 
+communication, meeting, financial exchange, or coordinatio n linking him to the 
+promoters or other connected entities.  He has further contended that he did not receive 
+any shares directly from the promoters and that his acquisition of shares was effected 
+through legitimate market mechanisms. 
+ 
+38. As part of his defense, Noticee replied that his trading, demat and bank accounts were 
+not under his control, right from the stage of opening of the accounts through their 
+operation. In support of this contention, the Noticee relied upon the FIR dated June 12, 
+2024 against Mr . Ankit Mehta  filed in the criminal case  in the Anandnagar Police 
+Station, Ahmedabad, the complaint of a promoter, Mr. Anant Maloo, before the Hon’ble 
+Criminal Court  of Hon’ble A dd. Chief Metropolitan  Magistrate, Ahmedabad , and the 
+reply of the said promoter, Mr. Maloo, submitted before SEBI, to contend that the entire 
+movement of shares was orchestrated by others and that he  has no control on the 
+accounts or involvement in the matter.  
+ 
+39. Account control: Therefore, the question that arises for considera tion is whether the 
+accounts were not under the control of the Noticee right from the stage of opening of 
+the accounts through their operation . This question is first dealt with before the 
+allegation on connection is proceeded.  
+
+=== PDF page 16 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 16 of 37 
+ 
+ 
+40. On examination of the subm issions made by the Noticee, I note that the Noticee has 
+failed to put forth a single, consistent and coherent explanation as to how and in what 
+manner his accounts were allegedly opened and operated without his knowledge or 
+consent. On the contrary, the versions advanced by him at different stages are mutually 
+inconsistent and irreconcilable. 
+ 
+41. At one stage, the Noticee has stated that the documents required for opening his bank, 
+demat and trading accounts were already available with his Chartered Accountant, Mr. 
+Ankit Mehta, who allegedly utilised the same without the Noticee’s knowledge. This 
+version proceeds on the premise of complete absence of awareness or consent on the 
+part of the Noticee and seeks to portray him as entirely oblivious to the existenc e and 
+operation of the accounts in his name. 
+ 
+42. At another stage, the Noticee advances a materially different version. According to this 
+narrative, the opening of the accounts was linked to a financial arrangement involving 
+Sanjay Soni. The Noticee states th at Mr. Ankit Mehta  was entitled to receive certain 
+amounts from Sanjay Soni, and since such amounts could not be paid in cash, it was 
+agreed that shares would be transferred instead. As there were alleged difficulties in 
+receiving such shares directly in the Chartered Accountant’s account, the assistance of 
+the Noticee was sought for opening new accounts in his name, through which the 
+shares would be received and subsequently sold. In this version, the Noticee admits 
+that he furnished the necessary document s for opening the bank, demat and trading 
+accounts and permitted the opening and operation of such accounts. 
+ 
+43. Further, at one place the Noticee even stated that the Chartered Accountant forged his 
+documents and cheated. 
+ 
+44. These explanations are fundamentally inconsistent. While one suggests complete lack 
+of knowledge and consent, the  other admits conscious participation by furnishing 
+documents and permitting the opening and operation of the accounts. Another suggests 
+that the CA did not had the proper docume nts and he forged the same to open the 
+accounts. Such shifting stands undermine the credibility of the Noticee’s claim that his 
+accounts were opened and operated entirely without his control. The Noticee cannot, 
+depending upon convenience, alternately plea d total ignorance and active facilitation. 
+
+=== PDF page 17 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 17 of 37 
+ 
+ 
+The absence of a consistent explanation fails to establish, in any credible manner, that 
+the Noticee lacked control over his accounts.  
+ 
+45. On the argument of lack of account control, the Noticee has further relied upon the reply 
+submitted by a promoter, Mr. Anant Maloo, to SEBI on 7 January 2019 to contend that 
+the entire off-market movement of shares was orchestrated by the promoter and that 
+the shares came to be credited to the Noticee’s demat account only pursua nt to 
+directions issued through intermediaries. On this basis, the Noticee seeks to argue that 
+he neither exercised control over his demat account nor had any role in the receipt or 
+subsequent handling of the shares. 
+ 
+46. Even if the said reply is taken at face value, it does not support the Noticee’s version in 
+material aspects. As per the said reply, the promoter shares were first transferred to 
+one intermediary entity and thereafter moved, under the directions of the promoter, into 
+the demat accounts of Sanj ay Soni, the Noticee and others. As per this version , the 
+shares were credited under the directions of the promoter, not under the directions of 
+Mr. Sanjay Soni.  However, the Noticee has elsewhere categorically stated that the 
+shares credited to his demat  account were received from Sanjay Soni. This 
+inconsistency strikes at the root of the Noticee’s defence regarding the source of receipt 
+of shares. The version emerging from the promoter’s reply does not corroborate the 
+Noticee’s own stated source of receipt and therefore cannot be relied upon to establish 
+that the Noticee’s demat account was operated or controlled by others in the manner 
+claimed. 
+ 
+47. Further, the evidentiary value of the promoter , Mr. Anant Maloo ’s reply itself stands 
+diluted. It is noted tha t a substantially similar version was earlier set out by the same 
+promoter in his complaint before the Hon’ble Criminal Court of Hon’ble Add. Chief 
+Metropolitan Magistrate, Ahmedabad (Criminal Case No. 35739/2020). The version of 
+events narrated by the Promoter before SEB I and the Hon’ble Criminal Court are 
+substantially same. However, the promoter during the examination in chief before the 
+Hon’ble Criminal Court , disowned his statement.  The Hon’ble Criminal Court 
+proceedings culminated in acquittal not on  merits, but on account of the informant 
+turning hostile. In such circumstances, the statements attributed to the promoter cannot 
+
+=== PDF page 18 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 18 of 37 
+ 
+ 
+be treated as reliable or independent corroboration for accepting the Noticee’s plea 
+regarding misuse or lack of control over his accounts. 
+ 
+48. In the absence of any independent credible material to substantiate the claim that the 
+Noticee’s demat, trading and bank accounts were misused or operated without his 
+control, reliance on such statements, which neither support the Noticee’s own version 
+nor inspire confidence, cannot advance the Noticee’s case. There is also nothing in the 
+promoter’s reply, as incorrectly claimed by the Noticee, to establish that the promoters 
+have confirmed that the Noticee was not a beneficiary of the promoter share transfers. 
+ 
+49. In view of the above discussion, I find that Noticee has not substanti ated his case of 
+lack of account control.  I find that accounts were under the control of the Noticee. 
+ 
+ 
+50. Receipt of shares by the Noticee: The Noticee received 27,32,700 shares of Timbor 
+through off market transactions from 6 connected entities namely Sanjay Jethalal Soni 
+HUF, Nimish Shah, Amul G Desai, Soni Krupa Sanjay, Soni Sanjay Jethalal and 
+Mahesh Somabhai Desai , for which no consideration amount was mentioned in the 
+DIS. The detail of the same is as below: 
+ 
+S. 
+No Date Transferor entity name Transferee entity name Transferred Quantity 
+1 10/07/2014 AMUL GAGABHAI DESAI PARESH NATHALAL CHAUHAN 100000 
+2 17/07/2014 AMUL GAGABHAI DESAI PARESH NATHALAL CHAUHAN 100000 
+3 18/07/2014 AMUL GAGABHAI DESAI PARESH NATHALAL CHAUHAN 170000 
+4 22/08/2014 AMUL GAGABHAI DESAI PARESH NATHALAL CHAUHAN 23000 
+5 06/08/2014 AMUL GAGABHAI DESAI PARESH NATHALAL CHAUHAN 53000 
+6 04/08/2014 KRUPA SANJAY SONI PARESH NATHALAL CHAUHAN 70000 
+7 14/08/2014 KRUPA SANJAY SONI PARESH NATHALAL CHAUHAN 36000 
+8 28/07/2014 KRUPA SANJAY SONI PARESH NATHALAL CHAUHAN 6900 
+9 06/08/2014 KRUPA SANJAY SONI PARESH NATHALAL CHAUHAN 51000 
+10 31/07/2014 MAHESH  DESAI PARESH NATHALAL CHAUHAN 49700 
+11 23/07/2014 NIMISH  P  SHAH PARESH NATHALAL CHAUHAN 200000 
+
+=== PDF page 19 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 19 of 37 
+ 
+ 
+12 24/07/2014 NIMISH  P  SHAH PARESH NATHALAL CHAUHAN 500000 
+13 11/08/2014 NIMISH  P  SHAH PARESH NATHALAL CHAUHAN 500000 
+14 09/07/2014 SANJAY   JETHALAL  SONI PARESH NATHALAL CHAUHAN 100000 
+15 10/07/2014 SANJAY   JETHALAL  SONI PARESH NATHALAL CHAUHAN 100000 
+16 17/07/2014 SANJAY   JETHALAL  SONI PARESH NATHALAL CHAUHAN 100000 
+17 21/08/2014 SANJAY JETHALAL SONI  HUF PARESH NATHALAL CHAUHAN 41500 
+18 22/08/2014 SANJAY JETHALAL SONI HUF PARESH NATHALAL CHAUHAN 8800 
+19 08/08/2014 SANJAY JETHALAL SONI  HUF PARESH NATHALAL CHAUHAN 130000 
+20 14/08/2014 SANJAYKUMAR JETHALAL SONI PARESH NATHALAL CHAUHAN 125000 
+21 19/08/2014 SANJAYKUMAR JETHALAL SONI PARESH NATHALAL CHAUHAN 80000 
+22 25/08/2014 SANJAYKUMAR JETHALAL SONI PARESH NATHALAL CHAUHAN 79000 
+23 25/08/2014 SANJAYKUMAR JETHALAL SONI PARESH NATHALAL CHAUHAN 40000 
+24 19/08/2014 SANJAYKUMAR JETHALAL SONI PARESH NATHALAL CHAUHAN 60000 
+25 21/08/2014 SANJAYKUMAR JETHALAL SONI PARESH NATHALAL CHAUHAN 8800 
+Total 27,32,700 
+ 
+ 
+51. Connection:  Coming to the connection of the Noticee with the promotor/promoter-
+connected group, the same can be seen through a combination of evidences. It is noted 
+that the Noticee received shares through off-market transfers which can be traced back 
+to the promoters of the Company, and such transfers were effected without any 
+consideration, as evident from the DIS slips which does not mention any consideration 
+amount. Further, investigation has revealed that the Noticee shared common mo bile 
+numbers with three other connected entities  involved in the scheme namely Amul G 
+Desai, Mahesh S Desai and Soni Krupa Sanjay, who themselves are connected to other 
+entities. This demonstrates close coordination and linkage among them. When viewed 
+holistically, the off-market receipt of shares without consideration and the existence of 
+common contact details clearly establish that the Noticee was a connected entity acting 
+in concert with the promoter-connected group in furtherance of the fraudulent scheme.  
+
+=== PDF page 20 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 20 of 37 
+ 
+ 
+ 
+52. Further, in the present case, the material on record, such as the DIS slip issued by 
+Sanjay Jethalal Soni HUF, Nimish Shah, Amul G Desai, Soni Krupa Sanjay, Soni 
+Sanjay Jethalal and Mahesh Somabhai Desai  establishes that the Noticee received 
+shares through off-market transfers from entities who themselves had received shares 
+directly or indirectly from the promoters . The record clearly establishes that shares 
+originating from the promoter group or promoter -connected entities were credited into 
+the demat account of the Noticee through off-market transfers. The factum of receipt of 
+shares in the Noticee’s demat account is not disputed. The Noticee’s attempt to 
+distance himself from such receipt by attributing control to third parties fails for the 
+reasons discussed above. The fact of off market receipt of shares further points to the 
+fact that such receipt is possible only with respect to the known entities  and acquiring 
+shares from 6 different entities, without any consideration from any one of them in very 
+short time, further corroborates the connectedness to the scheme.    
+ 
+53. There is one more fact which corroborates the fact of Noticee connection to the 
+promoter group entities. The same comes from the prosecution on the FIR filed by the 
+promoter, Mr. Anant Maloo. It is important to note that in the FIR filed by Mr. Maloo, he 
+has included Noticee as an accused person and criminal prosecution proceeded with 
+Noticee as one of the accused in the said proceedings. Though the proceedings 
+resulted in acquittal due to the promoter , who filed the FIR , turning hostile to his own 
+case, he has recorded that there was a settlement between them. The fact of the 
+settlement was also recorded in the judgement dated  July 05, 2022  of the Hon’ble 
+Criminal Court, of Hon’ble Add. Chief Metropolitan Magistrate, Ahmedabad. The fact of 
+settlement only reinforces that the Noticee and the promoter were connected   
+ 
+54. Therefore, in view of the commonalities such as overlapping contact details with other 
+connected entities, the timing and pattern of receipt and sale of shares, establish that 
+the Noticee formed part of the promoter-connected group of persons. 
+ 
+55. I note that connection under the PFUTP Regulations is not required to be established 
+solely through direct evidence of communicat ion or meetings. The determination of 
+connection is to be made on the basis of circumstantial evidences, conduct, and inter-
+linkages which, taken cumulatively, indicate coordinated activity. 
+
+=== PDF page 21 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 21 of 37 
+ 
+ 
+ 
+56. Accordingly, I find that the Noticee was connected to the promot er-connected group 
+and received shares through off -market transfers as part of the chain of transactions 
+forming the alleged scheme. The contention that the Noticee neither exercised con trol 
+over his accounts nor had any role in the acquisition of shares is not tenable. 
+ 
+57. Sale of shares by the Noticee: In view of the above findings, it needs to be determined 
+whether the Noticee has, on receipt of the shares from the connected entities, sold the 
+same in secondary market. Noticee, while putting forward his case of non-existence of 
+any unlawful gains, contended that the shares credited to his demat account were not 
+sold in the secondary market, but were returned to the promoter. In support of this 
+submission, the Noticee has relied upon a statement made by Anant Maloo before the 
+Hon’ble Criminal Court, submitted as exhibit ‘A’ of the reply in the instant proceedings, 
+wherein it was stated that the shares were returned to him by the accused Paresh 
+Nathalal Chauhan. On the strength of this statement, the Noticee contends that no sale 
+of shares was undertaken by him and, consequently, no gain accrued in his hands. 
+ 
+58. At the outset, I note that the Noticee has not adopted a consistent or coherent stand on 
+this issue also. At one stage, he asserts that the shares credite d to his demat account 
+were returned to the promoter and were never sold. At another stage, he states that the 
+shares were sold and that the sale proceeds were transferred to the promoter. These 
+two versions are plainly mutually destructive. A person canno t, in law, be permitted to 
+approbate and reprobate by advancing contradictory factual positions on the same set 
+of transactions, depending upon convenience. Such inconsistency materially erodes 
+the credibility of the defense put forth by the Noticee. 
+ 
+59. In any event, the material available on record does not support the Noticee’s contention 
+that the shares were returned and not sold. The trade log data, forming part of the 
+investigation record and furnished to the Noticee, clearly establishes that the shares 
+credited to the Noticee’s demat account were sold in the secondary market through his 
+trading account. The said trade logs evidence execution of sell trades . This 
+documentary evidence clearly establishes the factum of sale of shares by the Noticee. 
+ 
+
+=== PDF page 22 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 22 of 37 
+ 
+ 
+60. The documentary evidence further demonstrates that the Noticee sold a substantial 
+quantity of shares during the relevant period of increased trading volume following the 
+circulation of bulk SMS recommending purchase of the shares of the Company. The 
+quantum of shares sold, the dates of sale, and the prices at which such sales were 
+executed are all borne out from the trade log data relied upon in the Show Cause 
+Notice.   
+ 
+61. The reliance placed by the Noticee on the statement of Anant Maloo that shares were 
+returned to him before the Hon’ble Criminal Court  does not advance his case. The 
+judgment of the Hon’ble Criminal Court dated July 05, 2022 does not record any finding 
+that the shares were returned by the Noticee to the promoter. The acquittal in the 
+criminal proceedings was rendered primarily on the ground that the informant promoter 
+turned hostile and that the prosecution failed to independently establish the charges. 
+There is no judicial determination in the said judgment stating that the shares were 
+returned or that no sale took place.   
+ 
+62. In view of the above, given the positive documentary evidence on record, I find that the 
+shares credited to the Noticee’s demat account were sold in the secondary market, and 
+that gains were generated from such sales. The Not icee’s contention that the shares 
+were merely returned to the promoter and that no unlawful gain accrued to him is 
+contradicted by his own inconsistent submission and documentary evidence on record.  
+ 
+63. From the foregoing analysis, it is evident that the Not icee was a connected entity with 
+the modus operandi involving off-market transfer of shares, artificial creation of demand 
+through circulation of unsolicited bulk SMS, and subsequent offloading of shares in the 
+secondary market. The Noticee exercised contr ol over his accounts, received shares 
+through connected entities, sold such shares during the period of inflated trading 
+activity, and derived gains therefrom.  The quantum of shares sold and the gains 
+accrued will be dealt with in the subsequent issue.  
+ 
+64. The conduct of the Noticee formed an integral part of the fraudulent and manipulative 
+scheme designed to induce unsuspecting investors to purchase shares on the basis of 
+misleading information and artificial market conditions. Such conduct squarely falls 
+within the ambit of fraudulent and unfair trade practices. 
+
+=== PDF page 23 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 23 of 37 
+ 
+ 
+65. Accordingly, I hold that the Noticee has violated Regulations 3(a), 3(b), 3(c) and 3(d) 
+and Regulations 4(1), 4(2)(f) and 4(2)(r) of the SEBI (Prohibition of Fraudulent and 
+Unfair Trade Practices relating to Securities Market) Regulations, 2003. The violations 
+attract consequences under the SEBI Act, 1992 and the regulations framed thereunder. 
+ 
+ 
+Issue D: Whether the Noticee derived any unlawful gain as a consequence of the 
+alleged violations, warranting disgorgement under Section 11B (1) and 11B(2) read 
+with Sections 11(4) of the SEBI Act, 1992? 
+ 
+Jurisdiction to direct disgorgement 
+66. The Noticee has contended that the foundational requirement for directing 
+disgorgement, namely the existence of unlawful g ain, is wholly absent in the present 
+case. According to the Noticee, the material on record does not disclose that he 
+received any sale proceeds, economic benefit, or  advantage whatsoever, and in the 
+absence of any such material, the jurisdictional precond ition for issuing a direction of 
+disgorgement fails. On this basis, the Noticee has questioned the jurisdiction in law to 
+sustain any direction of disgorgement against him. 
+ 
+67. I note that the Show Cause Notice specifically alleges a quantified  disgorgement 
+amount, representing the unlawful gain allegedly made by the  Noticee through sale of 
+shares as part of the fraudulent scheme. The  allegation is thus squarely founded on 
+sale proceeds stated to have been received by the Noticee. In support thereof, the 
+material on record includes trade log data evidencing sale transactions executed from 
+the trading account of the Noticee. Therefore, it is incorrect to contend that there is no 
+material on record disclosing receipt of sale proceeds or unlawful gain. 
+ 
+68. The Noticee’s argument proceeds on the erroneous premise that  disgorgement has 
+been invoked in the absence of any factual basis. That is  not the case here. Whether 
+the alleged  sale transactions form part of the  fraudulent scheme and whether the 
+quantified unlawful gain is correctly computed are matters to be examined on merits. 
+However, the existence of a  specific allegation, supported by trade log material, is 
+sufficient to negate the Noticee’s objection to jurisdiction at the threshold. 
+ 
+
+=== PDF page 24 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 24 of 37 
+ 
+ 
+On submission of travelling beyond the show cause notice 
+69. The Noticee has contended that since Annexure -7 forms the sole basis  for 
+quantification of disgorgement, any correction, modification, or  recalibration of the 
+figures at the stage of adjudication would amount to travelling beyond the Show Cause 
+Notice and would violate the principles of natural justice. 
+ 
+70. According to the Noticee, Annexure-7 itself is erroneous, and therefore the adjudicating 
+authority cannot improve upon or reconstruct the  computation by relying on revised 
+figures or methodology. It is further contended that such an exercise would require the 
+Noticee to meet a case different from the one set out in the Show Cause Notice. 
+ 
+71. This contention proceeds on an incorrect understanding of both the purpose of a show 
+cause notice and the scope of adjudication. It is trite  law that the allegations of fact 
+constituting the basis of the alleged violation must be communicated to the Noticee so 
+as to enable him to offer his explanation. In the present case, the allegation of unlawful 
+gain and the basis thereof, including the figures reflected in Annexure -7, were clearly 
+set out in the Show Cause Notice. The Noticee was fully aware that unlawful gain was 
+alleged to have arisen from sale of shares and of the  manner in which such gai n was 
+proposed to be computed. He was afforded full  opportunity to respond to both the 
+factual allegations and the proposed quantification. 
+ 
+72. The figures placed in the Annexure-7 of the Show Cause Notice represent the unlawful 
+gain, which necessarily is subject to examination, verification, and determination during 
+adjudication based on the contentions raised. The very purpose of placing such figures 
+before the Noticee is to invite his response and objections, so that a final determination 
+can be arrived at after considering the material on record.  
+ 
+73. The determination of the final disgorgement figure, even if it differs from the provisional 
+figure indicated in Annexure -7, flows from the same  factual allegations and material 
+already disclosed to the Noticee. S uch determination does not amount to travelling 
+beyond the Show Cause Notice, but is an integral part of the adjudicatory process and 
+is fully consistent with the principles of natural justice.   
+ 
+
+=== PDF page 25 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 25 of 37 
+ 
+ 
+74. In the present case, no new factual premise has been introd uced. The factual case  
+remains the same throughout, namely that the Noticee derived unlawful gain through 
+sale of shares as part of the fraudulent scheme.  
+ 
+75. If, upon consideration of the record and the submissions of the  Noticee, a different 
+disgorgement f igure is determined, such determination  cannot b e characterised as 
+reliance on extraneous material. The Noticee’s contention that no variation or 
+determination of  figures is permissible at the adjudication stage reflects a flawed  
+understanding of the adjudicatory process and cannot be accepted.  
+ 
+76. Accordingly, the contention that any determination of disgorgement  figures beyond 
+Annexure-7 per se violates principles of natural justice is rejected. 
+ 
+On the Intrinsic value 
+77. The Noticee has further contended that the intrinsic value was not determined and the 
+lawful value was also not segregated from alleged unlawful enrichment, which rendered 
+the computation of disgorged amount unsustainable. 
+ 
+78. The object of anti -fraud provisions in securities law is to prevent  and deter fraudulent 
+conduct that distorts the fairness and integrity of the market. These provisions operate 
+by restraining persons from acquiring or  holding securities as part of a fraudulent 
+scheme or artifice. While, as a  matter of policy, a finding of f raud may not generally 
+disturb the underlying title to  the shares, unless there are grounds,  it directly governs 
+the permissibility of acquiring, possessing, and benefiting from such shares during the 
+execution of the fraudulent scheme.  
+ 
+79. Where shares are acquired or continued to be held as part of a fraudulent scheme, the 
+possession of those shares cannot be treated as a one pursuant to a genuine economic 
+act. The holding itself forms an integral component of the fraud, enabling its execution 
+or continuanc e. In such circumstances, the law  does not recognise a legitimate 
+entitlement to the economic benefits ordinarily associated with shareholding during the 
+period of fraudulent possession.  
+ 
+
+=== PDF page 26 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 26 of 37 
+ 
+ 
+80. Accordingly, in cases of fraudulent fresh acquisition and thereafter holding those shares 
+fraudulently, the person concerned cannot claim the benefit of  intrinsic value or value 
+accretions attributable to general market forces  during the subsistence of the fraud. 
+Concepts such as intrinsic value and market-driven appreciation presuppose a holding 
+that is unconnected with  fraud. Where continued possession of the shares post 
+fraudulent acquisition is itself part of the fraudulent  scheme, those concepts lose their 
+relevance, as the economic position from which such benefits arise is one that the law 
+seeks to prevent. 
+ 
+81. The benefit of market forces can accrue only in respect of shares  held independently 
+of the fraudulent conduct. Where a person acquires and  continues to hold shares as 
+part of his role in executing or sustaining the fraud, any appreciation in value during that 
+period is inseparably linked to  the fraudulent conduct. Granting the benefit of such 
+appreciation would amount to permitting the person who has committed fraud to profit 
+from a position that he would not have occupied but for the commission for the fraud. 
+ 
+82. Allowing retention of market -force accretion in such cases would  result in unjust 
+enrichment. It would place the one who has committed fraud  in a better position than 
+an honest market participant by allowing him to benefit from market movements that he 
+accessed solely by virtue of his  participation in the fraud. Such an outcome would 
+undermine both the preventive and remedial objectives of anti-fraud provisions. 
+ 
+83. The Hon’ble Securities Appellate Tribunal has  consistently held that disgorgement is 
+an equitable remedy, intended to prevent unjust enrichment and to strip away benefits 
+obtained through fraudulent conduct. In keeping with this equitable character, and in fit 
+cases, the acquisition cost may be exclu ded from disgorgement to ensure that  
+disgorgement does not assume a punitive character. However, this equitable exclusion 
+is limited strictly to the acquisition cost. It cannot be extended to protect intrinsic value 
+or market-driven accretions arising during the period when the shares were held as part 
+of the fraudulent scheme. 
+ 
+84. Thus, the economic benefits arising from possession during the  subsistence of fraud 
+do not enjoy protection as it is wrongful gain. Disgorgement, in such cases, must extend 
+
+=== PDF page 27 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 27 of 37 
+ 
+ 
+to all gains beyond the acquisition  cost, as any other approach would defeat the core 
+purpose of anti-fraud regulation and equitable character of disgorgement 
+ 
+On the Computation of Disgorgement 
+85. The Noticee has disputed the computation of unlawful gain on the  ground that the 
+figures reflected in the Show Cause Notice are allegedly contradictory to the trading log 
+data.   
+ 
+86. Despite, disputing the figures, the Noticee has not articulated his own case as to what, 
+according to him, would be the correct computation of un lawful gain. He has neither 
+specified the number of shares actually sold by him nor  indicated the price at which 
+such shares were allegedly sold, despite the trading log relied upon by him forming part 
+of the Show Cause Notice. 
+ 
+87. It is further relevant to n ote that the Noticee has simultaneously  relied upon his bank 
+records to contend that the sale proceeds were  transferred by him. Such reliance 
+necessarily presupposes receipt of sale proceeds arising from sale of shares. Yet, the 
+Noticee has not taken any specific stand with respect to the quantity of shares sold or 
+the sale price, thereby failing to present his case on computation.  
+ 
+88. In view of the absence of any specific alternative computation advanced by the Noticee, 
+I proceed to determine the disgorgement amount on the basis of the material available 
+on record after considering his contentions.  
+ 
+Findings on Disgorgement 
+89. The investigation observed that the promoters of the Company transferred a total of 
+37,82,750 equity shares of Timbor Home Limited to s ix connected entities before and 
+after the circulation of bulk SMS. These transfers were effected through the off-market 
+route and without any consideration. Thereafter, these shares were further transferred 
+by the said connected entities to fourteen other  connected entities, including the 
+Noticee. 
+ 
+
+=== PDF page 28 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 28 of 37 
+ 
+ 
+90. Pursuant to the circulation of unsolicited bulk SMS recommending purchase of the 
+shares of the Company during Patch II of the investigation period, seventeen connected 
+entities and two promoters offloaded 26,15, 280 shares on BSE, while seventeen 
+connected entities and one promoter offloaded 31,99,688 shares on NSE. These sales 
+coincided with the period of heightened trading activity and abnormal increase in 
+volume in the scrip. 
+ 
+91. On analysis of the trading activity during the investigation period, it was observed that 
+the gross sell volume of the connected entities was significantly higher than their gross 
+buy volume, indicating net offloading of shares. The connected entities predominantly 
+traded through the exchange mechanism. 
+ 
+92. Further, during Patch II, the connected entities were also found to have traded among 
+themselves for 8,49,220 shares on BSE and 8,31,895 shares on NSE, thereby creating 
+an appearance of artificial volume in the scrip, which had the effect o f attracting 
+unsuspecting investors. 
+ 
+93. Noticee was one of the top sellers on both BSE and NSE. The Noticee sold 14,88,625 
+shares on BSE, constituting 14.26% of the total sell volume, and  12,44,075 shares on 
+NSE, constituting 13.02% of the total sell volume.  Thus, the Noticee sold a total of 
+27,32,700 shares across both exchanges during the investigation period. 
+ 
+94. Since the 37,82,750 shares transferred off -market by the promoters were without any 
+consideration, the cost of acquisition of these shares was taken  as nil for the purpose 
+of assessing unlawful gain. As the connected entities, including the Noticee, were 
+trading both among themselves and with public investors, the sale value of the first 
+37,82,750 shares sold by the connected entities was proposed to be disgorged as ill -
+gotten gains. 
+ 
+95. Accordingly, the Show Cause Notice proposed disgorgement of the entire sale 
+consideration of these shares, amounting to ₹3,78,23,499.92, as detailed below: 
+ 
+ 
+
+=== PDF page 29 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 29 of 37 
+ 
+ 
+Sale Consideration  Sale 
+Volume 
+Sale Value Rs.  
+(A) 
+Cost Value Rs.   
+(B)  
+Profit (A-B)  
+Sale Consideration is available in actual 
+and will be same for the all option.  
+37,82,750 3,78,23,499.92  0  (37,82,750 * 0)  3,78,23,499.92      
+ 
+96. Further, based on the sale of the first 37,82,750 shares by the connected entities, the 
+sum of trade quantity and trade  value attributable to the Noticee, as proposed in the 
+SCN, was as follows: 
+Name of the entity 
+NSE BSE Total both the exchange 
+Traded 
+qty 
+traded 
+value 
+traded 
+qty traded value Total traded qty traded value 
+Paresh Nathalal 
+Chauhan 8,76,403 84,85,401.25 8,98,297 97,46,733.04 17,74,700 1,82,32,134.29 
+ 
+97. During the course of adjudication, upon appreciation of evidence and examination of 
+the role of individual entities, two connected entities were exonerated on merits and 
+held not to be participants in the frau dulent scheme in the order dated November 20, 
+2020 in the matter of Timbor Home Limited . As a direct consequence of such 
+exoneration, the 8,00,000 shares received by those two entities from the promoters 
+were excluded from the universe of shares forming pa rt of the fraudulent scheme.  
+Accordingly, the total number of shares considered for disgorgement stood reduced 
+from sale of first 37,82,750 shares to sale of first 29,82,750 shares. 
+ 
+98. Consequent to the exclusion of the aforesaid 8,00,000 shares  and considering sale of 
+first 29,82,750 shares , the sum of trade quantity and trade value of the Noticee 
+considered for disgorgement is as follows: 
+Name of the entity 
+NSE BSE Total both the exchange 
+Traded 
+qty 
+traded 
+value 
+traded 
+qty traded value Total traded qty traded value 
+Paresh Nathalal 
+Chauhan 7,83,793 87,60,300.78 754654 74,44,739.10 15,38,447 1,62,05,039.88 
+ 
+99. From the trading details of the Noticee, it is noted that out of the aforementioned sale 
+of 15,38,447 shares, the last trade done by the Noticee, in both BSE and NSE, was on 
+August 20, 2014. Accordingly, the said date is considered for calculation of interest on 
+
+=== PDF page 30 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 30 of 37 
+ 
+ 
+the disgorgement amount payable till the date of this order. In order to compensate the 
+period which passed because of the earlier order wherein  the service to the Noticee 
+was not proper, instead of 12 percent interest, interest at the rate of 8 percentages is 
+determined. Accordingly, necessary direction in this regard is incorporated. 
+ 
+100. From the factual analysis set out hereinabove, it clearly established that the Noticee 
+was a significant seller of the shares of Timbor during the relevant period, accounting 
+for a substantial proportion of the gross sell volume on both BSE and NSE. The sale 
+transactions were executed from the Noticee’s own trading account and the sale 
+consideration was received through the normal settlement mechanism. The gain 
+arising from such sale transactions, therefore, accrued directly to the Noticee. 
+ 
+101. Although the Show Cause Notice initially proposed disgorgement on the basis of sale 
+of the first 37,82,750 shares sold by the connected entities, the adjudicatory process 
+resulted in the exoneration of two connected entities on merits. As a necessary and 
+logical consequence thereof, the 8,00,000 shares received by those entities from the 
+promoters were excluded from the total shares forming part of the fraudulent scheme. 
+Upon such exclusion, the shares attributable to the scheme stood reduced to 
+29,82,750 shares, and the corresponding recalibration of individual sale quantities 
+and values followed as a matter of factual consequence. 
+ 
+102. Accordingly, for the Noticee, only sale of 15,38,447 shares on BSE and NSE put 
+together, for a total  sale consideration of ₹1,62,05,039.88, are taken into 
+consideration for calculation of unlawful gain , as these shares fall into the first 
+29,82,750 shares sold pursuant to the fraudulent scheme. Since the cost of 
+acquisition of these shares was nil , as reflected in the DIS slips of  Sanjay Jethalal 
+Soni HUF, Nimish Shah, Amul G Desai, Soni Krupa Sanjay, Soni Sanjay Jethalal and 
+Mahesh Somabhai Desai w.r.t. off market transfer of shares to the Noticee, the entire 
+sale consideration represents unlawful gain derived by the Noticee. 
+ 
+103. Accordingly, it is established that the Noticee has derived unlawful gain to the extent 
+of ₹1,62,05,039.88 through the sale of shares acquired as part of the fraudulent 
+scheme. The said amount represents unjust enrichment arising from conduct in 
+violation of the provisions of the SEBI (Proh ibition of Fraudulent and Unfair Trade 
+
+=== PDF page 31 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 31 of 37 
+ 
+ 
+Practices relating to Securities Market) Regulations, 2003, and is therefore liable to 
+be disgorged in exercise of powers under the SEBI Act, 1992. 
+ 
+On the submission of exclusion of Krishna Kumar Periwal 
+104. The Noticee has contended that there exists a dichotomy between the allegations 
+contained in the Show Cause Notice   and the findings recorded in the final order, 
+insofar as Krishna Kumar Periwal is concer ned. According to the Noticee, since 
+Krishna Kumar Periwal was allegedly similarly placed and yet was not subjected to 
+identical consequences, the continuation of proceedings against the Noticee is 
+vitiated on account of inconsistency, arbitrariness, and v iolation of principles of 
+natural justice. The Noticee has further contended that such selective approach 
+undermines the very foundation of the alleged scheme and breaks the chain of 
+causation sought to be established in the SCN. 
+ 
+105. As already detailed above , the promoters of the Company transferred a total of 
+37,82,750 shares through the off -market route to certain connected entities without 
+any consideration, the cost of acquisition of these shares was taken as zero for the 
+purpose of assessing unlawful gai n. The said shares were subsequently sold in the 
+secondary market during the period of heightened trading activity following the 
+circulation of unsolicited bulk SMS, and accordingly, the sale value of the first 
+37,82,750 shares sold by the connected entities was proposed to be disgorged as ill-
+gotten gains. Krishna Kumar Periwal was included at the SCN stage on the basis of 
+the trading data pertaining to the sale of the said first 37,82,750 shares. 
+ 
+106. However, during the course of adjudication, upon appreciat ion of evidence and 
+examination of the role of individual entities, two of the connected entities were 
+exonerated on merits and were held not to be participants in the fraudulent scheme. 
+As a necessary consequence of such exoneration, the 8,00,000 shares r eceived by 
+those two entities from the promoters were excluded from the universe of shares 
+forming part of the scheme. Consequently, the total number of shares considered for 
+disgorgement stood reduced from 37,82,750 shares to 29,82,750 shares. 
+ 
+107. It is in this factual backdrop that the exclusion of Krishna Kumar Periwal from the final 
+computation occurred. The exclusion was not based on any finding that the alleged 
+
+=== PDF page 32 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 32 of 37 
+ 
+ 
+scheme was illusory, nor did it amount to a determination that Krishna Kumar Periwal 
+was never associated with the factual narrative emerging at the SCN stage. Rather, 
+it was a consequential outcome of the revised computation necessitated by the partial 
+exoneration of certain connected entities during adjudication. 
+ 
+108. The Noticee’s attempt to portray  such consequential adjustment as a fatal 
+contradiction between the SCN and the final order is therefore misplaced. The 
+adjudicatory process necessarily involves evaluation of evidence and may culminate 
+in differential outcomes for different entities, depe nding upon the findings arrived at 
+on merits. The exclusion of certain persons initially proceeded against does not 
+invalidate the proceedings against others, nor does it undermine the existence of the 
+alleged scheme itself. 
+ 
+109. Each entity’s liability is required to be assessed independently, on the basis of their 
+own role, conduct, and transactions. The proceedings cannot be rendered arbitrary 
+or unenforceable merely because the final adjudication results in modification of the 
+initial universe of persons or  transactions identified at the SCN stage. Indeed, the 
+very purpose of adjudication is to arrive at conclusions based on evidence, which may 
+legitimately differ from the prima facie allegations contained in the SCN. 
+ 
+110. Accordingly, the contention of the Noti cee that the proceedings are vitiated on 
+account of an alleged dichotomy between the SCN and the final order, insofar as 
+Krishna Kumar Periwal is concerned, is rejected. The disgorgement computation is a 
+legitimate and inevitable outcome of the adjudicator y process and does not render 
+the proceedings inconsistent, arbitrary, as claimed by the Noticee. 
+ 
+111. Noticee has also contended that the liability was joint and several and disgorgement 
+was calculated as group and that if one of the fourteen contributors is excluded , the 
+sum-total and a pportionment logic collapse and  require re -computation on an 
+individual basis. In this regard, it is noted that the Show Cause Notices nowhere 
+allege or propose joint and several disgorgement. On the contrary, the SCNs 
+specifically identify the role, transactions and unlawful gains attributable to ea ch of 
+the Noticee separately, based on the proceeds derived by such Noticee from the 
+
+=== PDF page 33 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 33 of 37 
+ 
+ 
+impugned transactions. Accordingly, the argument that exclusion of any one of the 
+contributors would cause the sum -total or apportionment logic to collapse is 
+untenable. 
+ 
+On Transfer of sale proceeds:  
+112. The Noticee has contended that no disgorgement can be sustained  against him on 
+the ground that the alleged sale proceeds were transferred further and therefore the 
+unjust enrichment does not rest with him. This  submission is untenable and is 
+squarely answered by the law laid down by the Hon’ble Securities Appellate Tribunal 
+in Gagan Rastogi v. SEBI. 
+ 
+113. In Gagan Rastogi, the Tribunal has unequivocally held that while disgorgement, being 
+an equitable remedy, is to be made from the point of unjust enrichment, the authority 
+is not required to trace the proceeds to  the last point of the chain. The Tribunal 
+categorically rejected the  argument that further transfer of proceeds absolves the 
+original beneficiary of unjust enrichment. It was held that where unjust enrichment is 
+established, the authority is entitled to disgorge such gain from any point in the chain, 
+including the original beneficiary, and that insisting upon tracing the proceeds to the 
+final recipient is an exercise in futility. The Hon’ble Tribunal further observed that 
+when proof of unjust enrichment is evident on  record, chasing subsequent transfers 
+amounts to pursuing a mirage and cannot be supported. 
+ 
+114. Applying the aforesaid principle to the present case, it is noted  that the Noticee 
+executed the sale transactions from his own trading account. The trades were placed 
+by him and settled through his account, and  the unlawful gains arose directly from 
+such sale transactions. The unjust  enrichment, therefore, crystallised at the point of 
+Noticee. 
+ 
+115. The Noticee’s own bank statements, which have been placed on  record by him, 
+clearly evidence receipt of the sale consideration in his bank account. The Noticee’s 
+plea that the funds were subsequently  transferred further does not detract from this 
+position. Firstly, subsequent  transfer of funds does not erase or negate the unjust 
+enrichment that has already accrued to the Noticee. Secondly, the Noticee has failed 
+
+=== PDF page 34 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 34 of 37 
+ 
+ 
+to establish, by any cogent material, that the alleged transfer made to Vineet 
+Enterprises, is a promoter. Therefore, Noticee has not established his claim that the 
+sale proceeds were transferred to the promoter. 
+ 
+116. In view of the clear ratio laid down in Gagan Rastogi, the  authority is not required to 
+determine where the proceeds ultimately rested,  nor is it necessary to establish the 
+final destination of the funds. The unjust enrichment having arisen in the hands of the 
+Noticee through sale of shares from his own account and receipt of proceeds in his 
+bank account, disgorgement is rightly directed against him. 
+ 
+117. Accordingly, the Noticee’s contention that disgorgement cannot be  sustained on the 
+ground of further transfer of funds is rejected. 
+ 
+118. In view of the foregoing findings and analysis, it stands established that the Noticee, 
+Shri Paresh Nathalal Chauhan, was a participant in the fraudulent and manipulative 
+scheme involving off-market transfer of shares from the promoters through connected 
+entities and subsequent offloading of such shares in the secondary market during the 
+period of artificially increased trading volume following the circulation of unsolicited 
+bulk SMS recommending purchase of the shares of the Company  and the 
+manipulation of price of the share . The material available on record, including off -
+market transfer details, DIS slips, trade logs, and bank statements, clearly evidences 
+that the Noticee sold shares received as part of the said scheme through his own 
+trading account and received the corresponding sale consideration in his bank 
+account. 
+ 
+119. Since the shares forming part of the scheme were transferred without any 
+consideration, the cost of acquisition of such shares is taken as zero for the purpose 
+of computation of unlawful gain. The sale proceeds realised by the Noticee from the 
+sale of such shares therefore represent the unlawful gain derived by him as a direct 
+consequence of his participation in the fraudulent scheme. Upon appreciation of the 
+evidence on record and exclusion of the shares pertaining to entities exonerated on 
+merits, the unlawful gain attributable to the N oticee is observed as ₹1,62,05,039.88 
+(Rupees One Crore Sixty-Two Lakh Five Thousand Thirty -Nine and Eighty -Eight 
+
+=== PDF page 35 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 35 of 37 
+ 
+ 
+Paise only), being the sale consideration corresponding to 15,38,447 shares sold by 
+him on BSE and NSE as part of the scheme. 
+ 
+120. Accordingly, I hold that the Noticee has made unlawful gains to the aforesaid extent, 
+which are liable to be disgorged. Disgorgement of the said amount is necessary to 
+prevent unjust enrichment, to neutralise the economic benefit derived from the 
+fraudulent conduct, and to uphold the integrity and fairness of the securities market.  
+ 
+121. For the reasons stated above, since the Noticee has indulged in fraudulent and unfair 
+trade practice in respect of the scrip of Timbor Home Limied, the Noticee is also liable 
+for penalty under Section 15HA of SEBI Act. 
+ 
+122. However, I also note that vide an order dated November 20, 2020 under Section 11B 
+of the SEBI Act, 1992, the Noticee was restrained from accessing the securities 
+market and from buying, selling or otherwise dealing in securities for a period of two 
+years. I note that the said restraint period has already elapsed, and the Noticee has 
+thus served the entirety of the debarment imposed under the said order. 
+ 
+123. In view of the fact that the Noticee has already undergone the period of restraint 
+imposed earlier under Section 11B of the SEBI Act, 1992, and having regard to the 
+principle of proportionality, I find that no further direction of debarment is warranted 
+in the present proceedings.  
+ 
+124. Having considered the above facts and circumstances, while adjudging the quantum 
+of penalty under section 15HA, I have also given due regard to the factors provided 
+in section 15J of the SEBI Act which provides as follows: 
+ 
+Factors to be taken into account while adjudging quantum of penalty.  
+15J. While adjudging quantum of penalty under 15-I or section 11 or section 11B, the Board 
+or the adjudicating officer shall have due regard to the following factors, namely: — 
+(a)the amount of disproportionate gain or unfair advantage, wherever quantifiable, made as 
+a result of the default; 
+(b)the amount of loss caused to an investor or group of investors as a result of the default; 
+(c)the repetitive nature of the default.  
+
+=== PDF page 36 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 36 of 37 
+ 
+ 
+ 
+Explanation. —For the removal of doubts, it is clarified that the power to adjudge the quantum 
+of penalty under sections 15A to 15E, clauses (b) and (c) of section 15F, 15G, 15H and 15HA 
+shall be and shall always be deemed to have been exercised under the provisions of this 
+section.” 
+ 
+125. In this case, the Noticee  have made unlawful gains which has been duly quantified 
+for the purpose of disgorgement as found hereinabove. The amount of loss caused 
+to investors has not been brought on record by investigation. This is a case where 
+persons with fraudulent tactics induced innocent investors, to trade in the scrip likely 
+to result in financial losses when the perpetrators sell their holding to them at inflated 
+prices. It is also a case where the Noticee has indulged in fraudulent, manipulative  
+and unfair practices relating to security market which affect the  trust and values of 
+integrity in the securities market. 
+ 
+Directions: 
+126. In view of the above, I, in exercise of the powers conferred upon me under Sections 
+11(1), 11(4) and 11B(1) and 11B(2)  read with Section 19  of  the Securities and 
+Exchange Board  of India Act, 1992, hereby issue the following directions: 
+126.1. Noticee is hereby directed to disgorge the illegal gains  made by him, i.e. 
+₹1,62,05,039.88 (Rupees One Crore Sixty-Two Lakh Five Thousand Thirty-
+Nine and Eighty-Eight Paise only), along with interest calculated at the rate of 
+8 % p.a. w.e.f. the date of last sale done by the Noticee i.e. August 20, 2014, 
+till the date of this order, within a period of 45 days from the date of this order. 
+The same shall be credited into the IPEF referred to in section 11(5) of the 
+SEBI Act, within 45 days from the date of this order. 
+ 
+126.2. In case, the Noticee fail to pay the disgorgement amount within 45 days  from 
+the date of this order, he shall be restrained from the expiry of the said 45th day 
+till he makes the payment, from accessing the securities market and prohibited 
+from buying, selling or otherwise dealing in the securities  market. However, 
+such debarment shall not discharge  the Noticee, from his liability to pay the 
+disgorgement amount along with interest already levied and leviable for the 
+
+=== PDF page 37 ===
+______________________________________________________________________________________  
+Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited Page 37 of 37 
+ 
+ 
+period of nonpayment after the date of this order  as per law , which shall be 
+recovered by SEBI in accordance with Section 28A of the SEBI Act, 1992. 
+ 
+126.3. In light of the facts and circumstances of this case as discussed above, the 
+factors listed in Section 15J  of the SEBI Act and in exercise of powers 
+conferred upon me under Sections 11(4A)  and 11B (2) , I hereby impose a 
+monetary penalty of Rs.5,00,000/ - (Rupees Five Lakhs Only) on the Noticee 
+under Section 15HA of the SEBI Act.   
+ 
+126.4. Noticee shall remit/ pay the amount of penalty mentioned above, within 45 
+days of receipt of this Order through online payment facility available on the 
+website of SEBI i.e. SEBI i.e. www.sebi.gov.in on the following path, by clicking 
+on  the  payment  link  www.sebi.gov.in/ENFORCEMENT ->  Orders ->  Orders  
+of  EDs/CGMs -> PAY NOW. In case of any difficulty in online payment of 
+penalty, the Noticee(s) may contact the support of portalhelp@sebi.gov.in. 
+ 
+126.5. Noticee is prohibited from selling his assets, properties including  mutual 
+funds/shares/securities held by him in demat and physical form during the 
+period of debarment except for the purpose  of effecting disgorgement as 
+directed above or payment of penalty in terms of this order. 
+ 
+127. This Order shall come into force with immediate effect. 
+ 
+128. This order is signed with physical and digital signature. 
+ 
+129. A copy of this order shall be on the Noticee, recognized Stock Exchanges, Banks, 
+Depositories and Registrar and Share Transfer Agents to ensure necessary 
+compliance.   
+ 
+ 
+ 
+ 
+DATE: December 31, 2025                                                                        N. MURUGAN 
+PLACE: MUMBAI                                                              CHIEF GENERAL MANAGER 
+                                                          SECURITIES AND EXCHANGE BOARD OF INDIA  

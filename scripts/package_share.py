@@ -7,8 +7,8 @@ import tomllib
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-FILES = ("README.md", "requirements-design.lock", "requirements-pilot.lock", "pyproject.toml", ".gitignore")
-FOLDERS = ("docs", "schemas", "fixtures", "scripts", "references", "pilot", "evidrava", "sebi_benchmark", "tests")
+FILES = ("README.md", "LICENSE", ".gitattributes", "requirements-design.lock", "requirements-pilot.lock", "pyproject.toml", ".gitignore")
+FOLDERS = ("backend", "docs", "fixtures", "frontend", "middleware", "schemas", "scripts", "references", "pilot", "evidrava", "sebi_benchmark", "tests")
 EXCLUDED = {"__pycache__", "node_modules", "_work", ".work", ".git"}
 
 

@@ -1,0 +1,176 @@
+{
+  "kind": "source-acquisition",
+  "version": "0.7.0",
+  "created_at_utc": "2026-11-15T19:08:41.297227+00:00",
+  "reference_provenance": {
+    "reference_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+    "manifest_sha256": "2ab12ca3ac3c856699a80c03e3fd0a062390c41d07949ae45fd38d822a660c9f",
+    "preparer_sha256": "e327f05c7f76564ffc7cbc52808bbd2b7f2beb6526ec166aab684c1c77761048",
+    "verified_raw_captures": 9
+  },
+  "python_version": "3.12.14",
+  "pypdf_version": "6.21.4",
+  "collector_source_sha256": {
+    "__init__.py": "4575c2b0357f0f84c5d85b6385911d7ca03435557c005068830dd9486a0b5aea",
+    "__main__.py": "5cd0dc8955ba82e7fbdfe1ad05db2aa93bd8bb66d350c47047530ca401111b05",
+    "brief.py": "46f1adc775d282d9fbd792ce41a0aebd1ccf7cc9c46eb6942abfa427d75016f5",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "frame.py": "b9a19b53611da6d815d7b04f57f359a39a7582e6f5f4f9e64ccabcadec1e2f5c",
+    "frame_report.py": "cdf29500f4bb10765e9afc0bc1ed547953186583421d197f4217610b11f3247d",
+    "report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "sources.py": "42ad968ae816ef13f348d6a64d06e2c221c8fffdd0a9b6545d7d0cc23e3b76f7",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "records": [
+    {
+      "screening_id": "RECON-16",
+      "title": "Adjudication Order against 35 Entities in the matter of Shakti Pumps (India) Ltd., [SAT Appeal No.: 367/2019][SAT Appeal No.: 619 /2019] [SAT Appeal No.: 76/2019 & Misc App No. 120/2019][SAT Appeal No.: 103/2019 & Misc. App No.161/2019][SAT Appeal No.: 161/2019 & Misc.App.No.222/2019]",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+      "listing_response_sha256": "f0744b97a3eb090a0c3e229d74d4507f67043ddbdb5ecd20c13220e18c503df7",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536574943013.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536574943013.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "c4d9852f5277b613b47e175df069b0c975fc315cbf28937ecacd702ccab23eb7",
+        "retrieved_at_utc": "2026-11-15T19:08:41.523746+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-16/page.html",
+        "bytes": 13834
+      },
+      "rejected_candidates": [
+        {
+          "tag": "a",
+          "url": "http://sat.gov.in/english/pdf/E2020_JO2019619.PDF",
+          "reason": "Sources must use HTTPS on an explicitly allowed SEBI hostname, without credentials or a nonstandard port"
+        },
+        {
+          "tag": "a",
+          "url": "http://sat.gov.in/english/pdf/E2021_JO201976_18.PDF",
+          "reason": "Sources must use HTTPS on an explicitly allowed SEBI hostname, without credentials or a nonstandard port"
+        },
+        {
+          "tag": "a",
+          "url": "http://sat.gov.in/english/pdf/E2021_JO2019103_18.PDF",
+          "reason": "Sources must use HTTPS on an explicitly allowed SEBI hostname, without credentials or a nonstandard port"
+        },
+        {
+          "tag": "a",
+          "url": "http://sat.gov.in/english/pdf/E2021_JO2019161_18.PDF",
+          "reason": "Sources must use HTTPS on an explicitly allowed SEBI hostname, without credentials or a nonstandard port"
+        }
+      ],
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536574943013.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536574943013.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a52716aeb816b1479a508e7418a8c76b17d5f7d92218b06d5f07a7da98e7d99a",
+        "retrieved_at_utc": "2026-11-15T19:08:45.976573+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-16/source.pdf",
+        "bytes": 1952903
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 67,
+        "page_errors": [],
+        "path": "records/RECON-16/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-17",
+      "title": "Appeal No. 3155 of 2018 filed by Kunduru Sri Ranga Reddy",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+      "listing_response_sha256": "f0744b97a3eb090a0c3e229d74d4507f67043ddbdb5ecd20c13220e18c503df7",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536549564638.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/sep-2018/1536549564638.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "5391c7e24764e395860c2d6c994f39415fc7c6d061c750155723b45cf4dc2f50",
+        "retrieved_at_utc": "2026-11-15T19:08:54.832717+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-17/page.html",
+        "bytes": 8227
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536549564638.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536549564638.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "c8cf559b42168b9019c3c0e0dcdf2ab9204c8b11f3580c02445c03a3452eb446",
+        "retrieved_at_utc": "2026-11-15T19:08:57.068014+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-17/source.pdf",
+        "bytes": 367517
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-17/pages.json"
+      },
+      "status": "ACQUIRED"
+    }
+  ],
+  "human_screening_completed": false,
+  "research_decision": "NOT_EVALUATED",
+  "publication_dates_verified": false,
+  "native_pdf_text_only": true,
+  "limits": {
+    "max_records": 30,
+    "page_bytes": 2000000,
+    "pdf_bytes": 20000000,
+    "socket_timeout_seconds": 20,
+    "max_redirects_per_fetch": 4,
+    "max_retries": 0
+  },
+  "limitations": [
+    "Automated retrieval and text extraction are not human screening or independent audit",
+    "Listing dates, retrieval timestamps and HTTP Last-Modified are not verified publication dates",
+    "Page numbers are PDF page positions; printed page labels may differ",
+    "Native text may omit tables, scans or layout; inspect the original PDF",
+    "This fixed reconnaissance batch is not the random research sample"
+  ],
+  "status": "COMPLETE",
+  "counts": {
+    "requested": 2,
+    "acquired": 2,
+    "failed": 0
+  },
+  "successful_response_bytes": 2342481,
+  "successful_response_requests_including_redirects": 4,
+  "fetch_attempts": 4,
+  "failed_request_counts_incomplete": false,
+  "files": {
+    "records/RECON-16/page.html": "c4d9852f5277b613b47e175df069b0c975fc315cbf28937ecacd702ccab23eb7",
+    "records/RECON-16/pages.json": "6d9b6ad204c7e420c4a3c5ebe93b37ae4163e207479906f7b91f093f890ed25e",
+    "records/RECON-16/source.pdf": "a52716aeb816b1479a508e7418a8c76b17d5f7d92218b06d5f07a7da98e7d99a",
+    "records/RECON-16/text.txt": "37435e4920b8808501b361c3a4d760acadb450e7e0925687bb37bc7462619ad9",
+    "records/RECON-17/page.html": "5391c7e24764e395860c2d6c994f39415fc7c6d061c750155723b45cf4dc2f50",
+    "records/RECON-17/pages.json": "7193d2048e644d0bcda0bddfbe79bab7ef4d22d74edf1366945f7938f2633b28",
+    "records/RECON-17/source.pdf": "c8cf559b42168b9019c3c0e0dcdf2ab9204c8b11f3580c02445c03a3452eb446",
+    "records/RECON-17/text.txt": "8225db0fca606870a2236f3a4b782711e55e10878b16f09657b444e8e715a626",
+    "report.html": "25e7ab5ddba908a7551d3398448b87ba2fbbe5e6a5e512c2bf367aa455663eec"
+  }
+}

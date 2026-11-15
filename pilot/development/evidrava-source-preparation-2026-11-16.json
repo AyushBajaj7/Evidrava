@@ -1,0 +1,66 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.7.0",
+  "kind": "source-preparation-increment",
+  "status": "COMPLETE",
+  "completed_on": "2026-11-16",
+  "scope": "Preserve the official SEBI listing pages, PDFs where uniquely discoverable, byte hashes and native PDF text for the fixed 30-record workload reconnaissance batch.",
+  "source_packets": [
+    {
+      "path": "pilot/sources/recon-first-three",
+      "manifest_sha256": "3b09f5e794f310b30b40aa50985af38f270e6aa3d2583fcf7dda3bc465790db5",
+      "selected_ids": ["RECON-01", "RECON-02", "RECON-03"],
+      "status": "COMPLETE"
+    },
+    {
+      "path": "pilot/sources/recon-remaining-2026-11-16",
+      "manifest_sha256": "4e313721f3e90ab4fe5250ffc229473145741878669439b70582bd090d138744",
+      "selected_ids": ["RECON-04", "RECON-05", "RECON-06", "RECON-07", "RECON-08", "RECON-09", "RECON-10", "RECON-11", "RECON-12", "RECON-13", "RECON-14", "RECON-15", "RECON-16", "RECON-17", "RECON-18", "RECON-19", "RECON-20", "RECON-21", "RECON-22", "RECON-23", "RECON-24", "RECON-25", "RECON-26", "RECON-27", "RECON-28", "RECON-29", "RECON-30"],
+      "status": "PARTIAL",
+      "reason": "RECON-16 contained unrelated external appeal links and RECON-17 had a transient incomplete response. The original partial packet is retained unchanged."
+    },
+    {
+      "path": "pilot/sources/recon-retry-2026-11-16",
+      "manifest_sha256": "f657352912c896d0165eeb9a8795825b7d542b9c9967dd88777b2f1f61c8ad3f",
+      "selected_ids": ["RECON-16", "RECON-17"],
+      "status": "COMPLETE",
+      "reason": "Fresh bounded retry packet; it supplies the successful records for the two retained failures."
+    }
+  ],
+  "resolved_inventory": {
+    "unique_workload_records": 30,
+    "acquired_records": 30,
+    "failed_records_after_retry": 0,
+    "native_extraction_statuses": {
+      "OK": 29,
+      "ENCRYPTED": 1
+    },
+    "encrypted_record": "RECON-08",
+    "record_with_rejected_external_candidate": "RECON-16"
+  },
+  "collector_improvement": {
+    "issue": "A page containing an unrelated external appeal PDF and a valid official embedded order was rejected before the official order could be acquired.",
+    "resolution": "The collector now records rejected external PDF candidates in the manifest when an official candidate is also available, while pages with only unsafe PDF candidates still fail explicitly.",
+    "sources_py_sha256": "42ad968ae816ef13f348d6a64d06e2c221c8fffdd0a9b6545d7d0cc23e3b76f7",
+    "source_tests_py_sha256": "7d3007e7fb385f55caeadecf107ca5eaee22f7340569ecc89d5df7c83436f4f3",
+    "targeted_tests": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest tests.test_sources -v",
+      "result": "PASS",
+      "tests_passed": 52
+    }
+  },
+  "research_boundary": {
+    "human_screening_completed": false,
+    "independent_audit_completed": false,
+    "publication_dates_verified": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "limitations": [
+    "Native text is provisional navigation material and can omit tables, scans and layout.",
+    "RECON-08 is encrypted and needs original-document access or another legitimate review route; no text was invented.",
+    "Listing dates and retrieval timestamps are not verified publication dates.",
+    "The fixed 30-record workload batch is not the random research sample.",
+    "No eligibility decision, related-matter decision, reviewer identity, timing value or registry entry was generated automatically."
+  ],
+  "publication": "NOT_PUBLISHED; no GitHub push or external sharing"
+}

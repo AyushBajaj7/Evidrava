@@ -250,6 +250,13 @@ class DiscoveryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             discover_pdf_links('<a href="https://evil.example/file.pdf">Download</a>', PAGE_URL)
 
+    def test_official_candidate_is_retained_and_unrelated_external_pdf_is_recorded(self):
+        html = f'<a href="https://evil.example/appeal.pdf">Appeal</a><iframe src="{PDF_URL}"></iframe>'
+        found, rejected = discover_pdf_links(html, PAGE_URL, include_rejections=True)
+        self.assertEqual([candidate["url"] for candidate in found], [PDF_URL])
+        self.assertEqual(len(rejected), 1)
+        self.assertEqual(rejected[0]["url"], "https://evil.example/appeal.pdf")
+
     def test_script_text_and_ordinary_links_are_not_pdf_discovery(self):
         html = f'<script>var source = "{PDF_URL}";</script><a href="/home.html">Home</a>'
         self.assertEqual(discover_pdf_links(html, PAGE_URL), [])

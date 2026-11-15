@@ -1,0 +1,57 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.7.2",
+  "kind": "aggregate-screening-status-increment",
+  "status": "COMPLETE",
+  "completed_on": "2026-11-16",
+  "scope": "Read current human-screening progress from the protected working CSV for the local dashboard without returning any entered research content.",
+  "delivered": {
+    "dashboard_behavior": "The local project-status endpoint now recalculates aggregate screening totals and input state from working/screening_30.csv.",
+    "privacy_boundary": "The browser receives only counts and state. Screener names, decisions, reasons, notes, source locators and individual timings are not returned.",
+    "input_boundary": "An unavailable or invalid working CSV reports a generic input-state warning. Detailed diagnostics remain local to the screening-report command.",
+    "visual_behavior": "The frontend shows completed/expected screening count together with the current aggregate status."
+  },
+  "verification": {
+    "full_python_suite": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest discover -s tests -q",
+      "result": "PASS",
+      "tests_passed": 184
+    },
+    "covered_cases": [
+      "The untouched local working CSV reports 0 of 30 completed and valid aggregate input.",
+      "A missing working input reports INPUT_UNAVAILABLE without error detail.",
+      "A completed aggregate result is passed through without any CSV content.",
+      "The local frontend, middleware and backend integration preserves loopback-only and temporary-workbook safeguards."
+    ]
+  },
+  "implementation_fingerprints": {
+    "backend/app.py": "238d1203fc42e509635b6b6ee915b710890c8c5b1819e9d321a03e069aab4ee1",
+    "frontend/public/app.js": "ea2e422ad9f28c039067766389d1cd762d6779f8041601f7918141ffdd44b30d",
+    "frontend/public/styles.css": "50b7afdfb952f7cfb66412d53c3a565367c05768e5752eb037e22c0e5db00361",
+    "tests/test_backend_status.py": "028e974da5556fac47c8cd18608f0b21174eb37e7164b33978addea974c60954",
+    "tests/test_web_stack.py": "b1435202fd4f93ceda9806610f75ace89423744c605e9678b11163b752c6b025",
+    "evidrava/__init__.py": "a28b1bad83e7cf4ac975511e90fc332f4f9565ab4714cdec221d5a4a55c51eec",
+    "evidrava/__main__.py": "9d6acc1aa110ddc2d4293c19f8088b8959e197008df938570bdaf93464309a96"
+  },
+  "received_workbook": {
+    "path": "references/incoming/2026-11-13/SEBI_Episode_Registry_v3_3.xlsx",
+    "sha256": "b4e7a944eda1fba7509c61122cb670d8e1173070f2f5eef01f0d30df0789cd96",
+    "modified": false
+  },
+  "workbook_formula_execution": {
+    "local_status": "UNVERIFIED",
+    "reason": "The supplied 114-scenario suite still needs a healthy isolated LibreOffice or Excel installation. The earlier Excel smoke attempt ended at an Office repair prompt, which was not accepted."
+  },
+  "research_status": {
+    "protocol": "DRAFT",
+    "reviewer_confirmed": false,
+    "human_screening_completed": false,
+    "independent_audit_completed": false,
+    "real_candidate_frame_created": false,
+    "real_protocol_frozen": false,
+    "real_sample_drawn": false,
+    "market_coverage_verified": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "publication": "LOCAL_ONLY; no GitHub push, deployment, external sharing or research conclusion was made"
+}

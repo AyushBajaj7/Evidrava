@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local Evidrava pilot console">
+  <title>Evidrava — Pilot Console</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/upload.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">E</span><div><strong>Evidrava</strong><span>Point-in-time evidence pilot</span></div></div>
+    <div id="connection" class="connection pending" role="status">Connecting locally…</div>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">LOCAL RESEARCH CONSOLE</p>
+      <h1>Prepare evidence without pretending the research is finished.</h1>
+      <p>This console can check a workbook copy, validate candidate-frame structure and create a deterministic selection manifest only from a truly frozen protocol. It never changes the workbook, awards audit credit, or returns a research PASS.</p>
+    </section>
+
+    <section aria-labelledby="status-title">
+      <div class="section-heading"><div><p class="eyebrow">CURRENT STATE</p><h2 id="status-title">Pilot status</h2></div><button id="refresh-status" class="secondary">Refresh status</button></div>
+      <div id="status-cards" class="status-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="workspace" aria-labelledby="workbook-title">
+      <div class="workspace-heading"><div><p class="eyebrow">STEP A</p><h2 id="workbook-title">Workbook preparation check</h2></div><span class="safety-label">Temporary upload</span></div>
+      <p class="guide">Choose a copy of the supported v3.3 registry workbook. Its bytes are checked in a temporary local directory and are not saved to the project. Formula results are not recalculated.</p>
+      <label for="workbook-file">Registry workbook (.xlsx, maximum 20 MB)</label>
+      <input id="workbook-file" class="file-input" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" aria-describedby="workbook-help">
+      <p id="workbook-help" class="field-help">The browser sends workbook bytes, not a filesystem path. Results remain validation-only and <code>NOT_EVALUATED</code>.</p>
+      <details class="advanced-options">
+        <summary>Optional session calendar and selection manifest</summary>
+        <p class="field-help">Use these only for a real frozen workbook. They are checked temporarily with the uploaded workbook and are not stored in the project.</p>
+        <label for="sessions-csv">Session calendar CSV</label>
+        <textarea id="sessions-csv" spellcheck="false" placeholder="date&#10;2026-01-02"></textarea>
+        <label for="selection-manifest-json">Selection manifest JSON</label>
+        <textarea id="selection-manifest-json" spellcheck="false" placeholder='{"selected_matter_ids":["M001","M002"]}'></textarea>
+      </details>
+      <div class="actions"><button id="check-workbook">Check selected workbook</button></div>
+    </section>
+
+    <section class="workspace" aria-labelledby="frame-title">
+      <div class="workspace-heading"><div><p class="eyebrow">STEP B</p><h2 id="frame-title">Candidate-frame check</h2></div><span class="safety-label">No study draw</span></div>
+      <p class="guide">Paste a real, reconciled frame only after screening and scope work. This check verifies format, group integrity and stated reasons—not the truth of an eligibility decision.</p>
+      <label for="frame-csv">Candidate frame CSV</label>
+      <textarea id="frame-csv" spellcheck="false" aria-describedby="frame-help"></textarea>
+      <p id="frame-help" class="field-help">Required columns: matter ID, related-matter group, eligibility status, and eligibility reason.</p>
+      <div class="actions"><button id="check-frame">Validate frame</button><button id="load-templates" class="secondary">Restore DRAFT templates</button></div>
+    </section>
+
+    <section class="workspace" aria-labelledby="draw-title">
+      <div class="workspace-heading"><div><p class="eyebrow">STEP C</p><h2 id="draw-title">Frozen-protocol draw</h2></div><span class="safety-label">Whole groups only</span></div>
+      <p class="guide">The protocol must already be genuinely frozen and bind the exact SHA-256 of the CSV above. A DRAFT protocol, altered frame, or unreachable target is rejected.</p>
+      <label for="protocol-json">Frozen protocol JSON</label>
+      <textarea id="protocol-json" spellcheck="false" aria-describedby="protocol-help"></textarea>
+      <p id="protocol-help" class="field-help">The supplied template stays DRAFT until you make and record the real research decisions offline.</p>
+      <div class="actions"><button id="draw-sample">Create selection manifest</button><button id="download-manifest" class="secondary" disabled>Download last manifest</button></div>
+    </section>
+
+    <section class="results" aria-labelledby="result-title">
+      <div class="section-heading"><div><p class="eyebrow">LOCAL RESPONSE</p><h2 id="result-title">Result</h2></div><span id="result-status" class="safety-label">Waiting</span></div>
+      <p id="result-summary" class="guide">Status and validation results will appear here. Every result remains <code>NOT_EVALUATED</code> for research.</p>
+      <pre id="result-json" aria-live="polite">{}</pre>
+    </section>
+  </main>
+  <footer>Local-only tool · Evidence preparation is not independent audit · No research decision is calculated here</footer>
+  <script src="/config.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

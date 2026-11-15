@@ -1,0 +1,541 @@
+=== PDF page 1 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 1 of 14 
+BEFORE THE ADJUDICATING OFFICER 
+SECURITIES AND EXCHANGE BOARD OF INDIA  
+[ADJUDICATION ORDER NO. Order/VV/NK/2020-21/9988] 
+ 
+UNDER SECTION 15 -I OF SECURITIES AND EXCHANGE BOARD OF INDIA ACT, 
+1992 READ WITH RULE 5 OF SEBI (PROCEDURE FOR HOLDING INQUIRY AND 
+IMPOSING PENALTIES) RULES, 1995;  
+In respect of 
+Sunita Investments (Proprietor: Sunita Gupta) (PAN: AAHPG4700E) 
+In the matter of  
+Trading Activities of Certain Entities in the scrip of Mefcom Agro Industries 
+Limited 
+ 
+FACTS OF THE CASE IN BRIEF 
+1. Securities and Exchange Board of India (hereinafter referred to as ‘SEBI’) conducted 
+an investigation to ascertain the violation, if any, of the provisions of Securities and 
+Exchange Board of India, Act 1992 (hereinafter referred to as the ‘SEBI Act’) and 
+SEBI (Prohibit ion of Fraudulent and Unfair Trade Practices relating to Securities 
+Market) Regulations, 2003 (hereinafter referred to as the ‘ SEBI ( PFUTP) 
+Regulations, 2003’) by the Noticee, namely, Sunita Investments (Proprietor: Sunita 
+Gupta) (hereinafter referred to a s “SI/Sunita Investments/Noticee ”) while trading 
+in the scrip of Mefcom Agro Industries Limited (hereinafter referred to as Mefcom/ 
+MAIL / the company)  during the period from January 01, 2006 to June 30, 2007  
+(hereinafter referred to as ‘investigation period’). 
+2. It was alleged that the Noticee was one of the largest traders in the scrip of Mefcom 
+and had accounted for gross purchase of 1773821 shares (approximately 7.40%) 
+and gross sale of 1 781414 shares (approximately 7.43%). It was also alleged that 
+
+=== PDF page 2 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 2 of 14 
+the Noticee had indulged in self trades during the investigation period. Further the 
+Noticee was also instrumental in increasing the price of the scrip.   
+3. In view of all of the above , it was alleged that the Noticee violated the provisions of 
+Regulation 3(a), 3 (b), 3(c), 3(d), 4(1), 4(2)(a) and 4(2)(e) of SEBI (Prohibition of 
+Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 
+2003 [hereinafter referred to as the SEBI (PFUTP) Regulations, 2003].   
+APPOINTMENT OF ADJUDICATING OFFICER    
+4. Mr. Prasad Jagdale was appointed as the Adjudicating Officer (AO) under section 
+15I of the Securities and Exchange Board of India Act, 1992 read with rule 3 of SEBI 
+(Procedure for Holding Inquiry and Imposing Penalt ies) Rules, 1995 (hereinafter 
+referred to as the ‘Adjudication Rules’) to inquire into and adjudge under section 
+15 HA of the Securities And Exchange Board of India Act , 1992 for the alleged 
+violation of the provisions of Regulations 3(a), 3(b), 3(c), 3(d), 4(1), 4(2)(a) and 
+4(2)(e) of SEBI (PFUTP) Regulations, 2003 by the Noticee . Subsequent to the 
+transfer of Mr. Prasad Jagdale,  Ms. Rachna Anand was appointed as the AO. 
+Thereafter, upon transfer of Ms. Rachna Anand , Mr. Jeevan Sonparote was 
+appointed as the AO. Thereafter, upon transfer of M r. Jeevan Sonparote, I have 
+been appointed as the Adjudicating Officer in the present matter vide order dated 
+August 09, 2019. 
+SHOW CAUSE NOTICE, REPLY AND PERSONAL HEARING     
+5. A Show Cause Notice (hereinafter referred to as “SCN”)  EAD-8/JS/VRP/5513/2018 
+dated February 21, 2018 was inter-alia issued to the Noticee under Rule 4 of the 
+Adjudication Rules to show cause as to why an inquiry should not be initiated and 
+penalty be not imposed under section 15H A of the SEBI Act, 1992 for the alleged 
+violations specified in the SCN. The said SCN was delivered to the Noticee.  
+6. In the SCN it was alleged that o n analyzing trades executed at a price higher than 
+the last traded price (hereinafter referred to as “LTP”) it was observed that during 
+patch-1, the market wide cumulative contribution to the positive and net LTP 
+variation (hereinaft er referred to as “LTPV”) was Rs. 661.06 and Rs. 190.73 
+
+=== PDF page 3 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 3 of 14 
+respectively of which Rs. 399.63 and Rs. 268.03 respectively was contributed by the 
+Mefcom group entities as buyers. The details of connected entities called Mefcom 
+Group is placed below: 
+ 
+Sr. Name of Entity PAN NO. Connection 
+1 Vijay Mehta AAKPM1588M  Promoter of Mefcom Agro Industries. Also Chairman of Mefcom  
+2. Harsh Kumar Mehta AAHPM7953M  Promoter group entity -brother of prom oter Vijay Mehta -(as per the 
+documents submitted by Vijay Mehta, Harshkumar Mehta  Expired in 2011)  
+3 Mefcom Capital  Markets 
+Ltd (MCML) 
+AAACM7077N Promoter of Mefcom. Also Vijay Mehta was the chairman of MCML  
+4 Rakesh Kumar Mishra 
+(Cosmo Corporate 
+Services Ltd-Cosmo) 
+ 
+AAACC3529P  Off market transfer with Master Finlease  
+ As per BSE database, phone number of Cosmo i.e. "23739998" is registered 
+in the name of Vijay Jindal (Director of Avisha Credit Capital   Ltd and Master 
+Finlease Ltd, which shares the ne w address of Mefcom i.e.606 Kailash 
+Building KG Marg,New Delhi). C 
+5 Avisha Credit Capital Ltd 
+(“Avisha”) 
+AAACA5715D  Shares new address of Mefcom. also the address of Master Finlease  Limited 
+viz., "606 Kailash Building, KG Marg, New Delhi” 
+6 Sunita Investments (Sunita 
+Gupta) 
+AAHPG4700E  Off market  transfer with Cosmo Corporate Services Ltd     
+7 Vishvas Securities Limited  AAACV2921N  Shared same address as that of Mefcom  during the Investigation period 
+(viz., 912 Kailash Building KG Marg Delhi) 
+ Off market transfer to Master Finlease Ltd., SIC Stock and Services Pvt. Ltd. 
+and Avisha Credit Capital Ltd. 
+ During the IP, Avisha Credit capital Ltd. and Master Finlease Ltd. were 
+holding 45% of share capital in Vishvas Securities Ltd. (Unlisted Co.) - as on 
+30/9/2006 
+ Atul Joshi one of the present  directors of  Vishvas Securities Ltd., as on 
+December 16, 2015, is also director in Mefcom Agro Industries Ltd.  
+8 Vijay Jindal  (Master 
+Finlease Limited- MFL)  
+   
+AAACM6050D  Shares new address of the company ("606 Kaila sh Buildibng , KG Marg, New 
+Delhi) which is also the address of Avisha  
+ Master Finlease Ltd. along with Avisha Credit capital Ltd. held 45% of share 
+capital in Vishvas Securities Ltd. (Unlisted Co.)   
+ Off market transfer with Vishvas Securities limited  
+9 SIC Stocks & Services P 
+Ltd 
+AAHCS8176P  Off market transfer with Vishvas Securities Ltd (It was revealed during 
+investigation that entity traded using  its client’s name - at sr.No.10,11, 12 & 
+13 -  during IP)   
+ Financial transaction with Avisha 
+10 Purshottam Khandelwal  ADZPK9831B  It was observed that these entities were major counter parties to the sale by 
+original promoters when the promoters exited the company.  It was 
+revealed during investigation that their broker (SIC) was trading using   
+client’s name.  This is discussed in detail in paras 14.2.2, 3 & 4 
+11 Pushpa Bansal  AMBPB5527G 
+12  Deepak Shantilal Rana  ABCPR2985E 
+13  Shilpi Krishnakumar Modi   
+ 
+AGDPM3368E 
+14  ISF Securities Ltd AAACI1667E  Off market trade with Master Finlease. 
+Financial transaction with Avisha Credit Capital Ltd.  
+15 BP Comtrade P Ltd (BP)  AAACA3758Q  During investigation period , BP had purchased 380432 shares and 
+sold380313 shares. 79% of the counter parties to the buy trade and 67% of 
+the counter parties to the sale tr ades were Mefcom group entities.  Further 
+the entity had indulged into price manipulation through LTP contribution.   
+  
+
+=== PDF page 4 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 4 of 14 
+7. It was alleged that the Mefcom group entities contributed 60.45% to positive market 
+LTP in 1,275 trades. A positive LTP of Rs. 77.30 i.e. 11.69% of market positive LTP 
+was created in 230 trades by the group entities when they traded among 
+themselves. Further, Mefcom group entities contributed significant amount of Rs. 
+77.30 positive LTP (11.69% of market positive LTP) by trading among themselves.  
+ 
+ 
+.          Seller→ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Buyer↓ 
+BP Comtrade Pvt :Ltd 
+Sunita Investments 
+Purshottam Khadelwal 
+Total LTPV as buyer 
+Cosmo Corporate Services Limited 7.5  1.39 0.83 9.72  
+I S F Securities Ltd 11.66 0.73 3.7 16.09 
+Master Finlease Ltd 9.65 0.81 0.52 10.98 
+Sunita  Investments 2.43 0.42 1.26 4.11 
+Purshottam  Khandewal 8.55 4.91 10.13 23.59 
+Total LTPV As Seller  39.79 8.26 16.44 64.49 
+It was further alleged that the aforesaid 6 entities contributed significant amount of 
+Rs. 64.49 positive LTP (9.75% of market positive LTP V) by trading among 
+themselves and have been alleged to have manipulated the price of the scrip. 
+8. The Noticee in the SCN was also alleged to have entered into self trades and 
+manipulated the price of the scrip and created artificial volumes in the scrip. Fu rther 
+in the SCN it was also alleged that the Noticee had manipulated the price of the 
+scrip through first trades.  
+9. I note that the Noticee in response to the SCN replied vide letter dated February 8, 
+2018 seeking extension of time to reply to the SCN  which was acceded to. The 
+Noticee replied to the SCN vide letter dated March 18, 2018 , relevant portion of 
+which is summarized as below: 
+1) The Noticee submitted that the present proceedings has been started after almost 10 
+years of the alleged default. The Noticee submitted that the she has been levied a penalty 
+of Rs. 60 lac and Rs. 5 lac in the matter of Gangotri Textiles Limited and Sumeet 
+
+=== PDF page 5 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 5 of 14 
+Industries Limited. Further she has also been debarred for a period of 3 years in another 
+proceedings by the Whole Time Member (WTM), SEBI. 
+2) The Noticee was a Sub -Broker with erstwhile Delhi Stock Exchange (DSE) and was 
+entitled to trade on BSE as well.  
+3) The Noticee had entered into an agreement with one of its clients Perfect Car Scanners 
+Private Limited for trading in various scrip on behalf of the said clients. The Noticee had 
+carried out the trades in the scrip of Mefcom on behalf of the aforesaid client.  
+4) The Noticee has maintained regular statement of account for the aforesaid clients . The 
+aforesaid client maintained suff icient balance in his account for trades in various scrip 
+including Mefcom. There was proper transfer of shares and money with the aforesaid 
+client and the trades were genuine. The Noticee has not gained from the alleged trades.  
+5) The Noticee never traded i n the scrip for manipulating the price of the scrip and the 
+trades were in the normal course of business at the prevalent price.  
+10. Thereafter, an opportunity of personal hearing was granted to the Noticee on June 
+21, 2019. The Noticee did not respond to the  aforesaid hearing notice. Therefore, 
+the Noticee was granted another opportunity of personal hearing on June 26, 2019. 
+The Noticee vide letter dated June 19, 2019 submitted that she was not able to 
+travel to Mumb ai for the personal hearing as her health d id not permit long travel. 
+She further submitted that if at all her presence is necessary she requested that she 
+may be allowed to appear for the personal hearing in Delhi.       
+11. I note that the Noticee had submitted a detailed reply in the matter vide letter dated 
+March 18 , 2019 . Further, from her reply in the matter it seemed that she was not 
+keen to appear for the personal hearing. In view of the aforesaid, I note that personal 
+hearing in the matter will be a mere formality and will not further the cause  in the 
+present proceedings. Therefore, I am of the view that no further personal hearing 
+qua the Noticee is required in the matter. For the reasons mentioned above, I am  of 
+the opinion that the Noticee w as provided with adequate opportunities of replying to 
+the SCN and of being heard in the matter. 
+   
+
+=== PDF page 6 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 6 of 14 
+CONSIDERATION OF ISSUES AND FINDINGS 
+12. I have perused the SCN, written and oral submissions and other materials available 
+on record. The issues that arise for consideration in the present case are: 
+I. Whether the Noticee, by its act has violated the provisions of Regulations 3(a), 
+3(b), 3(c), 3(d), 4(1) , 4(2)(a) and 4(2)(e) of SEBI (Prohibition of Fraudulent and 
+Unfair Trade Practices relating to Securities Market) Regulations, 2003. 
+II. Does the violation, if any, on the part of the Noticee attract monetary penalty 
+under section 15HA of SEBI Act? 
+III. If so, what would be the monetary penalty , duly considering the factors 
+mentioned in Section 15J of SEBI Act read with Rule 5(2) of the AO Rules? 
+Issue I – Whether the Noticee , by its act has violated the provisions of 
+Regulations 3(a), 3(b), 3(c), 3(d), 4(1), 4(2)(a) and 4(2)(e) of SEBI 
+(Prohibition of Fraudulent and Unfair Trade Practices relating to 
+Securities Market) Regulations, 2003? 
+13. The first issue for consideration is w hether the Noticee by its act has violated the 
+provisions of Regulations 3(a), 3(b), 3(c), 3(d), 4(1), 4(2)(a) and 4(2)(e) of SEBI 
+(Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) 
+Regulations, 2003. 
+14. Before I proceed with  the matter, it is pertinent to look at the relevant provisions 
+alleged to have been violated by the Noticees, which are reproduced below: 
+ 
+SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to 
+Securities Market) Regulations, 2003 
+3. Prohibition of certain dealings in securities  
+No person shall directly or indirectly  
+—  
+(a) buy, sell or otherwise deal in securities in a fraudulent manner;  
+(b) use or employ, in connection with issue, purchase or sale of any security listed 
+or proposed to be liste d in a recognized stock exchange, any manipulative or 
+
+=== PDF page 7 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 7 of 14 
+deceptive device or contrivance in contravention of the provisions of the Act or 
+the rules or the regulations made thereunder; 
+(c) employ any device, scheme or artifice to defraud in connection with dealing  in 
+or issue of securities which are listed or proposed to be listed on a recognized 
+stock exchange;  
+(d) engage in any act, practice, course of business which operates or would 
+operate as fraud or deceit upon any person in connection with any dealing in 
+or issue of securities which are listed or proposed to be listed on a recognized 
+stock exchange in contravention of the provisions of the Act or the rules and 
+the regulations made thereunder. 
+4. Prohibition of manipulative, fraudulent and unfair trade practices:  
+(1) Without prejudice to the provisions of regulation 3, no person shall indulge in a 
+fraudulent or an unfair trade practice in securities.  
+(2) Dealing in securities shall be deemed to be a fraudulent or an unfair trade 
+practice if it involves fraud and may include all or any of the following namely:- 
+(a) indulging in an act which creates false or misleading appearance of trading in 
+the securities market;  
+(e) any act or omission amounting to manipulation of the price of a security;  
+15. I note that the SCN alleged that out of the total positive LTP contribution of Rs. 
+661.06, the Mefcom group (group) entities  created a positive LTP of Rs. 15.03 (i.e. 
+2.27% of market positive LTP) by entering buy order first in 28 trades where 
+counterparties were non group entities. Further, LTP of Rs.307.30 (i.e. 46.48%) was 
+created by group entities wherein sell orders were placed first in 1017 trades by 267 
+non-group entities. Further, a positive LTP of Rs.77.30 i.e. 11.69% of market positive 
+LTP was created in 230  trades by the Mefcom group entities including the Noticee  
+while trading within the group . I find that the allegation rests on the premise that the 
+aforesaid entities including the Noticee are part of the Group (Mefcom group) which 
+includes 15 entities. The said premise requires evaluation of the basis of connection 
+amongst the entities  which are allegedly related as per the connection shown in 
+Table at paragraph 6 of this order.  
+
+=== PDF page 8 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 8 of 14 
+16. I note that the SCN has alleged that 6 entities namely, BP Comtrade Private Limited 
+(BPCPL), ISF  Securities Limited (ISF) and SIC Stocks & Services P rivate Limited 
+(SIC) trading on behalf of Purshottam Khandelwal ( PK), Master Finlease Limited 
+(MFL), Sunita Investments and Cosmo Corporate Service L imited (Cosmo) had 
+contributed significant  amount of Rs. 64.49 to the LTP (9.75% of market positive 
+LTPV) by trading amongst themselves . I note that the aforesaid allegation rests on 
+the premise that the aforesaid 6 entities are part of a Group. The said premise 
+requires evaluation of the basis of  connection amongst the entities. As per the SCN, 
+the said 6 entities are part of a larger group of 15 entities called the Mefcom Group 
+and are related as per the connection shown in Table at paragraph 6 of this order  
+17.  I note that relationship between the  BPCPL and the alleged Mefcom group has 
+been drawn merely for being counterparties to the trades which to my mind is not 
+correct since the entities belonging to the alleged group were actively trading and so 
+it was natural that other entities orders would match with its order . BPCPL is not 
+connected either directly or indirectly with the company except by its trading in the 
+company’s scrip. Further, the connection of BPCPL with the Group has to be prior to 
+/ concurrent  with its trading in the scrip unless t here is evidence that the trading 
+pattern of BPCPL indicates meeting of minds with the counter parties, which in the 
+given case has not been alleged.  
+18. I find that the connection of Cosmo Corporate Service Limited is based on telephone 
+number which is regis tered in the name of the Director of Avisha Credit capital 
+Limited (Avisha) and Master Finlease Limited (MFL) which share common address 
+with the company  (Mefcom). The sharing of a common telephone number between 
+Cosmo Corporate Service L imited and the Dir ector of Avisha and MFL shows the 
+existence of business relationship between them. Therefore, the connection of 
+Cosmo Corporate Service Limited to the company via Director of Avisha and MFL, is 
+tenable. 
+19.  I find from the aforesaid connection table in paragr aph 6 above that Sunita 
+Investments (proprietor; Sunita Gupta) has been alleged to be connected to the 
+Mefcom Group based on the off -market transfer of 50000 shares to Cosmo 
+
+=== PDF page 9 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 9 of 14 
+Corporate Services Limited. Rakesh Kumar Mishra is one of the Directors in Cosmo 
+Corporate Services Limited . Further, Rakesh Kumar Mishra in turn is alleged to be 
+connected to Master Finlease Limited based on off market transfer of shares. It is 
+observed that the phone number of Cosmo Corporate Services Limited is registered 
+in the name  of Mr. Vijay Jindal who is a director in Master Finlease Limited and 
+Avisha Credit Capital Limited. Further, Master Finlease Limited and Avisha Credit 
+Capital Limited shares the same address “ 606, Kailash Building, KG Marg, New 
+Delhi” of the company (Mefcom).  
+20. I note that it has been alleged in the SCN that both PK and SIC are responsible for 
+the trades executed in the name of PK in the scrip of Mefcom. It is observed from 
+the SCN that PK is connected with the Mefcom Group as he was a major counter 
+party to the sale by original Promoters when the Promoters exited the company. In 
+this regard, I note that there is no allegation of connection of PK with the promoters 
+other than by being counter parties. I note that there is no allegation in the SCN that 
+the tr ading pattern of PK is indicative/suggestive of prior understanding with the 
+Promoters. Therefore, there is no material on record to indicate that transaction / 
+trades between PK and the original Promoters was not in the normal course. Hence, 
+the said trading activity of PK cannot be a basis for his connection with the Mefcom 
+Group.  
+21. Similarly, the connection of SIC with the Mefcom Group is based on its off market 
+transfer with Vishvas Securities L imited and its financial transaction with Avisha. I 
+note fro m material available on record that SIC was not a registered depository 
+participant with either NSDL or CDSL during th e relevant time, its clients had their 
+DP accounts with other depository participants. I note from the material /documents 
+available on record that Vishvas Securities Limited and Avisha Credit Capital Limited 
+were clients of SIC. Therefore, the financial transaction and off market transfer of 
+shares between them, in the absence of any contrary evidence has to be regarded 
+in the normal course  of trading business in the securities market. In view of the 
+aforesaid, SIC cannot be said to be connected with the Mefcom Group based on the 
+off-market transfer of shares with Vishvas Securities Limited and financial 
+transaction with Avisha Credit Capital Limited.  
+
+=== PDF page 10 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 10 of 14 
+22. In light of the aforesaid conclusion, only the trades of ISF, MFL, Sunita Investments 
+and Cosmo Corporate Service Ltd. have to be analysed to see whether their trading  
+amongst themselves has led to manipulation of the price of the scrip by cont ributing 
+significantly to the LTP, as alleged in the SCN. The table below depicts their 
+contribution to LTP while trading amongst themselves: 
+.          Seller→ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Buyer↓ 
+Sunita Investments 
+Total LTPV as buyer 
+Cosmo Corporate Services Limited 1.39 1.39  
+I S F Securities Ltd 0.73 0.73 
+Master Finlease Ltd 0.81 0.81 
+Sunita  Investments 0.42 0.42 
+   
+Total LTPV As Seller  3.35 3.35 
+23. From the order log trade log, it is noted that LTP contribution of Rs. 1.39 by  Cosmo 
+Corporate Services Limited as a buyer and Sunita Investments as a seller was done 
+through 13 trades executed on 6 days during the period September 4 -7, 25 and 27, 
+2006 for 17,575 shares. It is noted from material available on record that during the 
+month of September 2006, the opening pr ice of the scrip was Rs. 14.25 and the 
+closing price of the scrip was Rs. 18.04 and 15,65,968 shares were traded during 
+the month.  
+24. I note that trades at higher than LTP, undoubtedly have a potential of raising the 
+price of the scrip. It must not be forgot ten that every trade establishes the price of 
+the scrip and trades executed at a price higher than LTP results in the price of the 
+scrip going up which may influence the innocent/gullible investors. In cases of 
+market manipulation, admittedly, no direct ev idence would be forthcoming / 
+available. Manipulative transactions are to be tested on the conduct of parties and 
+abnormality of practices which defy normal logic and laid down procedures. What is 
+needed, is to prove that in a factual matrix, preponderance  of probabilities indicate a 
+fraud. In this regard, the observations of Hon’ble Supreme Court of India in SEBI vs. 
+Kishore R Ajmera  et.al. decided on February 23, 2016 wherein the Hon’ble Court 
+
+=== PDF page 11 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 11 of 14 
+while deciding the matter under SEBI Act and PFUTP Regulations  where there was 
+no direct evidence forthcoming, observed as follows:  
+“It is a fundamental principle of law that proof of an allegation levelled against a 
+person may be in the form of direct substantive evidence or, as in many cases, such 
+proof may have t o be inferred by a logical process of reasoning from the totality of 
+the   attending facts and circumstances surrounding the allegations/charges made 
+and levelled. While direct evidence is a more certain basis to come to a conclusion, 
+yet, in the absence t hereof the Courts cannot be helpless. It is the judicial duty to 
+take note of the immediate and proximate facts and circumstances surrounding the 
+events on which the charges/allegations are founded and to reach what would 
+appear to the Court to be a reason able conclusion therefrom. The test would always 
+be that what inferential   process that a reasonable/prudent man would adopt to 
+arrive at a conclusion…” 
+25. In view of the aforesaid observation of Hon’ble Apex Court, I find from the particulars 
+of the trades executed between Cosmo Corporate Services L imited and Sunita 
+Investments that the frequency of placing the orders is not high, trades were 
+executed within the LTP rate of Rs. 0.01 to Rs. 0.49 and the n umber of shares 
+traded on an average in the said 13 tra des was approximately 1,352 shares as 
+opposed to approximately 78,298 shares traded on an average during the month of 
+September, 2006. Further, the traded quantity was 1.12% of the total traded quantity 
+during the month. Thus, the aforesaid does not reveal  a clear and set pattern / 
+behavior of Cosmo Corporate Services L imited and Sunita Investments of 
+consistently executing trades far removed from LTP and that too in large volumes on 
+a regular basis to have an impact on the price of the scrip. In view of the aforesaid I 
+find that the pattern of trades executed by the group members is not indicative of a 
+concerted level of activity to have a substantial impact on the price of the scrip. 
+26. I note from the SCN that ISF and Sunita Investments allegedly manipulated the price 
+of the scrip by contributing significantly to LTP. It is observed from the SCN that their 
+trades have contributed Rs. 0.73 to the LTP. From the order log trade log, it is noted 
+that the said LTP contribution by ISF as a buyer and Sunita Investme nts as a seller 
+
+=== PDF page 12 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 12 of 14 
+was done through 5 trades executed on 4 days during the period September 15, 18, 
+20 and 25, 2006 for 2,750 shares. As also noted in  preceding paragraphs, the 
+frequency of placing the orders is not high, trades were executed within the LTP r ate 
+of Rs. 0.02 to Rs. 0.54 and the average number of shares traded in the aforesaid 3 
+of the 5 trades was approximately 550 shares as opposed to approximately 78,298 
+shares traded on an average during the month of September, 2006. Further, the 
+traded quantity was merely 0.17% of the total traded quantity during the month. In 
+view of the aforesaid, I am of the view that the pattern of trades executed by the 
+Noticee and other group members is not indicative of a concerted level of activity to 
+have a substantial impact on the price of the scrip. 
+27. I note that MFL and Sunita Investments  were also alleged to have manipulated the 
+price and contribute significantly to the LTP . It is observed from the SCN that their 
+trades have contributed Rs. 0.81 to the LTP. From the order log trade log, it is noted 
+that the said LTP contribution by MFL as a buyer and Sunita Investments as a seller 
+was done through 3 trades executed on 3 days during the period September 4, 7 
+and 26, 2006 for 6,650 shares. As also noted in preceding paragraphs, the 
+frequency of placing the orders is not high, trades were executed within the LTP rate 
+of Rs. 0.04 to Rs. 0.61, number of shares traded on an average in the said 3 trades 
+was approximately 2, 217 shares as opposed to approximately 78,298 shares traded 
+on an average during the month of September, 2006. Further, the traded quantity 
+was 0.42% of the total traded quantity during the month. In view of the aforesaid, I 
+am of the view that the pattern of trades executed by the Noticee and other group 
+members is not indicative of a concerted level of activity to have a substantial impact 
+on the price of the scrip.   
+28. It is also noted from the order log trade log that Sunita Investments has executed 2 
+self-trades for 199 shares on September 4, 2006 by w hich the Noticee has 
+contributed Rs. 0.42 to the LTP.  
+29. I note that the SCN alleged that 4 entities trading together as a group have 
+manipulated the price of the scrip . I proceed to analyse whether all the trades put 
+together had manipulated the price of the scrip by contributing to the LTP. I find from 
+
+=== PDF page 13 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 13 of 14 
+the particulars of the trades executed between Cosmo Corporate Services L imited 
+ISF, MFL and Sunita Investments that the frequency of placing the orders was not 
+high. I note that the 23 trades that were executed in 10 days during the period 
+September 4  to September 7, September 15, September 18, September 20 and 
+September 25 to September 27, 2006, were executed within the LTP rate of Rs. 
+0.01 to Rs. 0.61. I note that the spread during the month of September, 2006 i.e., the 
+difference between the high price and low price was Rs. 5.14. I further, note that the 
+number of shares traded on an average in the 23 trades was approximately 1,182 
+shares as opposed to approximately 78,298 shares traded on an average during  the 
+month of September, 2006. Further, the traded quantity was merely 1.73% of the 
+total traded quantity during the month. Th erefore, the aforesaid does not reveal a 
+clear trading pattern / behavior of ISF, Cosmo Corporate Services Limited , MFL and 
+Sunita Investments of consistently executing trades far removed from LTP and that 
+too in large volumes on a regular basis to have an impact on the price of the scrip.  
+30. In view, of the aforesaid discussions, it cannot be said that the aforesaid entities 
+including the Noticee have contributed significantly to the positive LTP by trading 
+among themselves and thereby have manipulated the price of the scrip. 
+31. It was also alleged in the SCN that the Noticee and the other Mefcom Group entities 
+have contributed to the LT P through repeated self-trades and by indulging in order 
+book manipulation. I note from material available on record that the Noticee had 
+entered into 22 self-trades on 11 different days and 7998 shares were traded in the 
+aforesaid self-trades. As mentione d aforesaid only 2 of the above 22 trades had 
+contributed to LTP. I also note that the Noticee had entered into 4 first trades for 
+2085 shares in the scrip wherein it had contributed Rs. 2. 29 as positive LTP and its 
+contribution to the net LTP was Rs. 2.24 through the aforesaid first trades.    
+32. Therefore, in view of the discussions in the foregoing paragraphs, I find that there is 
+not adequate material available on record to establish that the Noticee has indulged 
+into significant LTP contribution considered to be enough to qualify as price 
+manipulation in the scrip.  
+
+=== PDF page 14 ===
+ 
+Adjudication Order in respect of Sunita Investments (Proprietor: Sunita Gupta) in the matter of Mefcom Agro 
+Industries Limited                           .               Page 14 of 14 
+33. I gather from material available on record that in another proceeding under section 
+11 of the SEBI Act, 1992 the Whole Time Member (WTM) SEBI, had observed that 
+there is not enough evidence on record to establish that the Noticee has violated the 
+provisions of the SEBI (PFUTP) Regulations as alleged in the SCN.  
+34. In view of all of the above, and considering the factual matrix of the case, I am of the 
+considered view that the alleged violations of  the provisions of Regulations 3(a), 
+3(b), 3(c), 3(d), 4(1), 4(2)(a) and 4(2)(e) of SEBI (Prohibition of Fraudulent and 
+Unfair Trade Practices relating to Securities Market) Regulations, 2003  do not stand 
+established against the Noticee i.e. Sunita Investments.  
+35. Since it is concluded that the Noticee has not violated the provisions of Regulations 
+3(a), 3(b), 3(c), 3(d), 4(1), 4(2)(a) and 4(2)(e) of SEBI (Prohibition of Fraudulent and 
+Unfair Trade Practices relating to Securities Market) Regulations, 2003 , the issues II 
+and III as mentioned in Para 11 require no consideration. 
+ORDER 
+36. For the aforesaid reasons, Show Cause Notice  EAD-8/JS/VRP/5513/2018 dated 
+February 21, 2018  alleging the violation of the provisions of Regulations 3(a), 3(b), 
+3(c), 3(d), 4(1), 4(2)(a) and 4(2)(e) of SEBI (Prohibition of Fraudulent and Unfair 
+Trade Practices relating to Securities Market) Regulations, 2003  by the Noticee i.e. 
+Sunita Investments (Proprietor: Sunita Gupta) , is disposed of without imposit ion of 
+penalty. 
+37. In terms of rule 6 of the Adjudication Rules, copies of this order are sent to the 
+Noticee and also to SEBI. 
+ 
+ 
+ 
+Date: December 24, 2020                Vijayant Kumar Verma  
+Place: Mumbai       Adjudicating Officer.   

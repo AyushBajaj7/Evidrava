@@ -13,3 +13,4 @@ working/
 build/
 dist/
 private-research/
+.playwright-mcp/

@@ -1,0 +1,13 @@
+{
+  "template_note": "Do not change state to FROZEN until scope, eligibility rules, frame hash, target and seed are settled and recorded.",
+  "protocol_id": "replace_with_protocol_id",
+  "state": "DRAFT",
+  "frozen_at": null,
+  "frame_sha256": "replace_with_frame_check_sha256",
+  "sampling": {
+    "algorithm": "evidrava-group-draw-v1",
+    "seed": 123,
+    "target_matters": 40,
+    "replacement_policy": "none"
+  }
+}

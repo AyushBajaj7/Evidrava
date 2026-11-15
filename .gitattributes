@@ -1,0 +1,10 @@
+# Ensure exact line endings across platforms for reproducible hashes
+* text=auto eol=lf
+*.xlsx binary
+*.docx binary
+*.pdf binary
+*.zip binary
+*.whl binary
+pilot/sources/** -text
+fixtures/** -text
+references/** -text

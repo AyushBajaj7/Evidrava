@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "evidrava"
-version = "0.4.0"
+version = "0.7.2"
 description = "Evidrava: a point-in-time market evidence benchmark"
 requires-python = ">=3.11"
 dependencies = ["openpyxl==3.1.5", "pypdf==6.21.4"]
@@ -15,6 +15,7 @@ sebi-benchmark = "evidrava.__main__:main"
 
 [tool.setuptools.package-data]
 evidrava = ["workbook_contract.json"]
+frontend = ["public/*.html", "public/*.css", "public/*.js"]
 
 [tool.setuptools.packages.find]
-include = ["evidrava*", "sebi_benchmark*"]
+include = ["backend*", "evidrava*", "frontend*", "middleware*", "sebi_benchmark*"]

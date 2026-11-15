@@ -1,0 +1,1270 @@
+{
+  "kind": "source-acquisition",
+  "version": "0.7.0",
+  "created_at_utc": "2026-11-15T19:05:07.763715+00:00",
+  "reference_provenance": {
+    "reference_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+    "manifest_sha256": "2ab12ca3ac3c856699a80c03e3fd0a062390c41d07949ae45fd38d822a660c9f",
+    "preparer_sha256": "e327f05c7f76564ffc7cbc52808bbd2b7f2beb6526ec166aab684c1c77761048",
+    "verified_raw_captures": 9
+  },
+  "python_version": "3.12.14",
+  "pypdf_version": "6.21.4",
+  "collector_source_sha256": {
+    "__init__.py": "4575c2b0357f0f84c5d85b6385911d7ca03435557c005068830dd9486a0b5aea",
+    "__main__.py": "5cd0dc8955ba82e7fbdfe1ad05db2aa93bd8bb66d350c47047530ca401111b05",
+    "brief.py": "46f1adc775d282d9fbd792ce41a0aebd1ccf7cc9c46eb6942abfa427d75016f5",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "frame.py": "b9a19b53611da6d815d7b04f57f359a39a7582e6f5f4f9e64ccabcadec1e2f5c",
+    "frame_report.py": "cdf29500f4bb10765e9afc0bc1ed547953186583421d197f4217610b11f3247d",
+    "report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "sources.py": "31124fc18a2a000921360722c91f5bc7e704d687b20b506d09b69e388c36ca09",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "records": [
+    {
+      "screening_id": "RECON-04",
+      "title": "Order -Multi Purpose Bios India Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-multi-purpose-bios-india-limited_31356.html",
+      "listing_response_sha256": "946d46e792bdabab94ba517a95fba98f6a7356a6f99da5daebf2a723ac81c5e5",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451387597527.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1451387597527.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-multi-purpose-bios-india-limited_31356.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2015/order-multi-purpose-bios-india-limited_31356.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "64213df5b78c50e9b947cd3ffeba8926b92c51b797aba4bc6992d20a57c62237",
+        "retrieved_at_utc": "2026-11-15T19:05:08.074481+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-04/page.html",
+        "bytes": 8009
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451387597527.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451387597527.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "fe750662294edecb6695f17ae479b6be2c9c658da2ab92a890f576e39e371dab",
+        "retrieved_at_utc": "2026-11-15T19:05:09.697009+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-04/source.pdf",
+        "bytes": 429199
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 13,
+        "page_errors": [],
+        "path": "records/RECON-04/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-05",
+      "title": "In the matter of Mavi Investment Fund Ltd.",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-mavi-investment-fund-ltd-_25052.html",
+      "listing_response_sha256": "2b1e87986da5e00b191d0cae5a15c9fd8a51cbd4748863b179be9c775968cbe6",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1374135492126.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1374135492126.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-mavi-investment-fund-ltd-_25052.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-mavi-investment-fund-ltd-_25052.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "6e03ab3f1c0b2cca9725d4471be2b7a4237f3e09c1d2ffc3c33f4b3b87d84b10",
+        "retrieved_at_utc": "2026-11-15T19:05:11.677147+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-05/page.html",
+        "bytes": 7936
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1374135492126.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1374135492126.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "bd9397816b99506d8784127f86808d76c8f4d97c8353eaab1e2a35b085961e8f",
+        "retrieved_at_utc": "2026-11-15T19:05:12.880243+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-05/source.pdf",
+        "bytes": 9857
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-05/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-06",
+      "title": "Appeal No. 1706 of 2013 filed by Mr. Shantaram Walavalkar.",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/appeal-no-1706-of-2013-filed-by-mr-shantaram-walavalkar-_25006.html",
+      "listing_response_sha256": "2b1e87986da5e00b191d0cae5a15c9fd8a51cbd4748863b179be9c775968cbe6",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1373023186437.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1373023186437.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/appeal-no-1706-of-2013-filed-by-mr-shantaram-walavalkar-_25006.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/appeal-no-1706-of-2013-filed-by-mr-shantaram-walavalkar-_25006.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "09fa0740994c1da0f05ce72123cc574a8b6b717f07c180c9ca1076388a7e4bfb",
+        "retrieved_at_utc": "2026-11-15T19:05:14.147723+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-06/page.html",
+        "bytes": 8050
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1373023186437.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1373023186437.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "13e98f86c773849aca7c4ae922e97ded026becf29cd72a4082fa884aa2055f95",
+        "retrieved_at_utc": "2026-11-15T19:05:15.472044+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-06/source.pdf",
+        "bytes": 102085
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-06/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-07",
+      "title": "In the matter of Manjula Jain",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-manjula-jain_25004.html",
+      "listing_response_sha256": "2b1e87986da5e00b191d0cae5a15c9fd8a51cbd4748863b179be9c775968cbe6",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1372924274809.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1372924274809.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-manjula-jain_25004.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jul-2013/in-the-matter-of-manjula-jain_25004.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "077b3d0c132430864d549d6e880c2d9689289278159da6a35456ba04a9f7ba8b",
+        "retrieved_at_utc": "2026-11-15T19:05:16.809204+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-07/page.html",
+        "bytes": 7871
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1372924274809.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1372924274809.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "5c27cf010ade926b8419e31db5d150088836dfab28cd53bc67f7855e03493b41",
+        "retrieved_at_utc": "2026-11-15T19:05:18.017515+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-07/source.pdf",
+        "bytes": 14573
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 4,
+        "page_errors": [],
+        "path": "records/RECON-07/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-08",
+      "title": "Adjudication Order passed against Ruchiraj Share and Stock Brokers Pvt Ltd in the matter of Shree Yaax Pharma and Cosmetics Ltd",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/adjudication-order-passed-against-ruchiraj-share-and-stock-brokers-pvt-ltd-in-the-matter-of-shree-yaax-pharma-and-cosmetics-ltd_14502.html",
+      "listing_response_sha256": "93f341c168ce79798a90825385fdaa394b826e3f84073793f4b97d66e18a0e51",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295944089392.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1295944089392.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/adjudication-order-passed-against-ruchiraj-share-and-stock-brokers-pvt-ltd-in-the-matter-of-shree-yaax-pharma-and-cosmetics-ltd_14502.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/adjudication-order-passed-against-ruchiraj-share-and-stock-brokers-pvt-ltd-in-the-matter-of-shree-yaax-pharma-and-cosmetics-ltd_14502.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "ce063b5855288e1e625d67f7052ca5093658daba11016973c241f20cb32aa1c6",
+        "retrieved_at_utc": "2026-11-15T19:05:19.350400+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-08/page.html",
+        "bytes": 8364
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295944089392.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295944089392.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a96a9c20b07faf67418fc455dbc265e8744097bf6c3c0438efcb77e938284bc5",
+        "retrieved_at_utc": "2026-11-15T19:05:20.653707+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-08/source.pdf",
+        "bytes": 77761
+      },
+      "extraction": {
+        "status": "ENCRYPTED",
+        "page_count": null,
+        "path": "records/RECON-08/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-09",
+      "title": "Order In the matter of Design Auto Systems Ltd in respect of D. G. Goenka Equities Pvt Ltd",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/order-in-the-matter-of-design-auto-systems-ltd-in-respect-of-d-g-goenka-equities-pvt-ltd_14550.html",
+      "listing_response_sha256": "93f341c168ce79798a90825385fdaa394b826e3f84073793f4b97d66e18a0e51",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295947800320.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1295947800320.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/order-in-the-matter-of-design-auto-systems-ltd-in-respect-of-d-g-goenka-equities-pvt-ltd_14550.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/order-in-the-matter-of-design-auto-systems-ltd-in-respect-of-d-g-goenka-equities-pvt-ltd_14550.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "dc6866940a27698c707947604a4b950384f4047efc3bcff02a85160434c00105",
+        "retrieved_at_utc": "2026-11-15T19:05:21.878212+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-09/page.html",
+        "bytes": 8202
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295947800320.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295947800320.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "0080d7bff32418d91fa8bac167fc634de155d738e98a714947b72dfedf8ef66f",
+        "retrieved_at_utc": "2026-11-15T19:05:23.183560+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-09/source.pdf",
+        "bytes": 78201
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 22,
+        "page_errors": [],
+        "path": "records/RECON-09/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-10",
+      "title": "Appeal No. 1037 of 2010 filed by Mr. Madan Kumar Chaudhary",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/appeal-no-1037-of-2010-filed-by-mr-madan-kumar-chaudhary_14461.html",
+      "listing_response_sha256": "93f341c168ce79798a90825385fdaa394b826e3f84073793f4b97d66e18a0e51",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295937269720.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1295937269720.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/appeal-no-1037-of-2010-filed-by-mr-madan-kumar-chaudhary_14461.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2011/appeal-no-1037-of-2010-filed-by-mr-madan-kumar-chaudhary_14461.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "aa9bbbda8476a5228d7fd2b2879e027670f62d83875584fd867178757230fe97",
+        "retrieved_at_utc": "2026-11-15T19:05:25.061180+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-10/page.html",
+        "bytes": 8050
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295937269720.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1295937269720.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "366e034916b1d9571bebea7cd61cb857ef77bd6e5634bbe8972176d72d683639",
+        "retrieved_at_utc": "2026-11-15T19:05:26.362688+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-10/source.pdf",
+        "bytes": 94516
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-10/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-11",
+      "title": "Exparte-Ad-Interim Order Cum Show Cause Notice dated Dec 31, 2020, In the matter of Rakhal Bharoti Fish and Food Processing Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/exparte-ad-interim-order-cum-show-cause-notice-dated-dec-31-2020-in-the-matter-of-rakhal-bharoti-fish-and-food-processing-limited_48629.html",
+      "listing_response_sha256": "420cdafd39f3f52b77122bbc262acca77644f3f6db67e8cdd004f68f860a6f6a",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609417328895.PDF",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/dec-2020/1609417328895.PDF"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/exparte-ad-interim-order-cum-show-cause-notice-dated-dec-31-2020-in-the-matter-of-rakhal-bharoti-fish-and-food-processing-limited_48629.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/exparte-ad-interim-order-cum-show-cause-notice-dated-dec-31-2020-in-the-matter-of-rakhal-bharoti-fish-and-food-processing-limited_48629.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "2b953fa57476425f7e40c1c0cf94597d4f025d2d35a24d5c52f26ee3d0c036b2",
+        "retrieved_at_utc": "2026-11-15T19:05:27.694610+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-11/page.html",
+        "bytes": 8616
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609417328895.PDF",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609417328895.PDF",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "3dc7fdac935294fcd2b9c27d065ff22cf0aa18035d7f1f2adfdfc108797ea410",
+        "retrieved_at_utc": "2026-11-15T19:05:29.975875+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-11/source.pdf",
+        "bytes": 544311
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 22,
+        "page_errors": [],
+        "path": "records/RECON-11/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-12",
+      "title": "Adjudication Order in respect of Mr. Jayesh Shah in the matter of Pyramid Saimira Theatre Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-mr-jayesh-shah-in-the-matter-of-pyramid-saimira-theatre-limited_48607.html",
+      "listing_response_sha256": "420cdafd39f3f52b77122bbc262acca77644f3f6db67e8cdd004f68f860a6f6a",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609326004375_3.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/dec-2020/1609326004375_3.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-mr-jayesh-shah-in-the-matter-of-pyramid-saimira-theatre-limited_48607.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-mr-jayesh-shah-in-the-matter-of-pyramid-saimira-theatre-limited_48607.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "51d6f33d8fa0742c77c1b87732d4972ae065582d4bc18486d6497a6bb765434e",
+        "retrieved_at_utc": "2026-11-15T19:05:32.860564+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-12/page.html",
+        "bytes": 8425
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609326004375_3.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609326004375_3.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a22982868d57d18d4530b0cbcb40fde43e11084be38018ce04c83b00e67a94a1",
+        "retrieved_at_utc": "2026-11-15T19:05:35.784364+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-12/source.pdf",
+        "bytes": 568269
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 5,
+        "page_errors": [],
+        "path": "records/RECON-12/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-13",
+      "title": "Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd.",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-comfort-intech-ltd-in-the-matter-of-ravi-kumar-distilleries-ltd-_48588.html",
+      "listing_response_sha256": "420cdafd39f3f52b77122bbc262acca77644f3f6db67e8cdd004f68f860a6f6a",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609153206950_2.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/dec-2020/1609153206950_2.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-comfort-intech-ltd-in-the-matter-of-ravi-kumar-distilleries-ltd-_48588.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-comfort-intech-ltd-in-the-matter-of-ravi-kumar-distilleries-ltd-_48588.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "a8084878387bd4527107875aa598a424407dc6241d438b10610ee5a4ac043de3",
+        "retrieved_at_utc": "2026-11-15T19:05:37.314102+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-13/page.html",
+        "bytes": 8420
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609153206950_2.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1609153206950_2.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "b95703c249df3c19904d4fa406a15dc67af601205895b992a0b95e4f71f37ca4",
+        "retrieved_at_utc": "2026-11-15T19:05:38.893740+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-13/source.pdf",
+        "bytes": 582459
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 14,
+        "page_errors": [],
+        "path": "records/RECON-13/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-14",
+      "title": "Adjudication Order in respect of Sunita Investments- Proprietor, Sunita Gupta in the matter of Mefcom Agro Industries Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-sunita-investments-proprietor-sunita-gupta-in-the-matter-of-mefcom-agro-industries-limited_48573.html",
+      "listing_response_sha256": "420cdafd39f3f52b77122bbc262acca77644f3f6db67e8cdd004f68f860a6f6a",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1608807607338_3.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/dec-2020/1608807607338_3.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-sunita-investments-proprietor-sunita-gupta-in-the-matter-of-mefcom-agro-industries-limited_48573.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2020/adjudication-order-in-respect-of-sunita-investments-proprietor-sunita-gupta-in-the-matter-of-mefcom-agro-industries-limited_48573.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "25f331b4b3e906c1cf59ae81d3406577463ce94e082be2521db4c483305ae865",
+        "retrieved_at_utc": "2026-11-15T19:05:41.144349+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-14/page.html",
+        "bytes": 8559
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1608807607338_3.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2020/1608807607338_3.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "54a662303dd094af49e2a4c80d4ba93ee296ab37fd025e7abfba776fdb9f7013",
+        "retrieved_at_utc": "2026-11-15T19:05:43.914730+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-14/source.pdf",
+        "bytes": 864531
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 14,
+        "page_errors": [],
+        "path": "records/RECON-14/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-15",
+      "title": "Appeal No. 3161 & 3162 of 2018 filed by Mr Piyush Shrivastava",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3161-and-3162-of-2018-filed-by-mr-piyush-shrivastava_40356.html",
+      "listing_response_sha256": "f0744b97a3eb090a0c3e229d74d4507f67043ddbdb5ecd20c13220e18c503df7",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1537346326058.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/sep-2018/1537346326058.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3161-and-3162-of-2018-filed-by-mr-piyush-shrivastava_40356.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3161-and-3162-of-2018-filed-by-mr-piyush-shrivastava_40356.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "dbd843637b80366dee95c2e59fa56883cb241847bac816cefe33ace41cef4c9a",
+        "retrieved_at_utc": "2026-11-15T19:05:46.116959+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-15/page.html",
+        "bytes": 8252
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1537346326058.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1537346326058.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "25cf53911e4919bce2b94006d509006019cdc154df5cb56fc482a058bd0d212d",
+        "retrieved_at_utc": "2026-11-15T19:05:47.627680+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-15/source.pdf",
+        "bytes": 268248
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-15/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-16",
+      "title": "Adjudication Order against 35 Entities in the matter of Shakti Pumps (India) Ltd., [SAT Appeal No.: 367/2019][SAT Appeal No.: 619 /2019] [SAT Appeal No.: 76/2019 & Misc App No. 120/2019][SAT Appeal No.: 103/2019 & Misc. App No.161/2019][SAT Appeal No.: 161/2019 & Misc.App.No.222/2019]",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+      "listing_response_sha256": "f0744b97a3eb090a0c3e229d74d4507f67043ddbdb5ecd20c13220e18c503df7",
+      "candidates": [],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/adjudication-order-against-35-entities-in-the-matter-of-shakti-pumps-india-ltd-_40291.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "c4d9852f5277b613b47e175df069b0c975fc315cbf28937ecacd702ccab23eb7",
+        "retrieved_at_utc": "2026-11-15T19:05:49.011244+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-16/page.html",
+        "bytes": 13834
+      },
+      "status": "FETCH_FAILED",
+      "error": "Sources must use HTTPS on an explicitly allowed SEBI hostname, without credentials or a nonstandard port"
+    },
+    {
+      "screening_id": "RECON-17",
+      "title": "Appeal No. 3155 of 2018 filed by Kunduru Sri Ranga Reddy",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+      "listing_response_sha256": "f0744b97a3eb090a0c3e229d74d4507f67043ddbdb5ecd20c13220e18c503df7",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2018/1536549564638.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/sep-2018/1536549564638.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/sep-2018/appeal-no-3155-of-2018-filed-by-kunduru-sri-ranga-reddy_40281.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "5391c7e24764e395860c2d6c994f39415fc7c6d061c750155723b45cf4dc2f50",
+        "retrieved_at_utc": "2026-11-15T19:05:50.216374+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-17/page.html",
+        "bytes": 8227
+      },
+      "status": "FETCH_FAILED",
+      "error": "Source body length differs from Content-Length; download is incomplete"
+    },
+    {
+      "screening_id": "RECON-18",
+      "title": "Order in the matter of M/s. Express Cultivation Limited.",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-m-s-express-cultivation-limited-_31449.html",
+      "listing_response_sha256": "56aafc32f905f863462cf41b1e667f5fea7eadf9150163f20020444e4d2f0c5e",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1452252794165.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1452252794165.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-m-s-express-cultivation-limited-_31449.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-m-s-express-cultivation-limited-_31449.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "2766688bed8e1e19fddc9d83485b100a509750632c61cbb4e70361e9da54b997",
+        "retrieved_at_utc": "2026-11-15T19:05:52.910403+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-18/page.html",
+        "bytes": 7969
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1452252794165.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1452252794165.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "7a5e17afc2df7621700b76ebd5584325fc8a834b0254d8c031d29f7f7e216f50",
+        "retrieved_at_utc": "2026-11-15T19:05:54.327871+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-18/source.pdf",
+        "bytes": 272093
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 12,
+        "page_errors": [],
+        "path": "records/RECON-18/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-19",
+      "title": "Adjudication order against Asian Closures Ltd (formerly knwon as Asian Consolidated Industries Ltd.) for non-redressal of investor grievance",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/adjudication-order-against-asian-closures-ltd-formerly-knwon-as-asian-consolidated-industries-ltd-for-non-redressal-of-investor-grievance_31420.html",
+      "listing_response_sha256": "56aafc32f905f863462cf41b1e667f5fea7eadf9150163f20020444e4d2f0c5e",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451994956390.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1451994956390.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/adjudication-order-against-asian-closures-ltd-formerly-knwon-as-asian-consolidated-industries-ltd-for-non-redressal-of-investor-grievance_31420.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/adjudication-order-against-asian-closures-ltd-formerly-knwon-as-asian-consolidated-industries-ltd-for-non-redressal-of-investor-grievance_31420.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "84b9207234955ccf9b1f457d5c8617a6d9618192f903b17455721a954aa2ae92",
+        "retrieved_at_utc": "2026-11-15T19:05:56.077972+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-19/page.html",
+        "bytes": 8479
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451994956390.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451994956390.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "4d5b533072d3c4fc12a3201f5cde489d4cc7a3522f487e3c531145efe3ff5ffb",
+        "retrieved_at_utc": "2026-11-15T19:05:57.595885+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-19/source.pdf",
+        "bytes": 453186
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 9,
+        "page_errors": [],
+        "path": "records/RECON-19/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-20",
+      "title": "Order in the matter of Godavari Biorefineries Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-godavari-biorefineries-limited_31404.html",
+      "listing_response_sha256": "56aafc32f905f863462cf41b1e667f5fea7eadf9150163f20020444e4d2f0c5e",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451657105522.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/1451657105522.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-godavari-biorefineries-limited_31404.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2016/order-in-the-matter-of-godavari-biorefineries-limited_31404.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "8640e1eee8f01f4c2bb868071c425d1d933a563f47a5515b2d240f421bf7aa81",
+        "retrieved_at_utc": "2026-11-15T19:05:59.291492+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-20/page.html",
+        "bytes": 8017
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451657105522.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1451657105522.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "fb922f321998a78618069e33fa4047ab44a9baa0a730533b1b1ec31a2d1b3145",
+        "retrieved_at_utc": "2026-11-15T19:06:00.901854+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-20/source.pdf",
+        "bytes": 544332
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 31,
+        "page_errors": [],
+        "path": "records/RECON-20/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-21",
+      "title": "Order in respect of Paresh Nathalal Chauhan in the matter of Timbor Home Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/order-in-respect-of-paresh-nathalal-chauhan-in-the-matter-of-timbor-home-limited_98776.html",
+      "listing_response_sha256": "2329070c3d19c5469fe92ec9b853e07ceac3c8d391b2720c70226e642ec92920",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1767196880506.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1767196880506.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/order-in-respect-of-paresh-nathalal-chauhan-in-the-matter-of-timbor-home-limited_98776.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/order-in-respect-of-paresh-nathalal-chauhan-in-the-matter-of-timbor-home-limited_98776.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "efdb998e9aa608f0d012989b4371c0ae5e1cdcba3d00216b5b56a6b203a3a6d9",
+        "retrieved_at_utc": "2026-11-15T19:06:04.293295+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-21/page.html",
+        "bytes": 8410
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1767196880506.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1767196880506.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a405007acac1a1dbec2e96509d31f5bd8f70ebd9f7b9a40186125080648d73ce",
+        "retrieved_at_utc": "2026-11-15T19:06:06.144492+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-21/source.pdf",
+        "bytes": 943129
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 37,
+        "page_errors": [],
+        "path": "records/RECON-21/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-22",
+      "title": "Exemption order in the matter of Neogen Chemicals Ltd.",
+      "listing_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/eo_neogen_chemicals.pdf",
+      "listing_response_sha256": "2329070c3d19c5469fe92ec9b853e07ceac3c8d391b2720c70226e642ec92920",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/eo_neogen_chemicals.pdf",
+          "via": "direct PDF response"
+        }
+      ],
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/eo_neogen_chemicals.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/eo_neogen_chemicals.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a2b66ed4ab45ea53b252aa485c465814d5216f76da2dc87b081058ec2f0c05ce",
+        "retrieved_at_utc": "2026-11-15T19:06:10.589640+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-22/source.pdf",
+        "bytes": 629820
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 12,
+        "page_errors": [],
+        "path": "records/RECON-22/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-23",
+      "title": "Appeal No. 6644 of 2025 filed by Surendra Champalaji Jain",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6644-of-2025-filed-by-surendra-champalaji-jain_98611.html",
+      "listing_response_sha256": "2329070c3d19c5469fe92ec9b853e07ceac3c8d391b2720c70226e642ec92920",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766492177100.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766492177100.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6644-of-2025-filed-by-surendra-champalaji-jain_98611.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6644-of-2025-filed-by-surendra-champalaji-jain_98611.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "0ade50b75675b3d02772267eb6de7e249f490eef5b96e4a5b4cdcf95e901ab64",
+        "retrieved_at_utc": "2026-11-15T19:06:12.768655+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-23/page.html",
+        "bytes": 8266
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766492177100.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766492177100.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "07107d652cbd7619ab129fe32d66e7cefd015015206398413019f1a09d3e19dd",
+        "retrieved_at_utc": "2026-11-15T19:06:14.275890+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-23/source.pdf",
+        "bytes": 421272
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 3,
+        "page_errors": [],
+        "path": "records/RECON-23/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-24",
+      "title": "Appeal No. 6638 of 2025 filed by Sapan Shrivastava",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6638-of-2025-filed-by-sapan-shrivastava_98653.html",
+      "listing_response_sha256": "2329070c3d19c5469fe92ec9b853e07ceac3c8d391b2720c70226e642ec92920",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766571208721.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766571208721.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6638-of-2025-filed-by-sapan-shrivastava_98653.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2025/appeal-no-6638-of-2025-filed-by-sapan-shrivastava_98653.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "1adc712883773a84a24747e45b54f92eb2f5644ff1d21ac8eaec94178031367c",
+        "retrieved_at_utc": "2026-11-15T19:06:15.693063+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-24/page.html",
+        "bytes": 8226
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766571208721.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766571208721.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "f8a50cf8b2bbc1a372843ad1b40efbf4c895cd281a0c71f1f3241f077fd91c4d",
+        "retrieved_at_utc": "2026-11-15T19:06:18.104688+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-24/source.pdf",
+        "bytes": 424203
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 3,
+        "page_errors": [],
+        "path": "records/RECON-24/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-25",
+      "title": "Appeal No. 5507 of 2022 filed by Kusum Gupta",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5507-of-2022-filed-by-kusum-gupta_66593.html",
+      "listing_response_sha256": "6abe7f87c098fb64bb590120740c08a19bb1dcc1ed1eaed970a1c1ca18ec1c55",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1672044617700.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1672044617700.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5507-of-2022-filed-by-kusum-gupta_66593.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5507-of-2022-filed-by-kusum-gupta_66593.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "1895017116b906459876d42ef11bdd126828873fbd64dfadcf64d79b2766350a",
+        "retrieved_at_utc": "2026-11-15T19:06:19.531688+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-25/page.html",
+        "bytes": 8190
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1672044617700.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1672044617700.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "ba1a6783ab3f5e9b9e521f766a3a6280e4e75446086785302647e080d45c2d68",
+        "retrieved_at_utc": "2026-11-15T19:06:20.898523+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-25/source.pdf",
+        "bytes": 221046
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 4,
+        "page_errors": [],
+        "path": "records/RECON-25/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-26",
+      "title": "Appeal No 5503 of 2022 filed by Kusum Gupta",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5503-of-2022-filed-by-kusum-gupta_66449.html",
+      "listing_response_sha256": "6abe7f87c098fb64bb590120740c08a19bb1dcc1ed1eaed970a1c1ca18ec1c55",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671681112707.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671681112707.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5503-of-2022-filed-by-kusum-gupta_66449.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/appeal-no-5503-of-2022-filed-by-kusum-gupta_66449.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "1704c798e7d824fd0440c9d2ecf4a25aa5ad1731de4edff9aa2c9367d9cafdf3",
+        "retrieved_at_utc": "2026-11-15T19:06:22.355117+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-26/page.html",
+        "bytes": 8185
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671681112707.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671681112707.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "65db427b7481231709c369e40e8da279dbe48e8ef4df0fb41fbae750975dd058",
+        "retrieved_at_utc": "2026-11-15T19:06:23.861253+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-26/source.pdf",
+        "bytes": 413796
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 3,
+        "page_errors": [],
+        "path": "records/RECON-26/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-27",
+      "title": "Final Order in the matter of Bonaz Capital Investment Adviser",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/final-order-in-the-matter-of-bonaz-capital-investment-adviser_66410.html",
+      "listing_response_sha256": "6abe7f87c098fb64bb590120740c08a19bb1dcc1ed1eaed970a1c1ca18ec1c55",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671544203230_2.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671544203230_2.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/final-order-in-the-matter-of-bonaz-capital-investment-adviser_66410.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/dec-2022/final-order-in-the-matter-of-bonaz-capital-investment-adviser_66410.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "f92c2945ae6f5b156780f66e7df40dfcb2a392ec9d8e15590646645eca3b226b",
+        "retrieved_at_utc": "2026-11-15T19:06:25.218131+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-27/page.html",
+        "bytes": 8355
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671544203230_2.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2022/1671544203230_2.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "058d170b1a66eccfe542e828f8545ca2f113542698646de727b544dfde5e4236",
+        "retrieved_at_utc": "2026-11-15T19:06:26.955035+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-27/source.pdf",
+        "bytes": 680382
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 38,
+        "page_errors": [],
+        "path": "records/RECON-27/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-28",
+      "title": "Adjudication Order in respect of Mobonair Wireless Private Limited in the matter of Thirani Projects Limited",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/adjudication-order-in-respect-of-mobonair-wireless-private-limited-in-the-matter-of-thirani-projects-limited_48686.html",
+      "listing_response_sha256": "e43767ac5f3da96f3624f1e51cd7f82c1cdb4caa817832d304d2865b14476207",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1610017225455_4.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/jan-2021/1610017225455_4.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/adjudication-order-in-respect-of-mobonair-wireless-private-limited-in-the-matter-of-thirani-projects-limited_48686.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/adjudication-order-in-respect-of-mobonair-wireless-private-limited-in-the-matter-of-thirani-projects-limited_48686.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "6b51cc054648695d058452ad7e76a11cc917e95fc80734d863e772dc80a33fb6",
+        "retrieved_at_utc": "2026-11-15T19:06:30.814336+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-28/page.html",
+        "bytes": 8470
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1610017225455_4.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1610017225455_4.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "7748ae5946ef55dd8fb0de52f90f9888da1bbd24f76db96fb275ad0edd3a26d0",
+        "retrieved_at_utc": "2026-11-15T19:06:32.461248+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-28/source.pdf",
+        "bytes": 527191
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 17,
+        "page_errors": [],
+        "path": "records/RECON-28/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-29",
+      "title": "Appeal no. 4004 of 2020 filed by Pradeep Kumar",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-4004-of-2020-filed-by-pradeep-kumar_48666.html",
+      "listing_response_sha256": "e43767ac5f3da96f3624f1e51cd7f82c1cdb4caa817832d304d2865b14476207",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1609840773162.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/jan-2021/1609840773162.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-4004-of-2020-filed-by-pradeep-kumar_48666.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-4004-of-2020-filed-by-pradeep-kumar_48666.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "ed46534a5b2556d58e84bb3032e9a094c90cdb34ed1c203199e7d1eececb3047",
+        "retrieved_at_utc": "2026-11-15T19:06:34.345328+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-29/page.html",
+        "bytes": 8177
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1609840773162.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1609840773162.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "0419d99893ecf7853fe0b2ccf25a519445fed479b8ba461b632472f8dbe56d7b",
+        "retrieved_at_utc": "2026-11-15T19:06:35.879425+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-29/source.pdf",
+        "bytes": 407500
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-29/pages.json"
+      },
+      "status": "ACQUIRED"
+    },
+    {
+      "screening_id": "RECON-30",
+      "title": "Appeal No. 3998 of 2020 filed by Viibhu Aggarwaal",
+      "listing_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-3998-of-2020-filed-by-viibhu-aggarwaal_48634.html",
+      "listing_response_sha256": "e43767ac5f3da96f3624f1e51cd7f82c1cdb4caa817832d304d2865b14476207",
+      "candidates": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1609503847819.pdf",
+          "via": "https://www.sebi.gov.in/web/?file=/sebi_data/attachdocs/jan-2021/1609503847819.pdf"
+        }
+      ],
+      "page_capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-3998-of-2020-filed-by-viibhu-aggarwaal_48634.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/jan-2021/appeal-no-3998-of-2020-filed-by-viibhu-aggarwaal_48634.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "2849b07b8de5db2018ce8f6c71d9e3493cd1b9f06faf5a4316d413dbd5c06162",
+        "retrieved_at_utc": "2026-11-15T19:06:37.227239+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-30/page.html",
+        "bytes": 8215
+      },
+      "pdf_capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1609503847819.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2021/1609503847819.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a624115afe6c1e8fd077c148b5df44dbf2f8f7c8583e3a04125d3e8f1ecca23f",
+        "retrieved_at_utc": "2026-11-15T19:06:38.754528+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "records/RECON-30/source.pdf",
+        "bytes": 411698
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 2,
+        "page_errors": [],
+        "path": "records/RECON-30/pages.json"
+      },
+      "status": "ACQUIRED"
+    }
+  ],
+  "human_screening_completed": false,
+  "research_decision": "NOT_EVALUATED",
+  "publication_dates_verified": false,
+  "native_pdf_text_only": true,
+  "limits": {
+    "max_records": 30,
+    "page_bytes": 2000000,
+    "pdf_bytes": 20000000,
+    "socket_timeout_seconds": 20,
+    "max_redirects_per_fetch": 4,
+    "max_retries": 0
+  },
+  "limitations": [
+    "Automated retrieval and text extraction are not human screening or independent audit",
+    "Listing dates, retrieval timestamps and HTTP Last-Modified are not verified publication dates",
+    "Page numbers are PDF page positions; printed page labels may differ",
+    "Native text may omit tables, scans or layout; inspect the original PDF",
+    "This fixed reconnaissance batch is not the random research sample"
+  ],
+  "status": "PARTIAL",
+  "counts": {
+    "requested": 27,
+    "acquired": 25,
+    "failed": 2
+  },
+  "successful_response_bytes": 10203432,
+  "successful_response_requests_including_redirects": 51,
+  "fetch_attempts": 52,
+  "failed_request_counts_incomplete": true,
+  "files": {
+    "records/RECON-04/page.html": "64213df5b78c50e9b947cd3ffeba8926b92c51b797aba4bc6992d20a57c62237",
+    "records/RECON-04/pages.json": "b45f9c35e3e46e8e2676c59609c5f00cdc1c7c18415f21c5b3ce51c262bb78ed",
+    "records/RECON-04/source.pdf": "fe750662294edecb6695f17ae479b6be2c9c658da2ab92a890f576e39e371dab",
+    "records/RECON-04/text.txt": "709f85a6a32cd137703aff3dc76f711415849d7f46b84707b03e039262faa6d6",
+    "records/RECON-05/page.html": "6e03ab3f1c0b2cca9725d4471be2b7a4237f3e09c1d2ffc3c33f4b3b87d84b10",
+    "records/RECON-05/pages.json": "3f295b0eb6f156031aaab2875add98a390e346ccc138d75f64e9b628e21bd193",
+    "records/RECON-05/source.pdf": "bd9397816b99506d8784127f86808d76c8f4d97c8353eaab1e2a35b085961e8f",
+    "records/RECON-05/text.txt": "68e91dbd85a0157f56db7e2cabead48b543489bdb26895ee51880e7ba88ed602",
+    "records/RECON-06/page.html": "09fa0740994c1da0f05ce72123cc574a8b6b717f07c180c9ca1076388a7e4bfb",
+    "records/RECON-06/pages.json": "dd9a40a66ef29bf8c148ff69adb2362dfd4d16711e0479ccdf0897acb6b7876c",
+    "records/RECON-06/source.pdf": "13e98f86c773849aca7c4ae922e97ded026becf29cd72a4082fa884aa2055f95",
+    "records/RECON-06/text.txt": "2ee41fa97aee7d378f431c0d58fe3bffc9faf38c185c5390c89573d31dd707f3",
+    "records/RECON-07/page.html": "077b3d0c132430864d549d6e880c2d9689289278159da6a35456ba04a9f7ba8b",
+    "records/RECON-07/pages.json": "d11dfb3cae5ad9c821914ced7b6efdc2d796b2753c7485242c698d46583ab7e4",
+    "records/RECON-07/source.pdf": "5c27cf010ade926b8419e31db5d150088836dfab28cd53bc67f7855e03493b41",
+    "records/RECON-07/text.txt": "7cccced131d8ff68f9f695d9a26695c4f1f92cf052b1010b0f68e23de2ca3364",
+    "records/RECON-08/page.html": "ce063b5855288e1e625d67f7052ca5093658daba11016973c241f20cb32aa1c6",
+    "records/RECON-08/pages.json": "b633c2c2ebf55468c0129b5a8f36588e7975d2cfbf96d0f9d50f24123edcf468",
+    "records/RECON-08/source.pdf": "a96a9c20b07faf67418fc455dbc265e8744097bf6c3c0438efcb77e938284bc5",
+    "records/RECON-08/text.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "records/RECON-09/page.html": "dc6866940a27698c707947604a4b950384f4047efc3bcff02a85160434c00105",
+    "records/RECON-09/pages.json": "c71306d786af1e635d4be9740ca4314591245ae6a412c6c69d78247de4a3ed58",
+    "records/RECON-09/source.pdf": "0080d7bff32418d91fa8bac167fc634de155d738e98a714947b72dfedf8ef66f",
+    "records/RECON-09/text.txt": "a994c966422af1b07330aeb47630d9b4d997c64a5ae29e6d44f9b4ecb61bb33b",
+    "records/RECON-10/page.html": "aa9bbbda8476a5228d7fd2b2879e027670f62d83875584fd867178757230fe97",
+    "records/RECON-10/pages.json": "3270292ace41e50a59475859bd8f2cc9e8746cd2717ee65a0e8cd8fc7e9472d5",
+    "records/RECON-10/source.pdf": "366e034916b1d9571bebea7cd61cb857ef77bd6e5634bbe8972176d72d683639",
+    "records/RECON-10/text.txt": "4bb5bcea1861f3c2d3dc5a8d13962ed41b85c3240e5bba79c30e5ae803e191f5",
+    "records/RECON-11/page.html": "2b953fa57476425f7e40c1c0cf94597d4f025d2d35a24d5c52f26ee3d0c036b2",
+    "records/RECON-11/pages.json": "5ec16dafae2de1467254030f0123ca5d08e7a34e227d5efe145fb3433f42bd0b",
+    "records/RECON-11/source.pdf": "3dc7fdac935294fcd2b9c27d065ff22cf0aa18035d7f1f2adfdfc108797ea410",
+    "records/RECON-11/text.txt": "05664e6e612e36983149d0a483bf8ed320a0af4fbd61eefa65b55e316f225618",
+    "records/RECON-12/page.html": "51d6f33d8fa0742c77c1b87732d4972ae065582d4bc18486d6497a6bb765434e",
+    "records/RECON-12/pages.json": "96f967d8a0df77df17406fd27528c4a93959380e746993a0c48139a1364cb1e7",
+    "records/RECON-12/source.pdf": "a22982868d57d18d4530b0cbcb40fde43e11084be38018ce04c83b00e67a94a1",
+    "records/RECON-12/text.txt": "f5d47eb30f71cf6422678872b63eaf90deb934147e58a6cbf32d90d243badb4d",
+    "records/RECON-13/page.html": "a8084878387bd4527107875aa598a424407dc6241d438b10610ee5a4ac043de3",
+    "records/RECON-13/pages.json": "f7e5dc60cc93d4f54f0554147e10758ad09713aa4b32f935a019d37e3722ed4e",
+    "records/RECON-13/source.pdf": "b95703c249df3c19904d4fa406a15dc67af601205895b992a0b95e4f71f37ca4",
+    "records/RECON-13/text.txt": "ef9d8a30af36fcc40d808e320050e3651c8dcd573ffa2bfea276bddb35a26558",
+    "records/RECON-14/page.html": "25f331b4b3e906c1cf59ae81d3406577463ce94e082be2521db4c483305ae865",
+    "records/RECON-14/pages.json": "ab2193f969d0eecfdea8586557eea265055bdef325dba667ec48dbbbbe0e62df",
+    "records/RECON-14/source.pdf": "54a662303dd094af49e2a4c80d4ba93ee296ab37fd025e7abfba776fdb9f7013",
+    "records/RECON-14/text.txt": "70048174b90251c67496d3acdb8d76639b1eafe97dea3e427ebff27554a6cca1",
+    "records/RECON-15/page.html": "dbd843637b80366dee95c2e59fa56883cb241847bac816cefe33ace41cef4c9a",
+    "records/RECON-15/pages.json": "fcaa88cc0f8a84e695fbfc224516a762dd1e3a747f44bb15232fc6ca71eb40c1",
+    "records/RECON-15/source.pdf": "25cf53911e4919bce2b94006d509006019cdc154df5cb56fc482a058bd0d212d",
+    "records/RECON-15/text.txt": "e46013842ed7200b11bb66b9454d08175341538b06bd8557a262513e0ece5393",
+    "records/RECON-16/page.html": "c4d9852f5277b613b47e175df069b0c975fc315cbf28937ecacd702ccab23eb7",
+    "records/RECON-17/page.html": "5391c7e24764e395860c2d6c994f39415fc7c6d061c750155723b45cf4dc2f50",
+    "records/RECON-18/page.html": "2766688bed8e1e19fddc9d83485b100a509750632c61cbb4e70361e9da54b997",
+    "records/RECON-18/pages.json": "94157d95a25fe77ddd9e554b0dc7655f5ed2252f2453a273ecfd9e8140e23ce6",
+    "records/RECON-18/source.pdf": "7a5e17afc2df7621700b76ebd5584325fc8a834b0254d8c031d29f7f7e216f50",
+    "records/RECON-18/text.txt": "a2442c9bbf83bf734506b6f6753009bdc853e398fab51f198cf7483ce1eefb62",
+    "records/RECON-19/page.html": "84b9207234955ccf9b1f457d5c8617a6d9618192f903b17455721a954aa2ae92",
+    "records/RECON-19/pages.json": "855de1ca65fb4dc8bd3dad4b28b928cf4818975bbb7e56f9fa86286b6d3ca16f",
+    "records/RECON-19/source.pdf": "4d5b533072d3c4fc12a3201f5cde489d4cc7a3522f487e3c531145efe3ff5ffb",
+    "records/RECON-19/text.txt": "42af2c757cc92bb426be47235a594f461aef8b9b63bfc895d7cdb93d2ed81424",
+    "records/RECON-20/page.html": "8640e1eee8f01f4c2bb868071c425d1d933a563f47a5515b2d240f421bf7aa81",
+    "records/RECON-20/pages.json": "73bf9b6e43829261b886ecdf6d333f9a8379779d55581a9e5479dc356637b7a9",
+    "records/RECON-20/source.pdf": "fb922f321998a78618069e33fa4047ab44a9baa0a730533b1b1ec31a2d1b3145",
+    "records/RECON-20/text.txt": "2380e4ac7644e23d4edefa7772e9248fcfe2d6ebf6d9f60992754754f08854ae",
+    "records/RECON-21/page.html": "efdb998e9aa608f0d012989b4371c0ae5e1cdcba3d00216b5b56a6b203a3a6d9",
+    "records/RECON-21/pages.json": "ddffb011e99222c2c131aca518661f5d7271081df652dca7982fed72dbeef67c",
+    "records/RECON-21/source.pdf": "a405007acac1a1dbec2e96509d31f5bd8f70ebd9f7b9a40186125080648d73ce",
+    "records/RECON-21/text.txt": "0d3aba4a420084de21926dab9110e554c332607460f6aef1a5d819ae77037aa4",
+    "records/RECON-22/pages.json": "10a90604a5aa084d4427936f18044c5958fe2b9286f9878fcb138c2882231afc",
+    "records/RECON-22/source.pdf": "a2b66ed4ab45ea53b252aa485c465814d5216f76da2dc87b081058ec2f0c05ce",
+    "records/RECON-22/text.txt": "2d1814488f1f49e20761118542806e97d4fe1e9bc721015266a97222dac9a3d1",
+    "records/RECON-23/page.html": "0ade50b75675b3d02772267eb6de7e249f490eef5b96e4a5b4cdcf95e901ab64",
+    "records/RECON-23/pages.json": "d9c6995483c8143c2267c4d70ba705f3ed55fb77f95b2aa7fa4e51b2d9352868",
+    "records/RECON-23/source.pdf": "07107d652cbd7619ab129fe32d66e7cefd015015206398413019f1a09d3e19dd",
+    "records/RECON-23/text.txt": "c3e3aa94c44797b6a3e4c32a462dc8c23c385e11b9ee4cd74e5c0a3c80c16999",
+    "records/RECON-24/page.html": "1adc712883773a84a24747e45b54f92eb2f5644ff1d21ac8eaec94178031367c",
+    "records/RECON-24/pages.json": "7e9c2ae9e77a323bca04883e175d36be889462bab9e314d51f9953383526edec",
+    "records/RECON-24/source.pdf": "f8a50cf8b2bbc1a372843ad1b40efbf4c895cd281a0c71f1f3241f077fd91c4d",
+    "records/RECON-24/text.txt": "516f67badf2612d369c9d486f684731d7d470233532c82d8e85fe1e44191eb4d",
+    "records/RECON-25/page.html": "1895017116b906459876d42ef11bdd126828873fbd64dfadcf64d79b2766350a",
+    "records/RECON-25/pages.json": "45f98f7d13b550964a5f73a74ef9582bda678aef650cade28c309b1c0240a9e0",
+    "records/RECON-25/source.pdf": "ba1a6783ab3f5e9b9e521f766a3a6280e4e75446086785302647e080d45c2d68",
+    "records/RECON-25/text.txt": "271f67d5cf9b8f48232de3145ef8386c74d4a830015c93dc93548d99c5da63e9",
+    "records/RECON-26/page.html": "1704c798e7d824fd0440c9d2ecf4a25aa5ad1731de4edff9aa2c9367d9cafdf3",
+    "records/RECON-26/pages.json": "dd69240d03467168b0cc3a6d553adc7f8e9757676043ac1d3d73e8430a325597",
+    "records/RECON-26/source.pdf": "65db427b7481231709c369e40e8da279dbe48e8ef4df0fb41fbae750975dd058",
+    "records/RECON-26/text.txt": "8ab3b1d915f36bf03d3c969f37cf3d6e6e305200dfc15b828f99fbb665c20735",
+    "records/RECON-27/page.html": "f92c2945ae6f5b156780f66e7df40dfcb2a392ec9d8e15590646645eca3b226b",
+    "records/RECON-27/pages.json": "332fcc8dd3ecf69ddeb480670eca9f56f6e97100e7cf1c955f05e0c24190df4d",
+    "records/RECON-27/source.pdf": "058d170b1a66eccfe542e828f8545ca2f113542698646de727b544dfde5e4236",
+    "records/RECON-27/text.txt": "e4e450410c3bab875db04f0c48dd7c885c71f16154f1ba8baa2083943b2c8cbd",
+    "records/RECON-28/page.html": "6b51cc054648695d058452ad7e76a11cc917e95fc80734d863e772dc80a33fb6",
+    "records/RECON-28/pages.json": "e58abb0c4cf4a447d3bc39e9cc7a29fdcc833ab93f83310b5853493c0b76c481",
+    "records/RECON-28/source.pdf": "7748ae5946ef55dd8fb0de52f90f9888da1bbd24f76db96fb275ad0edd3a26d0",
+    "records/RECON-28/text.txt": "c2c30db739689f0250b0500b5490076ad9fee11dfe3e703d6cd2e8cc45ea8fd8",
+    "records/RECON-29/page.html": "ed46534a5b2556d58e84bb3032e9a094c90cdb34ed1c203199e7d1eececb3047",
+    "records/RECON-29/pages.json": "68d977052e3f13d6da168c6620182dbd48e2812287ef9c7e264512719e74ca25",
+    "records/RECON-29/source.pdf": "0419d99893ecf7853fe0b2ccf25a519445fed479b8ba461b632472f8dbe56d7b",
+    "records/RECON-29/text.txt": "c93501ae6e72eba4ed9ba7d1b8312016bfab89c4835c91fdffa8d8299b837324",
+    "records/RECON-30/page.html": "2849b07b8de5db2018ce8f6c71d9e3493cd1b9f06faf5a4316d413dbd5c06162",
+    "records/RECON-30/pages.json": "25b33245b0f5cd0ceda16047095cdaadd0ba5b0eef567fef16976ea8ffd477ae",
+    "records/RECON-30/source.pdf": "a624115afe6c1e8fd077c148b5df44dbf2f8f7c8583e3a04125d3e8f1ecca23f",
+    "records/RECON-30/text.txt": "277febb804d51539bbbda3dd36a0ee5ca708d3f603d598e249afb3f5bd58708c",
+    "report.html": "e5c1ab2646fe8310f110f2efb56dc2547a080c2f427fc15d5e801d8e68e0eb63"
+  }
+}

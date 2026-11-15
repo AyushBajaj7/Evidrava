@@ -1,0 +1,93 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.7.0",
+  "status": "COMPLETE",
+  "completed_on": "2026-11-16",
+  "scope": "Add a temporary browser workbook check to the local frontend, middleware and backend stack without changing research inputs or making a research decision.",
+  "architecture": {
+    "frontend": "frontend/ serves the dependency-free browser console",
+    "middleware": "middleware/ permits only allowlisted local API routes and the configured frontend origin",
+    "backend": "backend/ performs read-only checks in operating-system temporary directories",
+    "route": "POST /api/v1/workbook/check accepts strict Base64 .xlsx bytes and optional request-only session-calendar or selection-manifest text"
+  },
+  "safety_boundaries": [
+    "All three services and all configured inter-service endpoints are restricted to http://127.0.0.1:<port>.",
+    "The browser never supplies a filesystem path; uploaded workbook bytes are written only to a TemporaryDirectory and are not retained.",
+    "Decoded workbooks are limited to 20 MB; the workbook route has a 32 MB encoded-request limit and auxiliary text is bounded.",
+    "Malformed Base64, malformed workbook XML, invalid optional inputs and unsupported workbook structures return WORKBOOK_INVALID rather than a server error.",
+    "The API never writes the workbook, screening CSV, source packets, working copies or run directories.",
+    "Every API result remains research_decision=NOT_EVALUATED."
+  ],
+  "verification": {
+    "python_suite": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest discover -s tests -v",
+      "result": "PASS",
+      "tests_passed": 177,
+      "duration_seconds": 21.681
+    },
+    "web_stack_suite": {
+      "result": "PASS",
+      "tests_passed": 9,
+      "coverage": [
+        "frontend static console and local configuration",
+        "status, frame validation and frozen draw through middleware",
+        "real pinned workbook copy without source mutation",
+        "invalid Base64, invalid optional manifest and malformed workbook XML",
+        "allowlisted routes, preflight, origin checks and local-only connection enforcement"
+      ]
+    },
+    "design_check": {
+      "command": ".\\.venv-design\\Scripts\\python.exe scripts\\check_design.py",
+      "result": "PASS",
+      "schemas_checked": 3,
+      "examples_validated": 3,
+      "shape_mutations_checked": 12,
+      "application_acceptance_cases_executed": 0,
+      "supplied_workbook_scenarios_executed": 0
+    },
+    "live_loopback_smoke": {
+      "result": "PASS",
+      "ports": {
+        "frontend": 5473,
+        "middleware": 8301,
+        "backend": 8302
+      },
+      "observed": {
+        "protocol": "DRAFT",
+        "validation_status": "VALID",
+        "temporary_upload_only": true,
+        "research_decision": "NOT_EVALUATED"
+      },
+      "note": "The temporary services were stopped after the check."
+    },
+    "wheel": {
+      "path": "dist/evidrava-0.7.0-py3-none-any.whl",
+      "sha256": "b87a1bdf8b3caa073e7e0381f13bc0cd76bd493b3d5d243c669d78d3b955316e",
+      "zip_integrity": "PASS",
+      "required_packages_and_static_assets": "PRESENT"
+    }
+  },
+  "implementation_hashes": {
+    "backend/app.py": "04df350b8cfbc3dbd5b01ad67ed212721bcce40b91d667724d4f7cf721a7b954",
+    "middleware/proxy.py": "a3917d1dc5fd0a3e8c2564517fbf161961868bdf3a8bfaf9632aecb1ccf038f9",
+    "frontend/serve.py": "e98c9ff20b2a1613bdaad75db2aa43a4de531b10226f37f8dee7a4e43db035b5",
+    "frontend/public/app.js": "d799f2d4e474ee3e4f71a30aa37d2fa37906736cb64d1f1c8606477f712f1adf",
+    "scripts/run_web_stack.py": "28877489b73f2a82d781d207ff595b54e5e0355de0224a64b9e0c295f641f73d",
+    "tests/test_web_stack.py": "a55bb6a5d32e7f2046d2df0e5cd39629de1b07c5bf6499da34d116d32930df31"
+  },
+  "research_status": {
+    "protocol": "DRAFT",
+    "reviewer_confirmed": false,
+    "real_candidate_frame_created": false,
+    "real_protocol_frozen": false,
+    "real_sample_drawn": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "known_limits": [
+    "This software check does not recalculate workbook formulas or certify formula behavior in Excel.",
+    "The supplied 114-scenario workbook suite was not rerun locally in this increment.",
+    "Excel compatibility, independent reviewer confirmation, measured 30-record screening time, real frame scope and case-specific market coverage remain open.",
+    "The browser layout was verified through local HTTP and automated flow tests; it was not accepted as a deployed web application."
+  ],
+  "publication": "NOT_PUBLISHED; no GitHub push or external sharing"
+}

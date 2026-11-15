@@ -1,0 +1,121 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.6.0",
+  "completed_on": "2026-11-15",
+  "timezone": "Asia/Calcutta",
+  "scope": "Add a local-only frontend, middleware and backend in separate folders, connected through a bounded HTTP API for safe project status, candidate-frame validation and frozen-protocol sample drawing.",
+  "architecture": {
+    "frontend": {
+      "path": "frontend/",
+      "default_url": "http://127.0.0.1:5173",
+      "responsibility": "Static browser UI; no direct project-file access."
+    },
+    "middleware": {
+      "path": "middleware/",
+      "default_url": "http://127.0.0.1:8001",
+      "responsibility": "Allowlisted local reverse proxy with origin, method, route, request-size and request-ID controls."
+    },
+    "backend": {
+      "path": "backend/",
+      "default_url": "http://127.0.0.1:8002",
+      "responsibility": "Read-only project state and temporary in-memory-equivalent frame/protocol operations."
+    },
+    "api_routes": [
+      "GET /health",
+      "GET /api/v1/project-status",
+      "GET /api/v1/templates",
+      "POST /api/v1/frame/check",
+      "POST /api/v1/sample/draw"
+    ],
+    "launcher": "scripts/run_web_stack.py"
+  },
+  "safety_boundaries": [
+    "The browser cannot pass filesystem paths to the backend.",
+    "Pasted candidate-frame and protocol text is written only to an operating-system temporary directory for one request.",
+    "The web stack never writes the workbook, screening CSV, source packets, working directory or run directories.",
+    "Middleware permits only the configured frontend origin and documented routes; wildcard CORS is not used.",
+    "Every API result preserves research_decision=NOT_EVALUATED."
+  ],
+  "verification": {
+    "local_test_suite": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest discover -s tests -v",
+      "result": "OK",
+      "tests_passed": 172,
+      "duration_seconds": 12.03,
+      "breakdown": {
+        "preparation": 43,
+        "screening": 31,
+        "source_acquisition": 51,
+        "provisional_brief": 22,
+        "predecessor_capture": 13,
+        "candidate_frame": 8,
+        "web_stack": 4
+      }
+    },
+    "design_contract": {
+      "command": ".\\.venv-design\\Scripts\\python.exe scripts/check_design.py",
+      "result": "PASS",
+      "schemas_checked": 3,
+      "examples_validated": 3,
+      "shape_mutations_checked": 12,
+      "application_acceptance_cases_executed": 0,
+      "supplied_workbook_scenarios_executed": 0
+    },
+    "launcher_smoke": {
+      "frontend": "HTTP 200 from loopback console",
+      "middleware_project_status": "PASS",
+      "middleware_frame_check": "READY_TO_FREEZE for synthetic fixture",
+      "research_decision": "NOT_EVALUATED"
+    },
+    "installed_wheel": {
+      "path": "dist/wheel-build-2026-11-15-web-stack-final/evidrava-0.6.0-py3-none-any.whl",
+      "sha256": "85880554fca4c6b9b04b2f60ce70486150817f891226ecd18f94cdc3f408f51e",
+      "isolated_import": "PASS",
+      "dependency_check": "PASS",
+      "frontend_backend_middleware_assets": "PRESENT"
+    }
+  },
+  "artifacts": {
+    "backend": {
+      "path": "backend/app.py",
+      "sha256": "ad14e3f1ce1f192350c2ced8a941c5348258b132c5f91699b6deea87fbec3561"
+    },
+    "middleware": {
+      "path": "middleware/proxy.py",
+      "sha256": "6dbe762f5dd06d3a37e1e8ea26f04618d85e5e3ad1a9c39efc188027aebb93a2"
+    },
+    "frontend_server": {
+      "path": "frontend/serve.py",
+      "sha256": "3a97e954ba9b3eb762889b38c6c072adddb43e5a9a9a5bb299c7d6cd1bd18ed5"
+    },
+    "frontend_application": {
+      "path": "frontend/public/app.js",
+      "sha256": "2e3d820f820a2f308f3836c33f86e750db8d19a6420468dc0a3d6cb901604371"
+    },
+    "launcher": {
+      "path": "scripts/run_web_stack.py",
+      "sha256": "0e978263e0261b15d50843c3894e03080a8af8d409e17ed12e25a4ca4eb38354"
+    },
+    "web_stack_tests": {
+      "path": "tests/test_web_stack.py",
+      "sha256": "7abbfbd9c71425e9605965db207a3b82de0663cbe4736fa54b38d66ce9fc10ec"
+    }
+  },
+  "research_status": {
+    "protocol": "DRAFT",
+    "reviewer_confirmed": false,
+    "real_candidate_frame_created": false,
+    "real_protocol_frozen": false,
+    "real_sample_drawn": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "known_boundaries": [
+    "This is a local loopback stack, not a deployed or authenticated production service.",
+    "No real candidate frame, frozen protocol or research sample was created by this increment.",
+    "The supplied 114-scenario workbook suite was not rerun in this increment and Excel compatibility remains unverified.",
+    "The implementation does not validate market-data coverage, historical labels, leakage or detector performance."
+  ],
+  "previous_increment_record": "pilot/development/evidrava-frame-increment-2026-11-15.json",
+  "planned_local_package": "dist/Evidrava_0.6.0_2026-11-15_web-stack.zip",
+  "publication": "NOT_PUBLISHED; no GitHub push or external sharing"
+}

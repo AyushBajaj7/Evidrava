@@ -1,0 +1,99 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.7.1",
+  "kind": "source-queue-and-operational-readiness-increment",
+  "status": "COMPLETE",
+  "completed_on": "2026-11-16",
+  "scope": "Provide a local, read-only queue for the fixed 30-record workload batch, surface that readiness in the local dashboard, and prepare an independent-review guide without creating human research data.",
+  "delivered": {
+    "screening_queue_command": "python -m evidrava screening-queue --out <new-directory>",
+    "queue_output": {
+      "path": "pilot/development/evidrava-screening-queue-v0.7.1-2026-11-16",
+      "output_manifest_sha256": "347edefc6d56683978074b46429062d14a9ca609ae3cff928461605a407b0bd6",
+      "records_ready": 30,
+      "native_text_records": 29,
+      "encrypted_records": 1,
+      "encrypted_record": "RECON-08",
+      "local_report_links_checked": 152,
+      "broken_local_report_links": 0
+    },
+    "local_console": "Project status exposes screening_queue readiness; the frontend shows a separate ready queue card and still reports screening as 0/30 completed.",
+    "reviewer_material": "docs/reviewer-guide.md",
+    "local_release_artifacts": {
+      "wheel": {
+        "path": "dist/wheel-build-2026-11-16-source-queue-final/evidrava-0.7.1-py3-none-any.whl",
+        "sha256": "87e23d641b9337ea250c819a7275bea1397f756fa2ec10c3520f7018bb669fe6"
+      },
+      "source_package": {
+        "path": "dist/Evidrava_0.7.1_2026-11-16_source-queue-final.zip",
+        "sha256": "f0449a594cec3a4ac09e3d49a02821b59b942e19c317ba076c89944afe5eba9a"
+      }
+    }
+  },
+  "queue_integrity": {
+    "reference_csv_sha256": "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770",
+    "source_packet_manifests": {
+      "pilot/sources/recon-first-three": "3b09f5e794f310b30b40aa50985af38f270e6aa3d2583fcf7dda3bc465790db5",
+      "pilot/sources/recon-remaining-2026-11-16": "4e313721f3e90ab4fe5250ffc229473145741878669439b70582bd090d138744",
+      "pilot/sources/recon-retry-2026-11-16": "f657352912c896d0165eeb9a8795825b7d542b9c9967dd88777b2f1f61c8ad3f"
+    },
+    "packet_files_hash_checked": 124,
+    "acquired_coverage": "RECON-01 through RECON-30 exactly once after the retained retry packet is applied"
+  },
+  "verification": {
+    "full_python_suite": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest discover -s tests -v",
+      "result": "PASS",
+      "tests_passed": 181
+    },
+    "queue_output": {
+      "manifest_hashes": "PASS",
+      "relative_links": "PASS; 152 checked and 0 broken"
+    },
+    "packages": {
+      "wheel_required_entries": "PASS; 0 missing",
+      "source_package_forbidden_entries": "PASS; 0 environment, working-copy or generated-run entries"
+    },
+    "received_workbook": {
+      "sha256": "b4e7a944eda1fba7509c61122cb670d8e1173070f2f5eef01f0d30df0789cd96",
+      "matches_preserved_receipt": true
+    }
+  },
+  "implementation_fingerprints": {
+    "evidrava/__init__.py": "252b4bc156418e3c15c0b62816784d169d8bf47848e2892db4793566984f3293",
+    "evidrava/__main__.py": "9d6acc1aa110ddc2d4293c19f8088b8959e197008df938570bdaf93464309a96",
+    "evidrava/screening_queue.py": "b77f9b7a2b53e9f044f37f15384157bf4d83f56beefde337c249b66a5aff3cc8",
+    "evidrava/screening_queue_report.py": "3b130df2d2a068dc62365b11c7711272fe8032859f91748373b2f330f25e617c",
+    "backend/app.py": "000d3bb5cf0993cd0bc5d76242c859c946a593a0cb0d2b99d0f4d52fd9c684b4",
+    "frontend/public/app.js": "48f57473e21f045a765325f39128c6aefb896299ed39d86b49f51c1e20bd71a0",
+    "tests/test_screening_queue.py": "29931ea64fbab82e526a1a85bb160d7625a5a891d8b6ba593a43aeb5b97ddb10",
+    "tests/test_web_stack.py": "663e4f936cf94459d9a723addc78fa4bfd55cb536f9ac719a9295bef4e881fcf",
+    "docs/reviewer-guide.md": "6cf33867467eedd7f5dab0bb717042936947c1eb9a71d1c0adfa127345aa43f2"
+  },
+  "workbook_formula_execution": {
+    "local_status": "BLOCKED_BY_OFFICE_REPAIR_PROMPT",
+    "attempt": "One temporary DEF1 scenario was launched through the supplied runner using an Excel recalculation adapter.",
+    "outcome": "Excel displayed its repair prompt before the scenario completed. The prompt was not accepted; the Excel process started for that temporary run was closed.",
+    "preservation": "No supplied workbook or test input was changed; the received workbook hash still matches its preserved receipt.",
+    "remaining_requirement": "Run the supplied 114 scenarios under a healthy isolated LibreOffice or Excel installation, then report the actual engine and outcomes."
+  },
+  "research_status": {
+    "protocol": "DRAFT",
+    "reviewer_confirmed": false,
+    "human_screening_completed": false,
+    "independent_audit_completed": false,
+    "real_candidate_frame_created": false,
+    "real_protocol_frozen": false,
+    "real_sample_drawn": false,
+    "market_coverage_verified": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "remaining_human_or_supervisor_work": [
+    "Screen each of the 30 workload records and enter actual decisions, locators, predecessor/grouping evidence and time in the working CSV.",
+    "Confirm a distinct human reviewer before counting independently audited evidence.",
+    "Resolve episode identity, first-disclosure, related-matter and conduct/warm-up coverage evidence for the future frame.",
+    "Settle and freeze the real protocol, frame, seed and scope with the supervisor before drawing the study sample.",
+    "Enter and independently audit the first selected matters, then perform the historical-label and detector evaluation if the data support it."
+  ],
+  "publication": "LOCAL_ONLY; no GitHub push, deployment, external sharing or research conclusion was made"
+}

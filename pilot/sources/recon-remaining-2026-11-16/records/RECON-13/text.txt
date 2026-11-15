@@ -1,0 +1,732 @@
+=== PDF page 1 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 1 of 14 
+ 
+BEFORE THE ADJUDICATING OFFICER 
+SECURITIES AND EXCHANGE BOARD OF INDIA 
+ 
+[ADJUDICATION ORDER No.: Order/AP/SK/2020-21/10006]  
+ 
+UNDER SECTION 15 -I OF SECURITIES AND EXCHANGE BOARD OF INDIA ACT, 
+1992 READ WITH RULE 5 OF SEBI (PROCEDURE FOR HOLDING INQUIRY AND 
+IMPOSING PENALTIES BY ADJUDICATING OFFICER) RULES, 1995. 
+______________________________________________________________________________ 
+In respect of: 
+Comfort Intech Ltd. 
+A-301, 3rd Floor, Hetal Arch,  
+Opp. Natraj Market, S V Road, 
+Malad (W),  
+Mumbai – 400064. 
+ 
+In the matter of Ravi Kumar Distilleries Ltd. 
+ 
+ 
+1. Pursuant to the investigation conducted in the matter of Ravi Kumar Distilleries Ltd. (hereinafter 
+referred to as ‘RKDL’) during the period from December 01, 2011 to December 31, 2012, 
+Securities and Exchange Board of India ("SEBI") made the following observations: 
+ 
+1.1. On December 15, 2011, Comfort Intech Ltd. (“CIL” or “Noticee”) had provided details of 
+1,24,24,719 shar es pledged to them to the target company i.e. RKDL in respect of its 
+transaction dated December 03, 2011 as required under Regulation 29(2) of the SAST 
+Regulations. In this regard, it was observed that the said disclosures were made by CIL to 
+RKDL with a delay of 6 working days i.e. from December 07, 2011 to December 15, 2011. In 
+view of the same, it has been alleged that CIL by making the disclosure to RKDL with a delay 
+of 6 working days has violated the provisions of Regulation 29(2) and 29(3)(b) of the S AST 
+Regulations. Details of disclosures with respect to pledge as required to be made by CIL under 
+SAST Regulations are as under: 
+Table-1 
+Date Mode 
+Pre-acquisition 
+shareholding 
+Pledge acceptance/ Release of 
+pledgee/ Sold 
+Post-acquisition 
+shareholding 
+Cumulative 
+Change in holding Date of 
+disclosure 
+to 
+company 
+Date of 
+disclosure 
+to stock 
+exchange 
+Violation of 
+Regulation(s) 
+under  SAST 
+No. of 
+shares 
+% of 
+share 
+capital 
+No. of 
+shares 
+% of 
+share 
+capital 
+Value 
+(Rs) 
+No. of 
+shares 
+% of 
+share 
+capital 
+No. of 
+shares 
+% of 
+share 
+capital 
+December 
+3,2011 
+Pledge 
+Accept 2366000 9.86% 7875000 32.81 -- 10241000 42.67 7875000 32.81 
+December 
+15,2011 
+December 
+7,2011  29(2) and 
+29(3)(b) December 
+19,2011 
+Pledge 
+Accept 10241000 42.67 4549719 18.96 -- 14790719 61.63 12424719 51.77 
+December 
+15,2011 
+December 
+7,2011 
+December 
+19,2011 
+Sell on 
+Market 14790719 61.63 4806000 20.03 5,00,20,288 9984719 41.60 761879 31.74 
+January 
+2,2012 
+December 
+21,2011 
+29(2) and 
+29(3)(b) 
+
+=== PDF page 2 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 2 of 14 
+ 
+Date Mode 
+Pre-acquisition 
+shareholding 
+Pledge acceptance/ Release of 
+pledgee/ Sold 
+Post-acquisition 
+shareholding 
+Cumulative 
+Change in holding Date of 
+disclosure 
+to 
+company 
+Date of 
+disclosure 
+to stock 
+exchange 
+Violation of 
+Regulation(s) 
+under  SAST 
+No. of 
+shares 
+% of 
+share 
+capital 
+No. of 
+shares 
+% of 
+share 
+capital 
+Value 
+(Rs) 
+No. of 
+shares 
+% of 
+share 
+capital 
+No. of 
+shares 
+% of 
+share 
+capital 
+December 
+20,2011 
+Sell on 
+Market 9984719 41.60 2818719 11.74 2,54,77,809 7166000 29.86 4800000 20.00 
+January 
+2,2012 
+29(2) and 
+29(3)(b) 
+December 
+27,2011 
+Release 
+of 
+pledge 7166000 29.86 4800000 20.00 -- 2366000 9.86% 0 0 No disclosure 29(2)  
+ 
+1.2. From the demat statements of CIL, it was observed that CIL accepted pledge of 78,75,000 
+shares and 45,49,719 shares on December 03, 2011 and December 19, 2011, respectively. Thus, 
+cumulatively CIL accepted pledge of 1,24,24,719 shares and the said quantity of shares 
+corresponds to the disclosures made by CIL to BSE on December 05, 2011. However, from 
+the demat statements of CIL it was seen that only 78,75,000 shares were pledged with CIL as 
+on December 03, 2011. In this regard, it was observed that the disclosure made by CIL to 
+RKDL and BSE that as on December 5, 2011, 1,24,24,719 shares were pledged with it was 
+incorrect. Thus, in view of the same, it has been alleged that by making such incorrect 
+disclosure, CIL had violated the provisions of Regulation 29(2) of the SAST Regulations. 
+ 
+1.3. On December 27, 2011, 48,00,000 shares pledged with CIL were released. Based on BSE email 
+dated January 30, 2018 and NSE email dated February 06, 2018, it was observed that CIL has 
+not made the requisite disclosures in respect of the said transaction. In view of the same, it has 
+been alleged that CIL by not making the requisite disclosures has viola ted Regulation 29(2) of 
+the SAST Regulations. 
+ 
+1.4. On December 19, 2011 and December 20, 2011, CIL sold 48,06,000 shares (20.03% of total 
+shareholding) and 28,18,719 shares (11.74% of total shareholding), respectively. In respect of 
+the said sale transactions, CIL made disclosure to RKDL on January 02, 2012. In this regard, it 
+was observed that there was a delay of 8 working days in the disclosure made by CIL to RKDL 
+i.e. from December 21, 2011 to January 02, 2012. In view of the same, it has been alleged that 
+by making the disclosure to RKDL with a delay of 8 working days, CIL has violated the 
+provisions of Regulation 29(2) and 29(3)(b) of the SAST Regulations. 
+ 
+1.5. On December 19, 2011, CIL made a net sale transaction of 17,31,000 shares and resultantly, its 
+shareholding changed from 9.86% to 2.65%. On December 20, 2011, CIL had a net pledge 
+invocation of 17,31,000 shares and resultantly, its shareholding in RKDL increased from 2.65% 
+to 9.86%. In respect of the said two transactions, CIL ought to have disclosed the change in its 
+shareholding to RKDL under Regulation 13(3) of the PIT Regulations and Regulation 13 (1) 
+of the PIT Regulations, respectively. In this regard, vide Summons dated October 22, 2014, 
+SEBI sought disclosures received by RKDL. Based on the reply of RKDL dated December 08, 
+
+=== PDF page 3 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 3 of 14 
+ 
+2014, it was observed that no disclosures under PIT Regulations were received by RKDL from 
+CIL. Further, details of all the disclosures made by CIL were sought from BSE and NSE. Based 
+on BSE email dated January 30, 2018 and NSE email dated February 06, 2018, it was observed 
+that CIL has not made the requisite disclosures under PIT Regulations to both BSE and NSE. 
+Therefore, in view of the same, it has been alleged that CIL has violated regulation 13(3) and 
+13(1) of the PIT Regulat ions read with Regulation 12(2) of PIT Regulations, 2015. Details of 
+disclosures as required to be made by CIL under PIT Regulations are tabulated as under: 
+Table-2 
+Date Mode 
+Pre-acquisition 
+shareholding 
+Pledge Invocation/ 
+Sale 
+Post-acquisition 
+shareholding 
+Change in 
+Holding Date of 
+disclosure 
+to 
+company 
+Disclosure 
+by 
+Company 
+to stock 
+exchange 
+Violation of 
+Regulation(s) 
+under  PIT No. of shares % of share capital No. of shares % of share capital No. of shares % of share capital No. of shares % of share capital 
+19/12/2011 Net Sell 
+(Pledge 
+invocation 
+and sell on 
+same day) 
+23,66,000 9.86% 17,31,000 
+( net of 
+sell on 
+market of 
+48,06,000 
+shares and 
+invocation 
+of 
+30,75,000 
+shares on 
+same day) 
+7.21% 6,35,000 2.65% 17,31,000 7.21% No 
+disclosure 
+No 
+disclosure 
+13(3) 
+20/12/2011 Net 
+pledge 
+invocation 
+(Pledge 
+invocation 
+and sell on 
+same day) 
+6,35,000 2.65% 17,31,000 
+(net of sell 
+on market 
+of 
+28,18,719 
+shares and 
+invocation 
+of 
+45,49,719 
+shares on 
+same day) 
+7.21% 23,66,000 9.86% 17,31,000 7.21% No 
+disclosure 
+No 
+disclosure 
+13(1) 
+ 
+2. Therefore, in view of the above, it has been alleged that the Noticee ha s violated the following 
+provisions of SAST Regulations and PIT Regulations: 
+ 
+(i) Regulation 29(2) and 29(3)(b) of the SAST Regulations. 
+ 
+(ii) Regulation 13(1) and 13(3) of the PIT Regulations read with Regulation 12(2) of PIT 
+Regulations, 2015. 
+ 
+3. The text of the aforementioned provisions is reproduced as under: 
+SAST Regulations 
+Disclosure of acquisition and disposal. 
+29. (1) …. 
+
+=== PDF page 4 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 4 of 14 
+ 
+(2) Any person, who together with persons acting in concert with him, holds shares or voting rights entitling them to 
+five per cent or more of the shares or voting rights in a target company, shall disclose the number of shares or  voting 
+rights held and change in shareholding or voting rights, even if s uch change results in shareholding falling below five 
+per cent, if there has been change in such holdings from the last disclosure made under sub -regulation (1) or under 
+this sub-regulation; and such change exceeds two per cent of total shareholding or voting rights in the target company, 
+in such form as may be specified. 
+(3) The disclosures required under sub-regulation (1) and sub-regulation (2) shall be made within two working days 
+of the receipt of intimation of allotment of shares, or the acquisition o f shares or voting rights in the target company 
+to,— 
+(a) every stock exchange where the shares of the target company are listed; and 
+(b) the target company at its registered office.  
+PIT Regulations 
+Disclosure of interest or holding in listed companies by certain persons - Initial Disclosure 
+13 (1) Any person who holds more than 5% shares or voting rights in any listed company shall disclose to the 
+company in Form A, the number of shares or voting rights held by such person, on becoming such holder, within 2 
+working days of :— 
+(a) the receipt of intimation of allotment of shares; or 
+(b) the acquisition of shares or voting rights, as the case may be. 
+(2) ….. 
+Continual disclosure. 
+(3) Any person who holds more than 5% shares for voting rights in any listed company shall disclose to the company 
+in Form C the number of shares or voting rights held and change in shareholding or voting rights, even if such change 
+results in shareholding falling below 5%, if there has been change in such holdings from the last disclosure made under 
+sub-regulation (1) or under this sub-regulation; and such change exceeds 2% of total shareholding or voting rights in 
+the company. 
+PIT Regulations, 2015 
+Repeal and Savings 
+12. (1) ….. 
+(2) Notwithstanding such repeal,— 
+(a) the previous operation of the repealed regulations or anything duly done or suffered thereunder, any right, privilege, 
+obligation or liability acquired, accrued or incurred under the repealed regulations, any penalty, forfeiture or 
+
+=== PDF page 5 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 5 of 14 
+ 
+punishment incurred in respect of any offence committed against the repealed regulations, or any investigation, legal 
+proceeding or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture or punishment as 
+aforesaid, shall remain unaffected as if the repealed regulations had never been repealed; and 
+(b) anything done or any action taken or purported to have been done or taken including any adjudication, enquir y 
+or investigation commenced or show -cause notice issued under the repealed regulatio ns prior to such repeal, shall be 
+deemed to have been done or taken under the corresponding provisions of these regulations; 
+4. Pursuant to submission of the investigation report, the competent authority in SEBI prima facie felt 
+satisfied that there are sufficient grounds to inquire and adjudicate upon the aforesaid violations by 
+the Noticee. By a communication-order dated July 18 , 2019 Shri Santosh Shukla was appointed as 
+Adjudicating Officer to inquire into and adjudge under Rule 5 of SEBI (Procedure for Holding 
+Inquiry and Imposing Penalties by Adjudicating Officer) Rules, 1995 (hereinafter referred to as ‘the 
+Adjudication Rules’) and under Section 15A (b) and 15HB of the SEBI Act , 1992 (hereinafter 
+referred to as “SEBI Act”) for the aforesaid alleged violations by the Noticee . Subsequent to the 
+transfer of Shri Santsoh Shukla vide communication order dated January 07, 2020 the case has been 
+transferred to undersigned. It has been advised that except for the change of th e Adjudicating 
+Officer, the other terms and condition of the original orders (whereby the aforesaid Adjudicating 
+Officers was appointed) ‘shall remain unchanged and shall be in full force and effect’. It has also been advised 
+that ‘I should proceed in accordance with the terms of reference made in the original orders.’. The said provisions 
+of the SEBI Act applicable during the period of violation read as under:  
+ 
+Penalty for failure to furnish information, return, etc. 
+     15A. If any person, who is required under this Act or any rules or regulations made thereunder,- 
+(a) ….. 
+(b) to file any return or furnish any information, books or other documents within the time specified therefor in 
+the regulations, fails to file return or furnish the same within the time specified therefor in the regulations, he 
+shall be liable to a penalty of one lakh rupees for each day during which such failure continues or one crore 
+rupees, whichever is less; 
+Penalty for contravention where no separate penalty has been provided. 
+15HB. Whoever fails to comply with any provision of this Act, the rules or the regulations made or directions issued 
+by the Board thereunder for which no separate penalty has been provided, shall be  liable to a penalty which may 
+extend to one crore rupees. 
+5. Accordingly, after receipt of records of the proceedings , a notice to show cause no . EAD/AP-
+SKS/OW/4244/9/2020 dated January 30, 2020 (hereinafter referred to as ‘ the SCN’) was issued 
+to the Noticee calling upon it to show cause as to why an inquiry should not be held against it in 
+terms of rule 4 of the Adjudication Rules and penalty be not imposed under Section 15A (b) and 
+15HB of the SEBI Act for the aforesaid alleged violations. The SCN sent to Noticee was served at 
+its last known address.  
+
+=== PDF page 6 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 6 of 14 
+ 
+  
+6. In response to the SCN, vide letter dated February 26, 2020, the Noticee filed its preliminary reply 
+seeking additional 15 days’ time to submit its detailed reply and also sought an opportunity of 
+personal hearing. However, it is observed that no reply has been submitted by the Noticee 
+thereafter. In the interest of principles of natural justice and after considering the material available 
+on record, the undersigned granted an opportunity of personal hearing on September 16, 2020. 
+The Noticee, after seeking extension of time, availed the opportunity of hearing granted to it on 
+October 09, 2020, through the Webex platform, when Mr. Shourya Tanay, Advocate, Authorized 
+Representative (‘AR’) of the Noticee appeared on its behalf. The AR made oral submissions with 
+regard to the each of the allegations raised against the Noticee in the  SCN and as the Noticee has 
+not filed any reply to the SCN, the AR requested one -week additional time to file a detailed reply. 
+The request of the Noticee was acceded to. Thereafter, the Noticee filed its replies vide letters dated 
+October 16, 2020 and Oct ober 28, 2020. The replies/submissions of the Noticee are inter-alia as 
+follows: 
+ 
+a) The transactions on the basis of which allegations have been made against it were executed in 
+the period of 2011 - 2012, i.e almost 9 years back and the SCN has been issued to it in the 
+month of January, 2020. There is an inordinate delay in the initiation of the proceedings and   
+on this ground alone the proceedings may be dropped.  In this regard, the Noticee placed 
+reliance on the following judgements of Hon'ble Supreme Court and Hon'ble Securities 
+Appellate Tribunal (‘SAT’): 
+(i) Adjudicating Officer, Securities and Exchange Board of India Vs. Bhavesh Pabari (Civil Appeal No. 
+11311 of 2013) decision dated February 28, 2019. 
+(ii) ICICI Bank Limited Vs. SEBI (Appeal No. 583 of 2019) decision dated July 08, 2020. 
+(iii) Bharat J Patel Vs SEBI (Appeal No. 154 of 2020) decision dated September 08, 2020. 
+ 
+b) The violation alleged in Para 1.1 of the SCN is that the Noticee had made disclosures to RKDL 
+with a delay of 6 working days . It submitted that it had duly informed the respective Stock 
+Exchanges i.e. BSE and NSE about the transactions within the stipulated time  vide its letter 
+dated December 05, 2011. In support of its claim, it provided acknowledgement copies of the 
+same. 
+ 
+c) At the time the acceptance of the pledge of the said shares, one of the representative of RKDL 
+was present in its office and it had handed over the disclosures to him. However, due to afflux 
+of time, it is not able to retrieve the acknowledgement. Subsequently, as a matter of abundant 
+caution, it had sent the disclosures via courier to the registered office of RKDL. Therefore, the 
+alleged delay was due to the practical aspects involved and the same was inconsequential  as it 
+had already submitted information to the representative of RKDL. 
+
+=== PDF page 7 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 7 of 14 
+ 
+ 
+d)  Pursuant to its intimation to the stock exchange, the same was duly displayed on their website 
+and the said information regarding pledge was availab le in public domain. Admittedly, it has 
+also been stated in the SCN that the said disclosures were filed with the Stock Exchanges on 
+December 07, 2011, and therefore were already in the public domain.  This clearly establishes 
+that it did not have any mala -fide intention behind the alleged delayed disclosure of the 
+transaction to RKDL and no loss or harm was caused to the investors and no gain or  unfair 
+advantage has occurred to it. Therefore, the disclosure when filed with the stoc k exchange, 
+even when not filed with the company should be treated with leniency and it ought not be 
+penalized. 
+ 
+e) The violation alleged in Para 1.2 of the SCN is that the disclosure made by the Noticee to 
+RKDL and BSE that as on December 5, 2011, 1,24,24,719 shares were pledged with  it was 
+incorrect as its demat statements of CIL shows that only 78,75,000 shares were pledged with it 
+as on December 03, 2011. It submitted that disclosure for 1,24,24,719shares was made by it 
+with bona fide intention and it was decided to accept the pledge for a total of 1,24,24,719 shares 
+and not only 78,75,000 shares as observed. 
+ 
+f) The pledge of 78,75,000 shares and 45,49,719 shares was accepted on December 03, 2011 and 
+December 19, 2011 respectively as per the terms of agreement. The pledge of shares was 
+accepted in two tranches, however, the disclosure of all 1,24,24,719  shares was made on 
+December 05, 2011 itself since it was already decided that the pledge of remaining shares would 
+also be accepted at a subsequent date. The alleged delay in execution of the second tranche of 
+the pledge was only as per agreement and was not done with any mala-fide intention on its part. 
+The mere fact that the pledge actually took place just after a minor delay of a few days ought 
+not to form a ground for levying penalty on it. 
+ 
+g) The violation alleged in Para 1. 3 of the SCN is that on December 27, 2011, 48,00,000 shares 
+pledged with it were released and it had not made appropriate disclosures regarding the same. 
+It submitted that RKDL had vide its letter dated December 27, 2011 had intimated to BSE and 
+NSE that the issues regarding the loan had been settled between it and RKDL. As a result of 
+the mutual settlement, the said release of 48,00,000 shares by it had taken place.  Therefore, the 
+allegation that it had not made disclosures regarding the said release of shares holds no ground 
+as RKDL has duly vide its letter dated December 27, 2011, informed about the release. As the 
+information was intimated to both the stock exchanges, the same was already in public domain 
+and thereby no damage or harm could be said to be caused to the investors or the market as a 
+whole.   
+ 
+
+=== PDF page 8 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 8 of 14 
+ 
+h) The violation alleged in Para 1.4 of the SCN is that the Noticee had made disclosures to RKDL 
+with a delay of 8 working days in respect of sale of 48,06,000 s hares and 28,18,719 shares on 
+December 19, 2011 and December 20, 2011, respectively. It submitted that it had duly informed 
+the respective Stock Exchange i.e. BSE vide its letter dated December 21, 2011. Admittedly, it 
+has been stated in the SCN itself that the said disclosures were filed with the Stock Exchanges 
+on December 21, 2011, and therefore were already in the public domain. This clearly establishes 
+that it did not have any mala -fide intention behind the alleged delayed disclosure of the 
+transaction to RKDL and no loss or harm was caused to the investors and no gain or unfair 
+advantage has occurred to it. Therefore, the disclosure when filed with the stoc k exchange, 
+even when not filed with the company should be treated with leniency and it ought not be 
+penalized. 
+ 
+i) RKDL had filed the disclosure dated 27.12.2011 to the Stock Exchange that they had   mutually 
+settled all issues with the Noticee, it implies that information of sale of the aforesaid shares was 
+given to them well within time, without which such a disclosure could not have been made by 
+them on 27.12.2011. As such, there has been no delay. 
+ 
+j) The violation alleged in Para 1.5 of the SCN is that  on December 19, 2011, it made a net sale 
+transaction of 17,31,000 shares and resultantly, its shareholding changed from 9.86% to 2.65% 
+and that on December 20, 2011, it had a net pledge invocation of 17,31,000 shares and 
+resultantly, its shareholding changed from 2.65% to 9.86%. However, it had not made the 
+requisite disclosures regarding the said transactions under PIT Regulations to RKDL and both 
+BSE and NSE. Hence, it has been alleged that it had violated Regulation 13(3) and 13(1) of the 
+PIT Regulations read with Regulation 12(2) of the PIT Regulations, 2015. It submitted that as 
+per   SEBI Circular  no. SEBI/MRD/SE/Cir-7/2004, dated January 14, 2004, regarding 
+disclosures of trade details of bulk deals, the net sale of 17,31,000 shares by us falls under the 
+definition of bulk deals.  
+ 
+k) In terms of paragraph 1.1 of the said circular, a "bulk deal" constitutes of "all transactions in a 
+scrip (on an exchange) where total quantity of shares bought/sold is more than 0.5% of the number of equity 
+shares of the company listed on the exchange" . Thus, the quantitative limit of 0.5% could be reached 
+through one or more transactions executed during the day in the normal market segment. Its 
+net sale of 17,31,000 shares falls under the definition of "Bulk deals". In view of the aforesaid 
+circulars, the brokers are required to disseminate such information to the Stock Exchanges 
+which is displayed on the website of the stock exchange. Therefore, keeping in mind the 
+directions of the circular, it is submitted that it can be reasonably assumed that the information 
+regarding its sale transaction of the 17,31,000 shares was already given to the stock exchanges 
+
+=== PDF page 9 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 9 of 14 
+ 
+by its broker and the same was made public by the stock exchange.  Therefore, there had been 
+no non­disclosure on its part and it deny everything contrary thereto. 
+ 
+l) With regard to the invocation of pledge of 17,31,000 shares , it submitted that  without   
+prejudice to the aforesaid, the alleged non -disclosure was technical in nature and due to 
+inadvertence devoid of any mala -fide intention. Further, no harm has been caused to any 
+investor nor any loss has occurred due to our non -disclosure. It did not have any intention to 
+conceal the information from investors at large and neither did it had any unfair gain or 
+advantage nor was any loss or harm caused to the  investors with non -disclosure of the said 
+information.  
+ 
+m) The provisions of Regulation 29(2) and 29(3)(b) SAST Regulations, 2011 and Regulation 13(1) 
+and 13(3) of the PIT Regulations are not substantially different, since violation of first 
+automatically triggers violation of second and hence a lenient view may be taken as regards 
+imposition of penalty and penalty may not be imposed. The 29(2) and 29(3)(b) SAST 
+Regulations and Regulation 13(1) and 13(3) of the PIT Regulations are not stand alone 
+regulations and one is corollary of other. In this regard, it placed reliance on the judgement of 
+Hon'ble SAT in the case of Vitro Commodities Private Limited Vs SEBI decided on 4.9.2013. 
+ 
+n) As per SCN, the penalty is proposed to be levied under two Sections of Chapter VIA of SEBI 
+Act, 1992 viz. Section 15 A(b) and 15 HB for the same set of violations which is against the 
+principles enshrined in Constitution of India wherein it has been stipulated under Article 20(2) 
+that "No person shall be prosecuted and punished for the same offence more than once". ".  The penalty for 
+non-disclosure under any Regulation has been specified under Section 15 A(b) of SEBI Act 
+and hence, the invocation of Section 15HB for levy of penalty defies logic. 
+ 
+o) It further placed reliance on the following judgements of Hon'ble Courts/ Hon'ble SAT/   Ld.  
+WTM   / Ld. Adjudicating Officers of SEBI which concluded that if the breach is merely 
+technical and unintentional, penalty may not be levied: 
+(i) Order of Ld. WTM dated February 02,  2017 in the case o f Refex Industries Limited 
+(formerly known as Refex Refrigerants Limited) 
+(ii) Order of Ld. Adjudicating Officer dated May 11, 2017 in the case of Jindal Cotex Limited. 
+(iii) Reliance Industries Ltd. v SEBI (SAT Appeal No. 39/2002). 
+(iv) Order of Hon'ble Supreme Court in the case of Akbar BadrudinBadrudin]iwani  V.  Collector   
+of Customs, Bombay (AIR 1990 SC 1579). 
+(v) Order of Hon'ble Supreme Court in the case of Hindustan Steel Ltd., v State of Orissa, (1970) 
+1 SCR  753; (AIR 1970 SC2563) 
+ 
+
+=== PDF page 10 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 10 of 14 
+ 
+7. I have carefully considered the allegations levelled in the terms of reference, the reply/submissions 
+of the Noticee and the relevant material available on record. The first allegation is that on December 
+15, 2011, the Noticee had provided details of 1,24,24,719 shares pledged to them to the target 
+company i.e. RKDL in respect of its transaction dated December 03, 2011 as required under 
+Regulation 29(2) of the SAST Regulations. However, the said disclosures were made by it to RKDL 
+with a delay of 6 working days i.e. from December 07, 2011 to December 15, 2011 , leading to 
+violation of the provisions of Regulation 29(2) and 29(3)(b) of the SAST Regulations. The second 
+allegation is that CIL accepted pledge of 78,75,000 shares and 45,49,719 shares on December 03, 
+2011 and December 19, 2011, respectively. Thus, cumulatively CIL accepted pledge of 1,24,24,719 
+shares and the said quantity of shares corresponds to the disclosur es made by CIL to BSE on 
+December 05, 2011. However, from the demat statements of CIL it was seen that only 78,75,000 
+shares were pledged with CIL as on December 03, 2011. Hence, the disclosure made by CIL to 
+RKDL and BSE that as on December 5, 2011, 1,24,24,719 shares were pledged with it was incorrect 
+leading to violation of the provisions of Regulation 29(2) of the SAST Regulations. The third 
+allegation is that on December 27, 2011, 48,00,000 shares pledged with CIL were released. 
+However, CIL has not made the requisite disclosures in respect of the said transaction to BSE and 
+NSE leading to violation of the provisions of Regulation 29(2) of the SAST Regulations. I note 
+that all the three aforesaid allegations are interlinked and will be dealt accordingly in the subsequent 
+paragraph.  
+ 
+8. I note that the pledge in question was on account of bona fide dispute between RKDL and CIL. It 
+is also noted that on December 21, 2011, RKDL had posted an update on the BSE website titled 
+“Illegal Pledge created by Comfort Intech Ltd”. From the said update, it is noted that RKDL vide its letter 
+dated December 15, 2011, had informed the public at large that “…the Promoters and the company are 
+aware that the locked in shares cannot be pledged  otherwise as stated in the Regulations. We and our promoters 
+confirm that no shares have been pledged and Comfort Intech Ltd. in connivance with Comfort Securities Ltd. and 
+their Chairman Mr. Anil Aggarwal had purportedly fabricated documents and misused the properties of the company 
+and the promoters and have treated the shares as pledged in gross violation of the SEBI Regulations and other laws.” 
+These rebuttals from the company demonstrate d that there is enough material to show that the 
+pledge transactions in question were vehemently denied by RKDL. I also observe that the so-called 
+pledge has been undone by CIL by releasing 48,00,000 shares pledged by Mr. R.V Ravikumar, 
+Chairman of RKDL, and thus, the disputed pledge issue has been mutually settled by both the 
+parties. This fact was confirmed by RKDL vide its announcement to BSE dated December 27, 
+2011. Thus, all the requisite details were disclosed on BSE and were available in public domain  
+during the reasonable time frame.  In an another order passed today  by the undersigned against 
+other Noticees in the same matter on the disputed pledge issue, it was concluded that as there was 
+no information asymmetry in the public domain as regards creation of pledge of shares and 
+
+=== PDF page 11 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 11 of 14 
+ 
+subsequent release of pledge of shares by the Noticee as informed by RKDL vide its 
+announcements made to BSE dated December 21, 2011 and December 27, 2011, respectively, the 
+obligation on the part of other Noticees to make requisite disclosures under SAST Regula tions 
+would not arise. Applying the same rationale in this case and considering the same set of facts and 
+circumstances, since the so-called pledge transaction itself is disputed, I am of the view that forming 
+a different opinion in this case will contradict the position taken in the other matter and will vitiate 
+both the proceedings and hence, I conclude that the allegation of delayed / incorrect / failure to 
+make disclosure for the same set of transactions does not survive in this case against the Noticee  
+in this case as well.  
+ 
+9. The fourth allegation is that on December 19, 2011 and December 20, 2011, CIL sold 48,06,000 
+shares (20.03% of total shareholding) and 28,18,719 shares (11.74% of total shareholding), 
+respectively. In respect of the said sale transactions, CIL made disclosure to RKDL on January 02, 
+2012, with a delay of 8 working days i.e. from December 21, 2011 to January 02, 2012  leading to 
+violation of the provisions of Regulation 29(2) and 29(3)(b) of the SAST Regulations. In this regard, 
+the Noticee submitted that that it had duly informed the respective Stock Exchange i.e. BSE vide 
+its letter dated December 21, 2011  and it has also been stated in the SCN itself that the said 
+disclosures were filed with the Stock Exchanges on December 21, 2011, and therefore were already 
+in the public domain . I note that a ll the relevant information about the said two transactions by 
+CIL was disseminated to public at large on BSE website vide announcement dated December 21, 
+2011 and the same was also done within the stipulated time limit. Thus, though the Noticees made 
+disclosures to RKDL with the delay of 8 working days , all the requisite details were disclosed on 
+BSE and were available in public domain during the stipulated time frame. I find that there is no 
+material to suggest any design to take price advantage or to cause any loss to any investor or to the 
+company in this case.  The non-compliance in this case was transitory and more than eight years 
+old. In my view, such non-compliance is venial and not blameworthy so as to impose monetary 
+penalty as there was no information asymmetry in the public domain as regards the said sale 
+transactions by the Noticee pursuant to its disclosure to BSE on December 21, 2011. 
+ 
+10. The fifth allegation is that on December 19, 2011, it made a net sale transaction of 17,31,000 shares 
+and resultantly, its shareholding changed from 9.86% to 2.65% and that on December 20, 2011, it 
+had a net pledge invocation of 17,31,000 shares and resultantly, it s shareholding changed from 
+2.65% to 9.86%. However, it had not made the requisite disclosures regarding the said transactions 
+under PIT Regulations to RKDL and both BSE and NSE. Hence, it has been alleged that it had 
+violated Regulation 13(3) and 13(1) of the PIT Regulations read with Regulation 12(2) of the PIT 
+Regulations, 2015. In this regard, the Noticee contended that its net sale of 17,31,000 shares falls 
+under the definition of "Bulk deals" and the brokers are required to disseminate such informatio n 
+to the Stock Exchanges which is displayed on the website of the stock exchange. Therefore, there 
+
+=== PDF page 12 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 12 of 14 
+ 
+had been no non­disclosure on its part. As regards invocation of pledge of 17,31,000 shares, the 
+Noticee admitted that the alleged non -disclosure was technical in nature and due to inadvertence 
+devoid of any mala-fide intention. As regards the contention of the Noticee regarding the first leg 
+of transaction i.e. transactions done on December 19, 2011 that it falls under the definition of "Bulk 
+deals", I find that the contention of the Noticee is out of place to as the foundation of the SEBI 
+Circular no. SEBI/MRD/SE/Cir -7/2004, dated January 14, 2004  is to prevent  
+rumours/speculation about such deals causing volatility in the scrip price and the onus is fully on 
+the brokers to disclose to the stock exchange the name of the scrip, name of the client, quantity of 
+shares bought/sold and the traded price. The disclosure obligations on the Noticee under the PIT 
+Regulations remain intact and it does not in any way absolve the obligations cast upon it under the 
+PIT regulations. I, therefore, reject the contention of the Noticee in this regard. As regards the 
+transactions on December 20, 2011, the Noticee has not  disputed the alleged non -disclosure. In 
+this context, I note that RKDL vide its reply dated December 08, 2014, confirmed that no 
+disclosures under PIT Regulations were received by RKDL from CIL. Further, BSE vide email 
+dated January 30, 2018 and NSE vide email dated February 06, 2018, have confirmed that CIL has 
+not made the requisite disclosures to them under the PIT Regulations. Thus, the charge that 
+Noticee had failed to make requisite disclosures in this regard as Regulation 13(3) and 13(1) of the 
+PIT Regulations read with Regulation 12(2) of the PIT Regulations, 2015 stands established . 
+Therefore, in my view, the failure s of the Noticee as found in this case deserves imposition of 
+monetary penalty under section 15A (b) of the SEBI Act. 
+ 
+11. The provisions of regulations of the PIT Regulations are meant to ensure timely disclosures of 
+significant change in shareholding; as such disclosures also enable the stock exchanges and 
+regulators to monitor such material event. Such disclosures also bring a bout transparency and 
+enable the investors in the scrip to take an informed investment or disinvestment decision. All 
+stakeholders, including minority shareholders should be aware of the change in shareholding of the 
+promoters. Any information asymmetry wi th regard to such transactions as in this case would 
+defeat the purpose of disclosures. Hon'ble SAT in the matter of Coimbatore Flavors & Fragrances Ltd. 
+vs SEBI (Appeal No. 209 of 2014 order dated August 11, 2014), has also held that “Undoubtedly, the 
+purpose of these disclosures is to bring about more transparency in the affairs of the companies. True and timel y 
+disclosures by a company or its promoters are very essential from two angles. Firstly; investors can take a more  
+informed decision to invest or n ot to invest in particular scrip secondly; the Regulator can properly monitor the 
+transactions in the capital market to effectively regulate the same." Further in the matter of Appeal No. 66 of 
+2003 - Milan Mahendra Securities Pvt. Ltd. vs. SEBI – the Hon’ble SAT, vide its order dated April 15, 
+2005 held that, “the purpose of these disclosures is to bring about transparency in the transactions and assist t he 
+Regulator to effectively monitor the transactions in the market.” 
+ 
+
+=== PDF page 13 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 13 of 14 
+ 
+12. While determining the quantum of penalty, it is important to consider the factors stipulated in 
+Section 15J of the SEBI Act which are as under: 
+ 
+a) the amount of disproportionate gain or unfair advantage, wherever quantifiable, made as a 
+result of the default; 
+b) the amount of loss caused to an investor or group of investors as a result of the default; 
+c) the repetitive nature of the default. 
+ 
+13. Having regard to the factors listed in section 15J and the guidelines issued by Hon’ble Supreme 
+Court of India in SEBI Vs Bhavesh Pabari  Civil Appeal No(S).11311 of 2013  vide judgement dated 
+February 28, 2019, it is noted that from the material available on record, any quantifiable gain or 
+unfair advantage accrued to the Noticee or the extent of loss suffered by the investors as a result 
+of the default in this case cannot be computed. Further, the material brought on record shows that 
+the failure of making requisite disclosures under PIT Regulations by Noticee No. 1 was on two 
+instances and hence, it is repetitive in nature.  I also observe that the violations pertain to a period 
+which is more than eight years old, which is a mitigating factor.  However, I am of the view that 
+non-adherence to the laid down obligations under the PIT Regulations by the Noticee as observed 
+in this case would compromise the regulatory framework and should be dealt with by imposing 
+monetary penalty.  
+ 
+14. Taking into c onsideration all the facts and circumstances of the case including the aforesaid 15J 
+factors and exercising the powers conferred upon me under section 15I of the SEBI Act read with 
+Rule 5 of the Adjudication Rules, I hereby impose , a monetary penalty of ₹ 1,00,000/- (Rupees 
+One Lakh Only) on Noticee under section 15A (b) of the SEBI Act. In my view, the said penalty 
+is commensurate with the violations committed by the Noticee in this case. 
+ 
+15. The Noticee shall remit / pay the said total amount of penalty within 45 days of receipt of this 
+order in either of the way of demand draft in favour  of  “SEBI - Penalties  Remittable  to  Government  
+of  India” ,  payable  at Mumbai , or by following the path at SEBI website www.sebi.gov.in, 
+ENFORCEMENT > Orders > Orders of AO > PAY NOW; OR by using the web link 
+https://siportal.sebi.gov.in/intermediary/AOPaymentGateway.html. In case of any difficulties in 
+payment of penalties, the Noticee may contact the support at portalhelp@sebi.gov.in 
+ 
+16. The Demand Draft or details and confirmation of e-payment made in the format as given in table 
+below should be sent to " The Division Chief, EFD -DRA-IV, Securities and Exchange Board of India, 
+SEBI Bhavan, Plot no. C - 4A, "G" Block, Bandra Kurla Complex, Bandra (E), Mumbai  - 400 051” and 
+also to e-mail id:- tad@sebi.gov.in. 
+ 
+ 
+
+=== PDF page 14 ===
+______________________________________________________________________________________ 
+Adjudication Order in respect of Comfort Intech Ltd. in the matter of Ravi Kumar Distilleries Ltd. Page 14 of 14 
+ 
+1 Case Name  
+2 Name of the ‘Payer/Noticee’  
+3 Date of Payment  
+4 Amount Paid  
+5 Transaction No.  
+6 Bank Details in which payment is made  
+7 Payment is made for (like penalties along with order details)  
+ 
+17. In the event of failure to pay the said amount of penalty within 45 days of the receipt of this Order, 
+recovery proceedings may be initiated under section 28A of the SEBI Act, 1992 for realization of 
+the said amount of penalty along with interest thereon, inter alia, by attachment and sale of movable 
+and immovable properties. 
+ 
+18. In terms of Rule 6 of the Adjudication Rules, copies of this order are sent to the last known address 
+of the Noticee and also to SEBI. 
+ 
+ 
+ 
+ 
+ 
+    Date: December 28, 2020           Amit Pradhan 
+    Place: Mumbai                  Adjudicating Officer  

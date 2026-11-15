@@ -1,0 +1,8 @@
+matter_id,related_matter_group,eligibility_status,eligibility_reason
+SYN-M1,SYN-G1,eligible,Synthetic eligible matter for command smoke testing
+SYN-M2,SYN-G1,eligible,Synthetic eligible matter for command smoke testing
+SYN-M3,SYN-G2,eligible,Synthetic eligible matter for command smoke testing
+SYN-M4,SYN-G3,eligible,Synthetic eligible matter for command smoke testing
+SYN-M5,SYN-G3,eligible,Synthetic eligible matter for command smoke testing
+SYN-M6,,pending,Synthetic pending matter retained outside the draw
+SYN-M7,,excluded,Synthetic documented exclusion retained outside the draw

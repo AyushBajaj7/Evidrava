@@ -1,0 +1,34 @@
+.file-input {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  border: 1px dashed #9ab6b7;
+  border-radius: 12px;
+  background: #fbfdfd;
+  color: #183847;
+  font: 14px/1.45 inherit;
+}
+
+.file-input:focus {
+  outline: 3px solid #b9e5e2;
+  border-color: #006d77;
+}
+
+.advanced-options {
+  margin-top: 18px;
+  padding: 0 14px 14px;
+  border: 1px solid #d9e5e5;
+  border-radius: 12px;
+  background: #f9fcfc;
+}
+
+.advanced-options summary {
+  padding: 14px 0 0;
+  cursor: pointer;
+  color: #21434e;
+  font-weight: 800;
+}
+
+.advanced-options textarea {
+  min-height: 96px;
+}

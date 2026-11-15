@@ -1,0 +1,12 @@
+{
+  "protocol_id": "synthetic_frame_protocol",
+  "state": "FROZEN",
+  "frozen_at": "2026-11-15T10:00:00+05:30",
+  "frame_sha256": "04e33c6ba2f3b4ea174e09cf0938d75dfbd3206ae26d460ecb1a7f6db360c825",
+  "sampling": {
+    "algorithm": "evidrava-group-draw-v1",
+    "seed": 123,
+    "target_matters": 4,
+    "replacement_policy": "none"
+  }
+}

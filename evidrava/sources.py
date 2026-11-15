@@ -114,26 +114,52 @@ class DocumentLinks(HTMLParser):
             self.links.append((tag, attr[field]))
 
 
-def discover_pdf_links(html, page_url):
+def discover_pdf_links(html, page_url, *, include_rejections=False):
+    """Find official PDF candidates without following unrelated external links.
+
+    An official SEBI page can mention an external appeal PDF beside its own
+    embedded order.  Preserve the external-link rejection for callers that
+    need provenance, but keep the valid official candidate usable.  If a page
+    has only unsafe PDF candidates, fail explicitly rather than treating it as
+    an ordinary no-document page.
+    """
     page_url = validate_source_url(page_url)
     parser = DocumentLinks()
     parser.feed(html)
     candidates = {}
+    rejections = []
+
+    def reject(tag, url, error):
+        rejections.append({"tag": tag, "url": url, "reason": str(error)})
+
+    def add_candidate(tag, raw_url, via):
+        try:
+            candidate = validate_source_url(raw_url)
+        except ValueError as exc:
+            reject(tag, raw_url, exc)
+            return
+        candidates.setdefault(candidate, {"url": candidate, "via": via})
+
     for tag, href in parser.links:
         resolved = urljoin(page_url, href)
         split = urlsplit(resolved)
         values = parse_qs(split.query).get("file", [])
         if values:
-            viewer = validate_source_url(resolved)
+            try:
+                viewer = validate_source_url(resolved)
+            except ValueError as exc:
+                reject(tag, resolved, exc)
+                continue
             for value in values:
                 candidate = urljoin(viewer, value)
                 if urlsplit(candidate).path.lower().endswith(".pdf"):
-                    candidate = validate_source_url(candidate)
-                    candidates.setdefault(candidate, {"url": candidate, "via": viewer})
+                    add_candidate(tag, candidate, viewer)
         elif split.path.lower().endswith(".pdf"):
-            candidate = validate_source_url(resolved)
-            candidates.setdefault(candidate, {"url": candidate, "via": f"{tag}: {href}"})
-    return [candidates[url] for url in sorted(candidates)]
+            add_candidate(tag, resolved, f"{tag}: {href}")
+    found = [candidates[url] for url in sorted(candidates)]
+    if not found and rejections:
+        raise ValueError(f"No safe official PDF candidate: {rejections[0]['reason']}")
+    return (found, rejections) if include_rejections else found
 
 
 def extract_pdf(blob):
@@ -227,8 +253,12 @@ def collect_sources(records, out, fetcher=fetch_document, extractor=extract_pdf,
                 result["candidates"] = [{"url": page["final_url"], "via": "direct PDF response"}]
             else:
                 result["page_capture"] = save(page, f"records/{sid}/page.html")
-                candidates = discover_pdf_links(page["data"].decode("utf-8", errors="replace"), page["final_url"])
+                candidates, rejections = discover_pdf_links(
+                    page["data"].decode("utf-8", errors="replace"), page["final_url"], include_rejections=True
+                )
                 result["candidates"] = candidates
+                if rejections:
+                    result["rejected_candidates"] = rejections
                 if len(candidates) != 1:
                     result["status"] = "AMBIGUOUS" if candidates else ("PDF_INVALID" if direct else "NO_PDF")
                     continue

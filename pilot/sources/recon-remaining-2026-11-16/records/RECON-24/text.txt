@@ -1,0 +1,103 @@
+=== PDF page 1 ===
+Appeal No. 6638 of 2025 
+ Page 1 of 3  
+ 
+BEFORE THE APPELLATE AUTHORITY 
+(Under the Right to Information Act, 2005) 
+SECURITIES AND EXCHANGE BOARD OF INDIA 
+ 
+Appeal No. 6638 of 2025  
+  
+ 
+Sapan Shrivastava 
+   
+: 
+ 
+Appellant 
+ 
+   Vs   
+      
+CPIO, SEBI, Mumbai   : Respondent  
+ 
+ORDER 
+ 
+1. The appellant had filed an application dated September 10, 2025 (received by the respondent through RTI 
+MIS Portal) under the Right to Information Act, 2005 (“RTI Act”). The respondent, by a letter dated 
+October 07, 2025, responded to the application filed by the appellant. The appellant filed an appeal (Reg. 
+No. SEBIH/A/E/25/00310) dated November 26, 2025. I have carefully considered the application, the 
+response and the appeal and find that the matter can be decided based on the material available on record. 
+2. I note that under Section 19(1) of the RTI Act, an aggrieved person may prefer the first appeal within 
+thirty days from the receipt of the response from the CPIO of the concerned public authority. In the 
+instant case, the impugned response from the respondent is dated October 07, 2025. The appellant, 
+therefore, should have filed the first appeal on or before expiry of thirty days from the date of receipt of 
+the said response. As noted above, the appellant’s first appeal was received on November 26, 2025. The 
+first appeal has been made after the last date permissible under the RTI Act. The appellant neither made a 
+request for condoning the said delay in filing the ap peal nor made any submission explaining the reasons 
+which caused the delay. Considering the absence of a request for condoning the delay and any valid reason 
+that prevented the appellant from filing the appeal in time, I consider this appeal as time barred and hence, 
+liable to be dismissed on that count. 
+3. Notwithstanding the  above observation, I am considering the appeal on merit. I have perused the 
+application and the appeal and find that the matter can be decided based on the material available on 
+record.  
+ 
+
+=== PDF page 2 ===
+Appeal No. 6638 of 2025 
+ Page 2 of 3  
+ 
+4. Queries in the application  - The appellant, in his application dated September 10, 2025, sought the 
+following information: 
+“ BSE has issued Enhanced Surveillance Measure ie ESM circular on 2 June 2023 in enclosed file . BSE claimed that 
+SEBI and BSE has passed this ESM guidelines for less than 500 Cr market cap and later on 9 Aug 2024 extended 
+the market cap to Rs 1000 cr. RTI Question  
+1. Copy of minutes of meeting in which SEBI and BSE has decided to issue ESM measures with name of the officers of 
+SEBI and BSE participated in this meeting.  
+2. Copy of the SEBI approval to BSE ESM circular .  
+3. Name of the authorized Officers from SEBI and BSE to finalize daily securities shortlisted in Enhanced Surveillance 
+Measure (ESM) from 2 June 2023 to 8 Sept 2025 with copy of authorization letter.” 
+ 
+5. Reply of the Respondent –The respondent, in response to the application, informed that the information 
+sought pertains to the internal functioning of SEBI and relates to systems and procedures followed by 
+SEBI w.r.t surveillance measures implemented by the stock exchanges. The information sought is therefore 
+exempted u/s 8(1) (a) of the RTI Act. 
+6. Ground of appeal – The appellant has filed the appeal on the ground that he was refused access to the 
+information requested. 
+7. I have perused the application and  the response provided thereto . On consideration, I agree with the 
+response of the respondent that the requested information pertaining to surveillance measures are strategic 
+in nature.  I find that the disclosure of the requested information would affect and compromise the 
+regulatory functions and roles of SEBI. The same may also hamper decision making by SEBI.  In this 
+context, I note that in ICAI v. Shaunak H. Satya, [(2011) 8 SCC 781], the Hon'ble Supreme Court held that: 
+"The competent authorities under the RTI Act will have to maintain a proper balance so that while achieving transparency, 
+the demand for information does not reach unmanageable proportions affecting other public interests, which include efficient 
+operation of public authorities and the Government, preservation of confidentiality of sensitive information and optimum use 
+of limite d fiscal resources." In light of the same, non – disclosure of information, which is internal to the 
+functioning of SEBI and of strategic interest, will fall within the exemption offered under section 8(1)(a) 
+of the RTI Act. Accordingly, I do not find any deficiency in the response. 
+8. Additionally, I find that the appellant has sought the name of SEBI official’s in his application. I find that 
+the same is in the nature of personal information, the disclosure of which has no relationships to any public 
+
+=== PDF page 3 ===
+Appeal No. 6638 of 2025 
+ Page 3 of 3  
+ 
+activity or interest and may cause unwarranted invasion into the privacy of the individual and may also 
+endanger the life or physical safety to the person. I note that a similar issue was settled in the matter of H. 
+E. Rajashekarappa vs. State Public Information Officer and Ors. (Order dated July 01, 2008), wherein the Hon’ble 
+High Court of Karnataka had ruled that: "... it cannot be said that section 2(f) of the Act (the RTI Act encompasses 
+the personal information of the officials of the public authority. The intention of the legislation is to provide right to information 
+to a citizen pertaining to public affairs of the public authority". Further, I note that the Hon’ble Central Information 
+Commission (hereinafter referred to as “ CIC”), in the matter of Prerit Misra vs. CPIO, SEBI (order dated 
+November 21, 2022) held that- “It is pertinent to mention here that the appellant in a similar case which was dealt in 
+File no. CIC/SEBIE/A/2019/660770 dated 10.08.2021 whereby he had sought information regarding the names  of 
+the officers who had blocked his email address, the Commission, while passing an order had held that such information is 
+exempted u/s 8(1)(g) & 8(1)(j) of the RTI Act. The Commission after considering the submissions of the appellant finds 
+no merit in his case, and also is in agreement with the order of the FAA and concludes that the information is exempt u/s 
+8(1)(g) & 8(1)(j) of the RTI Act, hence, no relief can be given.” In view of these observations, I find that the 
+requested information is exempt from disclosure under sections 8(1)(g) and 8(1)(j) of the RTI Act.  
+9. In view of the above observations, I  find that there is no need to interfere with the decision of the 
+respondent. The appeal is accordingly dismissed. 
+ 
+Place: Mumbai RUCHI CHOJER 
+ 
+Date: December 22, 2025 APPELLATE AUTHORITY UNDER THE RTI ACT 
+ SECURITIES AND EXCHANGE BOARD OF INDIA 

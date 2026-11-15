@@ -6,7 +6,13 @@ These records describe Evidrava source access and preparation observed on 4–15
 
 Workbook v3.3 and proposal v2.4 are now the accepted working references. Their source bytes and the supplied 114-scenario suite are preserved in the [received release](../references/incoming/2026-11-13/receipt.json). The supplied LibreOffice report records 114 passes and the new mutation report records 11 catches. These are author-run results; local native recalculation and Excel compatibility remain unverified.
 
-Evidrava 0.4.0 provides preparation checking, screening-workload reporting, official-source collection and a provisional review brief while reviewer search continues. Missing reviewer sign-offs receive no audit credit. The first three reconnaissance source packets were collected on 13 November; machine-assisted notes were added on 14 November. Earlier archive counts and market-data probes were not refreshed. No case-specific market coverage or human screening time was established. [Run the commands](../README.md#run-the-project)
+Evidrava 0.7.2 provides preparation checking, screening-workload reporting, a hash-checked source navigation queue, official-source collection, a provisional review brief, bounded candidate-frame preparation and a local browser console with temporary workbook checks while reviewer search continues. Missing reviewer sign-offs receive no audit credit. Official source packets for all 30 fixed-workload records are now preserved; machine-assisted notes exist only for the first three. Earlier archive counts and market-data probes were not refreshed. No case-specific market coverage, human screening time, frozen candidate frame or research draw has been established. [Run the commands](../README.md#run-the-project)
+
+## Source-preparation update: 16 November
+
+The fixed 30-record workload batch now has 30 acquired official-source records across a [first-three packet](../pilot/sources/recon-first-three/report.html), a [remaining-record packet](../pilot/sources/recon-remaining-2026-11-16/report.html), and a [retry packet](../pilot/sources/recon-retry-2026-11-16/report.html). Twenty-nine documents have native extracted text; RECON-08 is encrypted and remains explicitly textless. The [source-preparation record](../pilot/development/evidrava-source-preparation-2026-11-16.json) pins all packet manifests and records one rejected external appeal link beside RECON-16's official SEBI order. These facts do not establish eligibility, publication date, legal scope or human review.
+
+The [screening source queue](../pilot/development/evidrava-screening-queue-v0.7.1-2026-11-16/report.html) verifies the stored packet hashes before linking every fixed workload record to its original PDF, page text and page inventory. It is a read-only navigation aid, not a completed screening exercise: it does not insert a decision, timing value, reviewer name or audit outcome. RECON-08 remains visible as an encrypted source that requires a legitimate manual inspection route. Keep the queue and source packets on the same filesystem volume so its relative links remain portable.
 
 ## First three source packets
 
@@ -102,6 +108,8 @@ When building a frame, capture parameters, timestamps, hashes, page totals and o
 ## Screening and timing
 
 The **30-record workload exercise** prepared on 7 November uses ten unique URLs from each listing-date interval, spread across its first, middle and last pages. The first page was inspected to confirm parsing before the positional rule was fixed for the remaining requests. Nine requests succeeded and took about 5 seconds in total. That duration measures machine retrieval. Human screening times are blank. Title triage flagged one likely nontrading grievance and left 29 uncertain. The exercise is separate from the eventual research draw and supports workload planning. [Screening CSV](../pilot/screening/screening_30.csv) · [Selection manifest and capture hashes](../pilot/screening/manifest.json)
+
+Before a screening batch, generate a fresh queue with `python -m evidrava screening-queue --out runs/screening-queue-01` and open its HTML report. The queue source links are checked against the packet manifest; nevertheless, a person must inspect the original document and retain the actual decision and effort only in the separate working CSV.
 
 1. Save a dated copy of the CSV for human entries. Open each source and record the decision, reason, evidence locator, cash-equity scope, possible group and predecessor status. Keep unresolved records visible. Some listings link directly to a PDF. Retain the official URL when the numeric listing ID is blank.
 2. Record active minutes for screening, grouping and predecessor search separately. Use the waiting-time column for download or access delays.

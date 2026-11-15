@@ -1,0 +1,847 @@
+=== PDF page 1 ===
+Page 1 of 22 
+ 
+WTM/PS/67/IVD/ID-03/JAN/2011 
+BEFORE THE SECURITIES AND EXCHANGE BOARD OF INDIA 
+CORAM: PRASHANT SARAN, WHOLE TIME MEMBER 
+ 
+IN THE MATTER OF DESIGN AUTO SYSTEMS LIMITED  
+In respect of D.G. Goenka Equities Pvt. Limited 
+(SEBI Registration No. INB 011105633) 
+ 
+Date of hearing:  August 13, 2010 
+ 
+Appearances 
+ 
+For Noticees: Mr. Yogesh Kedia, Director, D.G. Goenka Equities Pvt. Ltd. 
+    
+For SEBI:  Mr. Kinjal Ghose, Presenting Officer 
+Mr. G. Ramar, General Manager                                                                      
+Mr. N. Sunil, Assistant General Manager  
+Mr. Pradeep Kumar, Legal Officer 
+ 
+ORDER 
+Under Regulation 28 (2) of the Securi ties and Exchange Board of India 
+(Intermediaries) Regulations, 2008 
+ 
+1. This case has been referred to me pursuant to the order dated July 13, 2010, 
+passed by the Hon’ble Securities Appellate Tribunal (hereinafter referred to 
+as ‘SAT’) in Appeal No. 235 of 2009.  
+ 
+2. I note that Securities and Exchange Board of India (hereinafter referred to as 
+‘SEBI’) had passed an Order dated October 29, 2009, under Regulation 28(2) 
+of the Securities and Exchange Board of India (Intermediaries) Regulations, 
+2008, in respect of D.G. Goenka Equities  Pvt. Limited (hereinafter referred to 
+as ‘noticee’) registered with Securities and Exchange Board of India 
+(hereinafter referred to as ‘SEBI’) as a stock broker bearing SEBI registration 
+No. INB 011105633), in the matter of Design Auto Systems Limited 
+(hereinafter referred to as ‘DASL’). Vide this Order of SEBI the certificate of 
+registration of noticee was suspended for a period of two months. 
+ 
+
+=== PDF page 2 ===
+Page 2 of 22 
+ 
+3. This Order of SEBI was challenged by  noticee before the Hon’ble SAT in 
+Appeal no. 235 of 2009. The Hon’ble SAT, while disposing of this appeal 
+observed as under: 
+“One of the primary documents on which the learned counsel for the 
+respondent Board is heavily relying upon to attribute knowledge of the 
+aforementioned fact to the appellant is a notice dated January 09, 
+2002 issued by the Bombay Stock Exchange furnishing information to 
+its members regarding the listed and unlisted securities of the 
+company. Admittedly, this notice is not on the record of the appeal 
+paper book nor was it before the whole time member when the 
+impugned order was passed and there is no mention of this notice in 
+the investigation report not a copy of it was furnished to the appellant 
+along with the show cause notice. In other words, the document now 
+sought to be relied upon has seen the light of the day today and the 
+appellant was never confronted with this document and, therefore, it 
+had no opportunity to offer its response thereto. Since this document 
+has some bearing on the question that arises for our consideration in 
+this appeal, we deem it appropriate to set aside the impugned order 
+and remit the case to the whole time member to examine the issue in 
+the light of this document and also in the light of the other material that 
+is available on the record. A copy of this notice has been furnished to 
+the appellant through its counsel and the WTM shall provide an 
+opportunity to the appellant to file its response, thereto and thereafter, 
+proceed to decide the case after affording an opportunity of hearing. 
+The appellant may file his response on or before August 02, 2010 
+whereafter the WTM shall proceed to decide the matter in accordance 
+with Law.”  
+ 
+4. Pursuant to this, the noticee has replied vide its letter dated July 30, 2010. In 
+compliance of the order of Hon’ble SAT an opportunity of personal hearing 
+was afforded to the noticee on August 13, 2010. On the date fixed Mr. 
+Yogesh Kedia, Director of the noticee appeared for the personal hearing and 
+made oral submissions. Having complied with the principles of natural justice 
+now, I proceed with the matter taking into consideration the material available 
+on record.  
+ 
+5. I note that the earlier order of SEBI dated October 29, 2009, had extensively 
+dealt with the matter and the only new evidence is the BSE notice dated 
+January 09, 2002. Considering this, my findings as regards the rest of matter 
+remains same and are being reiterated below.  
+ 
+
+=== PDF page 3 ===
+Page 3 of 22 
+ 
+6. I note that SEBI had conducted invest igation into the buying, selling and 
+dealing in the scrip of DASL for the period of August, 2001 and January, 
+2002, pursuant to a preferential allotment made by it to another company 
+namely Bonanza Biotech Ltd. (hereinafter referred to as ‘BBL’) on swap basis 
+in the ratio of 1:1. Duri ng the period of investigation the scrip of DASL was 
+listed at the Bombay St ock Exchange (hereinafter referred to as ‘BSE’), 
+Madhya Pradesh Stock Exc hange (hereinafter referred to as ‘MPSE’) and 
+Ahmedabad Stock Exchange (hereinafter re ferred to as ‘ASE’). Investigation 
+report states that DASL had made a preferential allotment of 10 crore shares 
+(hereinafter referred to as ‘said shares’) to BBL on October 29, 2001, which 
+was about 14 times of the pre-issue paid up capital of DASL. The 
+consideration for this was another preferential allotment of 10 crore shares 
+made by BBL to DASL on the same date which was about 5 times of the pre-
+issue paid up capital of BBL before allotment. No exchange of cash was 
+found between the two companies. Pursuant to this, DASL first made an 
+application for listing of the said shares allotted to BBL to MPSE and later on 
+to BSE also. MPSE granted listing permission albeit with undue haste and 
+without exercising due diligence. However, no trading permission was 
+granted in respect of the said shares. The listing application which was made 
+subsequently to BSE was kept pending, upon apprehension of commission of 
+certain violations in the process by DASL. No application for listing was made 
+to ASE by DASL. On the basis of li sting permission given by MPSE, the 
+Central Depositories Services Ltd. (hereinafter referred to as ‘CDSL’), a 
+registered depository, dematerialized the said shares of DASL and credited 
+them to the beneficial owner account of BBL. 
+ 
+After allotment, a major chunk of shares allotted by DASL to BBL were 
+offloaded by BBL through a network of entities including the noticee, 
+Coverage and Consultants, Pinnacle Finstock Pvt. Ltd., C.D. Equisearch, Mr. 
+Shyam Parwaney and Mr. Manoj Ganeriw ala on the trading platform of BSE, 
+even though these shares were not  listed on BSE. Such offloading was 
+contrary to the provisions of BSE bye-laws and constituted bad delivery on 
+
+=== PDF page 4 ===
+Page 4 of 22 
+ 
+the exchange. However, neither the BSE Clearing House nor any of the other 
+parties to the trade could detect this illegality, since the shares were in the 
+dematerialized form and thereby fungible with other legally allotted shares. As 
+a result, a number of innocent investor s who purchased such unlisted shares 
+on BSE were defrauded and sa ddled with shares which could not be sold 
+legally on BSE. 
+ 
+7. When this illegality came to the notice of SEBI and BSE, the demat account 
+of BBL was frozen, after recovering a portion of the shares that were 
+offloaded by it. A reconciliation of the transfer of 10 crore unlisted shares from 
+BBL’s demat account was also worked out and the same stood as under: 
+ 
+Reconciliation of transfer of 10 crore shares of DASL received by BBL 
+Total shares credited  - 10,00,00,000
+Shares frozen in the DP a/c - 9,01,78,926
+Shares delivered in the 
+market/ unaccounted for 
+- 98,21,074
+   
+Details of shares delivered in the market/ unaccounted for 
+  
+Coverage & Consultants 33,33,669 
+Pinnacle Finstock   30,78,864 
+CD Equisearch 15,00,000 
+Shyam Parwaney  2,00,000 
+Manoj Ganeriwala  8,75,000 
+D.G. Goenka 8,33,541 
+  
+Total 98,21,074 
+          
+BSE suspended trading in the shares of DASL from January 14, 2002. Upon 
+instructions from SEBI, BSE also annulle d all transactions in DASL shares 
+allotted to BBL which had taken place on the exchange till that date. The 
+annulment was subsequently set aside by the Hon’ble High Court of 
+Judicature at Mumbai by an order passed on February 28, 2003 in W.P. No. 
+209 of 2003 and connected matters (a batch of Writ Petitions filed by 
+aggrieved stock brokers of BSE), mainly on the ground of intervention of 
+innocent third party interests and the matter was remanded to BSE’s 
+Governing Board for deciding the same afresh after giving a hearing to the 
+petitioners in the said matter. T he annulment order was subsequently 
+
+=== PDF page 5 ===
+Page 5 of 22 
+ 
+reversed by the Governing Board itself as they found that the interest of 
+innocent investors would otherwise be affected.  
+ 
+8. The investigation inter-alia revealed that the noticee while trading 
+substantially in the scrip of DASL during the period of August, 2001 to 
+January, 2002, sold 8,33,541 shares of DASL on behalf of its clients Virgin 
+Finance Pvt. Ltd. (hereinafter referred to as ‘VFPL’) and Murali Nair. It was 
+observed that both VFPL and Murali Nair were related to/ associated with 
+DASL. 
+ 
+9. Based on the findings of the investigations, SEBI initiated enquiry 
+proceedings against the noticee in terms of SEBI  (Procedure for Holding 
+Enquiry by Enquiry Officer and Impos ing Penalty) Regulations, 2002 
+(hereinafter referred to as ‘Enquiry Regulations’), by appointing an Enquiry 
+Officer under Regulation 5(1) of E nquiry Regulations vide order dated 
+February 03, 2005. SEBI appointed the Enquiry Officer, to enquire into the 
+alleged violation of the pr ovisions of the SEBI (Prohi bition of Fraudulent and 
+Unfair Trade Practices relating to Securities Market) Regulations, 1995 
+(hereinafter referred to as ‘PFUTP Regulations’) and Code of Conduct 
+prescribed for stock brokers as contained in Regulation 7 of the SEBI (Stock 
+Broker and Sub-brokers) Regulations, 1992 (hereinafter referred to as ‘Broker 
+Regulations’). The Enquir y Officer submitted her repo rt dated December 06, 
+2006, recommending thereby a penalty of suspension of certificate of 
+registration of the noticee for a period of twenty days. The major observations 
+made by the Enquiry Officer in her report are as follows: 
+ 
+ 
+i. Out of around 6 crore unlisted shares transferred by BBL to various 
+entities, the noticee received 51,00,000 shares for the purpose of future 
+transactions and margin obligations (50,00,000 shares directly from BBL 
+and 1,00,000 shares from Murali Nair, an employee of DASL). The receipt 
+and transfer of shares of DASL, from and to the demat account of noticee 
+
+=== PDF page 6 ===
+Page 6 of 22 
+ 
+(account no.: IN300888 14171657) has been detailed in the following 
+table: 
+Date Recd. from Transferred to No. of shares Balance 
+13.11.2001 BBL  50,00,000  
+12.12.2001 Murali Nair  1,00,000 51,00, 000 
+13.12.2001  Delivered in Market 23,100  
+12.01.2002  CDSL a/c of DG Goenka 76,900 50,00,000 
+12.01.2002  Delivered in market 5,16,541  
+14.01.2002  Delivered in market 2,17,000 42,66,459 
+15.03.2002  BBL 42,66,459 Nil 
+ 
+ii. The noticee aided and abetted the management of BBL and DASL in 
+propagating the fraud of off-loading unlisted shares of DASL. In the said 
+process, the noticee executed numerous matched transactions of large 
+quantities while trading on behalf of Murali Nair, an employee of DASL. 
+ 
+iii. The noticee, VFPL, Murali Nair, DASL and BBL are related/ connected/ 
+associated with each other on the basis of observations as under: 
+ 
+a. The directors of VFPL, Prashant Rajgarhia and Smt. Rita Garg (Smt. Rita 
+Garg is sister of Prashant Rajgarhia) are also the directors of DASL. Smt. 
+Rita Garg is wife of Sarvesh Garg, the Chairman & Managing Director of 
+DASL. As on March 31, 2001, VFPL held 17,84,900 shares of DASL 
+which decreased to 9,65,700 shares as on March 31, 2002. 
+b. As per the Annual Report of DASL for the year 2001-02, Murali Nair was 
+Executive Officer (Secretarial) of the company. 
+c. From the certified copy of the resolution passed in the Board of Directors 
+meeting of BBL held on June 05, 2001, it was observed that Manish 
+Ganeriwala, director of BBL, was authorized to sell the shares of DASL 
+held by BBL, through recognized brokers. 
+d. VFPL used to contact Manoj Ganeriwala, director of noticee, to place 
+orders. Incidentally, Manoj Ganeriwala and Manish Ganeriwala are 
+cousins. Further, Manoj Ganeriwala (in the demat account jointly held with 
+his wife) received 60,00,000 shares through off-market from BBL and 
+Murali Nair before the trading in the shares of DASL was put under 
+suspension. The receipt and transfer of shares of DASL from and to the 
+
+=== PDF page 7 ===
+Page 7 of 22 
+ 
+demat account of Manoj Ganeriwala (account no.: IN300888 13162987), 
+is detailed in the following table: 
+ 
+Date Recd. from Transferred to No. of shares Balance 
+     
+13.11.2001 BBL  50,00,000 50,00,000 
+22.11.2001  Pinnacle Finstock 50,00,000 Nil 
+12.12.2001 Murali Nair  10,00,000 10,00,000 
+29.01.2002 Coverage & Consultants  2,78,180  
+ Pinnacle Finstock  47,11,320 59,89,500 
+05.03.2002  Arihant Capital Markets 8,75,000  
+14.03.2002  BBL 41,14,500  
+14.03.2002  Murali Nair 10,00,000 Nil 
+ 
+e. The client account of Murali Nair was opened on July 15, 2001. Murali 
+Nair was introduced by Prashant Rajgarhia, the director of DASL and 
+VFPL to the noticee. The fact that the introducing authority is directly 
+linked to DASL, could not have escaped its notice. 
+f.  Murali Nair was sole in-charge of the transfer of shares in physical form to 
+the Share Transfer Agent, Ankit Consultancy Services Ltd., for 
+dematerialization on behalf BBL, DASL, VFPL and Sarvesh Garg. 
+g. DASL, BBL, VFPL and Murali Nair all shared the same contact address, 
+i.e. 3A, Ratlam Kothi, AB Road, Saket Tower, Indore.  
+h. The client account of VFPL with noticee, opened on June 28, 2000, shows 
+Smt. Rita Garg as authorized signatory.  
+i.  The preferential allotment of 10 crore shares of DASL amounting to `100 
+crores to BBL took place on October 29, 2001. On November 13, 2001, 
+just after 15 days of the said allotment, 50 lakh unlisted shares each were 
+transferred to the demat accounts of Manoj Ganeriwala, Murali Nair and 
+that of noticee. 
+j. The noticee had furnished two letters dated November 11, 2001 and 
+November 30, 2001. The letter dated November 11, 2001 addressed by 
+Murali Nair to the noticee speaks about the acceptance of 50 lakhs shares 
+of DASL to be transferred to the demat account of the noticee by BBL on 
+behalf of Murali Nair for future transactions and margin obligations. The 
+other letter dated November 30, 2001, addressed by BBL to the noticee, 
+states that BBL is the original holder  of these shares of DASL transferred 
+
+=== PDF page 8 ===
+Page 8 of 22 
+ 
+to the account of noticee, towards security and margin obligations, on 
+behalf of Murali Nair. 
+k. The noticee and one of its directors received large number of shares of 
+DASL, just a few days after the prefer ential allotment. It is apparent from 
+the manner of credit/ debit of these shares from the respective accounts 
+of the said entities that there were reasons beyond what has been stated 
+by the entities, emanating due to nexus existing between these or 
+otherwise there is no reasonable explanation for the transfer of such 
+shares in bulk, to any unknown entity or even an entity barely acquainted 
+to them. Even if, the contention of t he noticee, claiming total ignorance of 
+the underlying reason of transfer of shares were to be accepted or 
+considered that the noticee was not known to BBL, the transfer of shares 
+to one of its directors (Manoj Ganeriwala) simply to deal in the market is 
+implausible, especially, considering that these were the shares coming 
+directly from the account of BBL. 
+l. Manoj Ganeriwal had stated that the shares were erroneously transferred 
+to his demat account and had also furnished a letter from BBL dated 
+November 11, 2001, stating that the transfer so made into his demat 
+account was due to oversight and that the said shares were supposed to 
+be transferred to Pinnacle Finstock Pvt. Limited. Even if, one were to 
+accept this explanation an important poi nt of consideration is that the 
+transfer had taken place on November 13, 2001, while the said letter is 
+dated November 11, 2001. This leads to the reasonable conclusion that 
+the transfer of shares had already taken place, before the receipt of the 
+letter. Furthermore, unless Manoj Ganeriwal, especially, his demat 
+account details was known to BBL, such transfer even by mistake was not 
+possible. 
+m. On November 13, 2001, the noticee received 50 lakh shares of DASL from 
+BBL. The next transfer of 1 lakh shares of DASL was a month later, from 
+the account of Murali Nair on December 12, 2001. There does not appear 
+to be any plausible reason for noticee to hold such a huge quantity of 
+shares i.e. 50 lakhs for a month, without executing even a single 
+transaction on anybody’s behalf. The noticee had however contended that 
+
+=== PDF page 9 ===
+Page 9 of 22 
+ 
+the said shares were towards margin and future requirements and that 
+certain transactions did take place. Incidentally, the first transfer took 
+place only on December 13, 2001, that too for a meager quantity of 
+23,100 shares. The second transfer of 5,16,541 shares of DASL took 
+place after a month later i.e. on January 12, 2002. On the same day a 
+transfer of 76,900 shares was made from one demat account of the 
+noticee to another demat account of it.  
+n.  From the whole gamut of activities, it appears that only one major transfer 
+in the scrip i.e. of 5,16,541 shares, took place after 2 months. In the mean 
+time 50 lakh shares of DASL continued to remain in the account of the 
+noticee for more than 2 months. Murali Nair transferred shares to the tune 
+of 10 lakh shares of DASL into the account of Manoj Ganeriwala on the 
+same date as that of the date of transfer to noticee i.e. on December 12, 
+2001. From a close study of the transactions of noticee and Manoj 
+Ganeriwala as brought out in the tables above, it is apparent that 
+42,66,459 shares and 51,14,500 shares of DASL were lying in their 
+respective demat accounts, which were then transferred back to BBL and 
+Murali Nair almost at the same time i.e. while Manoj Ganeriwala 
+transferred the said shares on March 14, 2002 to BBL and Murali Nair, the 
+noticee transferred the said shares on March 15, 2002, into the account of 
+BBL. 
+ 
+iv. Noticee indulged in matched trades. The findings made by the Enquiry 
+Officer in this regard are as follows: 
+ 
+a. Eleven trades, executed between the noticee and other counter parties 
+related in one way or the other with BBL/ DASL were found to be 
+synchronized in nature, were. Details of such trades are as under: 
+Membe
+r Code 
+Buy Client Buy Order 
+Time 
+Counterparty Sell Order 
+time 
+Count
+er 
+Trade 
+Qty. 
+Price Trade 
+Time 
+D0171 Murali Nair 14:31:29 H.B. Stoc k Hold 14:32:31 D0486 100000 5.70 14:32:32 
+D0171 Murali Nair 15:15:29 R.S. Ca pital 15:15:52 D0785 15700 5.70 15:15:52 
+D0171 Murali Nair 15:15:29 R.S. Ca pital 15:15:52 D0785 9300 5.70 15:15:52 
+D0171 Murali Nair 15:15:29 R.S. Ca pital 15:16:15 D0785 20700 5.70 15:16:15 
+D0171 Murali Nair 15:15:29 R.S. Ca pital 15:16:39 D0785 25000 5.70 15:16:39 
+D0087 Vargin/Bonanza 11:05:16 Murali Nair 11:04:43 D0171 100000 5.40 11:05:16 
+
+=== PDF page 10 ===
+Page 10 of 22 
+ 
+D0087 Vargin/Bonanza 11:05:49 Murali Nair 11:04:53 D0171 98200 5.45 11:05:49 
+D0171 Murali Nair 14:39:36 NA 14:40:07 D0291 8949 5.50 14:40:08 
+D0171 Murali Nair 10:18:10 NA 10:17:03 D0006 9500 5.20 10:18:11 
+D0171 Murali Nair 10:18:40 NA 10:17:03 D0006 6700 5.20 10:18:41 
+D0171 Murali Nair 10:18:43 NA 10:17:03 D0139 10000 5.20 10:18:43 
+ 
+b. A close reading of the above table shows that there was a matching of buy/ 
+sell quantity and price in almost all the trades, the orders were placed 
+almost within a minute. This proximity in entering orders at the same price 
+and for the same quantity, resulting in almost perfect matching in all the 
+trades, indicates synchronization in the logging in of the orders, albeit 
+executed on the screen of the exchange. One could accept it as a 
+coincidence in case of a solitary incident or two. However, the same 
+happened regularly.  
+ 
+c. Considering the relationship among the entities as detailed earlier, the 
+element of predetermination between the entities stands established. 
+Further, all the 11 synchronized trades were only for their client Murali 
+Nair. 
+ 
+v. Noticee played crucial role in the introduction of unlisted shares of DASL 
+into the market. The obse rvations made by Enquir y Officer in this regard 
+are as under: 
+ 
+a. The Disciplinary Action Committee (hereinafter referred to as ‘DCA’) of 
+BSE, vide its order dated August 07,  2002, held the noticee to be 
+responsible to some extent, in facilitating the trading in the unlisted shares 
+of DASL, between November 10, 2001 and January 11, 2002 and 
+accordingly penalized them by suspending their membership rights for a 
+period of three months w.e.f. August 08, 2002 and warned the noticee to 
+desist in entering into such transacti ons in future. Importantly, the noticee 
+was represented before the DAC by its director, Manoj Ganeriwala. 
+ 
+The noticee challenged the decision of  the DAC, before the Hon’ble High 
+Court of Bombay by filing a writ pet ition. The High Court, vide its order 
+
+=== PDF page 11 ===
+Page 11 of 22 
+ 
+dated October 01, 2002, stayed the direction issued by the DAC against 
+the noticee. In the meantime, the noticee appealed before the Governing 
+Board of BSE which in its order dated December 05, 2002 reduced the 
+period of suspension and limited it to the duration, for which the member 
+had remained suspended i.e. September 08, 2002 to October 01, 2002.  
+ 
+b. Furthermore, BSE had annulled all the tr ansactions in the scrip of DASL, 
+of all entities for the period from November 10, 2001 and January 11, 
+2002. This matter was however brought before the Governing Board of 
+BSE for fresh consideration. The Governing Board of BSE after 
+considering submission of all concerned entities passed a speaking order 
+dated April 10, 2003. While discussing the issue of annulment of trades in 
+the scrip of DASL, the Governing Board of BSE in its cited order, directed 
+that those transactions would not be annulled where the settlements were 
+already completed and as it would not be possible to restore shares quo 
+ante in all respects. In this respect the exchange administration was 
+directed to return the shares and the money to the buying and the selling 
+members in respect of their dealings in the scrip of DASL, inter-alia on the 
+ground that selling brokers, who might have acted bonafide, must not be 
+necessarily penalized.     
+ 
+However, considering the peculiarities of the case, the view taken by the 
+Governing Board of BSE that all the br okers, in question, had acted in the 
+normal course of the business and in good faith, is not fully acceptable. 
+Had this been true, the noticee would not have indulged in 
+synchronization of trades or carried out off-market trades, that too 
+particularly in the scrip of DASL, or trade for entities connected with DASL 
+directly/ indirectly viz. Murali Nair of DASL and VFPL. The same might not 
+have been co-incidental but prompted by reasons borne out of a common 
+objective between them and the said entities. This is perhaps the reason 
+that very rightly; the DAC suspended the membership rights of the noticee 
+for a period of 3 months which was subsequently reduced to two months 
+by the Governing Board of BSE. 
+
+=== PDF page 12 ===
+Page 12 of 22 
+ 
+ 
+c.  It has also been contended on behalf of noticee that their clients were not 
+aware of the fact that the shares of DASL were unlisted. The argument is 
+based on the contention that no one could be aware of the difference 
+between both the listed and unlisted shares of DASL, considering that 
+CDSL had issued identical ISIN numbers to both such shares. Such an 
+argument could have been accepted, but for the following factors: 
+ 
+- The noticee had executed synchronized/ matched trades on behalf of 
+its clients. 
+- Off-market transfer of 50,00,000 shares of DASL each to the noticee 
+and Manoj Ganeriwala (one of the di rectors of the noticee), on the 
+same date i.e. November 13, 2001. Both the entities disposed off the 
+balance shares of DASL in and around the same time (i.e. within a gap 
+of one day) in the month of March. 
+- Manish Ganeriwala, cousin of Manoj Ganeriwala, was on the Board of 
+BBL. 
+-  Routing of all the transactions in the scrip of DASL by Murali Nair 
+through Manoj Ganeriwala. 
+- The shares for Murali Nair, employee of DASL, came from the demat 
+account of BBL. 
+- For the proceedings  before the DAC of BSE, the noticee was 
+represented by Manoj Ganeriwala.    
+ 
+10. However, SEBI felt that the penalty recommended by the Enquiry Officer was 
+not commensurate with the alleged violations committed by the noticee as 
+brought out in the Enquiry Report. Subsequently, a Show Cause Notice 
+(hereinafter referred to as ‘SCN’) dated May 10, 2007, under Regulation 13(2) 
+and 13(5) of the Enquiry Regulations was issued by SEBI to noticee, asking it 
+to show cause as to why a penalty higher than the penalty recommended by 
+the Enquiry Officer should not be imposed on it. Noticee was advised to reply 
+to SCN, together with the documents that it may choose to rely upon in 
+support of its reply within fifteen days of the receipt thereof. It was also 
+
+=== PDF page 13 ===
+Page 13 of 22 
+ 
+informed that in case of failure, it would be presumed that it has no 
+explanation to offer and SEBI shall be fr ee to take such action in the manner 
+as deemed fit. A copy of the Enquiry Report was also forwarded to the 
+noticee along with the said SCN.  
+ 
+11. Noticee, vide its letter dated June 11, 2007 replied to the SCN and asked for 
+an opportunity of personal hearing. Accordingly, an opportunity of personal 
+hearing was granted to the noticee on August 18, 2009. On the date fixed 
+noticee appeared through its authorized representative and made 
+submissions. Noticee also filed written submissions dated August 18, 2009. 
+The contentions of the noticee in its reply and written submissions, in brief, 
+are: 
+ 
+a. Had no links with the promoters of DASL, BBL and VFPL. Had no knowledge 
+that the shares were unlisted as these were in demat form and there were no 
+restriction of any sort on trading of the shares of DASL. Further, the 
+announcement (financial result) put up on the BSE website also reflected the 
+enhanced capital base. 
+b. Had not traded in its proprietary account or in the account of its directors. 
+Trading through it had been on a couple of days only. There was nothing to 
+draw the attention of the noticee as the trading was at a steady price of 
+around `5.50.  
+c. The clients in question had a long relation ship with the noticee, transactions 
+had been regular, their payments and deliveries being on time and there was 
+nothing that would arouse its suspicion. 
+d. It was submitted that the two clients namely, Murali Nair and VFPL, 
+approached for sale of certain shares of DASL, in the ordinary course of 
+business. They were trading through the noticee since 1997 and 1999 (VFPL 
+and Murali Nair, respectively). They regularly carried on trading with the 
+noticee since such years and complied with their obligations regularly and on 
+time. They traded in fairly large quantities in blue chip scrips and other 
+shares. 
+
+=== PDF page 14 ===
+Page 14 of 22 
+ 
+e. The 50 lakhs shares received from BBL on November 13, 2001, were in the 
+form of advance pay-in and margin requirement on behalf of the client Murali 
+Nair. The amount was received in client principle account on the instruction of 
+both the parties namely BBL and Murali Nair. The letter dated November 11, 
+2001, addressed by Murali Nair to noticee speaks about the acceptance of 50 
+lakhs shares of DASL to be transferred to the demat account of noticee by 
+BBL on behalf of Murali Nair for future transactions and margin obligations. 
+Vide letter dated November 30, 2001, BBL informed noticee that it was the 
+original holder of 50 lakh shares which had been transferred to the demat 
+account of noticee towards security margin or future obligation on behalf of 
+Murali Nair.  
+f. The shares were delivered in the normal course to their account for the 
+benefit of its clients. Shares are regularly taken by brokers as margin for 
+trading of clients and indeed this is permitted and approved by SEBI and BSE 
+directives. This was one of the objectives of noticee while taking such shares 
+(50,00,000 shares in question) as delivery in their account so that they could 
+use these to meet deficits, if any, of the concerned clients.  
+Another objective of taking shares was that the noticee would be able to give 
+delivery of the shares to the exchange immediately on sale without waiting for 
+the client to deliver it to the noticee.  No misuse of such shares could be 
+possible merely because the shares were lying in the noticee’s account. 
+g. As the things became clear about the fraud, noticee was advised to return 
+back the balance shares to the original holder and hence they returned the 
+shares to BBL. No intention of carrying out any price manipulation, fraud, etc. 
+and no extra benefit derived out of the transactions. 
+h. At the relevant point of time any notice issued by exchange would be made 
+public and made available to brokers through a printed bulletin, which was 
+released and circulated the following day. The notice of January 09, 2002 
+was circulated on January 10, 2002. Had not off-loaded any share of DASL 
+on or after January 10, 2002. The transfers made after January 10, 2002 
+were made to facilitate deliveries to the stock exchange and these were not 
+fresh sales. 
+
+=== PDF page 15 ===
+Page 15 of 22 
+ 
+i. Mr. Manoj Ganeriwala was the paid dire ctor of noticee. Noticee can neither 
+be held liable for negligence of its employee nor can the noticee be said to 
+have participated or abetted the alleged irregularities by him. Manoj 
+Ganeriwal had taken delivery of 50 lakh shares of DASL in his personal 
+capacity and without informing/ taking prior approval from the management of 
+noticee. The receipt of shares by one of its directors in his personal capacity 
+does not prove that the noticee was a part of the scheme of off-loading of 
+unlisted shares. However, Manoj Ganeriwal has been removed from the 
+office.  
+j. No fixed counter parties in the trades and these were highly scattered. There 
+were at least fifty counter party broker involved in all the trades executed by 
+the noticee in the scrip of DASL during the relevant period. Most of the trades 
+were executed within a small price range of around `5.50. The noticee had 
+carried out order instructions received from its clients. It had no knowledge 
+about the counter parties.  
+k. The noticee also submitted that t he Enquiry Officer in her report has 
+erroneously calculated the period of suspension undergone by it as 23 days 
+i.e. from September 08, 2002 to October 01, 2002. However, in reality the 
+noticee had under gone suspension for a period of 54 days i.e. from August 
+08, 2002 to October 01, 2002. In this regard the noticee provided copies of 
+the directions/ communications dated August 07, 2002 and December 20, 
+2002 issued by BSE to the noticee. 
+l. The unilateral suspension by BSE had not been viewed in its proper context 
+and reality. BSE had ordered suspension for three months. The noticee after 
+making basic attempts to resolve the issue through BSE, filed a writ petition 
+before the Hon’ble High Court of Bombay. However, before the final order of 
+the Court for such petition, BSE agreed with the noticee in an out of court 
+settlement and the suspension was lifted with immediate effect from the date 
+of such agreement and thus the suspension ended after about two months. 
+There was no adverse finding against the noticee and it was an agreement 
+reached by mutual consent. 
+
+=== PDF page 16 ===
+Page 16 of 22 
+ 
+m. Certain authorities failed to carry out their duties and there were certain 
+lacunae in law. 
+ 
+12. I have carefully considered the Enquiry Report, SCN, reply of the noticee, 
+written submissions dated August 18, 2009 and July 30, 2010 and the 
+material available on record. My findings thereof are as under: 
+ 
+a. I note that the noticee had mainly transacted in the scrip of DASL on behalf of 
+two of its clients namely, Murali Nair and VFPL. It has been submitted by the 
+noticee that the said clients were trading through it since 1997 and 1999 
+(VFPL and Murali Nair, respectively) and complied with their obligations 
+regularly and on time. It has also been stated that they traded in fairly large 
+quantities in blue chip scrips and other shares. During the Enquiry 
+proceedings noticee had submitted the copies of know-your-client (hereinafter 
+referred to as ‘KYC’) agreement form of VFPL and Murali Nair. From the 
+same, I observe that the client account of VFPL was opened on June 28, 
+2000, while the account of Murali Nair was opened only on July 15, 2001. 
+Therefore, the submission made by the noticee that the said two clients were 
+their long standing clients is not correct as seen from their own documents. 
+The noticee has argued that at the relevant point of time the KYC 
+documentation were not mandatory but was optional. I find no merit in this 
+argument of noticee as t he SEBI circular bearing no. SMD/Policy/Circular/5 -
+97 dated April 11, 1997, had set the date of completing the client registration 
+as May 31, 1997. 
+ 
+b. Further, from the transaction statements of the said two clients of noticee for 
+the period from April 01, 2001 to March 31, 2002, as provided by it, I note that 
+Murali Nair had transacted only in two scrips namely, DASL and Reliable 
+Plastics Ltd. It would be pertinent to note that BBL was originally incorporated 
+as Reliable Plastics Ltd. on June 04, 1981. The company changed its name 
+to BBL on June 08, 2001. Murali Nair had bought 7,19,562 shares of DASL 
+and sold 6,89,662 shares of DASL during the year 2001-02. Out of the total 
+
+=== PDF page 17 ===
+Page 17 of 22 
+ 
+transaction value of `73,46,183, trading in the shares of DASL accounted for 
+`69,05,777. The balance accounting for trading in the shares of BBL. During 
+the period August, 2001 and January, 2002, the noticee bought 6,05,900 
+shares and sold 5,76,000 shares of DASL on behalf of Murali Nair. The net 
+position on behalf of the said client being a buy of 29,900 shares. VFPL on 
+the other hand had transacted in few other scrips through the noticee. During 
+the year 2001-02, VFPL had sold 5,36,941 shares of DASL. Out of the total 
+transaction value (buy plus sale) of `30,76,033 (sales consideration being 
+`19,89,447.15), trading in the shares of DASL accounted for `8,74,178. 
+During the period August, 2001 and January, 2002, the noticee sold 5,16,541 
+shares of DASL on behalf of VFPL.  
+ 
+In view of the discussion above, the argument put forward by the noticee that 
+the transactions were in normal course of trading of the said clients and 
+accounted for a small part of their overall transactions does not hold water.    
+ 
+c. Further, the noticee has argued that 51 lakh shares of DASL were transferred 
+to its account towards security margin/ future trading obligation on behalf of 
+Murali Nair. However, I find that these shares were used by noticee to meet 
+market obligations of VFPL for which no authorization appears to have been 
+granted to it. It is important to note here that no shares were received either 
+from VFPL directly or from any other entity on its behalf. A perusal of the 
+letter dated November 30, 2001, from BBL to noticee (submitted by the 
+noticee) shows that the transfer of 50 lakh shares were towards security 
+margin of future market obligation on behalf of Murali Nair.  
+ 
+Therefore, the submission made by the not icee that they acted in the normal 
+course of their business and had no knowledge that huge number of unlisted 
+shares of DASL was being off-loaded by various entities, especially their 
+clients namely, Murali Nair and VFPL, is not correct. 
+ 
+
+=== PDF page 18 ===
+Page 18 of 22 
+ 
+d. Further, the receipt of 60 lakh shares of DASL [from BBL (50 lakh) and Murali 
+Nair (10 lakh)] by Manoj Ganeriwal, one of the directors of noticee, in his 
+personal account shows the extent to which the noticee and one of its official, 
+in his personal capacity, was involved in the whole scheme. Noticee has 
+submitted that Manoj Ganeriwal has been removed from its office. To this, I 
+note that even if, Manoj Ganeriwal has been removed from the office of 
+noticee, the acts committed by him during the tenure with the noticee are 
+binding upon noticee and it cannot escape its liability for such acts. I note that 
+in a separate order dated November 07, 2007, passed by SEBI, Manoj 
+Ganeriwala has been directed to restrain from accessing the securities 
+market and been prohibited from buying, selling or dealing in securities either 
+directly or indirectly for a period of three years. 
+ 
+e. With regards to the alleged synchronized/ matched trades executed by the 
+noticee on behalf of its clients, it has been argued that the trades were 
+scattered and the counter party broker/ clients were well dispersed. I note that 
+the Enquiry Report has not brought out any relation/ connection/ association 
+among the noticee and/ or its clients with the counter party broker and/ or 
+clients to show that they were acting in concert. Having seen this, I am of the 
+view that the supporting details provided by the Enqu iry Officer in this regard 
+falls short of establishing the charge that the referred 11 trades were outcome 
+of synchronization of orders 
+ 
+13. Now, the issue remains is about the BSE notice dated January 09, 2010. I 
+note the argument of noticee that at t he relevant point of time any notice 
+issued by exchange would be made public and made available to brokers 
+through a printed bulletin, which was released and circulated the following 
+day. The notice of January 09, 2002, was circulated on January 10, 2002 and 
+after this it had not off-loaded any share of DASL on or after January 10, 
+2002. It has been stated that the transfers made after January 10, 2002, were 
+made to facilitate deliveries to the stock exchange and these were not fresh 
+sales. 
+ 
+
+=== PDF page 19 ===
+Page 19 of 22 
+ 
+I have carefully considered the argument of noticee and note that the notice 
+dated January 09, 2002, specifically bears the name of BBL, which was 
+enough for the noticee to arouse some suspicion on the shares received from 
+its client and BBL and it should have confirmed at least about the status of 
+shares from the exchange as per the BSE notice. It is seen that noticee has 
+not placed any record to show that they raised any doubt/ sought any 
+clarification/ taken any precaution to prevent the delivery of the fictitious 
+shares in the market.  
+ 
+14. Having considered the above discussion, I note that the noticee while 
+transacting in the scrip was having imputed knowledge of the fraud being 
+committed by BBL and other entities, it offloaded the unlisted shares on the 
+trading floor of BSE and impl iedly represented that th ese were listed shares 
+which could be validly delivered in BSE as per its bye-laws. The clearing 
+house of BSE and various counter parties to the transactions, were 
+unsuspecting and took delivery of such shares (as the shares were in the 
+demat form) aggregating in number to  98,21,074 out of which 8,33,541 
+shares were introduced by the noticee on behalf of its clients.  
+ 
+Further, the close nexus observed between noticee and BBL shows a 
+preponderance of probability that the noticee was part of the scheme to 
+defraud investors by palming off the unlisted shares for unjust and unfair 
+gains at the cost of lay investors whic h shows that the noticee had knowingly 
+aided its clients.  
+ 
+15. The findings made above clearly indicates the noticee of being guilty of 
+having facilitated the introduction of the unlisted shares of DASL into the 
+market on account of their collusive ac tivities with the entities as detailed 
+earlier. Thus, I find that the Enquiry Officer has rightly held it guilty of violating 
+the provisions of Code of Conduct prescribed for stock brokers as contained 
+in Regulation 7 of the Broker Regulations. 
+ 
+
+=== PDF page 20 ===
+Page 20 of 22 
+ 
+16. As regards the contention of noticee that some authorities have failed to carry 
+out their duties and there were certain lacunae in law, I note that it has not 
+been made clear which authority failed to carry out what duties and what 
+were the lacunae in law which induced the noticee to act in the manner he 
+did. Hence, I find no merit in this argument of noticee. 
+ 
+17. At this stage, I note that the noticee has relied upon various precedents of 
+Hon’ble SAT for strengthening its arguments of awarding of no further 
+punishment. I have considered the case law and find that the facts of the 
+case are different from the present case. As detailed above, the charges 
+leveled in the present case are more serious than the other violations 
+committed in the securities market and the same needs to be viewed 
+seriously.   
+ 
+18. While concluding the matter, I summarize my findings as under:  
+ 
+- Noticee received large number of shares as argued for future trades and 
+margin purposes. However, from the records available it is seen that noticee 
+has not shown any trade for which said shares could have been given in 
+margin. Considering this, I note that noticee should not have accepted these 
+shares which were lying idle with it for a considerable period of time. 
+ 
+- Receipt of large number of shares by the director of noticee namely Manoj 
+Ganeriwala in off-market from BBL and hi s close relationship with one of the 
+director of BBL straight give away of  complicity. He was surely aware about 
+preferential allotment of 14 times of the pre-issue capital of the company. A 
+director of a company binds the company by his actions, it is immaterial 
+whether he was paid a salary or not. Even if, Manoj Ganeriwala would have 
+been just an employee, then also the company could not have been absolved 
+of all the responsibility. Thus to sum up, I am of the considered opinion that 
+the actions of Manoj Ganeriwala as director of noticee binds the noticee in no 
+uncertain manner. 
+ 
+
+=== PDF page 21 ===
+Page 21 of 22 
+ 
+- From a perusal of the BSE notice, it is seen that only 62.25 lakh shares of 
+DASL were listed prior to the preferential allotment. The receipt of 51,00,000 
+shares by noticee and 60,00,000 shares by its director should have definitely 
+aroused a doubt with the noticee. There is no evidence that the noticee took 
+any action to seek any explanation for deposit of such unusually large 
+number of shares. 
+ 
+- The argument of noticee of not having traded after the BSE ban, in my 
+opinion is no proof of innocence as the wrong was already done. Noticee has 
+conveniently closed its eyes to such huge receipt of DASL shares by it and its 
+director. 
+ 
+19. In view of the discussion above, I find noticee guilty of violation of Regulation 
+3 of the SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to 
+Securities Markets) Regulations, 1995 read with Regulation 13 of the SEBI 
+(Prohibition of Fraudulent and Unfair Trade Practices relating to Securities 
+Markets) Regulations, 2003 and the Code of Conduct prescribed for stock 
+brokers as contained in Regulation 7 of the SEBI (Stock Broker and Sub-
+brokers) Regulations, 1992. 
+ 
+20. I find that the Enquiry Officer, in her report, has mentioned that the business 
+operation of the noticee was effectively suspended for a period of 23 days i.e. 
+from September 08, 2002 to October 01, 2002. However, the noticee has 
+submitted that it had under gone suspension for a period of 54 days i.e. from 
+August 08, 2002 to October 01, 2002. In this regard the noticee provided 
+copies of the directions/ comm unications dated August 07, 2002 and 
+December 20, 2002 issued by BSE to the noticee. Having gone through the 
+aforementioned directions/ communications issued by BSE, I find that the 
+contention of the noticee in this regard is correct. However, it would be 
+pertinent to note here that considering the gravity of violations and the nature 
+of charges against the noticee, the B oard (SEBI) felt that the penalty 
+recommended by the Enquiry Officer was not commensurate with the alleged 
+violations committed by the noticee as brought out in the Enquiry Report and 
+
+=== PDF page 22 ===
+Page 22 of 22 
+ 
+a higher penalty requires to be imposed on the noticee and the SCN was 
+issued accordingly.  
+ 
+I have considered the nature of violations brought out in the show cause 
+notice, recommendation made by the Enqu iry Officer, the view taken by the 
+Board (SEBI) on the recommendation of the Enquiry officer, which was 
+communicated to the noticee through the SCN and submissions made by the 
+noticee. I find that the general course of events following the swap allotments 
+made by DASL have undermined invest or confidence in the demat system 
+and in the integrity of the securities market in general. As seen above, the 
+noticee had played an important role in the subsequent off-loading of the 
+unlisted shares of DASL in BSE.  
+ 
+21. I note that pursuant to the notification of the SEBI (Intermediaries) 
+Regulations, 2008, the Enquiry Regulations have been repealed and in terms 
+of Regulation 38(2) of the SEBI (Intermediarie s) Regulations, 2008, 
+notwithstanding such repeal, any enquiry commenced under the Enquiry 
+Regulations, shall be deemed to have been commenced under the 
+corresponding provisions of SEBI (Intermediaries) Regulations, 2008. 
+ 
+22. I, therefore, in the exercise of power conferred upon me by Sections 19 of the 
+Securities and Exchange Board of India Act, 1992, read with Regulation 28(2) 
+Securities and Exchange Board of India (Intermediaries) Regulations, 2008, 
+hereby suspend the certif icate of registration of  the stock broker, D.G. 
+Goenka Equities Pvt. Ltd., having SEBI registration no. INB 011105633 [PAN: 
+AABCD 1447Q] for a period of two months.  
+ 
+23. This order shall come into force on expiry of twenty one days from the date of 
+this order. 
+ 
+ 
+ 
+DATE  : 4/1/2011                                                          PRASHANT SARAN
+PLACE: MUMBAI                                                   WHOLE TIME MEMBER 
+ SECURITIES AND EXCHANGE BOARD OF INDIA 
+ 

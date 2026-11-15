@@ -1,0 +1,460 @@
+=== PDF page 1 ===
+ 
+Page 1 of 12 
+ 
+WTM/SR/SEBI – ERO: BLO/IMD/03/1/2016 
+ 
+BEFORE THE SECURITIES AND EXCHANGE BOARD OF INDIA, MUMBAI 
+CORAM: S. RAMAN, WHOLE TIME MEMBER 
+ 
+ORDER 
+ 
+Under Sections 11, 11(4), 11A and 11B of the Securities and Exchange Board of India Act, 
+1992, in the matter of Express Cultivation Limited and its Promoters/Directors, viz. Smt 
+Sushree Mazumder (DIN: 02903594; PAN: AKWPM4705A), Shri Tanmoy Mridha (DIN: 
+03138184; PAN: BBFPM1003G), Shri Sagar Majumder (DIN: 03138125; PAN: 
+AZJPM5650L), Shri Manoj Kumar Dhali (DIN: 03138115; PAN: ASSPD0037G), Shri Ashish 
+Dhali (DIN: 03303210; PAN: AYDPD5439P), Shri Sankar Baidya (DIN: 03327920; PAN: 
+AZUPB7887R), Shri Santosh Sardar (PAN: CWMPS0434E ), S mt Subhasree Majumdar 
+(PAN: AOAPM8358M) and Shri Sunil Baran Majumdar (PAN: AKXPM7590E). 
+ 
+ 
+1. Securities and Exchange Board of India (" SEBI") conducted an examination into the 
+fund–raising activity of Express Cultivation Limited ("ECL") in respect of issue of 
+Redeemable Preference Shares  and to ascertain whether ECL had made any public issue of 
+securities without complying with the provisions of the Companies Act, 1956; the SEBI 
+Act, 1992 ("SEBI Act") and the Rules and Regulations framed thereunder.  
+ 
+2.1 Subsequently, vide letters dated October 22, 2015, SEBI sought inter alia the following 
+information from ECL and its Directors  at that time , viz. Smt Sushree Mazumder, Shri 
+Tanmoy Mridha, Shri Sagar Majumder and Shri Manoj Kumar Dhali, –  
+ 
+i. Copy of Audited Balance Sheet and Annual Returns of the company for the last 3 
+years; 
+ii. Name, addresses , PAN  and occupation of all the Promoters/Directors  and Key 
+Managerial Personnel of the company; 
+iii. Nature of business of the company; 
+iv. Other information in respect of every series of shares/debentures issued by the 
+company, viz. –  
+a. Copy of Prospectus/Red Herring Prospectus/Statement in lieu of 
+Prospectus/Information Memorandum filed with Registrar of Companies 
+(“ROC”) for issuance of shares/debentures; 
+b. Date of opening and closing of the subscription list;  
+
+=== PDF page 2 ===
+ 
+Page 2 of 12 
+ 
+c. Details regarding the number of application forms circulated inviting subscription 
+and the number of applications received;  
+d. Details regarding the number of allot tees and list of such allottees, n umber of 
+shares/debentures allotted and value of such allotment against each allottee's name. 
+e. Copies of the minutes of Board/Committee meeting in which the resolution was 
+passed for allotment; 
+f. Copies of application forms, pamphlets, advert isements and other promotional 
+material circulated for issuance of shares/debentures; 
+g. Terms and conditions of the issue of shares/debentures;  
+h. Details of listing application; 
+i. Copies of Form 2 and Form 10 filed with the ROC; 
+j. Details of Debenture Trustee.   
+ 
+2.2 The letters addressed to ECL and  its Director s, Smt Sushree Mazumder, Shri Sagar 
+Majumder and Shri Tanmoy Mridha , were returned undelivered  with the remarks ‘Left’. 
+However, the letter addressed to Shri Manoj Kumar Dhali, was delivered.  
+ 
+2.3 Till date, no information has been received by SEBI, from ECL or any of its Directors.   
+ 
+2.4 Information regarding ECL was obtained from the Ministry of Corporate Affairs' website 
+i.e. MCA 21 Portal.  
+ 
+3. The material available on record i.e. information obtained from the MCA 21 Portal,  has 
+been perused. On an examination of the same, it is observed that –   
+ 
+i. ECL was incorporated on August 28, 2010, with CIN as U01403WB2010PLC152644. 
+Its Registered Office address is at 68B/30, Raja Subodh Chandra Mullick Road, Bagha 
+Jatin, Kolkata–700092, West Bengal, India. 
+ 
+ii. The Promoters of ECL are Smt Sushree Mazumder, Shri Tanmoy Mridha, Shri Sagar 
+Majumder, Shri Manoj Kumar Dhali, Shri Santosh Sardar, Smt Subhasree Majumdar 
+and Shri Sunil Baran Majumdar.  
+ 
+iii. Smt Sushree Mazumder, Shri Tanmoy Mridha, Shri Sagar Majumder and Shri Manoj 
+Kumar Dhali, are also the present Directors of ECL. 
+
+=== PDF page 3 ===
+ 
+Page 3 of 12 
+ 
+ 
+iv. Shri Ashish Dhali and Shri Sankar Baidya, who were earlier Directors in ECL, have 
+since resigned.  
+ 
+v. From the material available on record, it is observed that ECL issued "Redeemable 
+Preference Shares" ("Offer of Redeemable Preference Shares") to investors during the 
+Financial Years 2010–11, 2011–12 and 2012–13, details of which are provided below 
+–  
+ 
+ 
+4.1 In the context of the abovementioned details of the Offer of Redeemable Preference Shares, the 
+issue for determination in the instant matter is whether the mobilization of funds by ECL 
+through the aforesaid,  is in accordance with the provisions of the SEBI Act and the 
+Companies Act, 1956.  
+  
+4.2 I note that the jurisdiction of SEBI over various provisions of the Companies Act, 1956, 
+in the case of public companies, whether listed or unlisted, when they issue and t ransfer 
+securities, flows from the provisions of Section 55A of the Companies Act, 1956. While 
+examining the scope of Section 55A of the Companies Act, 1956, the Hon'ble Supreme 
+Court of India in Sahara India Real Estate Corporation Limited & Ors. vs. SEBI  
+(Civil Appeal no. 9813 of 2011) (Judgment dated August 31, 2012) (hereinafter referred 
+to as the "Sahara Case"), had observed: 
+ 
+"We, therefore, hold that, so far as the provisions enumerated in the opening portion of Section 55A of the 
+Companies Act, so far as they relate to issue and transfer of securities and non -payment of dividend is 
+concerned, SEBI has the power to administer in the case of listed public companies and in the case of those 
+public companies which intend to get their securities listed on a recognized stock exchange in India." 
+ 
+  
+Type of Security  Year No. of persons to whom  
+preference shares  were 
+allotted  
+Total Amount  
+(₹ in Lakhs) 
+Redeemable 
+Preference Shares 
+2010–11 45 3.45 
+2011–12 558 66.88 
+2012–13 367 32.13 
+Total 970 102.46 
+
+=== PDF page 4 ===
+ 
+Page 4 of 12 
+ 
+4.3 In this regard –  
+ 
+i. Reference is also made to Sections 67(1) and 67(3) of the Companies Act, 1956, which 
+are reproduced as under:  
+ 
+"67. Construction of reference to offering shares or debentures to the public, 
+etc.  
+67. (1) Any reference in this Act or in the articles of a company to offering shares or debentures to 
+the public shall, subject to any provision to the contrary contained in this Act and subject also to the 
+provisions of sub -sections (3) and (4), be constr ued as including a reference to offering them to any 
+section of the public, whether selected as members or debenture holders of the company concerned or as 
+clients of the person issuing the prospectus or in any other manner.  
+(2) Any reference in this Act or in the articles of a company to invitations to the public to subscribe 
+for shares or debentures shall, subject as aforesaid, be construed as including a reference to invitations 
+to subscribe for them extended to any section of the public, whether select ed as members or debenture 
+holders of the company concerned or as clients of the person issuing the prospectus or in any other 
+manner.  
+(3) No offer or invitation shall be treated as made to the public by virtue of sub - section (1) or sub- 
+section (2), as the case may be, if the offer or invitation can properly be regarded, in all the 
+circumstances- 
+(a) as not being calculated to result, directly or indirectly, in the shares or debentures becoming available 
+for subscription or purchase by persons other than those receiving the offer or invitation; or 
+(b) otherwise as being a domestic concern of the persons making and receiving the offer or invitation. 
+Provided that nothing contained in this sub-section shall apply in a case where the offer or invitation 
+to subscribe for shares or debentures is made to fifty persons or more: 
+Provided further that nothing contained in the first proviso shall apply to non-banking financial 
+companies or public financial institutions specified in section 4A of the Companies Act, 1 956 (1 of 
+1956).”   
+ 
+ii. While examining the scope of Section 67 of the Companies Act, 1956, the Hon'ble 
+Supreme Court of India in the Sahara Case observed: 
+ 
+"Section 67(1) deals with the offer of shares and debentures to the public and Section 67(2) deals 
+with invitation to the public to subscribe for shares and debentures and how those expressions are to 
+be understood, when reference is made to the Act or in the articles of a company. The emphasis in 
+
+=== PDF page 5 ===
+ 
+Page 5 of 12 
+ 
+Section 67(1) and (2) is on the “section of the public”. Section 67(3) states that no offer or invitation 
+shall be treated as made to the public, by virtue of subsections (1) and (2), that is to any section of the 
+public, if the offer or invitation is not being calculated to result, directly or indirectly, in the shares or 
+debentures becoming available for subscription or purchase by persons other than those receiving the 
+offer or invitation or otherwise as being a domestic concern of the persons making and receiving the 
+offer or invitations. Section 67(3) is, ther efore, an exception to Sections 67(1) and (2). If the 
+circumstances mentioned in clauses (1) and (b) of Section 67(3) are satisfied, then the offer/invitation 
+would not be treated as being made to the public.  
+The first proviso to Section 67(3) was inserte d by the Companies (Amendment) Act, 2000 w.e.f. 
+13.12.2000, which clearly indicates, nothing contained in Sub -section (3) of Section 67 shall apply 
+in a case where the offer or invitation to subscribe for shares or debentures is made to fifty persons or 
+more. … 
+Resultantly, if an offer of securities is made to fifty or more persons, it would be deemed to be a public 
+issue, even if it is of domestic concern or proved that the shares or debentures are not available for 
+subscription or purchase by persons other than those received the offer or invitation. … 
+I may, therefore, indicate, subject to what has been stated above, in India that any share or debenture 
+issue beyond forty nine persons, would be a public issue attracting all the relevant provisions of the 
+SEBI Act, regulations framed thereunder, the Companies Act, pertaining to the public issue. …" 
+ 
+iii. In the instant matter, for ascertaining whether the Offer of Redeemable Preference Shares is 
+a public issue or an issue on private placement basis in accordance with Section 67 of 
+the Companies Act, 1956, the number of subscribers is of utmost importance.  
+ 
+Offer of Redeemable Preference Shares –  
+ 
+a. Under the Offer of Redeemable Preference Shares, it is observed that during the 
+Financial Years 2010–11, 2011–12 and 2012–13, ECL allotted Redeemable preference 
+shares to a total of 970 individuals/investors and mobilized funds amounting to 
+₹102.46 Lakhs. The number of investors to whom allotments were m ade under 
+the Offer of Redeemable Preference Shares during the aforesaid Financial Years (details 
+provided in Table at paragraph 3(v) of page 3), prima facie indicate that such Offer 
+was a public issue of securities, as prescribed under the first proviso to Section 67(3) 
+of the Companies Act, 1956.  
+ 
+
+=== PDF page 6 ===
+ 
+Page 6 of 12 
+ 
+b. It is observed that ECL is not stated to be a Non–banking financial company or 
+public financial institution within the meaning of Section 4A of the Companies 
+Act, 1956. In view of the aforesaid, I, therefore, find that ECL is not covered 
+under the second proviso to Section 67(3) of the Companies Act, 1956. 
+ 
+c. In view of the above, the Offer of Redeemable Preference Shares by ECL will prima facie 
+qualify as a public issue under the first proviso to Section 67(3) of the Companies 
+Act, 1956. In this regard, it is pertinent to note that by virtue of Section 55A of 
+the Companies Act, 1956, Section 67 of that Act, so far as it relates to issue and 
+transfer of securities, shall also be administered by SEBI. 
+ 
+4.4 I note that – 
+ 
+i. From the abovementioned, it will follow that since the  Offer of Redeemable Preference 
+Shares is a public issue of securities,  such securities shall also have to be listed on a 
+recognized stock exchange, as mandated under Section 73 of the Companies Act, 
+1956. In this regard, reference is made to Sections 73 of the Companies Act, 1956, of 
+which sub -Sections (1), (2) and (3) are relevant for the instant case, which is 
+reproduced as under:  
+ 
+"73. (1) Every company intending to offer shares or debentures to the public for subscription by the 
+issue of a prospectus shall, before such issue, make an application to one or more recognised stock 
+exchanges for permission for the shares or debentures intending to be so offered to be dealt with in the 
+stock exchange or each such stock exchange. 
+(1A) Where a prospectus, whether issued generally or not, states that an application under sub-section 
+(1) has been made for permission for the shares or debentures offered thereby to be dealt in one or more 
+recognized stock exchanges, such prospectus shall state the name of the stock exchange or, as the case 
+may be, each such stock exchange, and any allotment made on an application in pursuance of such 
+prospectus shall, whenever made, be void, if the permission has not been granted by the stock exchange 
+or each such stock exchange, as the case may be, before the expiry of ten weeks from the date of the 
+closing of the subscription lists: 
+Provided that where an appeal against the decision of any recognized stock exchange refusing 
+permission for the shares or debentures to be dealt in on that stock exchange has been preferred under 
+section 22 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956), such allotment shall not 
+be void until the dismissal of the appeal. 
+
+=== PDF page 7 ===
+ 
+Page 7 of 12 
+ 
+(2) Where the permission has not been applied under subsection (1) or such permission having been 
+applied for, has not been granted as aforesaid, the company shall forthwith repay without interest all 
+moneys received from applicants in pursuance of the prospectus, and, if any such money is not repaid 
+within eight days after the company becomes liable to repay it, the company and every director of the 
+company who is an officer in default shall, on and from the expiry  of the eighth day, be jointly and 
+severally liable to repay that money with interest at such rate, not less than four per cent and not more 
+than fifteen per cent, as may be prescribed, having regard to the length of the period of delay in making 
+the repayment of such money. 
+(3) All moneys received as aforesaid shall be kept in a separate bank account maintained with a 
+Scheduled Bank 1 [until the permission has been granted, or where an appeal has been preferred 
+against the refusal to grant such. permission, until the disposal of the appeal, and the money standing 
+in such separate account shall, where the permission has not been applied for as aforesaid or has not 
+been granted, be repaid within the time and in the manner specified in sub- section (2)]; and if default 
+is made in complying with this sub- section, the company, and every officer of the company who is in 
+default, shall be punishable with fine which may extend to five thousand rupees.”  
+ 
+ii. In the Sahara Case, the Hon'ble Supreme Court of India also examined Section 73 o f 
+the Companies Act, 1956, wherein it observed that –  
+ 
+"Section 73(1) of the Act casts an obligation on every company intending to offer shares or debentures 
+to the public to apply on a stock exchange for listing of its securities. Such companies have no option 
+or choice but to list their securities on a recognized stock exchange, once they invite subscription from 
+over forty nine investors from the public. If an unlisted company expresses its intention, by conduct or 
+otherwise, to offer its securities to the public by the issue of a prospectus, the legal obligation to make 
+an application on a recognized stock exchange for listing starts. Sub-section (1A) of Section 73 gives 
+indication of what are the particulars to be stated in such a prospectus. The conse quences of not 
+applying for the permission under sub-section (1) of Section 73 or not granting of permission is clearly 
+stipulated in sub-section (3) of Section 73. Obligation to refund the amount collected from the public 
+with interest is also mandatory a s per Section 73(2) of the Act. Listing is, therefore, a legal 
+responsibility of the company which offers securities to the public, provided offers are made to more 
+than 50 persons. 
+… Section 73(2) says that every company and every director of the company who is an officer in 
+default, shall be jointly and severally liable to repay that money with interest at such rate, not less 
+than four per cent and not more than fifteen per cent, as may be prescribed. The scope of the above 
+mentioned provisions came up fo r consideration before this Court in Raymond Synthetics Ltd. & 
+
+=== PDF page 8 ===
+ 
+Page 8 of 12 
+ 
+Ors. V. Union of India (supra), wherein the Court held that in a case where the company has not 
+applied for listing on a stock exchange, the consequences will flow from the company’s disobedience of 
+the law, the liability to pay interest arises as from the date of receipt of the amounts, for the company 
+ought not to have received any such amount in response to the prospectus. I am, therefore, of the view 
+that since Saharas had violated the listi ng provisions and collected huge amounts from the public in 
+disobedience of law, SEBI is justified in directing refund of the amount with interest." 
+ 
+iii. Having regard to the abovementioned observations of the Hon'ble Supreme Court of 
+India, since the  Offer of  Redeemable Preference Shares is prima facie a public issue in 
+accordance with the provisions of the Companies Act, 1956, the same will attract the 
+requirement of compulsory listing before a recognized stock exchange in terms of 
+Section 73(1) of the Companies Act, 1956 and also compliance with the provisions of 
+Sections 73(2) and 73(3) of that Act.  
+ 
+iv. In the facts of the instant case, it prima facie appears that ECL has violated the 
+provisions of Section 73 of the Companies Act, 1956, in respect of the  Offer of 
+Redeemable Preference Shares. 
+ 
+4.5 Under Section 2(36) read with Section 60 of the Companies Act, 1956, a company needs 
+to register its prospectus with the ROC, before making a public offer or issuing the 
+prospectus. As per the aforesaid Section 2(36), “prospectus” means any document described 
+or issued as a prospectus and includes any notice, circular, advertisement or other 
+document inviting deposits from the public or inviting offers from the public for the 
+subscription or purchase of any shares in, o r debentures of, a body corporate. As 
+mentioned above, the  Offer of Redeemable Preference Shares was a public issue of securities. 
+Having made a public issue, ECL was required to register a prospectus with the ROC 
+under Section 60 of the Companies Act, 1956. I find that there is no evidence on record 
+to indicate that ECL has registered a prospectus with the ROC. In view of the same, I find 
+that ECL has prima facie not complied with the provisions of Section 60 of Companies Act, 
+1956. 
+ 
+4.6 Under Section 56(1) of the Companies Act, 1956, every prospectus issued by or on behalf 
+of a company, shall state the matters specified in Part I and set out the reports specified in 
+Part II of Schedule II of that Act. Further, as per Section 56(3) of the Companies Act, 
+1956, no one shall issue any form of application for shares in or debentures of a company, 
+
+=== PDF page 9 ===
+ 
+Page 9 of 12 
+ 
+unless the form is accompanied by abridged prospectus, contain disclosures as specified. 
+Based on the material available on record, I find that ECL ha s not complied with the 
+provisions of Section 56(1) and 56(3) of the Companies Act, 1956 and therefore, has prima 
+facie violated the aforesaid provisions. 
+ 
+4.7 Upon a consideration of the aforementioned paragraphs, I am of the view that ECL is 
+prima facie  engaged in fund mobilising activity from the public, through the  Offer of 
+Redeemable Preference Shares and as a result of the aforesaid activity has violated the 
+aforementioned provisions of the Companies Act, 1956 (Section 56, Section 60 read with 
+Section 2(36), Section 73).   
+ 
+5. I note that ECL allotted Redeemable Preference Shares to the public during the Financial Years 
+2010–11, 2011–12 and 2012–13. The past and present Directors and Promoters of ECL 
+were/are Smt Sushree Mazumder, Shri Tanmoy Mridha, Shri Sagar Majumder, Shri Manoj 
+Kumar Dhali, Shri Ashish Dhali, Shri Sankar Baidya, Shri Santosh Sardar, Smt Subhasree 
+Majumdar and Shri Sunil Baran Majumdar. It is alleged that the aforementioned Directors 
+and Promoters are responsible under Section 73(2) of the Companies Act, 1956, read with 
+Section 27(2) of the SEBI Act , for the prima facie  contraventions committed by ECL 
+through the Offer of Redeemable Preference Shares. 
+ 
+6. SEBI has a statutory duty to protect the interests of investors in securities and promote 
+the development of, and to regulate, the securities market. Section 11 of the SEBI Act has 
+empowered it to take such measures as it deems fit for fulfilling its legis lative mandate. 
+Further, as per the provisions of Section 55A of the Companies Act, 1956, administrative 
+authority on the subjects relating to public issue of securities is exclusively with SEBI. For 
+this purpose, SEBI can exercise its jurisdiction under S ections 11(1), 11A, 11B and 11(4) 
+of the SEBI Act read with Section 55A of the Companies Act, 1956 (as mentioned in 
+paragraphs 4.1–4.7 above). It is pertinent to note that ECL and its Directors have failed to 
+submit the requisite information sought by SEBI . Further, ECL and its Directors , Smt 
+Sushree Mazumder, Shri Tanmoy Mridha, Shri Sagar Majumder,  were not found to be 
+existing at their registered addresses submitted by them in regulatory filings. Steps 
+therefore, have to be taken in the instant matter to  ensure only legitimate fund raising 
+activities are carried on by ECL and no investors are defrauded. In light of the facts in the 
+instant matter, I find that there is no other alternative but to take recourse through an 
+interim action against ECL and its Directors and Promoters, for preventing that company 
+
+=== PDF page 10 ===
+ 
+Page 10 of 12 
+ 
+from further carrying on with its fund mobilising activity under the  Offer of Redeemable 
+Preference Shares. 
+ 
+7. In view of the foregoing, I, in exercise of the powers conferred upon me under Sections 
+11, 11 (4), 11A and 11B of the SEBI Act read with Section 19 thereof  and the DIP 
+Guidelines read with the ICDR Regulations, hereby issue the following directions –  
+ 
+i. ECL shall not mobilize any fresh funds from investors through the Offer of Redeemable 
+Preference Shares or through the issuance of equity shares or any other securities, to the 
+public and/or invite subscription, in any manner whatsoever, either directly or 
+indirectly till further directions; 
+ii. ECL, its Promoters and present Directors, viz. Smt Sushree Mazumder (DIN: 
+02903594; PAN: AKWPM4705A), Shri Tanmoy Mridha (DIN: 03138184; PAN: 
+BBFPM1003G), Shri Sagar Majumder (DIN: 03138125; PAN: AZJPM5650L), Shri 
+Manoj Kumar Dhali (DIN: 03138115; PAN: ASSPD0037G) and also its Promoters, 
+viz. Shri Santosh Sardar (PAN: CWMPS0434E), S mt Subhasree Majumdar (PAN: 
+AOAPM8358M) and Shri Sunil Baran Majumdar (PAN: AKXPM7590E) , are 
+prohibited from issuing prospectus or any offer document or issue advertisement for 
+soliciting money from the public for the issue of securities, in any manner whatsoever, 
+either directly or indirectly, till further orders;  
+iii. The past Directors of ECL, viz. Shri Ashish Dhali (DIN: 03303210; PAN: 
+AYDPD5439P) and Shri Sankar Baidya (DIN: 03327920 ; PAN: AZUPB7887R), are 
+prohibited from issuing prospectus or any offer document or issue advertisement for 
+soliciting money from the public for the issue of securities, in any manner whatsoever, 
+either directly or indirectly, till further orders;  
+iv. ECL and its abovementioned past and present Directors and Promoters, are restrained 
+from accessing the securities market and further prohibited from buying, selling or 
+otherwise dealing in the securities market, either directly or indirectly, till further 
+directions; 
+v. ECL shall provide a full inventory of all its assets and properties;  
+vi. ECL's abovementioned past and present Directors and Promoters, shall provide a full 
+inventory of all their assets and properties; 
+vii. ECL and its abovementioned present Directors and Promoters, shall not dispose of 
+any of t he properties or alienate or encumber any of the assets owned/acquired by 
+
+=== PDF page 11 ===
+ 
+Page 11 of 12 
+ 
+that company through the Offer of Redeemable Preference Shares, without prior permission 
+from SEBI; 
+viii. ECL and its abovementioned present Directors and Promoters, shall not divert any 
+funds raised from public at large through the Offer of Redeemable Preference Shares, which 
+are kept in bank account(s) and/or in the custody of ECL; 
+ix. ECL and its abovementioned past and present Directors and Promoters, shall furnish 
+complete and relevant information (as sought by SEBI letter dated October 22, 2015), 
+within 14 days from the date of receipt of this Order. 
+ 
+8. The above directions shall take effect immediately and shall be in force until further 
+Orders.  
+ 
+9.1 The prima facie observations contained in this Order are made on the basis of the material 
+available on record i.e. information obtained from the MCA 21 Portal. In this context, ECL 
+and its abovementioned Directors and Promoters, are advised to show cause as to why 
+suitable directions/prohibitions under Sections 11(1), 11(4), 11A and 11B of the SEBI Act 
+and Section 73(2) of the Companies Act, 1956, read with Section 27(2) of the SEBI Act, 
+including the following, should not be taken/imposed against them: 
+ 
+i. Directing them j ointly and severally to refund money collected through the Offer of 
+Redeemable Preference Shares alongwith interest, if any, promised to investors therein; 
+ii. Directing them not to issue prospectus or any offer document or issue advertisement 
+for soliciting m oney from the public for the issue of securities, in any manner 
+whatsoever, either directly or indirectly, for an appropriate period; 
+iii. Directing them to refrain from accessing the securities market and prohibiting them 
+from buying, selling or otherwise dealing in securities for an appropriate period. 
+ 
+9.2 ECL and its abovementioned Directors and Promoters, may, within 21 days from the date 
+of receipt of this Order, file their replies, if any, to this Order and may also indicate whether 
+they desire to avail thems elves an opportunity of personal hearing on a date and time to 
+be fixed on a specific request made in that regard. 
+ 
+  
+
+=== PDF page 12 ===
+ 
+Page 12 of 12 
+ 
+10. This Order is without prejudice to the right of SEBI to take any other action that may be 
+initiated against ECL and its abovementioned Directors and Promoters, in accordance with 
+law. 
+ 
+ 
+ 
+ 
+Place: Mumbai S. RAMAN 
+Date: January 8, 2016 WHOLE TIME MEMBER 
+ SECURITIES AND EXCHANGE BOARD OF INDIA 
+ 
+ 

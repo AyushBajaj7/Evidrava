@@ -1,0 +1,10 @@
+{
+  "kind": "screening-review-queue",
+  "completed": true,
+  "publication": "local_only",
+  "files": {
+    "report.html": "0d425f0621057ab2377e459c46eade2ec48814a93f924c21bf6e3e6c68633add",
+    "screening-queue.csv": "b1e9d734f41ec59c18b1da2b9c5cc78a2db50a0f2ed8e9b0fd189bd9a6ceb56d",
+    "screening-queue.json": "ba5652c6ca0780079a80f1690dd6a69cec79b9193dde6da74be1f612ede0990f"
+  }
+}

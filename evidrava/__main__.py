@@ -18,8 +18,12 @@ from .report import render_html
 from .workbook import load_registry, serial
 from .screening import load_reference, read_csv, summarize_screening
 from .screening_report import render_screening
+from .screening_queue import DEFAULT_SOURCE_PACKETS, build_screening_queue, render_queue_csv
+from .screening_queue_report import render_screening_queue
 from .sources import collect_sources
 from .brief import build_brief
+from .frame import draw_sample, inspect_frame
+from .frame_report import render_frame
 
 
 def read_sessions(path):
@@ -33,7 +37,7 @@ def read_sessions(path):
     return set(dates)
 
 
-def write_report(target, result, renderer=render_html, data_filename="validation.json", kind="preparation-check"):
+def write_report(target, result, renderer=render_html, data_filename="validation.json", kind="preparation-check", extras=None):
     target = target.resolve()
     if target.exists():
         raise ValueError("Output exists; choose a new directory")
@@ -42,6 +46,15 @@ def write_report(target, result, renderer=render_html, data_filename="validation
     # Do not remove interrupted output. A final directory exists only on success.
     (temporary / data_filename).write_text(json.dumps(result, indent=2, default=serial, allow_nan=False) + "\n", encoding="utf-8")
     (temporary / "report.html").write_text(renderer(result), encoding="utf-8")
+    for name, payload in (extras or {}).items():
+        relative = Path(name)
+        if relative.is_absolute() or len(relative.parts) != 1 or relative.name != name:
+            raise ValueError("Report extras must be simple filenames")
+        destination = temporary / relative
+        if isinstance(payload, bytes):
+            destination.write_bytes(payload)
+        else:
+            destination.write_text(str(payload), encoding="utf-8")
     manifest = {"kind": kind, "completed": True, "publication": "local_only",
                 "files": {p.name: sha256(p.read_bytes()).hexdigest() for p in temporary.iterdir()}}
     (temporary / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
@@ -66,6 +79,10 @@ def main(argv=None):
     screening.add_argument("--reference", type=Path, default=Path("pilot/screening/screening_30.csv"), help="Preserved original beside its manifest and raw capture folder")
     screening.add_argument("--out", type=Path, required=True, help="New directory for screening.json, report.html and manifest.json")
     screening.add_argument("--candidate-listings", type=int, help="Optional illustrative initial-screening workload; withheld until all 30 records have complete timing observations")
+    queue = commands.add_parser("screening-queue", help="Build a read-only, hash-checked source navigation queue for human screening")
+    queue.add_argument("--reference", type=Path, default=Path("pilot/screening/screening_30.csv"), help="Preserved original beside its manifest and raw capture folder")
+    queue.add_argument("--source-packet", action="append", type=Path, help="Source packet directory; defaults to the three prepared workload packets")
+    queue.add_argument("--out", type=Path, required=True, help="New directory for screening-queue.json, CSV navigation export and report.html")
     sources = commands.add_parser("collect-sources", help="Collect official PDFs and provisional page text for named reconnaissance records")
     sources.add_argument("--ids", nargs="+", required=True, help="Explicit original identifiers, for example RECON-01 RECON-02 RECON-03")
     sources.add_argument("--reference", type=Path, default=Path("pilot/screening/screening_30.csv"), help="Preserved original with its manifest and captures")
@@ -74,10 +91,42 @@ def main(argv=None):
     brief.add_argument("--packet", type=Path, required=True, help="Existing source-packet directory")
     brief.add_argument("--notes", type=Path, required=True, help="Provisional screening notes JSON")
     brief.add_argument("--out", type=Path, required=True, help="New directory for a linked provisional review brief")
+    frame = commands.add_parser("frame-check", help="Validate a candidate frame without drawing the study sample")
+    frame.add_argument("--frame", type=Path, required=True, help="UTF-8 candidate-frame CSV with declared eligibility and group IDs")
+    frame.add_argument("--out", type=Path, required=True, help="New directory for frame.json, report.html and manifest.json")
+    draw = commands.add_parser("draw-sample", help="Draw a deterministic whole-group sample from a frozen frame")
+    draw.add_argument("--frame", type=Path, required=True, help="Candidate-frame CSV matching the frozen protocol hash")
+    draw.add_argument("--protocol", type=Path, required=True, help="Explicit frozen protocol JSON that binds the frame SHA-256")
+    draw.add_argument("--out", type=Path, required=True, help="New directory for the selection manifest and report")
     args = parser.parse_args(argv)
     try:
         if args.out.exists():
             raise ValueError("Output exists; choose a new directory")
+        if args.command == "frame-check":
+            result = inspect_frame(args.frame)
+            result.update({"checker_version": __version__, "created_at_utc": datetime.now(timezone.utc).isoformat(),
+                           "python_version": sys.version.split()[0]})
+            write_report(args.out, result, render_frame, "frame.json", "candidate-frame-check")
+            print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
+                              "eligible_matters": result["summary"]["eligible_matters"],
+                              "eligible_groups": result["summary"]["eligible_related_matter_groups"],
+                              "research_decision": "NOT_EVALUATED"}, indent=2))
+            return 3 if result["status"] == "INVALID" else 0
+        if args.command == "draw-sample":
+            try:
+                result, selection = draw_sample(args.frame, args.protocol)
+            except ValueError as exc:
+                print(f"Sample draw could not complete: {exc}", file=sys.stderr)
+                return 3
+            result.update({"checker_version": __version__, "created_at_utc": datetime.now(timezone.utc).isoformat(),
+                           "python_version": sys.version.split()[0]})
+            write_report(args.out, result, render_frame, "draw.json", "candidate-frame-draw",
+                         extras={"selection-manifest.json": selection})
+            print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
+                              "selected_matters": result["summary"]["selected_matters"],
+                              "selected_groups": result["summary"]["selected_related_matter_groups"],
+                              "research_decision": "NOT_EVALUATED"}, indent=2))
+            return 0
         if args.command == "review-brief":
             result = build_brief(args.packet, args.notes, args.out)
             print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
@@ -110,6 +159,19 @@ def main(argv=None):
                               "complete_timing_observations": result["summary"]["complete_timing_observations"],
                               "research_decision": "NOT_EVALUATED"}, indent=2))
             return 3 if result["status"] == "INVALID" else 0
+        if args.command == "screening-queue":
+            packets = args.source_packet or list(DEFAULT_SOURCE_PACKETS)
+            result = build_screening_queue(args.reference, packets, args.out)
+            result.update({"checker_version": __version__, "created_at_utc": datetime.now(timezone.utc).isoformat(),
+                           "python_version": sys.version.split()[0],
+                           "checker_source_sha256": {p.name: sha256(p.read_bytes()).hexdigest() for p in sorted(Path(__file__).parent.glob("*.py"))}})
+            write_report(args.out, result, render_screening_queue, "screening-queue.json", "screening-review-queue",
+                         extras={"screening-queue.csv": render_queue_csv(result)})
+            print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
+                              "expected_records": result["source_preparation"]["expected_records"],
+                              "acquired_records": result["source_preparation"]["acquired_records"],
+                              "human_screening_completed": False, "research_decision": "NOT_EVALUATED"}, indent=2))
+            return 0
         data = load_registry(args.workbook)
         additional_inputs = {}
         if args.sessions:
