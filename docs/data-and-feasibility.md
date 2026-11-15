@@ -1,12 +1,12 @@
 # Data and Feasibility
 
-These records describe Evidrava source access and preparation observed on 4–13 November 2026 in Asia/Kolkata. Individual observations retain their dates. The frame scope, case-specific data coverage and independent review capacity remain open. The active work order and checkpoints are in the [pilot plan](pilot-plan.md).
+These records describe Evidrava source access and preparation observed on 4–15 November 2026 in Asia/Kolkata. Individual observations retain their dates. The frame scope, case-specific data coverage and independent review capacity remain open. The active work order and checkpoints are in the [pilot plan](pilot-plan.md).
 
-## Implementation update: 13 November
+## Implementation update: 14 November
 
 Workbook v3.3 and proposal v2.4 are now the accepted working references. Their source bytes and the supplied 114-scenario suite are preserved in the [received release](../references/incoming/2026-11-13/receipt.json). The supplied LibreOffice report records 114 passes and the new mutation report records 11 catches. These are author-run results; local native recalculation and Excel compatibility remain unverified.
 
-Evidrava 0.3.0 now provides preparation checking, screening-workload reporting and bounded official-source collection while reviewer search continues. Missing reviewer sign-offs receive no audit credit. The first three reconnaissance source packets were collected on 13 November as detailed below; the earlier archive counts and market-data probes were not refreshed. No case-specific market coverage or human screening time was established. [Run the commands](../README.md#run-the-project)
+Evidrava 0.4.0 provides preparation checking, screening-workload reporting, official-source collection and a provisional review brief while reviewer search continues. Missing reviewer sign-offs receive no audit credit. The first three reconnaissance source packets were collected on 13 November; machine-assisted notes were added on 14 November. Earlier archive counts and market-data probes were not refreshed. No case-specific market coverage or human screening time was established. [Run the commands](../README.md#run-the-project)
 
 ## First three source packets
 
@@ -29,6 +29,29 @@ python -m evidrava collect-sources --ids RECON-04 RECON-05 --out runs/sources-ne
 ```
 
 The collector verifies the preserved batch before network access and accepts only official SEBI HTTPS sources. Ambiguous links and failures stay visible; it does not choose the first of several PDFs or overwrite an earlier packet. [Limits and status meanings](technical-reference.md#source-collection-command)
+
+## Provisional screening findings: 14 November
+
+The [brief](../pilot/screening/brief-first-three/report.html) brings together three machine-assisted records, 15 page anchors and open questions from the [notes](../pilot/screening/provisional-first-three-2026-11-14.json). Suggestions below are not human screening decisions or audited labels. All three records remain **PENDING_HUMAN_REVIEW** and stay in the 30-record workload exercise.
+
+| Record | Provisional suggestion and source basis | Next verification |
+| --- | --- | --- |
+| RECON-01: Amrapali Films | Exclusion candidate: the order concerns SCORES authentication compliance, not a documented trading-manipulation episode (PDF p3, paras8–10). | Confirm the eventual compliance-only exclusion rule and record the actual human decision and effort. [Source](../pilot/sources/recon-first-three/records/RECON-01/source.pdf#page=3) |
+| RECON-02: Home Trade | Uncertain: the order reports earlier website publication of SCNs (p6, para6), and names Pune/Bangalore exchanges (p2, para1). Its 2015 signature does not establish first disclosure. | Retrieve predecessors, verify episode-specific public dates and test historical venue coverage. Existing NSE probes do not establish Pune/Bangalore coverage. [Source](../pilot/sources/recon-first-three/records/RECON-02/source.pdf#page=6) |
+| RECON-03: Khandwala / DSQ Biotech | Uncertain: the order describes 1999–2001 trading and a 2005 enquiry (pp1–2). Its final sanction is a warning (p19, paras20–22), not the earlier recommended suspension. | Verify prior public DSQ sources, historical instrument identity and conduct/warm-up coverage; preserve separate allegations, findings and final disposition. [Source](../pilot/sources/recon-first-three/records/RECON-03/source.pdf#page=19) |
+
+`review-brief` confirms fingerprints, page references and exact anchor matches after whitespace normalization. It does not validate these interpretations, verify publication dates or settle eligibility. Human review must inspect the original pages and the surrounding context. The command writes only a new derived brief and leaves the working CSV unchanged. [Command and checks](technical-reference.md#provisional-review-brief-command) · [Application test run](../pilot/development/evidrava-increment-2026-11-15.json) · [Subsequent predecessor capture](../pilot/development/evidrava-predecessors-2026-11-15.json)
+
+## Predecessor source review: 15 November
+
+The bounded [capture helper](../scripts/capture_predecessors.py) saved eight planned official SEBI sources and two focused supplements. All ten responses were HTTP 200; the three PDFs yielded 13, 11 and 48 pages for the supplemental Home Trade, PPTL and DSQ group orders. Original bytes, response hashes, capture times and extracted text are preserved in the [main packet](../pilot/sources/predecessors-2026-11-15/report.html), [Home Trade supplement](../pilot/sources/predecessors-supplement-2026-11-15/report.html) and [date supplement](../pilot/sources/predecessors-date-supplement-2026-11-15/report.html). The [provisional review](../pilot/screening/predecessor-review-2026-11-15.html) records source scope and unresolved leads. Captures did not fill the working screening CSV or workbook.
+
+| Matter | Earlier-source observations | What remains unresolved |
+| --- | --- | --- |
+| RECON-02: Home Trade | SEBI's 2006 M's Securities release displays 15 September while the linked order is dated 14 September. The order describes HTL broker activity in 1999–2001, but finds insufficient evidence of a FUTP violation by that broker. A separate Indavara order signed 25 September 2006 recounts HTL activity and a circular-trading allegation, then censures KYC/diligence failures. | Retrieve the 2008/2009 website notices and the 16 February 2006 director order cited in the 2015 order. Match each disclosure passage to the defined episode; do not infer public time from the order signature. |
+| RECON-03: Khandwala / DSQ Biotech | The 2006 CSFB order page displays 27 November; its release page displays 29 November and its release body 28 November. The order covers DSQ trading in 1999–2001 and refers to earlier 2002 and 2003 SEBI orders. A 2007 PPTL summons order records Khandwala cross-deals during 21 February–22 March 2000. A 2009 DSQ company/group order identifies Khandwala transactions. | Retrieve the 2002 and 2003 orders named in the 2006 order. Keep the CSFB broker, PPTL proceeding, DSQ group parties and Khandwala respondent scope separate. The 2003 BKG order concerns a different DSQ period, 1994–1996. |
+
+Under the draft 2011–2025 first-disclosure window, these records create a substantial pre-2011 eligibility concern. They do not establish the earliest episode-specific public disclosure. Page dates, order dates and retrieval timestamps remain distinct; exact publication dates, human screening, independent audit and episode linkage are not verified. Both records remain **PENDING_HUMAN_REVIEW**, first-disclosure dates remain unset and no episode has been granted strict usable credit. [Machine-readable review and capture hashes](../pilot/screening/predecessor-review-2026-11-15.json) · [Capture procedure](technical-reference.md#bounded-predecessor-capture)
 
 ## SEBI archive and candidate frame
 

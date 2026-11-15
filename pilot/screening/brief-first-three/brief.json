@@ -1,0 +1,212 @@
+{
+  "kind": "provisional-screening-brief",
+  "version": "0.4.0",
+  "created_at_utc": "2026-11-14T17:42:51.354067+00:00",
+  "prepared_on": "2026-11-14",
+  "prepared_by": "AI-assisted (Codex)",
+  "scope_basis": "Draft research method: cash-equity trading episodes first publicly disclosed in 2011-2025, with case-specific identity, conduct and warm-up coverage. Objective eligibility is still to be frozen. These are notes for the positional workload exercise, not sample selection or verified labels.",
+  "status": "PROVISIONAL",
+  "citation_checks": "PASSED",
+  "human_screening_completed": false,
+  "independent_audit_completed": false,
+  "publication_dates_verified": false,
+  "research_decision": "NOT_EVALUATED",
+  "source_packet_manifest_sha256": "3b09f5e794f310b30b40aa50985af38f270e6aa3d2583fcf7dda3bc465790db5",
+  "source_packet_manifest_uri": "../../sources/recon-first-three/manifest.json",
+  "notes_sha256": "c48d2c48ff2a80910f6ab76245be111da6b810d2bec871ae6becb92ece93bf6e",
+  "notes_name": "provisional-first-three-2026-11-14.json",
+  "source_file_hashes": {
+    "records/RECON-01/page.html": "fe72783f0f2032afcacb965b2403dc424a6304693e51a11889c79999d69273fa",
+    "records/RECON-01/pages.json": "4db055be02d769888b9cd964ade5479ab5d749be782bc35aea7346f8fa2f0b19",
+    "records/RECON-01/source.pdf": "e1fce4cec79ebf4768629f1902967bd6cd5543b9090230ba7b5d71627e708d1d",
+    "records/RECON-01/text.txt": "2e4e14ea1647cc945bf7b5382109f4f7fc5701c055b52f2eb0cd642598493a10",
+    "records/RECON-02/page.html": "603ec326fce598bef7f5e92ccc3afc1a92ab6090f45a1e6ee537e6c3575e8e1c",
+    "records/RECON-02/pages.json": "18fc82486db17e4f0b10b2b03eec3272b8b9610d544413818bbf831dcee24c55",
+    "records/RECON-02/source.pdf": "674c3740db32ee4818fd5c9382afdea40f785697c3cf6c7c9bae35a55068fd53",
+    "records/RECON-02/text.txt": "983c1fb1018bb6c6ac9b51e402423fc2b984650c5a9fd3c8dc878af9bc0653fd",
+    "records/RECON-03/page.html": "eb3beb7c92dda53dc1cd6c4028d26ca1afe7482906a8120f2c89ae2d9170a4a5",
+    "records/RECON-03/pages.json": "4d121b065f10d794879ec2e39b97a7842eb30af169b0a4a723352b1237b00527",
+    "records/RECON-03/source.pdf": "8c3bc6ded9f651b9eba50c49737f3ef4040f62ea221c8e36d61f8f42203dcc7b",
+    "records/RECON-03/text.txt": "a9deceb12ff1325cf25704d0442e9b59dca29ec2185b81b2fe9db7a63d5359bf",
+    "report.html": "da867d52537923ce3542d6b20b6a6b17f725d56513f7c9104b19a065b65508ec"
+  },
+  "verified_source_files": 13,
+  "code_sha256": {
+    "__init__.py": "c8f7361d8873e7d78806d93d03981b8a5da9a2d3e1a801b45c39c3f87863feae",
+    "__main__.py": "c1e710987b04c321ebd148d5ac3dc068f679a11875998ca5c30d098628c36e8d",
+    "brief.py": "ec84929df209be507e5ac384dd040dfaf0052c30771464ef28a9e957a27272ec",
+    "checks.py": "8e79649bd5fa15a00fd7044374a97175c52b4c0c061f8f7514de67b16f619836",
+    "report.py": "ef32ffc9ddf97251c4a202e8a4b0d004eb110a988644e9f13396e9810541503a",
+    "screening.py": "ade40adb1619c2fd0c2022a24410470bb46e48581f64df284d9ceef242b2c412",
+    "screening_report.py": "6d692179d5b568f1c36faf27446e051d3847d4bd2f293dac5ca59cde5b27c489",
+    "sources.py": "ea89b29acfd4644e22e7e9e983e2535eaef1861e0db3fb9a09ae5e9522b561cc",
+    "workbook.py": "af782076235e81cb645ec139bffd4afd3d3d91fe53bf2624506651d02d461057"
+  },
+  "records": [
+    {
+      "screening_id": "RECON-01",
+      "suggested_disposition": "exclude_candidate",
+      "rationale": "The reviewed order concerns SCORES authentication compliance rather than a documented trading-manipulation episode. Candidate exclusion from the trading-anomaly frame requires a human check against the eventual eligibility rule; this note does not exclude the row from workload accounting.",
+      "observations": [
+        {
+          "summary": "The stated issue is failure to obtain SCORES authentication under the cited SEBI circular.",
+          "page": 3,
+          "paragraph": "8(a)-10",
+          "anchor": "failing to obtain SCORES authentication",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-01/source.pdf#page=3"
+        },
+        {
+          "summary": "The company's submission says its CSE-listed scrip was not trading. This is an attributed submission, not independently verified market coverage.",
+          "page": 2,
+          "paragraph": "6(a)",
+          "anchor": "there is no trading in the said scrip",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-01/source.pdf#page=2"
+        },
+        {
+          "summary": "The document is signed 31 December 2015. Its signature date does not verify when the order became public.",
+          "page": 5,
+          "paragraph": "Signature block",
+          "anchor": "Date: December 31, 2015",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-01/source.pdf#page=5"
+        }
+      ],
+      "open_questions": [
+        "Confirm the objective rule for excluding compliance-only orders; retain this record and the actual screening effort in the 30-record exercise.",
+        "If exclusion is confirmed, document the reason and locator without inventing an episode, ISIN or conduct interval.",
+        "Leave public-date verification, human decision and timing fields unset until the required work is performed."
+      ],
+      "title": "Adjudcation order against Amrapali Films",
+      "status": "PENDING_HUMAN_REVIEW",
+      "source_pdf_sha256": "e1fce4cec79ebf4768629f1902967bd6cd5543b9090230ba7b5d71627e708d1d",
+      "source_pages_sha256": "4db055be02d769888b9cd964ade5479ab5d749be782bc35aea7346f8fa2f0b19",
+      "pdf_uri": "../../sources/recon-first-three/records/RECON-01/source.pdf"
+    },
+    {
+      "screening_id": "RECON-02",
+      "suggested_disposition": "uncertain",
+      "rationale": "Home Trade is substantively relevant to cash-equity trading, but the later order reports public SCNs before 2011. First-disclosure eligibility and historical venue coverage require predecessor checks. Neither the 2015 signature nor the older conduct period settles inclusion.",
+      "observations": [
+        {
+          "summary": "The order identifies Home Trade shares as listed on Pune and Bangalore exchanges. Existing NSE data probes do not establish coverage for these venues.",
+          "page": 2,
+          "paragraph": "1",
+          "anchor": "Pune Stock Exchange Limited",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf#page=2"
+        },
+        {
+          "summary": "The order retrospectively states that SCNs were placed on SEBI's website in January 2008 and January 2009. Retrieve those sources and check which candidate episodes they disclosed; these dates remain unverified here.",
+          "page": 6,
+          "paragraph": "6",
+          "anchor": "January 22, 2008 and January 18, 2009",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf#page=6"
+        },
+        {
+          "summary": "A cited 16 February 2006 order disposed of proceedings against seven directors without directions. The legal history must retain respondent-specific scope.",
+          "page": 7,
+          "paragraph": "8",
+          "anchor": "February 16, 2006",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf#page=7"
+        },
+        {
+          "summary": "The Pune trading analysis uses 15 November 1999 through 31 March 2002. This is a candidate analysis window, not an audited episode boundary; offer-for-sale and off-market events may require separate episodes.",
+          "page": 22,
+          "paragraph": "12(b)(1)",
+          "anchor": "November 15, 1999 to March 31, 2002",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf#page=22"
+        },
+        {
+          "summary": "The order directs ten-year securities-market restraints for the listed entities. This describes the historical order, not current legal status or uninterrupted effectiveness.",
+          "page": 31,
+          "paragraph": "17(a)",
+          "anchor": "period of 10 years",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf#page=31"
+        },
+        {
+          "summary": "The signature block dates the document 31 December 2015; the source spells the day as 31TH. This is not verified publication time.",
+          "page": 32,
+          "paragraph": "Signature block",
+          "anchor": "DECEMBER 31TH, 2015",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf#page=32"
+        }
+      ],
+      "open_questions": [
+        "Locate the 2004 SCNs, the reported 2008/2009 website publications and the 2006 order; verify source publication and episode-specific disclosure before assigning first disclosure.",
+        "Reconcile related proceedings and respondent scope; search later appeals or corrections before assigning legal status.",
+        "Verify historical identity and Pune/Bangalore prices, corporate actions and warm-up coverage. Keep missing data as an unresolved feasibility result.",
+        "Record actual human screening, grouping and predecessor-search effort; no random draw or audited inclusion has occurred."
+      ],
+      "title": "Order in the matter of Home Trade Ltd.",
+      "status": "PENDING_HUMAN_REVIEW",
+      "source_pdf_sha256": "674c3740db32ee4818fd5c9382afdea40f785697c3cf6c7c9bae35a55068fd53",
+      "source_pages_sha256": "18fc82486db17e4f0b10b2b03eec3272b8b9610d544413818bbf831dcee24c55",
+      "pdf_uri": "../../sources/recon-first-three/records/RECON-02/source.pdf"
+    },
+    {
+      "screening_id": "RECON-03",
+      "suggested_disposition": "uncertain",
+      "rationale": "The Khandwala order concerns trading in DSQ Biotech, but it references earlier proceedings and does not verify first public disclosure. Preserve the distinction between investigation periods, allegations, findings and the final warning.",
+      "observations": [
+        {
+          "summary": "The order describes a DSQ Biotech investigation spanning December 1999 to January 2001, with abnormal trading on NSE/BSE. That investigation span is not automatically an episode's exact conduct interval.",
+          "page": 1,
+          "paragraph": "1-3",
+          "anchor": "December 1999 to January 2001",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf#page=1"
+        },
+        {
+          "summary": "The order refers to an enquiry initiated on 7 July 2005. A proceeding's date does not establish its public availability or the episode's first disclosure.",
+          "page": 2,
+          "paragraph": "4",
+          "anchor": "order dated July 07, 2005",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf#page=2"
+        },
+        {
+          "summary": "The noticee's submission describes DSQ information entering the public domain around 2003. Treat this attributed statement as a predecessor-search lead, not verified first disclosure.",
+          "page": 6,
+          "paragraph": "10(f), noticee submission",
+          "anchor": "It was only somewhere around 2003",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf#page=6"
+        },
+        {
+          "summary": "The order records no significant price variation attributable to these trades. This is a limitation relevant to daily-price observability, not proof that all trading anomalies are undetectable.",
+          "page": 19,
+          "paragraph": "19(xx)",
+          "anchor": "no significant price variation",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf#page=19"
+        },
+        {
+          "summary": "The final disposition is a strong warning and disposal of the enquiry. Do not import the earlier recommendation of suspension as the final sanction.",
+          "page": 19,
+          "paragraph": "20-22",
+          "anchor": "with a strong warning",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf#page=19"
+        },
+        {
+          "summary": "The document is signed 30 December 2015; publication time remains unverified.",
+          "page": 20,
+          "paragraph": "Signature block",
+          "anchor": "December 30, 2015",
+          "citation_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf#page=20"
+        }
+      ],
+      "open_questions": [
+        "Retrieve prior DSQ public orders and the referenced enquiry/SCN trail; decide first-disclosure eligibility only after checking episode-specific passages and public dates.",
+        "Verify the DSQ historical identity, ISIN, corporate actions and conduct/warm-up data; distinguish broker respondent from the traded issuer.",
+        "Review paragraph 12's apparently inconsistent appeal-year/date reference against the original authority. Preserve the printed text instead of silently correcting it; a separate Kopran case mentioned there is not automatically the same matter.",
+        "Check subsequent appeals or corrective events, then obtain actual human screening and independent audit. Leave their dates and time measurements blank until performed."
+      ],
+      "title": "Order in respect of Khandwala Securities Limited",
+      "status": "PENDING_HUMAN_REVIEW",
+      "source_pdf_sha256": "8c3bc6ded9f651b9eba50c49737f3ef4040f62ea221c8e36d61f8f42203dcc7b",
+      "source_pages_sha256": "4d121b065f10d794879ec2e39b97a7842eb30af169b0a4a723352b1237b00527",
+      "pdf_uri": "../../sources/recon-first-three/records/RECON-03/source.pdf"
+    }
+  ],
+  "limitations": [
+    "Mechanical quote and hash checks do not verify summaries or legal meaning",
+    "Machine suggestions are not human screening decisions or independent audit",
+    "Order dates, listing dates and retrieval dates do not verify public availability",
+    "Quoted page positions may differ from printed page labels",
+    "No human activity time was measured or filled by this command"
+  ]
+}

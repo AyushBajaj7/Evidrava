@@ -1,0 +1,163 @@
+{
+  "kind": "provisional-predecessor-review",
+  "prepared_on": "2026-11-15",
+  "prepared_by": "AI-assisted (Codex)",
+  "status": "PROVISIONAL_NOT_HUMAN_REVIEWED",
+  "scope": "Follow-up source reconnaissance for RECON-02 Home Trade and RECON-03 Khandwala / DSQ Biotech. This is not a sample decision, legal conclusion, audit, or completed first-disclosure search.",
+  "source_packets": [
+    {
+      "uri": "../sources/predecessors-2026-11-15/manifest.json",
+      "plan_uri": "predecessor-plan-2026-11-15.json",
+      "sha256": "b695885db2d5e58414d00f47267e3f9e4e62bd58ef74560b4cc4d15fd67726b4"
+    },
+    {
+      "uri": "../sources/predecessors-supplement-2026-11-15/manifest.json",
+      "plan_uri": "predecessor-supplement-plan-2026-11-15.json",
+      "sha256": "55e5028ac22202d20e6c2248ad6c8bf9ab35986e0ef26b0f5802c9b967280cad"
+    },
+    {
+      "uri": "../sources/predecessors-date-supplement-2026-11-15/manifest.json",
+      "plan_uri": "predecessor-date-plan-2026-11-15.json",
+      "sha256": "ef478d428122b5c03e1655b985ee96163fd685a2dd89abb2ee7caf5c6babd20b"
+    }
+  ],
+  "records": [
+    {
+      "screening_id": "RECON-02",
+      "subject": "Home Trade Ltd. trading and related broker proceedings",
+      "source_ids": ["PRE-01", "PRE-02", "PRE-09"],
+      "observations": [
+        {
+          "source_id": "PRE-01",
+          "locator": "Official SEBI press-release page, title/date block and body",
+          "displayed_date": "2006-09-15",
+          "date_type": "SEBI page date shown; public-time verification pending",
+          "order_date_in_body": "2006-09-14",
+          "observation": "The page describes an order against M's Securities concerning HTL and says the order was passed on 14 September 2006. The page and order dates are kept separate.",
+          "anchor": "Order in the matter of M/s. Home Trade Ltd."
+        },
+        {
+          "source_id": "PRE-09",
+          "locator": "PDF page 2, paragraphs 1.4-1.5; PDF pages 12-13 for findings and order",
+          "displayed_date": null,
+          "date_type": "No public posting date in captured PDF",
+          "order_date_in_body": "2006-09-14",
+          "observation": "The order describes alleged circular trading and price manipulation in HTL, and broker transactions from 1999 through 2001. It ultimately states that evidence was insufficient to find a FUTP violation by this broker; the one-month suspension concerned the broker's registration.",
+          "anchor": "no sufficient evidence to suggest that the Broker had violated the provisions of FUTP Regulations"
+        },
+        {
+          "source_id": "PRE-02",
+          "locator": "Official SEBI HTML order, sections 1.2, 1.5-1.6, 2.2, 3.5-4.0 and signature block",
+          "displayed_date": null,
+          "date_type": "Signature date only; public date not shown",
+          "order_date_in_body": "2006-09-25",
+          "observation": "The order describes allegations of circular trading, HTL listing and price history, and one broker's client trades in April-December 2001. Its final censure is for KYC and diligence failures. It is a separate broker proceeding.",
+          "anchor": "The broker had actively traded in the scrip of HTL and resorted to circular trading"
+        }
+      ],
+      "assessment": "These are relevant pre-2011 public-source leads about HTL trading, but they do not by themselves prove that a particular RECON-02 episode or claim was disclosed. Keep respondent, transaction, allegation, finding and episode scope distinct.",
+      "first_disclosure": "NOT_ASSIGNED",
+      "human_disposition": null
+    },
+    {
+      "screening_id": "RECON-03",
+      "subject": "DSQ Biotech / Khandwala-related trading and linked proceedings",
+      "source_ids": ["PRE-03", "PRE-04", "PRE-05", "PRE-06", "PRE-07", "PRE-08", "PRE-10"],
+      "observations": [
+        {
+          "source_id": "PRE-03",
+          "locator": "Official SEBI press-release page, title/date block and body",
+          "displayed_date": "2006-11-29",
+          "date_type": "SEBI page date shown; public-time verification pending",
+          "order_date_in_body": "2006-11-27",
+          "observation": "The page concerns a CSFB order in DSQ Biotech and says the broker was advised to be careful. The page header, body dateline and order date differ.",
+          "anchor": "Nov 29, 2006"
+        },
+        {
+          "source_id": "PRE-04",
+          "locator": "Official SEBI HTML order, sections 1.1-1.3 and 3.1-3.4",
+          "displayed_date": null,
+          "date_type": "Signature date only; public date not shown in captured order",
+          "order_date_in_body": "2006-11-27",
+          "observation": "The order covers DSQ Biotech trading from December 1999 to March 2001, including synchronized trades. It says prior SEBI proceedings addressed the same period and related DSQ Biotech facts; those 2002 and 2003 orders are still retrieval leads.",
+          "anchor": "the same scrip/scrips, the same set of facts in the same referal period"
+        },
+        {
+          "source_id": "PRE-10",
+          "locator": "Official SEBI enforcement order page, title/date block",
+          "displayed_date": "2006-11-27",
+          "date_type": "SEBI order page date shown; public-time verification pending",
+          "order_date_in_body": "2006-11-27",
+          "observation": "The official order landing page identifies the same DSQ Biotech investigation and reports the same 1999-2001 period as the captured order text. Its displayed date matches the order signature date; that does not independently verify first online availability.",
+          "anchor": "Nov 27, 2006"
+        },
+        {
+          "source_id": "PRE-05",
+          "locator": "Official SEBI press-release page, date block and body",
+          "displayed_date": "2003-04-22",
+          "date_type": "SEBI page date shown; public-time verification pending",
+          "order_date_in_body": "2003-04-10",
+          "observation": "This same-issuer release concerns earlier proceedings; PRE-06 specifies DSQ Biotech investigation windows in 1994-1996. Retain as a different-period control, not proof for a 1999-2001 episode.",
+          "anchor": "PR No.:93/2003"
+        },
+        {
+          "source_id": "PRE-06",
+          "locator": "Official SEBI HTML order, sections 1.1-1.3 and signature block",
+          "displayed_date": null,
+          "date_type": "Signature date only; public date not shown in captured order",
+          "order_date_in_body": "2003-04-08",
+          "observation": "The BKG order concerns DSQ Biotech activity in June-December 1994 and June 1995-March 1996, with a different broker respondent. Same issuer name alone is not an episode link.",
+          "anchor": "during the period June 1994 to December 1994"
+        },
+        {
+          "source_id": "PRE-07",
+          "locator": "PDF page 2, paragraph 3(c)-(d); PDF page 11, signature block",
+          "displayed_date": null,
+          "date_type": "Signature date only; public date not shown in captured PDF",
+          "order_date_in_body": "2007-12-11",
+          "observation": "A PPTL summons-compliance order recites investigation observations of Khandwala Securities' DSQ Biotech trades, including 35 cross-deals from 21 February to 22 March 2000. The penalty is against PPTL for failing to provide information; it is not a Khandwala sanction.",
+          "anchor": "These deals were executed by the Khandwala Securities Ltd. during the period February 21, 2000 to March 22, 2000."
+        },
+        {
+          "source_id": "PRE-08",
+          "locator": "PDF pages 1-3, 18 and 39; PDF page 48 signature block",
+          "displayed_date": null,
+          "date_type": "Signature date only; public date not shown in captured PDF",
+          "order_date_in_body": "2009-01-13",
+          "observation": "A company/group order covers the December 1999-January 2001 investigation and identifies Khandwala Securities transactions. It is evidence in a separate company/group proceeding, not a Khandwala disposition.",
+          "anchor": "another 1,99,922 shares were matched with Khandwala Securities Ltd."
+        }
+      ],
+      "assessment": "The records establish substantial earlier DSQ-related disclosures and make pre-2011 disclosure a strong eligibility concern. They do not settle the earliest episode-specific public disclosure. PRE-04 itself refers to earlier 2002 and 2003 SEBI orders concerning the same investigation period; retrieve those orders and compare their claims, public dates and party scope before assigning any date.",
+      "first_disclosure": "NOT_ASSIGNED",
+      "human_disposition": null
+    }
+  ],
+  "unresolved_leads": [
+    {
+      "screening_id": "RECON-02",
+      "lead": "The 2015 Home Trade order reports SEBI website SCNs dated 22 January 2008 and 18 January 2009 and a 16 February 2006 order concerning seven directors.",
+      "next_action": "Locate the original notices and order; identify the specific episode facts disclosed and the public date of each source."
+    },
+    {
+      "screening_id": "RECON-03",
+      "lead": "The 2006 CSFB order references a 13 June 2002 suspension order and an 11 December 2003 order covering related DSQ Biotech facts and the same investigation period.",
+      "next_action": "Locate both original orders; compare their DSQ-specific passages and public dates with the 2007 PPTL and 2015 Khandwala records."
+    }
+  ],
+  "human_screening_completed": false,
+  "independent_audit_completed": false,
+  "publication_dates_verified": false,
+  "first_disclosure_verified": false,
+  "strict_eligibility_credit": 0,
+  "research_decision": "NOT_EVALUATED",
+  "human_active_minutes": null,
+  "limitations": [
+    "Capture timestamps are retrieval times, not publication dates.",
+    "Order signature dates and SEBI page dates remain separately recorded.",
+    "HTML text has no stable page locator; inspect the original official page.",
+    "PDF page numbers are PDF positions and may differ from printed labels.",
+    "Related issuer, broker, client, matter and episode relationships require human review.",
+    "No reviewer identity, screening decision, workbook value or audit credit was added."
+  ]
+}

@@ -2,7 +2,7 @@
 
 **A Point-in-Time Market Evidence Benchmark**
 
-**Evidrava** is the finalized project name. The current local software version is **0.3.0**. This is an independent research project using public SEBI sources, with no claim of regulatory affiliation.
+**Evidrava** is the finalized project name. The current local software version is **0.4.0**. This is an independent research project using public SEBI sources, with no claim of regulatory affiliation.
 
 Evidrava builds a fair historical test for trading-anomaly detectors using public orders from the Securities and Exchange Board of India (SEBI). An order may describe conduct years after it happened. A model tested on 2019 data must not receive facts that first became public in 2024. Otherwise it has effectively seen the answers before the exam. This is **hindsight leakage**.
 
@@ -16,6 +16,8 @@ The registry records alleged or documented conduct, supporting passages and lega
 | Preparation checker | Detect structural/evidence problems, count outstanding review obligations and write a local report. | [Python implementation](evidrava/) and [local tests](tests/test_checker.py) |
 | Screening workload | Track the fixed 30-record exercise, complete timings, missing fields and unresolved follow-ups. | [Screening report](pilot/development/evidrava-screening/report.html) and [screening tests](tests/test_screening.py) |
 | Source collection | Save official documents, byte hashes and provisional text labelled by PDF page. | [First three source packets](pilot/sources/recon-first-three/report.html) and [acquisition tests](tests/test_sources.py) |
+| Provisional review brief | Link machine-assisted observations and open questions to checked source pages. | [First three source notes](pilot/screening/brief-first-three/report.html) and [brief tests](tests/test_brief.py) |
+| Predecessor source review | Preserve earlier official orders and compare episode scope, dates and legal-party scope. | [Ten-source review](pilot/screening/predecessor-review-2026-11-15.html), with [main captures](pilot/sources/predecessors-2026-11-15/report.html), [Home Trade supplement](pilot/sources/predecessors-supplement-2026-11-15/report.html) and [date supplement](pilot/sources/predecessors-date-supplement-2026-11-15/report.html) |
 | Workbook regression suite | Populate synthetic cases and check formula results using LibreOffice. | [114 supplied scenarios](references/incoming/2026-11-13/registry_tests_v33/README.md); the author's run passed, local recalculation pending. |
 | Research protocol | Define sampling, timing, audit, evaluation and the feasibility decision. | [Research Method](docs/research-method.md) and the draft proposal. |
 
@@ -25,7 +27,7 @@ A **matter** is an underlying proceeding that may have several orders. An **epis
 
 **Development has started. The research protocol remains DRAFT.** The budget is ₹0 and the delivery target is **4 December 2026**. Reviewer search runs alongside software work, screening, data-access checks and provisional extraction. A missing reviewer does not stop those activities; it prevents evidence from receiving independent-audit credit.
 
-The application now has three commands: `check-workbook`, `screening-report` and `collect-sources`. The read-only workbook checker detects missing/duplicate IDs, broken links, invalid order pages, mismatched values, invalid review attribution, post-cutoff sources, unverified legal availability and selection inconsistencies. It adds the requested **duplicate Included-matter guard**, checks template formula fingerprints, and flags edited example rows or input beyond the formula ranges.
+The application now has four commands: `check-workbook`, `screening-report`, `collect-sources` and `review-brief`. The read-only workbook checker detects missing/duplicate IDs, broken links, invalid order pages, mismatched values, invalid review attribution, post-cutoff sources, unverified legal availability and selection inconsistencies. It adds the requested **duplicate Included-matter guard**, checks template formula fingerprints, and flags edited example rows or input beyond the formula ranges.
 
 The checker reports **input validity**, outstanding obligations and preparation counts. It does **not** recalculate workbook formulas, certify reviewer identity or source contents, verify actual market coverage, reconstruct model snapshots, or issue a research PASS. Its research decision is always **NOT EVALUATED**. [Implemented scope](docs/technical-reference.md)
 
@@ -84,11 +86,22 @@ Open the original PDF alongside the text. PDF page positions may differ from pri
 
 ## Next pilot work
 
-1. Use the source packets and checker while seeking an independent human reviewer. Provisional extraction remains unaudited.
-2. Time the [30-record screening exercise](pilot/screening/screening_30.csv), measure grouping/predecessor effort and choose a feasible frame scope. This is separate from the random research sample.
-3. Check historical identity and free market-data coverage for conduct and feature warm-up. Earlier access probes alone do not establish coverage.
-4. Freeze the reconciled frame, sampling rules and protocol before drawing about 40 matters. Process the first five and reforecast effort from observed researcher and reviewer time.
-5. Evaluate statistical rules and Isolation Forest where the data support them. Defer H1 if suitable historical training labels are unavailable.
+The [provisional screening brief](pilot/screening/brief-first-three/report.html) contains 15 page-linked observations across three sources, proposed dispositions and specific follow-up questions. Every record remains **PENDING HUMAN REVIEW**. These machine-assisted notes do not populate the workbook or human screening CSV.
+
+```powershell
+.\.venv-pilot\Scripts\python.exe -m evidrava review-brief --packet pilot/sources/recon-first-three --notes pilot/screening/provisional-first-three-2026-11-14.json --out runs/review-brief-01
+```
+
+The command checks the source-packet fingerprint, retained files, record coverage, page inventory and quoted anchors. It rejects missing or invented anchors and added human-review fields. A matching quote does not prove that a summary is correct or that a case is eligible. Inspect its context in the linked PDF. Keep the packet and output on the same drive so relative links remain portable.
+
+The [predecessor review](pilot/screening/predecessor-review-2026-11-15.html) adds ten official SEBI source records for Home Trade and Khandwala / DSQ Biotech. The sources indicate substantial pre-2011 disclosure leads, which may put both cases outside the draft 2011–2025 first-disclosure frame. They do not establish the first episode-specific public date. The report lists the cited 2002/2003 CSFB orders and Home Trade notices still to retrieve. No human decisions or audit credit were entered.
+
+1. Continue source-by-source screening and provisional extraction while searching for an independent human reviewer. Keep human decision, timing and audit fields blank until the work occurs.
+2. Retrieve the original 2002/2003 CSFB orders and the cited Home Trade notices/order. Compare their exact passages and dates before assigning first disclosure.
+3. Time the [30-record screening exercise](pilot/screening/screening_30.csv), measure grouping/predecessor effort and choose a feasible frame scope. This is separate from the random research sample.
+4. Check historical identity and free market-data coverage for conduct and feature warm-up. Earlier access probes alone do not establish coverage.
+5. Freeze the reconciled frame, sampling rules and protocol before drawing about 40 matters. Process the first five and reforecast effort from observed researcher and reviewer time.
+6. Evaluate statistical rules and Isolation Forest where the data support them. Defer H1 if suitable historical training labels are unavailable.
 
 The 20-hour engineering increment remains a planning cap. Earlier work was not timed. New session records distinguish observed agent elapsed time from human active effort. No completed-audit or research-release claim is made while reviewer capacity remains unconfirmed. [Pilot Plan](docs/pilot-plan.md)
 
@@ -105,12 +118,12 @@ The 20-hour engineering increment remains a planning cap. Earlier work was not t
 
 The earlier JSON-schema design remains reference material. Its 33 acceptance scenarios are not all implemented by this preparation checker.
 
-All **125 local application tests pass**: 43 preparation checks, 31 screening tests and 51 source-acquisition tests. The latest [build and verification record](pilot/development/evidrava-increment-2026-11-13.json) separates those tests, real source retrieval and the supplied workbook scenario report. The supplied 114-scenario suite has not been rerun here, and Excel compatibility remains unverified.
+The current local release verification records **160 passing tests**: 43 preparation checks, 31 screening tests, 51 source-acquisition tests, 22 brief tests and 13 predecessor-capture tests. It covers the standalone predecessor-capture helper as well as the earlier application work. See the [release verification record](pilot/development/evidrava-release-2026-11-15.json), with the earlier [predecessor increment record](pilot/development/evidrava-predecessors-2026-11-15.json) and [application test record](pilot/development/evidrava-increment-2026-11-15.json) retained for history. The supplied 114-scenario workbook suite has not been rerun here, and Excel compatibility remains unverified.
 
 ```powershell
 .\.venv-design\Scripts\python.exe scripts/check_design.py
 python scripts/prepare_screening_batch.py --verify-existing
-python scripts/package_share.py --out dist/Evidrava_share.zip
+python scripts/package_share.py --out dist/Evidrava_0.4.0_2026-11-15_final.zip
 ```
 
-The design environment uses [requirements-design.lock](requirements-design.lock). The packager creates a local source ZIP with a manifest, including the three public-source packets. It excludes environments, caches, generated runs, working annotation copies and raw market data, and refuses an existing filename. GitHub publication requires an explicit instruction each time.
+The design environment uses [requirements-design.lock](requirements-design.lock). The packager creates a local-only source ZIP with a manifest, including the first-three source packet, the predecessor packet and two supplements, provisional review records and the release verification record. It excludes environments, caches, generated runs, working annotation copies, private research experiments and raw market data, and refuses an existing filename. Publication and public presentations are on hold during the proposed IP assessment. GitHub publication requires an explicit instruction each time.

@@ -1,0 +1,12 @@
+{
+  "kind": "predecessor-capture-plan",
+  "sources": [
+    {
+      "source_id": "PRE-10",
+      "screening_ids": ["RECON-03"],
+      "url": "https://www.sebi.gov.in/enforcement/orders/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-private-ltd_15044.html",
+      "title": "SEBI order landing page for CSFB in the DSQ Biotech matter",
+      "relation_note": "Capture the official order page date separately from the press-release date and order signature date. This remains a related broker proceeding, not a Khandwala disposition."
+    }
+  ]
+}

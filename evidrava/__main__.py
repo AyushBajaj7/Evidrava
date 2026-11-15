@@ -19,6 +19,7 @@ from .workbook import load_registry, serial
 from .screening import load_reference, read_csv, summarize_screening
 from .screening_report import render_screening
 from .sources import collect_sources
+from .brief import build_brief
 
 
 def read_sessions(path):
@@ -69,10 +70,20 @@ def main(argv=None):
     sources.add_argument("--ids", nargs="+", required=True, help="Explicit original identifiers, for example RECON-01 RECON-02 RECON-03")
     sources.add_argument("--reference", type=Path, default=Path("pilot/screening/screening_30.csv"), help="Preserved original with its manifest and captures")
     sources.add_argument("--out", type=Path, required=True, help="New directory for source files, extraction and provenance")
+    brief = commands.add_parser("review-brief", help="Check provisional notes against saved source hashes and page text; never credits human review")
+    brief.add_argument("--packet", type=Path, required=True, help="Existing source-packet directory")
+    brief.add_argument("--notes", type=Path, required=True, help="Provisional screening notes JSON")
+    brief.add_argument("--out", type=Path, required=True, help="New directory for a linked provisional review brief")
     args = parser.parse_args(argv)
     try:
         if args.out.exists():
             raise ValueError("Output exists; choose a new directory")
+        if args.command == "review-brief":
+            result = build_brief(args.packet, args.notes, args.out)
+            print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
+                              "citation_checks": result["citation_checks"], "human_screening_completed": False,
+                              "research_decision": "NOT_EVALUATED"}, indent=2))
+            return 0
         if args.command == "collect-sources":
             reference, provenance = load_reference(args.reference)
             indexed = {r["screening_id"]: r for r in reference}

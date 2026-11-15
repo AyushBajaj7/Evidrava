@@ -1,0 +1,80 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.4.0",
+  "completed_on": "2026-11-15",
+  "timezone": "Asia/Calcutta",
+  "scope": "Extend the bounded predecessor capture helper to retain official HTML and PDF sources, capture ten planned SEBI records including a separate CSFB order landing page, prepare a provisional predecessor review, and update project documentation.",
+  "capture": {
+    "status": "COMPLETE",
+    "requested_sources": 10,
+    "captured_sources": 10,
+    "failed_sources": 0,
+    "response_types": {
+      "html": 7,
+      "pdf": 3
+    },
+    "pdf_page_counts": {
+      "PRE-07": 11,
+      "PRE-08": 48,
+      "PRE-09": 13
+    },
+    "human_screening_completed": false,
+    "independent_audit_completed": false,
+    "publication_dates_verified": false,
+    "first_disclosure_verified": false,
+    "strict_eligibility_credit_granted": 0,
+    "research_decision": "NOT_EVALUATED",
+    "human_active_minutes": null
+  },
+  "artifacts": {
+    "capture_helper": {
+      "path": "scripts/capture_predecessors.py",
+      "sha256": "2b0e7817fa93dfb68de3eb023c768df23c8225377d004291c59d96608196c844"
+    },
+    "main_plan": {
+      "path": "pilot/screening/predecessor-plan-2026-11-15.json",
+      "sha256": "39661f63fbebe11d967b7284570fdecb887965187f4e66fa5740f7caa96081ea"
+    },
+    "supplement_plan": {
+      "path": "pilot/screening/predecessor-supplement-plan-2026-11-15.json",
+      "sha256": "8d9675bb15bc57959966a08dff156b43fc38e779b24ea993ae130e3b41603957"
+    },
+    "date_plan": {
+      "path": "pilot/screening/predecessor-date-plan-2026-11-15.json",
+      "sha256": "a52c455d7a1684ea39e1ea3a65493784178eced09d0cfefff2308e5b35d8a44a"
+    },
+    "main_manifest": {
+      "path": "pilot/sources/predecessors-2026-11-15/manifest.json",
+      "sha256": "b695885db2d5e58414d00f47267e3f9e4e62bd58ef74560b4cc4d15fd67726b4"
+    },
+    "supplement_manifest": {
+      "path": "pilot/sources/predecessors-supplement-2026-11-15/manifest.json",
+      "sha256": "55e5028ac22202d20e6c2248ad6c8bf9ab35986e0ef26b0f5802c9b967280cad"
+    },
+    "date_supplement_manifest": {
+      "path": "pilot/sources/predecessors-date-supplement-2026-11-15/manifest.json",
+      "sha256": "ef478d428122b5c03e1655b985ee96163fd685a2dd89abb2ee7caf5c6babd20b"
+    },
+    "review_json": {
+      "path": "pilot/screening/predecessor-review-2026-11-15.json",
+      "sha256": "cb2909f0255fb4d3ae8d292e712ec50ccb1785911d92210193155ca8ab07a69a"
+    },
+    "review_report": {
+      "path": "pilot/screening/predecessor-review-2026-11-15.html",
+      "sha256": "49a05e97cbec44cbe21785c14773bad2d97989fdc4b86da409b6163a10113694"
+    }
+  },
+  "implementation_tests": "NOT_RUN_THIS_INCREMENT",
+  "application_tests": "NOT_RUN_THIS_INCREMENT",
+  "previous_application_test_record": {
+    "path": "pilot/development/evidrava-increment-2026-11-15.json",
+    "result": "147 passing application tests recorded before this standalone capture increment; not repeated"
+  },
+  "review_conclusion": "The captured sources establish substantial pre-2011 disclosure leads for both records. They do not establish first episode-specific disclosure, exact public dates, eligibility or final legal status. The DSQ 2006 order identifies 2002 and 2003 orders requiring retrieval; the Home Trade 2015 order identifies 2008/2009 notices and a 2006 director order requiring retrieval.",
+  "unchanged_inputs": [
+    "Received workbook and proposal references",
+    "Working 30-record screening CSV",
+    "First-three source packet and 14 November brief"
+  ],
+  "publication": "NOT_PUBLISHED; no GitHub push or external sharing"
+}

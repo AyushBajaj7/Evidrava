@@ -1,0 +1,65 @@
+{
+  "kind": "predecessor-source-capture",
+  "created_at_utc": "2026-11-15T16:09:01.619265+00:00",
+  "plan_sha256": "a52c455d7a1684ea39e1ea3a65493784178eced09d0cfefff2308e5b35d8a44a",
+  "script_sha256": "9d62a285a90dca337b3b5ba0e0716575ed3f083c11b8faa16cd8e040ba244729",
+  "sources": [
+    {
+      "source_id": "PRE-10",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/enforcement/orders/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-private-ltd_15044.html",
+      "title": "SEBI order landing page for CSFB in the DSQ Biotech matter",
+      "relation_note": "Capture the official order page date separately from the press-release date and order signature date. This remains a related broker proceeding, not a Khandwala disposition.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/enforcement/orders/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-private-ltd_15044.html",
+        "final_url": "https://www.sebi.gov.in/enforcement/orders/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-private-ltd_15044.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "24e76527ad45f5ee6850fe0bd848c25a0739f09aaffd566480f89e5f66c9b8fb",
+        "retrieved_at_utc": "2026-11-15T16:09:01.866877+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-10/source.html",
+        "bytes": 29930
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-10/text.txt"
+    }
+  ],
+  "human_review_completed": false,
+  "publication_dates_verified": false,
+  "first_disclosure_verified": false,
+  "research_decision": "NOT_EVALUATED",
+  "limits": {
+    "max_sources": 12,
+    "max_html_bytes": 2000000,
+    "max_pdf_bytes": 20000000,
+    "socket_timeout_seconds": 20,
+    "max_redirects": 4,
+    "automatic_retries": 0,
+    "seconds_between_fetches": 1
+  },
+  "limitations": [
+    "Candidate relationships and dates need source review; acquisition is not independent audit",
+    "Native HTML text may include navigation or lose table layout; exact source bytes are retained",
+    "Retrieval time, displayed dates and document signature dates are separate observations"
+  ],
+  "status": "COMPLETE",
+  "counts": {
+    "requested": 1,
+    "captured": 1,
+    "failed": 0
+  },
+  "files": {
+    "PRE-10/source.html": "24e76527ad45f5ee6850fe0bd848c25a0739f09aaffd566480f89e5f66c9b8fb",
+    "PRE-10/text.txt": "903ee12df1fd062a732c6bcb2558c4db874d55f9986631dad108f30037e8c273",
+    "report.html": "60efe53e8eb5ffe17364f149d1a863991963b25e1ed74dc3dbccc4bd9b86c1e7"
+  }
+}

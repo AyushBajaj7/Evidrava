@@ -1,0 +1,462 @@
+=== PDF page 1 ===
+ 1
+SECURITIES AND EXCHANGE BOARD OF INDIA 
+ 
+ 
+ORDER AGAINST M/S M’s SECURITIES, MEMBER, BANGALORE STOCK 
+EXCHANGE LTD., SEBI REGISTRATION NO. INB080800013, UNDER 
+REGULATION 13(4) OF SEBI (PROCE DURE FOR HOLDING ENQUIRY BY 
+ENQUIRY OFFICER AND IM POSING PENALTY) REGULATIONS, 2002 FOR 
+THE IRREGULAR TRANSACTIONS IN THE SCRIP OF HOME TRADE LTD. 
+ 
+ 
+WTM/GA/89/ISD/09/06 
+1.0    BACKGROUND 
+ 
+1.1    M/s M’s Securities (hereinafter re ferred to as the Broker) is a member of 
+the Bangalore Stock Exchange Ltd. ( hereinafter referred to as BgSE) and 
+is registered with the Se curities and Exchange Boar d of India (hereinafter 
+referred to as SEBI) as a stock broker  under section 12 of Securities and 
+Exchange Board of India Ac t, 1992 (hereinafter referred to as the said Act) 
+with registration number INB080800013. 
+ 
+1.2    The scrip of Home Trade Ltd. (hereinafter referred to as HTL) was listed at 
+Pune Stock Exchange Ltd. ( hereinafter referred to as PSE) on November 
+15, 1999 at Rs 250/- and at BgSE on November 16, 1999 at Rs.275/-. 
+There was a very sharp rise in the pr ice of the scrip of HTL both at PSE 
+and BgSE.  The price of the scrip of  HTL reached Rs.315/ -within two 
+weeks of its listing, i.e. by December  06, 1999.  The su bsequent rise in the 
+price of the scrip of HTL is as detailed below:  
+ 
+           
+ 
+ 
+ 
+ Date Price (Rs.) 
+ December 30, 1999 525.00 
+ January 31, 2000 735.00 
+ March 31, 2000 809.00 
+ April 10, 2000 825.25 
+
+=== PDF page 2 ===
+ 2
+1.3 The maximum rise in the price of the scrip of HTL took place between 
+November 16, 1999 and March 31, 2000,  when it moved from Rs.275/- to 
+Rs.815/-.   
+ 
+1.4  SEBI conducted an investigation into  the buying, selling and dealings in 
+the scrip of HTL inter alia  by the members of BgSE including the Broker 
+for alleged circular trading and pric e manipulation thereby contravening 
+the provisions of SEBI (Prohibi tion of Fraudulent and Unfair Trade 
+Practices Relating to Securities Mark ets) Regulations, 1995 ( hereinafter 
+referred to as FUTP Regulations ) and SEBI (Stock Brokers and Sub-
+Brokers) Regulations,  1992 (hereinafter referred to as the Broker 
+Regulations).  
+ 
+1.5 The transactions details of the Broker  in the scrip of HT L on behalf of his 
+clients , Shri Pradip Porwal, Shri Mukesh Porwal and Shri Amit Porwal and 
+on his proprietary account are mentioned below: 
+ 
+Period  Gross 
+Purchase    
+(shares) 
+% to the total 
+buy volume at 
+BgSE  
+Gross Sales 
+(shares)  
+% to the total 
+sell volume at 
+BgSE 
+November 16, 
+1999 to March 31, 
+2000  
+16,800  8.80% 16,200 8.48%  
+April 01, 2000 to  
+March 31, 2001 
+1,61,940 18.89% 1,63,450 19.07% 
+April 01, 2001 to 
+December 31, 
+2001  
+22,900  7.86% 23,090 7.93% 
+ 
+ 
+
+=== PDF page 3 ===
+ 3
+1.6  The  transaction details executed by the Broker in the scrip of HTL on his 
+proprietary account are as follows: 
+ 
+Period  Gross Purchase  
+( shares ) 
+Gross Sales  
+( shares)  
+November 16, 1999 to March 31, 2000 2,000 2,000
+April 01, 2000 to  March 31, 2001 1,20,940  1,20,750
+April 01, 2001 to December 31, 2001  22,900 23,090
+ 
+1.7   The transaction details of the Broker  on behalf of his clie nts in the scrip of 
+HTL are shown as under:  
+ 
+Mukesh Porwal Pradip Porwal Amit Porwal 
+Date Qty 
+bought 
+Qty 
+sold 
+Date Qty 
+bought 
+Qty 
+sold 
+Date Qty 
+bought 
+Qty 
+sold 
+29.2.2000 400 400 28.3.2000 500 500 2.3.00 500 500
+1.3.2000 700 700 29.3.00 400 300 3.3.00 600 600
+16.3.2000 800 800 30.3.00 800 800 6.3.00 500 500
+22.3.2000 700 600 31.3.00 600 600 7.3.00 900 900
+23.3.2000 800 800 3.4.00 600 600 8.3.00 500 500
+24.3.2000 700 600 4.4.00 600 700 9.3.00 500 500
+24.4.2000 --- 100 6.4.00 600 600 10.3.00 600 600
+23.5.2000 800 1000 7.4.00 700 700 13.3.00 500 500
+24.5.2000 900 900 10.4.00 800 800 14.3.00 900 900
+25.5.2000 700 700 11.4.00 400 400 15.3.00 900 900
+26.5.2000 300 300 12.4.00 400 400 21.3.00 800 800
+29.5.2000 600 300 13.4.00 700 700 27.3.00 700 600
+30.5.2000 500 500 18.4.00 400 400 12.4.00 200 -
+31.5.2000 400 400 20.4.00 400 400 24.4.00 - 200
+1.6.2000 500 500 24.4.00 300 300 27.4.00 300 100
+2.6.2000 400 400 25.4.00 500 700 21.2.01 - 1500
+5.6.2000 800 800 26.4.00 500 500  
+6.6.2000 400 400 28.4.00 300 300  
+7.6.2000 300 200 2.5.00 500 500  
+8.6.2000 400 500 3.5.00 700 500  
+9.6.2000 300 300 4.5.00 700 700  
+12.6.2000 500 500 5.5.00 500 500  
+13.6.2000 500 500 8.5.00 600 600  
+14.6.2000 600 600 9.5.00 500 500  
+15.6.2000 300 200 10.5.00 300 300  
+16.6.2000 300 300 11.5.00 500 500  
+
+=== PDF page 4 ===
+ 4
+19.6.2000 400 500 12.5.00 500 500  
+20.6.2000 200 300 15.5.00 400 400  
+21.6.2000 400 400 16.5.00 400 400  
+22.6.2000 300 -- 17.5.00 300 300  
+23.6.2000 200 600 18.5.00 600 600  
+26.6.2000 500 300 19.5.00 400 400  
+23.10.2000 -- 200 22.5.00 400 400  
+22.2.2001 -- 500  
+8.2.2002 -- 300  
+ 
+ 
+1.8 The investigation conducted by SEBI revealed inter alia that  the members 
+of BgSE including the Broker were invo lved in creation of abnormally high 
+volumes in the scrip of HTL and had reso rted to circular trading with other 
+members of BgSE, wherein the s hares of HTL were traded amongst 
+themselves, thereby rigging up the price of the scrip of HTL by executing a 
+number of trades, which appeared to be not genuine, for various clients 
+introduced by the employees of HTL. 
+ 
+2.0    APPOINTMENT OF ENQUIRY OFFICER 
+          
+2.1   On completion of  the investigat ion, SEBI appointed an Enquiry Officer, vide 
+order dated May 28, 2003 ,  under regulat ion 5(1) of SEBI (Procedure for 
+Holding Enquiry by Enquiry Office r and Imposing Penalty) Regulations, 
+2002 (hereinafter referred to as the 200 2 Regulations) to enquire into the 
+alleged irregular transactions made by the Broker in the scrip of HTL. 
+ 
+2.2 A show cause notice was also issued to the Broker and it was alleged that 
+the Broker had resorted to circular trading with other members of BgSE 
+wherein the shares of HTL were traded amongst themselves and rigged up 
+the prices of the said scrip by tr ades which were not genuine and created 
+artificial price and volumes. It was also alleged that t he Broker had no 
+knowledge of his clients and did not  meet them generally against the 
+concept of ‘Know Your Client’ as per  SEBI Guidelines and the orders on 
+
+=== PDF page 5 ===
+ 5
+behalf of the clients were placed by one Shri Rakesh Karanpuria of HTL at 
+successively higher rates.  
+ 
+2.3 Pursuant to this, the Enquiry Office r had given the Broker a fair and 
+reasonable opportunity to make his s ubmissions. The Broker inter alia 
+submitted before the Enquiry Officer that the c lients belonging to Porwal 
+family were from Udaipur  and as the said client s were from Udaipur, he 
+did not meet them pers onally. The Broker furthe r submitted that the 
+aforesaid clients were introduced by  one Shri Padam Porwal, a neighbour 
+of the Broker and the brother in la w of Shri Rakesh Karanpuria. The 
+Broker had further stat ed that he was not aware that Shri Rakesh 
+Karanpuria was an agent of  HTL. The Broker had also submitted that he  
+had delivered the securities personally  to Shri Padam Porwal / Shri. 
+Rakesh Karanpuria by hand  delivery to be handed over to the respective 
+clients in Udaipur.   
+ 
+2.4 The Enquiry Officer had observed in hi s report that having regard to the 
+price of the scrip of HTL, the value of the transactions executed by the 
+Broker was significant and the same wa s unusual for clients who were not 
+properly introduced and just started tr ading only in the scrip of HTL. The 
+Enquiry Officer had further observed that the Broker had not assessed the 
+financial net worth of his clients and that the volumes traded by the clients 
+were disproportionate to their income . The Enquiry Officer had  stated in 
+his report that under the circ umstances, not obtaining the 
+acknowledgement copies of the cont ract notes might be treated as a 
+minor procedural lapse in violation of regulation 17( 1) (i) of the Broker 
+Regulations. The Enquiry Officer has not ed that the Broker did not act in 
+good faith and without negligence and did not exercise proper caution and 
+diligence while trading in the scrip of HTL.   
+ 
+
+=== PDF page 6 ===
+ 6
+2.5 The Enquiry Officer has submitted hi s report dated November 08, 2004 in 
+terms of the 2002 Regulations and recommended for the imposition of a 
+minor  penalty of suspension of certificate of registration (granted by SEBI) 
+of the Broker for a period of two months.  
+ 
+3.0     CONSIDERATION OF ISSUES AND FINDINGS.  
+ 
+3.1  Based upon the recommendation of the Enquiry Officer, a show cause 
+notice dated November 22, 2004 was issued to the Broker under regulation 
+13(2) of the 2002 Regulations, asking hi m to show cause as to why the 
+penalty as considered appropriate s hould not be imposed upon him.  A 
+copy of the Enquiry Report was also forwarded to the Broker with the said 
+show cause notice. The said show cause notice was served on the Broker 
+through BgSE. Though, sufficient time wa s given to the Broker to file his 
+reply, he has failed to submit any repl y to the said show cause notice till 
+date. In the circumstances, it is observed that the Broker is not interested in 
+filing any reply and in availing the opportunity of hearing before SEBI.  
+ 
+3.2 As the Enquiry Officer has not recor ded any specific findings in respect of 
+the violation of the prov isions of FUTP Regulatio ns, I deal with the other 
+alleged violations attributed to the Broker.  I note that the Broker had 
+executed significant trades in the scrip of HTL during the period November 
+16, 1999 to December 31,  2001 on his proprietary account as well as on 
+behalf of his clients namely, Shri Muke sh Porwal, Shri Amit Porwal and 
+Shri Pradeep Porwal. The said transac tions were admitted by the Broker 
+in the course of proceedings before the Enquiry Officer. When the price of 
+the scrip of HTL was very high dur ing the period November 16, 1999 to 
+March 31, 2000, the Broker had placed orders in the scrip of HTL in his 
+proprietary account and on behalf his clients which amounted to 8.80% of 
+the total volume at BgSE. I also note that the Brok er has failed to adduce 
+
+=== PDF page 7 ===
+ 7
+any evidence to show that the client s had traded in any scrip other than 
+HTL during the time when the Broker had executed trades for them.   
+ 
+3.3 It is the basic requirem ent that a stock broker has to compulsorily ensure 
+that his clients are personally known to him or has been introduced to him 
+in order to satisfy that they are genuine. The very purpose of such practice 
+is to enable the stock brokers to ev aluate the client before the broker 
+takes up trading on behalf of his clients.  
+ 
+3.4 In terms of SEBI Cir cular dated February 11, 1997, the stock brokers were 
+advised to maintain a database [perta ining to ‘Know Your Client’ (KYC) 
+norms/ guidelines] of their clients. SEBI, vide circular dated April 11, 1997, 
+had once again advised the stock broker s to follow the circular dated 
+February 11, 1997 and further advised that the brokers might seek 
+additional information, if any, so as  to satisfy themselves about the 
+antecedents of the client and that it would be the responsibility of the stock 
+brokers to provide for clients’ details as and when need arises.  
+ 
+3.5 I note that, one of the c lients namely, Shri Amit Porwal was a student at 
+the time when the Broker was executing transactions on his behalf in the 
+scrip of HTL. The Broker had started trading in the scrip of HTL on behalf 
+of the said client on March 02, 2000 and thereafter, he had executed 
+continuous transactions on behalf the said  client. This is evident from the 
+table shown at para 1.7 above,  relating to the trade details of the clients.  
+However, the KYC form was obtained only on March 12, 2000, much after 
+the trading was commenced on behalf of the said client. It can be seen 
+from the transaction details that, Shri Amit Porwal had bought 4,100 
+shares of HTL through the Broker, before the KYC form was obtained by 
+the Broker. The said c lient had bought a total of  7,900 shares of HTL 
+between March 02, 2000 and March 27, 2000,  when the price of the scrip 
+
+=== PDF page 8 ===
+ 8
+was at its maximum. The purchase by the above client amounted to 
+47.02% to the total buy pos ition of the Broker at  BgSE, during the period 
+November 16, 1999 and March 31, 200 0. I note that the Broker had 
+commenced trading in the scrip of HT L on behalf his clients, before 
+obtaining the KYC form from the said clients.  
+ 
+3.6 I also note that in the case of Shri Mukesh Porwal, the KYC form was 
+obtained by the Broker on March 12, 2000, whereas he had started 
+trading on behalf of the said client in the scrip of HTL from February 29, 
+2000.  It can be seen from the table at para 1.7 above, that the Broker had 
+bought 1,100 shares of HT L before March 12, 2000, on  behalf of the said 
+client. The total purchase by the Br oker on behalf the said client during 
+February 29, 2000 to March 24, 2000 wa s 4,100 shares of HTL, which 
+amounted to 24.41% to the total buy position of the Broker during the 
+period November 16, 1999 and March 31, 2000. It may be mentioned here 
+that, when the Broker was executing su ch trades, the price of the scrip of 
+HTL was very high. The Broker had al so failed to adduce any evidence to 
+suggest that his clients had traded in any other scrip. This view was 
+further supported by the statement of Shri Mahendra Lunavat, Proprietor 
+of the Broker made befor e the Investigating Officer of SEBI.  The Broker 
+could have taken more care while dealing with such clients, who were not 
+even introduced to him before the trades  and at a time when the price of 
+the scrip of HTL was high. I note t hat the Broker had commenced trading 
+in the scrip of HTL on behalf his cli ents, before obtaining the KYC form 
+from the said clients.  
+ 
+3.7 In view of the above, I note that t he Broker did not ac t in good faith and 
+without negligence and did not exercise proper caution and diligence while 
+dealing in the scrip of HTL on behalf of his clients.  In view of the above, it 
+is established that t he Broker had failed to comply with the KYC norms 
+
+=== PDF page 9 ===
+ 9
+and verification of his clients, as requi red in terms of SEBI circulars dated 
+February 11, 1997 and April 11, 1997 and thereby, violated the above 
+circulars, pertaining to KYC norms/guidelines. 
+ 
+3.8 It is one of the precaut ionary measures of a stoc k broker to verify the 
+financial capacity of his clients before executing the trades on their behalf, 
+which is one of the checks under the KYC norms/guidelines. Such 
+assessment of financial capacity of the client is necessary in order to 
+avoid the risk. When a stock broker fails to perform the said primary 
+requirements and further, if he happens  to be transacting on behalf of 
+such clients without knowing their ant ecedents and financial capacity, he 
+is putting the entire system in jeopardy.   
+ 
+3.9 I note that, one of the clients, Shri  Amit Porwal was a student when the 
+Broker was trading in the scrip of HTL on his behalf. The annual income of 
+the said client as reported in t he KYC form was only  Rs.40,000/-, 
+however, the said client started trading in the scrip  of HTL from March 02, 
+2000 and bought  7,900 shares till Marc h 27, 2000 ,when the price of the 
+said scrip of HTL was at its maximum.   The said client  had also executed 
+trades for 500 shares of HTL, duri ng the period April 12, 2000 and April 
+27, 2000. I observe that the value of 200 shares of HTL bought by the said 
+client , through the Broker, on  Ap ril 12, 2000 was  Rs.1,68,080/-.   
+Further, the Broker had purchased 300 shares of HTL and sold 100 
+shares of HTL on April 27, 2000, in volving Rs.2,53,960/- and Rs.85,000/- 
+respectively. The net payment in the said transactions involved 
+Rs.1,68,960/- to the Broker.   
+ 
+3.10 I further note that, the annual inco me of Shri Pradip Porwal and Shri 
+Mukesh Porwal in terms of the ‘KYC’ form was as Rs.55,000/- and 
+Rs.60,000/-,  respectively. It can be seen that Shri Pradeep Porwal had 
+
+=== PDF page 10 ===
+ 10
+bought 16,800 shares of HTL during Ma rch 28, 2000 to May 22, 2000 and 
+Shri Mukesh Porwal had bought 15, 600 during the period February 29, 
+2000 to June 26, 2000. The said c lients made the payment of 
+Rs.1,00,000/- and Rs.8,00,000/- respecti vely to the Broker, between the 
+period March 2000 to October 2000.  
+ 
+3.11 It can be seen that the annu al income of the afores aid clients as reported 
+in the KYC form was substantially le ss as compared to the value of the 
+transactions made by them. This will sh ow that the Broker had failed to 
+assess the financial capacity of his clie nts, which is one of the important 
+checks under the KYC norms.  The financia l capability of the client is an 
+important factor to be ta ken into account by the broker before undertaking 
+trading  on behalf of his clients and such assessment  is relevant even for 
+the transactions which were squared off.  
+ 
+3.12 As observed by the Hon’ble SAT in Madhukar Sheth  Vs.SEBI (Appeal 
+No.46/2002), before ex ecuting series of transactions for his  client, any 
+prudent broker would have gone a bi t far to ascertain the financial 
+capability of the person for whom he was trading.  The transactions 
+executed by the Broker appears to be excessive speculation to create 
+artificial volumes in the scrip by himself and relatively new clients.   
+ 
+3.13 The Enquiry Officer in his report had referred to the admission of the 
+Broker that the securities were deliv ered personally to Shri Padam Porwal 
+/ Shri Rakesh Karanpuria by hand delivery to be handed it over to the 
+respective clients.  This is furthe r corroborated by the statement of Shri 
+Rakesh Karanpuria, of HTL made on January 27, 2003 before the 
+investigating officer that he had intr oduced the above clients to the Broker 
+and used to place the orders and ta ke deliveries on behalf of the above 
+clients. The Enquiry Officer has s pecified the above admission of the 
+
+=== PDF page 11 ===
+ 11
+Broker in his report, and concluded t hat the securities have been reached 
+to the clients. However, I note that there is nothing on record  to show that 
+the Broker had  received specific inst ructions or authorization from his 
+clients to deliver the same to the aforesaid people.   
+ 
+3.14 It is also noted that during the pe riod from November 16, 1999 to March 
+31, 2001, the Broker had purchased about  1,45,000 shares of HTL from 
+his own account. The trades of the Broker had constituted significant 
+volumes at BgSE. It is observed that  maximum trades executed by the 
+Broker were in t he proprietary account and most  of the said transactions 
+were squared off and did not result in de liveries. It is also admitted by the 
+Broker, during the investigations t hat he did jobbing transactions for 
+various other scrips also.  
+ 
+3.15 In view of the above, I note that  the Broker had failed to obtain the 
+required details of his c lients, failed to assess th e financial capacity of his 
+clients and not carried out the verifi cation as per  KYC norms/ guidelines, 
+in terms of the above circulars, befor e executing the transactions on their 
+behalf. Further, I note that the Brok er had dealt with Shri Rakesh 
+Karanpuria without specific instruction or authorization.  
+ 
+3.16 The Enquiry Officer has further observed that non obtaining the 
+acknowledgement copies of the contract notes might be treated as a minor 
+procedural lapse  in violation of regulation 17(1)(i)  of the Broker 
+Regulations. In terms of the provisions  of the Broker R egulations, a stock 
+broker, without any delay shall issue t he contract note to his client and in 
+terms of regulation 17(1) (i) of the Broker Regulat ions, he has to maintain 
+the counterfoils or duplicates of such contract notes.  
+ 
+
+=== PDF page 12 ===
+ 12
+3.17 In the present matter, the Broker had failed to submit even a single copy of 
+acknowledgment of counter foils of contract notes. It can be seen from the 
+trading details, that the Broker had executed several transactions of 
+significant volume in the scrip of HTL on behalf his clients, without any 
+specific authorization. De spite of executing large transactions, the Broker 
+had failed to obtain the acknowledgement copy of contract notes of even in 
+a single transaction. It does not appear to be a simple omission and has to 
+be viewed seriously in the background of the allegations  that the orders 
+were placed by Shri Rakesh Kar anpuria of HTL and the delivery of the 
+securities were also  received by the same person.  I also note that the 
+Broker had also traded subs tantially in the scrip of  HTL in his proprietary 
+account during the period in November 16, 1999 and December 31, 2001 . 
+ 
+3.18 As the Broker could not establish that he had verified the financial capacity 
+of his clients and coupled with the admi tted facts that these clients were 
+introduced by a third party before complying with KYC norms and who 
+dealt only in the scrip of HTL will estab lish that the Broker  did not act in 
+good faith and without negligence and did not exercise proper caution and 
+diligence while trading in the scrip  of HTL by undertaking trade on behalf 
+clients without KYC verification and t hereby,  failed to comply with the 
+norms and guidelines relating to the KYC norms as per the SEBI circulars 
+dated February 11, 1997 and April 11, 1997 and thereby vi olated the said 
+circulars.  I also note that the Broker had made s ubstantial trading in the 
+scrip of HTL on his proprietary account during the period between 
+November 16, 1999 and December 31, 2001.  However, as there is no 
+sufficient evidence to suggest that the Broker had violated the provisions 
+of FUTP Regulations, I decide to reduce the quantum of penalty 
+recommended  by the Enquiry Officer.  
+ 
+ 
+
+=== PDF page 13 ===
+ 13
+4.0 ORDER 
+ 
+In view of the foregoi ng and taking into ac count the mitigating 
+circumstances as stated above,  I, in exercise of the powers conferred vide 
+regulation 13(4) of (Procedure for Ho lding Enquiry by Enquiry Officer and 
+Imposing Penalty) Regu lations, 2002, hereby impose a penalty of 
+suspension of the certificate of  registration (granted by SEBI) of  M/s M’s 
+Securities (INB080800013), Member, Bangalore Stock Exchange Ltd. for a 
+period of one month.   
+  
+         This order shall come into e ffect on expiry of 21 days from the date of this 
+order. 
+ 
+                                
+              
+                                            G ANANTHARAMAN 
+WHOLE TIME MEMBER  
+SECURITIES AND EXCHANGE BOARD OF INDIA 
+Place   Mumbai 
+Date     14-09-2006 

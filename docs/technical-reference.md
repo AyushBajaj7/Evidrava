@@ -1,6 +1,6 @@
 # Technical Reference
 
-Evidrava 0.3.0 implements a **read-only preparation checker** for workbook v3.3, an offline screening-workload report and bounded official-source collection. The first five selected matters will use the workbook as the working record. The normalized registry, general importer, historical replay engine and detector commands later in this document remain deferred designs. [Pilot plan](pilot-plan.md) · [Research method](research-method.md)
+Evidrava 0.4.0 implements a **read-only preparation checker** for workbook v3.3, an offline screening-workload report, bounded official-source collection and a provisional review brief. The first five selected matters will use the workbook as the working record. The normalized registry, general importer, historical replay engine and detector commands later in this document remain deferred designs. [Pilot plan](pilot-plan.md) · [Research method](research-method.md)
 
 Use Python 3.11 or later and the pinned [pilot dependencies](../requirements-pilot.lock): openpyxl 3.1.5, et_xmlfile 2.0.0 and pypdf 6.21.4. The package and primary command are `evidrava`; `python -m sebi_benchmark` and the installed `sebi-benchmark` command remain compatibility aliases. Historical artifacts retain their original names and hashes.
 
@@ -55,7 +55,41 @@ Each record receives the original response files plus `pages.json` and `text.txt
 
 All packets state `human_screening_completed=false`, `publication_dates_verified=false` and `research_decision=NOT_EVALUATED`. The successful [first-three run](../pilot/sources/recon-first-three/report.html) is source preparation, not independent audit. [Implementation](../evidrava/sources.py) · [Tests](../tests/test_sources.py) · [Acquisition manifest](../pilot/sources/recon-first-three/manifest.json)
 
+## Provisional review brief command
+
+```text
+python -m evidrava review-brief --packet pilot/sources/recon-first-three --notes pilot/screening/provisional-first-three-2026-11-14.json --out <new-directory>
+```
+
+The notes identify their preparation date, AI-assisted author, draft scope and source-packet manifest hash. Each record has a screening ID, suggested disposition, rationale, observations and open questions. Each observation supplies a PDF page, a paragraph label, a short text anchor and a provisional summary. The [first notes file](../pilot/screening/provisional-first-three-2026-11-14.json) contains three records and 15 anchors; it is separate from the human screening CSV.
+
+The command verifies input fingerprints, source relationships, page references and anchor text after whitespace normalization. A matching anchor proves only that the quoted text appears on the recorded extracted page. It does **not** establish that the surrounding summary follows from it, validate a paragraph label, determine legal meaning, verify public availability or confirm eligibility. The report keeps these limits visible and leaves every record **PENDING_HUMAN_REVIEW**.
+
+Outputs are `brief.json`, `report.html` and `manifest.json` in a new directory. The brief provides source links and open questions without changing downloaded packets, the received workbook/proposal or human screening entries. No human timing, reviewer identity, sign-off or research PASS is generated. Inspect the original PDFs and source context before making any human entry. [First brief](../pilot/screening/brief-first-three/report.html) · [Implementation](../evidrava/brief.py) · [Tests](../tests/test_brief.py)
+
+## Bounded predecessor capture
+
+This one-off helper captures an explicit list of official SEBI predecessor leads. It is not one of the four `evidrava` application commands and does not crawl search results or infer matter relationships.
+
+```text
+python scripts/capture_predecessors.py --plan pilot/screening/predecessor-plan-2026-11-15.json --out runs/predecessors-01
+```
+
+To regenerate only a safe derived index after verifying every retained packet file, use:
+
+```text
+python scripts/capture_predecessors.py --refresh-report pilot/sources/predecessors-2026-11-15
+```
+
+Plans contain one to twelve distinct `PRE-01` through `PRE-12` IDs, a source URL, one or more original `RECON-01` through `RECON-30` workload IDs, a source title and a relationship note. The helper preflights every URL and accepts only HTTPS on the SEBI host allowlist. Each explicit response is limited to 2 MB for HTML and 20 MB for PDFs, with a 20-second I/O timeout, no retries, at most four validated redirects and a one-second pause between requests. A new output directory is required.
+
+HTML is retained byte for byte with decoded native text. PDFs are retained byte for byte with `pages.json` and page-labelled `text.txt` when extraction is possible. There is no OCR or claim interpretation. The manifest records source and output hashes, URLs, HTTP status, capture timestamps and extraction status; `report.html` links originals and extracted text. All outputs mark human review and publication-date verification false and the research decision `NOT_EVALUATED`.
+
+An HTTP 200 response and a readable date printed on a page do not prove when that source first became public. Keep page date, order/signature date and capture time separate. For HTML, extracted text has no stable PDF page locator. A reviewer must inspect the original page and decide whether a passage discloses the specific episode. The [15 November review](../pilot/screening/predecessor-review-2026-11-15.html) covers ten captured sources across [the main packet](../pilot/sources/predecessors-2026-11-15/manifest.json), [Home Trade supplement](../pilot/sources/predecessors-supplement-2026-11-15/manifest.json) and [date supplement](../pilot/sources/predecessors-date-supplement-2026-11-15/manifest.json). [Implementation](../scripts/capture_predecessors.py)
+
 ## Implemented checks and boundaries
+
+Brief output and source packets must be on the same drive. Relative links keep the project portable; cross-drive output is rejected clearly. The real-packet integration test copies the packet into its temporary workspace so Windows can run it when the repository and system temporary directory are on different drives.
 
 - Pin the v3.3 schema, exact header positions, reserved example inputs and formula fingerprints to the accepted received workbook. Changed or missing formulas are errors; cached formula outputs are never used as proof of correctness. Fingerprint agreement does not recalculate a formula.
 - Read literal study inputs from row 6 onward. Reject formulas in input cells, partially populated rows with missing IDs, whitespace identifiers, duplicate IDs and overflow beyond the fixed template bounds.
@@ -99,7 +133,7 @@ The 13 November archive is preserved as exact extracted source files with a [rec
 
 The supplied author-run LibreOffice report records **114/114 scenarios** and the mutation notes report **11/11 new mutations caught**. Earlier mutation experiments were not repeated. Formula/header inspection and supplied reports are distinct from local recalculation. Excel compatibility remains unverified. The upstream runner deletes its work directory and uses the default LibreOffice profile; any future rerun needs a verified disposable directory and isolated profile. [Supplied report](../references/incoming/2026-11-13/registry_tests_v33/last_run_report.txt) · [Mutation notes](../references/incoming/2026-11-13/registry_tests_v33/mutation_check.md)
 
-The implementation's own tests exercise preparation semantics, the exact received template, formula/header/example tampering in memory, workload arithmetic, source acquisition, output hashes and overwrite refusal. They do not execute the 114 workbook scenarios. Current local results and timing are recorded in the [latest development record](../pilot/development/evidrava-increment-2026-11-13.json). [Installation and commands](../README.md#run-the-project)
+The implementation's application tests exercise preparation semantics, the exact received template, formula/header/example tampering in memory, workload arithmetic, source acquisition, provisional brief checks, output hashes, overwrite refusal and the standalone predecessor-capture helper. The final local release verification recorded 160 passing tests on 15 November: 43 preparation, 31 screening, 51 source-acquisition, 22 brief and 13 predecessor-capture tests. It does not execute the supplied 114 workbook scenarios, and it does not establish Excel compatibility. See the [release verification record](../pilot/development/evidrava-release-2026-11-15.json), with the earlier [application test record](../pilot/development/evidrava-increment-2026-11-15.json) and [predecessor increment record](../pilot/development/evidrava-predecessors-2026-11-15.json) retained for history. [Installation and commands](../README.md#run-the-project)
 
 The older received v3/v2.1 source and its 47-scenario supplied suite remain preserved for provenance, not current use. Their recorded hashes are retained below. [Older inputs](../references/incoming/2026-11-05/)
 

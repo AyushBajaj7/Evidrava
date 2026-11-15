@@ -28,6 +28,10 @@ Work may begin before a reviewer is available. Record provisional extraction as 
 
 Automated source collection preserves the downloaded document and its provenance, with native text indexed by PDF page position. A successful download or text extraction does not establish eligibility, passage meaning, first disclosure or legal status. Retrieval time and listing dates do not verify source-publication time. Inspect the original PDF before recording a source locator; printed page labels may differ from PDF positions. The first three [source packets](../pilot/sources/recon-first-three/report.html) belong to the workload exercise, not the random research sample.
 
+Machine-assisted [screening notes](../pilot/screening/provisional-first-three-2026-11-14.json) may propose a disposition and identify passages or open questions. The `review-brief` command checks their source fingerprints, page positions and exact anchors after whitespace normalization. An anchor match does not verify the accompanying paraphrase, legal interpretation, public date or eligibility. Every record remains **PENDING_HUMAN_REVIEW**; the brief never fills the human screening CSV, records human time or grants audit credit. [Brief](../pilot/screening/brief-first-three/report.html)
+
+The initial notes illustrate why document date and subject require separate checks: a compliance-only order can be an exclusion candidate, while a 2015 trading order can describe earlier proceedings or public notices. Earlier conduct alone does not establish an earlier first disclosure, and a later signature does not establish a new one. Keep these as provisional leads until the underlying sources and episode scope are reviewed.
+
 | Evidence state | Counts toward review completion | Counts as verified evidence |
 | --- | --- | --- |
 | Missing, pending or extracted without independent review | No | No |

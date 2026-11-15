@@ -1,0 +1,12 @@
+{
+  "kind": "predecessor-capture-plan",
+  "sources": [
+    {
+      "source_id": "PRE-09",
+      "screening_ids": ["RECON-02"],
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1292415070473.pdf",
+      "title": "Full order linked from the 2006 Home Trade press release",
+      "relation_note": "This is the linked order against M's Securities, a separate broker respondent. Preserve its actual findings and distinguish its order date from the press-release listing date."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "provisional-screening-notes",
+  "schema_version": 1,
+  "prepared_on": "2026-11-14",
+  "prepared_by": "AI-assisted (Codex)",
+  "source_packet_manifest_sha256": "3b09f5e794f310b30b40aa50985af38f270e6aa3d2583fcf7dda3bc465790db5",
+  "scope_basis": "Draft research method: cash-equity trading episodes first publicly disclosed in 2011-2025, with case-specific identity, conduct and warm-up coverage. Objective eligibility is still to be frozen. These are notes for the positional workload exercise, not sample selection or verified labels.",
+  "records": [
+    {
+      "screening_id": "RECON-01",
+      "suggested_disposition": "exclude_candidate",
+      "rationale": "The reviewed order concerns SCORES authentication compliance rather than a documented trading-manipulation episode. Candidate exclusion from the trading-anomaly frame requires a human check against the eventual eligibility rule; this note does not exclude the row from workload accounting.",
+      "observations": [
+        {"summary": "The stated issue is failure to obtain SCORES authentication under the cited SEBI circular.", "page": 3, "paragraph": "8(a)-10", "anchor": "failing to obtain SCORES authentication"},
+        {"summary": "The company's submission says its CSE-listed scrip was not trading. This is an attributed submission, not independently verified market coverage.", "page": 2, "paragraph": "6(a)", "anchor": "there is no trading in the said scrip"},
+        {"summary": "The document is signed 31 December 2015. Its signature date does not verify when the order became public.", "page": 5, "paragraph": "Signature block", "anchor": "Date: December 31, 2015"}
+      ],
+      "open_questions": [
+        "Confirm the objective rule for excluding compliance-only orders; retain this record and the actual screening effort in the 30-record exercise.",
+        "If exclusion is confirmed, document the reason and locator without inventing an episode, ISIN or conduct interval.",
+        "Leave public-date verification, human decision and timing fields unset until the required work is performed."
+      ]
+    },
+    {
+      "screening_id": "RECON-02",
+      "suggested_disposition": "uncertain",
+      "rationale": "Home Trade is substantively relevant to cash-equity trading, but the later order reports public SCNs before 2011. First-disclosure eligibility and historical venue coverage require predecessor checks. Neither the 2015 signature nor the older conduct period settles inclusion.",
+      "observations": [
+        {"summary": "The order identifies Home Trade shares as listed on Pune and Bangalore exchanges. Existing NSE data probes do not establish coverage for these venues.", "page": 2, "paragraph": "1", "anchor": "Pune Stock Exchange Limited"},
+        {"summary": "The order retrospectively states that SCNs were placed on SEBI's website in January 2008 and January 2009. Retrieve those sources and check which candidate episodes they disclosed; these dates remain unverified here.", "page": 6, "paragraph": "6", "anchor": "January 22, 2008 and January 18, 2009"},
+        {"summary": "A cited 16 February 2006 order disposed of proceedings against seven directors without directions. The legal history must retain respondent-specific scope.", "page": 7, "paragraph": "8", "anchor": "February 16, 2006"},
+        {"summary": "The Pune trading analysis uses 15 November 1999 through 31 March 2002. This is a candidate analysis window, not an audited episode boundary; offer-for-sale and off-market events may require separate episodes.", "page": 22, "paragraph": "12(b)(1)", "anchor": "November 15, 1999 to March 31, 2002"},
+        {"summary": "The order directs ten-year securities-market restraints for the listed entities. This describes the historical order, not current legal status or uninterrupted effectiveness.", "page": 31, "paragraph": "17(a)", "anchor": "period of 10 years"},
+        {"summary": "The signature block dates the document 31 December 2015; the source spells the day as 31TH. This is not verified publication time.", "page": 32, "paragraph": "Signature block", "anchor": "DECEMBER 31TH, 2015"}
+      ],
+      "open_questions": [
+        "Locate the 2004 SCNs, the reported 2008/2009 website publications and the 2006 order; verify source publication and episode-specific disclosure before assigning first disclosure.",
+        "Reconcile related proceedings and respondent scope; search later appeals or corrections before assigning legal status.",
+        "Verify historical identity and Pune/Bangalore prices, corporate actions and warm-up coverage. Keep missing data as an unresolved feasibility result.",
+        "Record actual human screening, grouping and predecessor-search effort; no random draw or audited inclusion has occurred."
+      ]
+    },
+    {
+      "screening_id": "RECON-03",
+      "suggested_disposition": "uncertain",
+      "rationale": "The Khandwala order concerns trading in DSQ Biotech, but it references earlier proceedings and does not verify first public disclosure. Preserve the distinction between investigation periods, allegations, findings and the final warning.",
+      "observations": [
+        {"summary": "The order describes a DSQ Biotech investigation spanning December 1999 to January 2001, with abnormal trading on NSE/BSE. That investigation span is not automatically an episode's exact conduct interval.", "page": 1, "paragraph": "1-3", "anchor": "December 1999 to January 2001"},
+        {"summary": "The order refers to an enquiry initiated on 7 July 2005. A proceeding's date does not establish its public availability or the episode's first disclosure.", "page": 2, "paragraph": "4", "anchor": "order dated July 07, 2005"},
+        {"summary": "The noticee's submission describes DSQ information entering the public domain around 2003. Treat this attributed statement as a predecessor-search lead, not verified first disclosure.", "page": 6, "paragraph": "10(f), noticee submission", "anchor": "It was only somewhere around 2003"},
+        {"summary": "The order records no significant price variation attributable to these trades. This is a limitation relevant to daily-price observability, not proof that all trading anomalies are undetectable.", "page": 19, "paragraph": "19(xx)", "anchor": "no significant price variation"},
+        {"summary": "The final disposition is a strong warning and disposal of the enquiry. Do not import the earlier recommendation of suspension as the final sanction.", "page": 19, "paragraph": "20-22", "anchor": "with a strong warning"},
+        {"summary": "The document is signed 30 December 2015; publication time remains unverified.", "page": 20, "paragraph": "Signature block", "anchor": "December 30, 2015"}
+      ],
+      "open_questions": [
+        "Retrieve prior DSQ public orders and the referenced enquiry/SCN trail; decide first-disclosure eligibility only after checking episode-specific passages and public dates.",
+        "Verify the DSQ historical identity, ISIN, corporate actions and conduct/warm-up data; distinguish broker respondent from the traded issuer.",
+        "Review paragraph 12's apparently inconsistent appeal-year/date reference against the original authority. Preserve the printed text instead of silently correcting it; a separate Kopran case mentioned there is not automatically the same matter.",
+        "Check subsequent appeals or corrective events, then obtain actual human screening and independent audit. Leave their dates and time measurements blank until performed."
+      ]
+    }
+  ]
+}

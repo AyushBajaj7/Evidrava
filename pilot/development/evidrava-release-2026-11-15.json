@@ -1,0 +1,99 @@
+{
+  "project": "Evidrava",
+  "software_version": "0.4.0",
+  "verified_on": "2026-11-15",
+  "timezone": "Asia/Calcutta",
+  "scope": "Final local release verification after the bounded predecessor-capture helper and safe derived-report refresh were added.",
+  "verification": {
+    "local_test_suite": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe -m unittest discover -s tests -v",
+      "result": "OK",
+      "tests_passed": 160,
+      "duration_seconds": 9.743,
+      "breakdown": {
+        "preparation": 43,
+        "screening": 31,
+        "source_acquisition": 51,
+        "provisional_brief": 22,
+        "predecessor_capture": 13
+      }
+    },
+    "design_contract": {
+      "command": ".\\.venv-design\\Scripts\\python.exe scripts/check_design.py",
+      "schemas_checked": 3,
+      "examples_validated": 3,
+      "shape_mutations_checked": 12,
+      "result": "PASS",
+      "application_acceptance_cases_executed": 0,
+      "supplied_workbook_scenarios_executed": 0
+    },
+    "screening_reference": {
+      "command": ".\\.venv-pilot\\Scripts\\python.exe scripts/prepare_screening_batch.py --verify-existing",
+      "result": "PASS",
+      "fixed_selections_verified": 30,
+      "network_requests": 0,
+      "human_edits": "untouched"
+    },
+    "installed_wheel": {
+      "path": "dist/wheel-build-2026-11-15-verified/evidrava-0.4.0-py3-none-any.whl",
+      "sha256": "754850f1a1b2de891e1bd1efaff7045da26a174cac9ef4c2e0b18a433ac9a622",
+      "isolated_import": "PASS",
+      "dependency_check": "PASS"
+    },
+    "command_smoke": {
+      "workbook": {
+        "protocol_status": "DRAFT",
+        "validation_status": "VALID",
+        "research_decision": "NOT_EVALUATED",
+        "errors": 0,
+        "warnings": 1
+      },
+      "screening": {
+        "status": "IN_PROGRESS",
+        "expected_records": 30,
+        "completed_attempts": 0,
+        "complete_timing_observations": 0,
+        "research_decision": "NOT_EVALUATED"
+      },
+      "brief": {
+        "status": "PROVISIONAL",
+        "citation_checks": "PASSED",
+        "human_screening_completed": false,
+        "research_decision": "NOT_EVALUATED"
+      }
+    }
+  },
+  "source_packet_integrity": {
+    "safe_derived_reports": "No active local source.html links",
+    "main_packet": {
+      "path": "pilot/sources/predecessors-2026-11-15/manifest.json",
+      "files_verified": 19,
+      "mismatches": 0
+    },
+    "supplement_packet": {
+      "path": "pilot/sources/predecessors-supplement-2026-11-15/manifest.json",
+      "files_verified": 4,
+      "mismatches": 0
+    },
+    "date_supplement_packet": {
+      "path": "pilot/sources/predecessors-date-supplement-2026-11-15/manifest.json",
+      "files_verified": 3,
+      "mismatches": 0
+    }
+  },
+  "research_status": {
+    "protocol": "DRAFT",
+    "reviewer_confirmed": false,
+    "human_screening_completed": false,
+    "independent_audit_completed": false,
+    "research_decision": "NOT_EVALUATED"
+  },
+  "known_boundaries": [
+    "The supplied 114-scenario workbook suite was not rerun in this verification.",
+    "Excel compatibility remains unverified; prior workbook execution was in LibreOffice.",
+    "This is a software and evidence-integrity release, not a completed feasibility pilot or research pass.",
+    "The 20-hour engineering cap has not been measured."
+  ],
+  "planned_local_package": "dist/Evidrava_0.4.0_2026-11-15_final.zip",
+  "publication": "NOT_PUBLISHED; no GitHub push or external sharing"
+}

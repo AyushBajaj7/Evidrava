@@ -73,7 +73,7 @@ def fetch_document(url, max_bytes=PDF_LIMIT, opener=None):
     url = validate_source_url(url)
     redirects = SafeRedirect()
     opener = opener or build_opener(redirects)
-    request = Request(url, headers={"User-Agent": "Evidrava/0.3 (bounded academic feasibility source collection)", "Accept-Encoding": "identity"})
+    request = Request(url, headers={"User-Agent": f"Evidrava/{__version__} (bounded academic feasibility source collection)", "Accept-Encoding": "identity"})
     with opener.open(request, timeout=20) as response:
         final = validate_source_url(response.geturl())
         if response.status != 200:

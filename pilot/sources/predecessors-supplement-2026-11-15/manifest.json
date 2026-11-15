@@ -1,0 +1,67 @@
+{
+  "kind": "predecessor-source-capture",
+  "created_at_utc": "2026-11-15T15:58:45.725237+00:00",
+  "plan_sha256": "8d9675bb15bc57959966a08dff156b43fc38e779b24ea993ae130e3b41603957",
+  "script_sha256": "3c8ff2c1139f29bd49685fcdf5a9b25029c643456a9ef907cd56b6b26fe13043",
+  "sources": [
+    {
+      "source_id": "PRE-09",
+      "screening_ids": [
+        "RECON-02"
+      ],
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1292415070473.pdf",
+      "title": "Full order linked from the 2006 Home Trade press release",
+      "relation_note": "This is the linked order against M's Securities, a separate broker respondent. Preserve its actual findings and distinguish its order date from the press-release listing date.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1292415070473.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1292415070473.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "418e267aa683152d85297f03681cfe7b2bfaa3019fcaae4531bbc567766133c1",
+        "retrieved_at_utc": "2026-11-15T15:58:46.342470+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-09/source.pdf",
+        "bytes": 129914
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 13,
+        "page_errors": []
+      },
+      "pages_path": "PRE-09/pages.json",
+      "text_path": "PRE-09/text.txt"
+    }
+  ],
+  "human_review_completed": false,
+  "publication_dates_verified": false,
+  "first_disclosure_verified": false,
+  "research_decision": "NOT_EVALUATED",
+  "limits": {
+    "max_sources": 12,
+    "max_html_bytes": 2000000,
+    "max_pdf_bytes": 20000000,
+    "socket_timeout_seconds": 20,
+    "max_redirects": 4,
+    "automatic_retries": 0,
+    "seconds_between_fetches": 1
+  },
+  "limitations": [
+    "Candidate relationships and dates need source review; acquisition is not independent audit",
+    "Native HTML text may include navigation or lose table layout; exact source bytes are retained",
+    "Retrieval time, displayed dates and document signature dates are separate observations"
+  ],
+  "status": "COMPLETE",
+  "counts": {
+    "requested": 1,
+    "captured": 1,
+    "failed": 0
+  },
+  "files": {
+    "PRE-09/pages.json": "6fcf004fbbae5a1ab9c593b70a051575a16cb794bab9d3c16c48709d4a9542ea",
+    "PRE-09/source.pdf": "418e267aa683152d85297f03681cfe7b2bfaa3019fcaae4531bbc567766133c1",
+    "PRE-09/text.txt": "74fcd08fcc8dbd54dc9d99fdf865a42edffbe52306baf9a143d728e89fee796e",
+    "report.html": "4ddd095f0b1c08dba522c0a840f8471dabbbfef91d542e3fd793ba595d1d5a31"
+  }
+}

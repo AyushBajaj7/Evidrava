@@ -12,3 +12,4 @@ working/
 *.egg-info/
 build/
 dist/
+private-research/

@@ -1,0 +1,381 @@
+=== PDF page 1 ===
+Page 1 of 11 
+ORDER UNDER SECTION 15I OF THE SECURITIES AND EXCHANGE BOARD 
+OF INDIA ACT, 1992 READ WITH RULE 5 OF THE SECURITIES AND 
+EXCHANGE BOARD OF INDIA (PROCEDURE FOR HOLDING INQUIRY AND 
+IMPOSING PENALTIES BY ADJUDICATING OFFICER) RULES, 1995 IN THE 
+MATTER OF ADJUD ICATION PROCEEDINGS AGAINST M/S. PILLAIYAR 
+PATTIYAR TEXTILES LTD  
+BACKGROUND 
+1. I was appointed as an Adjudicating Officer by the Securities and Exchange Board of 
+India (hereinafter r eferred to as ‘SEBI’) vide its order dated September 21, 2004 and 
+order dated April 18, 2007 to inquire into and adjudge under Section 15I read with 15A  
+of the Securities and Exchange Board of India Act, 1992 (hereinafter referred to as ‘SEBI 
+Act’), the violation of Section 11C  of the SEBI Act alleged to have been committed by 
+Pillaiyar Pattiyar Textiles Ltd. (hereinafter referred to as ‘the noticee’ or ‘PPTL’) by not 
+complying with the summons issued by SEBI seeking information regarding its dealings 
+in the scrip of M/s. DSQ Biotech Ltd. (hereinafter referred to as ‘DSQBL’). 
+2. The Stock Exchange, Mumbai investigated the scrip on observing a fall in the price from 
+Rs. 223.3 on July 17, 2000 to Rs.  58.55 on October 19, 2000. Thereafter, on November 
+20, 2000 an alert in this scrip was generated due to large traded quantity and the price  of 
+the scrip going up from Rs.72 on October 23, 2000 to Rs.190.25 on November 20, 2000. 
+Therefore, the period of the investigation was extended to November 17, 2000 and the 
+details were called from the members for the additional period by The Stock Exchan ge, 
+Mumbai. The scrip was not being traded at BSE till March 10, 2000 because of price 
+difference vis -á-vis NSE. On March 10, 2000 The Stock Exchange, Mumbai adjusted the 
+price of the scrip based on the last traded price at NSE. Thereafter, trading in the shares 
+of DSQBL, resumed at BSE. The volumes recorded in the scrip at BSE after March 10, 
+2000 and to April 30, 2000 were not significant. Pursuant to the above, The National 
+Stock Exchange of India Ltd. was advised to investigate the matter of preferentia l 
+allotment of shares made on March 13, 2000 at a premium of Rs. 256 per share, and to 
+examine the trading pattern in the scrip during the period December 01, 1999 to April 30, 
+2000.  
+
+=== PDF page 2 ===
+Page 2 of 11 
+3. The investigation prima facie made following observations with regard to  the dealing in 
+the shares of M/s. DSQ Biotech Ltd. by the noticee: 
+a) At BSE the noticee dealt through the broker Woodstock Sec Pvt  Ltd and purchased 
+31,300 shares of M/s. DSQ Biotech Ltd. during the period March 10, 2000 to April 
+30, 2000 
+b) Pillaiyar Pat tiyar Textiles Ltd. (PPTL) is a promoter group company of the DSQ 
+management and as per the records provided to the investigating team by  the broker  
+Woodstock Securities Pvt. Ltd. indicated that PPTL purchased 31,300 shares of 
+DSQBL between 15.3.2000 to 22.3.2000. 
+c) At NSE during the first period (December 1999 to April 2000) of investigation PPTL 
+was a net seller to the tune of 4,00,000 shares of DSQB L through the broker M/s 
+Khandwala Securities ltd.  
+d) On the rolling settlement, the broker M/s Khandwala Securitie s Ltd. was the largest 
+trading member on the rolling segment. Out of the total traded quantity of 32,00,652 
+shares, the trading member accounted for 31,95,066 shares, representing 99.83% of 
+the gross quantity traded on the rolling segment during the period  under scrutiny. Out 
+of this, a total of 3189964 shares i.e. 99.67% of the period market gross quantity was 
+traded by the trading member through 35 cross deals. These deals were executed by 
+the Khandwala Securities Ltd. during the period February 21, 2000 to March 22, 
+2000. The percentage change to LTP due to these deals was in the range of -16.48% 
+to 3.33%. The clients apparently associated with the company viz. Pillaiyar Pattiyar 
+Textiles Ltd , DSQ Industries Limited and Square D Textiles and Exports were the 
+major clients on the sell side, besides the trading member’s own selling.  
+LETTERS/SUMMONS ISSUED TO THE NOTICEE AND THE REPLY  
+4. The details of the correspondence by the investigation department with the noticee are  
+given below. 
+a) Vide letter dated August  23, 2002 following information was called from PPTL by 
+September 10, 2003: 
+
+=== PDF page 3 ===
+Page 3 of 11 
+Dealing in shares of DSQBL during the period August 01, 1999 to January 31, 2001 
+in the following format:  
+i. As regards dealing in the scrip of DSQBL through stock market (both purch ases 
+and sales) the information may be confirmed in the following format (pleas e note 
+that deliveries taken and given both in the physical form and demat form to be 
+included in the format ). 
+Date Transaction details 
+(buy/sell) 
+Broker/sub-broker through whom purchased 
+sold including exchange details  
+Quantity Rate 
+     
+ii. In case of off -market transactions i.e. transactions in the scrip not routed through 
+stock market mechanism, the information may be submitted in the following 
+format. 
+Date Transaction details 
+(buy/sell) 
+Counter party details who have bought/sold  Quantity Rate 
+     
+iii. In addition to the above, please also let us know your depository account details 
+such as beneficiary account no., name and address of your DP account as 
+maintained by you. Please let us have all the account during the above said period.  
+b) A reminder letter dated September 27, 2002 was sent to PPTL. 
+PPTL, vide its letter dated October 9, 2002, informed that they have not received 
+SEBI’s letter dated August 23, 2002, however, furnishing the following details. 
+Date Particulars Withdrawal Remark 
+21.2.00 Khandwala Finance 4,00,000 Private Placement 
+27.4.00 Intergroup Company sale 60,000  
+8.8.00 Stocks-to-gain 2,00,000 pledge 
+ 
+c) Vide letter dated July 4, 2003 the investigation department  had sent another letter to 
+PPTL advising them to submit  the information “strictly as per the format mentioned”, 
+as the information provided by them was incomplete. No reply was received from 
+PPTL. 
+
+=== PDF page 4 ===
+Page 4 of 11 
+d) A reminder letter dated October 21, 2003 was sent to PPTL.  No reply was received 
+from PPTL   
+e) Another reminder letter d ated January 19, 2004 was sent to PPTL. No reply was 
+received from PPTL   
+f) Another reminder letter dated February 06, 2004 was sent to PPTL. No reply was 
+received from PPTL   
+g) Vide summon dated Marc h 8, 2004 the following information was called from PPTL 
+by March 31, 2004.  
+i. The details of your dealings in the scrip in the following format  
+Sr. 
+No.  
+Date Buy/Sell Settl. 
+No  
+Name of 
+Exchange 
+Name of broker/ 
+sub-broker 
+Quantity Rate  DP 
+ID. 
+         
+ 
+ii. In case of the off -market transactions i.e. transactions not routed through stock 
+market mechanism the details of your dealings in the scrip should be submitted in 
+the following format: - 
+Sr. 
+No.  
+Date of 
+transaction 
+Buy/Sell Name of 
+Broker/ 
+counterparty 
+Date of 
+payment/  
+delivery 
+Quantity Rate  DP ID. 
+        
+ 
+iii. Please list out your demat beneficiary accounts giving therein the details of the 
+account no., name and address of the DP opened with and date of operation of the 
+account. 
+iv. Also enclose the demat tran saction statement highlighting , therein , the above 
+transactions, serial wise. 
+v. In case of physical settlement, submit the extract of the scrip ledgers of the 
+brokers, highlighting the above transactions , serial wise. 
+
+=== PDF page 5 ===
+Page 5 of 11 
+vi. Please list out the Bank Accounts used f or the payment of the dealings as listed in 
+information i. & ii. above including therein the details of the account no. of the 
+Bank branch and its address. 
+Summons was acknowledged by PPTL vide postal acknowledgement dated March 12, 
+2004. SEBI received a r eply dated March 25, 2004 from one Advocate M/s 
+Vaidyanathan Associates on behalf of PPTL. Vide this letter the notice e did not 
+provide any information sought by the investigation officer but challenged the power 
+of SEBI under Section 11-C(6) for calling information.  
+h) Vide letter dated April 8, 2004 , PPTL was again informed that the information is 
+called under section 11C (3) of Securities and Exchange Board of India Act, 1992 and 
+was again advised to submit the information by April 16, 2004. PPTL was also made 
+aware of the consequences of not submitting the required information.  
+Letter was acknowledged by PPTL vide postal acknowledgement dated April 15, 
+2004.The letter was again replied by Advocate M/s Vaidyanathan Associates on 
+behalf of PPTL  vide letter d ated April 20, 2004. The reply did not contain any 
+information sought by the investigation officer. The Advocate in his reply mentioned 
+that “we have been instructed to reiterate the contents of the reply dated March 25, 
+2004 in response to your notice dated April 8, 2004.   
+i) Vide letter dated April 21, 2004, PPTL was again advised to comply with the 
+summons and submit the required information by April 27, 2004. Letter was 
+acknowledged by PPTL vide postal acknowledgement dated April 23, 2004, however, 
+no reply was received by the investigation department.  
+5. The summons required the noticee to furnish certain information  to  the Investigating 
+Authority. The noticee was required to provide information/documents relating to his 
+dealing in the shares of M/s. DSQ Bi otech Ltd. The noticee did respond to the notice and 
+provided the information, but the information provided by it was not as  per the prescribed 
+format and was incomplete. For the purpose of completion of the investigation and to 
+arrive at a conclusion in t he matter, detailed information was required which the notice e 
+failed to submit. In view of the alleged non compliance of summons issued by SEBI, 
+Adjudication Proceedings were initiated against the noticee.   
+
+=== PDF page 6 ===
+Page 6 of 11 
+ADJUDICATION NOTICE AND REPLY 
+6. A notice dated Ap ril 23, 2007 was issued to the noticee in terms of Rule 4 of Securities 
+and Exchange Board of India (Procedure for Holding Inquiry and Imposing Penalties by 
+Adjudicating Officer) Rules, 1995 (hereinafter referred to as the “Rules”) seeking the 
+reply of the  noticee, as to why an inquiry should not be held against the noticee for the 
+violation alleged to have been committed by it. The notice was issued through registered 
+AD on the following address:-  
+M/s Pillaiyar Pattiyar Textiles Ltd.  
+407-408, Anna Salai 
+Nandanam 
+Chennai 600 035 
+The notice returned undelivered from the Department of Post with the remark ‘left’. 
+7. New addresses of the noticee were searched on the website of Department of Company 
+Affairs and following two new addresses were found: 
+The Managing Director 
+M/s Pillaiyar Pattiyar Textiles Ltd  
+Udiyanthapuram Cross 
+Kandavarayanpatti Road 
+Tiruppattur 630 211 
+Sivaganga District 
+The Managing Director 
+M/s Pillaiyar Pattiyar Textiles Ltd  
+25, Bharathi Ula Street 
+Race Cource  
+Madurai 625002 
+ 
+8. Fresh notices  were issued vide letter dated May 16, 2006 on the above mentioned two 
+new addresses. Further, the notice was also placed on the SEBI web-site. 
+9. The company finally replied vide its letter dated June 18, 2007 from its registered office 
+address located at Udiyanthapuram Cross, Kandavarayanpatti Road, Tiruppattur 630 211, 
+Sivaganga District. The company repl y is given below: 
+“We refer to your above notice informing us of the adjudication proceedings. In this 
+connection, we wish to inform you that our company h as suffered heavy losses due to the 
+difficulties faced by textile companies and has let out our miss/factory for job work. Most 
+of the senior and middle level employees have left the services of the company. Our 
+Promoter Director is in custody since early 2006. The company has no Managing or 
+
+=== PDF page 7 ===
+Page 7 of 11 
+Whole Time Director or Company Secretary. In view of the above circumstances, there is 
+no official equipped to furnish the information required by you. We request you to kindly 
+drop the proceedings contemplated.” 
+ CONSIDERATION OF EVIDENCE AND FINDINGS  
+10. From the investigation report, I note that BSE while investigating clearly observed a fall 
+in price from Rs. 223.3 on July 17, 2000 to Rs. 58.55 on October 19, 2000. In addition to 
+this, due to large traded quantity and t he steep price rise from Rs.72 on October 23, 2000 
+to Rs.190.25 on November 20, 2000 , an alert was generated on November 20, 2000  at 
+BSE. As a result, investigation period was extended to November 17, 2000 and the 
+required details for additional period were called. It was observed that because of price 
+difference vis -á-vis NSE , the scrip was not being traded at BSE until BSE adju sted the 
+price of the scrip based on the last traded price at NSE  on March 10, 2000 . However, it 
+was observed that volumes recorde d in the scrip at BSE after March 10, 2000 and to 
+April 30, 2000 were not significant. In pursuance thereof, NSE was advised to investigate 
+the matter of preferential allotment of shares made on March 13, 2000 at a premium of 
+Rs. 256 per share, and to exam ine the trading pattern in the scrip during the period 
+December 01, 1999 to April 30, 2000.  It is necessary to reiterate, observations made with 
+regard to the dealing in the shares of M/s. DSQ Biotech Ltd. by the noticee, which are as 
+following:- 
+a) At BSE the noticee dealt through the broker Woodstock Sec Pvt  Ltd and purchased 
+31,300 shares of M/s. DSQ Biotech Ltd. during the period March 10, 2000 to April 
+30, 2000 
+b) Pilliyar Patiyar Textiles Ltd. (PPTL) is a promoter group company of the DSQ 
+management and as  per the records provided to the investigating team by Woodstock 
+Securities Pvt. Ltd. indicated that PPTL purchased 31,300 shares of DSQBL between 
+15.3.2000 to 22.3.2000. 
+c) At NSE during the first period (December 1999 to April 2000) of investigation PPTL 
+was a net seller to the tune of 4,00,000 shares of DSQB L through the broker M/s 
+Khandwala Securities ltd.  
+
+=== PDF page 8 ===
+Page 8 of 11 
+i. On the rolling settlement, the broker M/s Khandwala Securities Ltd. was the 
+largest trading member on the rolling segment. Out of the total traded quant ity of 
+32,00,652 shares, the trading member accounted for 31,95,066 shares, 
+representing 99.83% of the gross quantity traded on the rolling segment during 
+the period under scrutiny. Out of this, a total of 31 ,89,964 shares i.e. 99.67% of 
+the market gross q uantity was traded by the trading member through 35 cross 
+deals. These deals were executed by the Khandwala Securities Ltd. during the 
+period February 21, 2000 to March 22, 2000. The percentage change to LTP due 
+to these deals was in the range of -16.48% t o 3.33%. The clients apparently 
+associated with the company viz. Pillaiyar Pattiyar Textiles  Ltd, DSQ Industries 
+Limited and Square D Textiles and Exports were the major clients on the sell side, 
+besides the trading member’s own selling 
+11. From the correspondence between the investigation department of SEBI and the noticee, 
+I note that the noticee has received the letters / summons issued by SEBI and he was fully 
+aware of the information sought by the SEBI. Initially, he provided certain information to 
+the inv estigation department but the information provided by him was not as per the 
+prescribed format and was incomplete. The fact was brought to the notice of the noticee 
+by the investigation officer, however, the noticee, instead of providing the information 
+and cooperating with the investigations, preferred to reply through an Advocate and 
+challenged the powers of SEBI to call for information. The relevant provisions of SEBI 
+Act were communicated to the noticee, however; noticee maintained its stand and refused  
+to provide the information to the investigation officer as sought under the summons. 
+From the above analysis , I am convinced that the SEBI’s letters/summons has been 
+delivered to the noticee and that the noticee has knowingly, not provided the information  
+to SEBI and has not cooperated with the investigations. 
+12. The acquisition of 4,00,000 shares of DSQBL, the involvement of the noticee in cross 
+deals, the reluctance of the noticee to provide the information regarding its source of 
+funds, shares and details of bank account etc. raises serious doubts about its involvement 
+in the alleged manipulation in the shares of DSQBL.  I note that t his information sought 
+by the investigating authority was within the realm of the noticee and could have been 
+provided easily  but the noticee chose not to do so . Under the circumstances, the details 
+
+=== PDF page 9 ===
+Page 9 of 11 
+sought by the investigating authority were absolutely vital for SEBI to carry out its 
+solemn objective of investor protection and regulation of capital markets.  The timely 
+submission  of the information as prescribed in the summons by the noticee would have 
+possibly helped the investigating authority to complete the investigation and to reveal 
+facts of the case that establishes the alleged manipulation in the shares of DSQBL. 
+Therefore, I conclude that the noticee has not furnished the information to the 
+investigation officer , knowingly , to hamper the progress of investigations  and to escape 
+from the major punishments for violation of SEBI Act, Rules, Regulations, etc. Hence, 
+non compliance of summons by the noticee can be treated as violation of Regulation 9 of 
+Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade 
+Practices Relating to Securities Market) Regulations, 1995  which stipulates that it shall 
+be the duty of every person to produce to the investigating officer such books, accounts 
+and other documents and furnish such statements and information as the investigating 
+officer may require for the purpose of the investigation.  
+13. The noticee was given adequat e opportunity to appear before me and make its 
+submissions for not providing the information called by the investigation officer. 
+However, it preferred to divert the issue by stating that the m ost of the senior and middle 
+level employees have left the serv ices of the company  and their  Promoter Director is in 
+custody since early 2006 . I also note from the reply of the noticee that the  company 
+suffered heavy losses due to the difficulties faced by textile companies . However, I do 
+not consider this as an excus e for getting away from paying penalty for the serious and 
+deliberate act of violation  committed by the noticee. O n the basis of the facts of the case 
+and on perusal of the evidence available on record , it is concluded that the noticee failed 
+to provide the required information to the Investigating Authority.  
+14. In view of the facts and circumstances of the case and on the basis of the available 
+evidence, it is concluded that the failure on the part of the noticee to submit the required 
+information to the inv estigating authority of SEBI is established. On account of the 
+failure on the part of the noticee to furnish necessary information to SEBI, the noticee is 
+liable to the penalty prescribed under Section 15 A (a) of the SEBI Act  1992.  
+15. The Honorable Securiti es Appellate Tribunal in Appeal No. 95/04 in Mayfair Paper & 
+Board Pvt. Ltd., v. SEBI  held that failure to furnish information to the Investigating 
+
+=== PDF page 10 ===
+Page 10 of 11 
+Authority of SEBI shall attract the penalty prescribed under Section 15A of the SEBI 
+Act. In this regard Section 15A(a) of SEBI Act provides the following : 
+15A. Penalty for failure to furnish information, return, etc: If any person, who is required 
+under this Act or any rules or regulations made thereunder, 
+“to furnish any document, return or report to the Boar d, fails to furnish the same, he 
+shall be liable to a penalty of one lakh rupees for each day during which such failure 
+continues or one crore rupees, whichever is less”. 
+16. In this regard, the provisions of Section 15J of the SEBI Act , 1992 and Rule 5 of the  
+SEBI (Procedure for Holding Inquiry and Imposing Penalties by Adjudicating Officer) 
+Rules, 1995 require s that while adjudging the quantum of penalty, the adjudicating 
+officer shall have due regard to the following factors namely;  
+a) the amount of disproporti onate gain or unfair advantage wherever quantifiable, made 
+as a result of the default 
+b) the amount of loss caused to an investor or group of investors as a result of the default 
+c) the repetitive nature of the default 
+17. It is noted that no quantifiable figures ar e available to assess the disproportionate gain or 
+unfair advantage made as a result of the default. Further, the amount of loss caused to an 
+investor or group of investors also cannot be quantified on the basis of the available facts 
+and data. However, having regard to the findings of the investigations suggesting the 
+involvement of the noticee in the alleged manipulation and refusal to provide the 
+information to the investigating authority despite being granted several opportunities to 
+do so , indicate tha t the default committed by the noticee is intentional. Timely 
+submission of information is very important in concluding investigation proceedings and 
+non co-operation by an entity can be detrimental to the interests of the investors and the 
+securities market. Hence, the violation committed by the noticee has to be taken seriously 
+in view of the facts and circumstances of the case and further no mitigating circumstances 
+are seen which warrant a lenient view in the matter.   
+ORDER 
+18. Considering the facts and ci rcumstances of the case, it is established that M/s Pillaiyar 
+Pattiyar Textiles Ltd. failed to submit the required information to the Investigating 
+
+=== PDF page 11 ===
+Page 11 of 11 
+Authority of SEBI. In view of the failure on the part M/s Pillaiyar Pattiyar Textiles Ltd . 
+to furnish necessary information to SEBI, in terms of the provisions of Section 15 A(a) of 
+the SEBI Act 1992 and Rule 5 of the SEBI (Procedure for Holding Inquiry and Imposing 
+Penalties by Adjudicating Officer) Rules, 1995, I, hereby impose a penalty of Rs. 
+10,00,000/- (Rupees Ten Lacs Only) on M/s Pillaiyar Pattiyar Textiles Ltd. In view of the 
+facts and circumstances of the case, I am of the view that the said penalty is 
+commensurate with the violation committed by M/s Pillaiyar Pattiyar Textiles Ltd . This 
+type of non -compliance with the summons issued , which stonewalls the investigations 
+into the irregularities, in the larger public interest , calls  for deterrent penalty , to send a 
+signal that all those connected with the securities market with such callous and indifferent  
+attitude will not be viewed leniently.  
+19. The penalty shall be paid by way of demand draft drawn in favour of “SEBI – Penalties 
+Remittable to Government of India” payable at Mumbai within 45 days of receipt of this 
+order. The said demand draft shall be forwa rded to Shri P K Bindlish, Chief General 
+Manager,  Securities and Exchange Board of India, Plot No C4 -A, “G” Block, Bandra-
+Kurla Complex, Bandra (East), Mumbai 400 051.  
+20. In terms of the provisions of Rule 6 of the SEBI (Procedure for Holding Inquiry and 
+Imposing Penalties by Adjudicating Officer) Rules 1995, copies of this order are sent to 
+M/s Pillaiyar Pattiyar Textiles Ltd. and to Securities and Exchange Board of India. 
+ 
+ 
+PLACE : MUMBAI 
+December 11, 2007 
+SUNIL KADAM 
+ADJUDICATING OFFICER 
+ 

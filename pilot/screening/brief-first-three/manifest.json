@@ -1,0 +1,9 @@
+{
+  "kind": "provisional-screening-brief",
+  "completed": true,
+  "publication": "local_only",
+  "files": {
+    "brief.json": "d58c2f367fab04066d1b339d13bc7fb79a7b07410a64f1742c7ace5b9ccfd005",
+    "report.html": "99dabaf0e3af2afc26db48cb52ac410fa9a934c29a0b17f3bd8aa7cfcf3cda0b"
+  }
+}

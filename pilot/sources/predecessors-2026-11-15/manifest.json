@@ -1,0 +1,279 @@
+{
+  "kind": "predecessor-source-capture",
+  "created_at_utc": "2026-11-15T15:54:52.273832+00:00",
+  "plan_sha256": "39661f63fbebe11d967b7284570fdecb887965187f4e66fa5740f7caa96081ea",
+  "script_sha256": "50d69f2178d1fffb1a538797aa64166eed244e7341d6b3a26c3f3ef273479a56",
+  "sources": [
+    {
+      "source_id": "PRE-01",
+      "screening_ids": [
+        "RECON-02"
+      ],
+      "url": "https://www.sebi.gov.in/media/press-releases/sep-2006/order-in-the-matter-of-m-s-home-trade-ltd-_10264.html",
+      "title": "Home Trade: 2006 press release concerning M's Securities",
+      "relation_note": "Earlier official publication lead concerning HTL trading at Bangalore. Separate broker proceeding; no automatic merger or exact first-disclosure assignment.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/media/press-releases/sep-2006/order-in-the-matter-of-m-s-home-trade-ltd-_10264.html",
+        "final_url": "https://www.sebi.gov.in/media/press-releases/sep-2006/order-in-the-matter-of-m-s-home-trade-ltd-_10264.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "6b80f2b5f751dbc30e0d40f414b349ac40927d964d79220ec21a69e535f96b18",
+        "retrieved_at_utc": "2026-11-15T15:54:53.514454+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-01/source.html",
+        "bytes": 9049
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-01/text.txt"
+    },
+    {
+      "source_id": "PRE-02",
+      "screening_ids": [
+        "RECON-02"
+      ],
+      "url": "https://www.sebi.gov.in/sebi_data/docfiles/15745_t.html",
+      "title": "Indavara Securities order concerning Home Trade",
+      "relation_note": "Earlier HTML order describes HTL transactions in April-December 2001. Compare instrument, period and scheme before linking to a 2015 episode; preserve respondent-specific findings.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/docfiles/15745_t.html",
+        "final_url": "https://www.sebi.gov.in/sebi_data/docfiles/15745_t.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "bdad5e2a7045df98ca4b3d96fa35476c7ef510f00b9f8acc96695418c17e37b9",
+        "retrieved_at_utc": "2026-11-15T15:54:54.791310+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-02/source.html",
+        "bytes": 47631
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-02/text.txt"
+    },
+    {
+      "source_id": "PRE-03",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/media/press-releases/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-pvt-ltd-member-bse-and-nse-ltd-in-the-matter-of-m-s-dsq-biotech-ltd-_10579.html",
+      "title": "DSQ Biotech: 2006 Credit Suisse First Boston press release",
+      "relation_note": "Public-release lead for the linked broker order. Page header and body display different dates; neither is silently chosen as verified publication time.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/media/press-releases/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-pvt-ltd-member-bse-and-nse-ltd-in-the-matter-of-m-s-dsq-biotech-ltd-_10579.html",
+        "final_url": "https://www.sebi.gov.in/media/press-releases/nov-2006/order-against-m-s-credit-suisse-first-boston-india-securities-pvt-ltd-member-bse-and-nse-ltd-in-the-matter-of-m-s-dsq-biotech-ltd-_10579.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "39e922c9a19801ee2c2e02d86de6b9bc4aae244d053cc12ea4afac2a7d2e6a60",
+        "retrieved_at_utc": "2026-11-15T15:54:56.027770+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-03/source.html",
+        "bytes": 8965
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-03/text.txt"
+    },
+    {
+      "source_id": "PRE-04",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/sebi_data/docfiles/15672_t.html",
+      "title": "Credit Suisse First Boston order concerning DSQ Biotech",
+      "relation_note": "Describes December 1999-March 2001 transactions and earlier orders. Related broker proceeding, not the 2015 Khandwala legal disposition.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/docfiles/15672_t.html",
+        "final_url": "https://www.sebi.gov.in/sebi_data/docfiles/15672_t.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "13abc22270c49d1f88540cb97aef29a8067f500010265fabb98281b4c08fba21",
+        "retrieved_at_utc": "2026-11-15T15:54:57.322436+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-04/source.html",
+        "bytes": 22363
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-04/text.txt"
+    },
+    {
+      "source_id": "PRE-05",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/media/press-releases/apr-2003/dsq-biotech-ltd_17385.html",
+      "title": "DSQ Biotech: April 2003 press release",
+      "relation_note": "Same-issuer lead retained as a warning against name-only matching: the linked proceedings concern older 1994-1996 trading, not automatically the 1999-2001 episode.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/media/press-releases/apr-2003/dsq-biotech-ltd_17385.html",
+        "final_url": "https://www.sebi.gov.in/media/press-releases/apr-2003/dsq-biotech-ltd_17385.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "eefe183c4b3999e1ff86605484efd2de452882c5445d2e5e7dd9a11230d40639",
+        "retrieved_at_utc": "2026-11-15T15:54:58.544894+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-05/source.html",
+        "bytes": 11941
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-05/text.txt"
+    },
+    {
+      "source_id": "PRE-06",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/sebi_data/docfiles/17291_t.html",
+      "title": "BKG Management Services order concerning DSQ Biotech",
+      "relation_note": "Explicit 1994-1996 conduct windows provide a same-issuer, different-period control. Do not use this order alone to date disclosure of the later Khandwala episode.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/docfiles/17291_t.html",
+        "final_url": "https://www.sebi.gov.in/sebi_data/docfiles/17291_t.html",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "3fbe66febcf6e8561c0412fff8ab4c1c052e82a063e960dfd84c434706185837",
+        "retrieved_at_utc": "2026-11-15T15:55:00.823385+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-06/source.html",
+        "bytes": 11076
+      },
+      "decoding": {
+        "encoding": "utf-8",
+        "basis": "HTTP charset",
+        "failed_attempts": []
+      },
+      "text_path": "PRE-06/text.txt"
+    },
+    {
+      "source_id": "PRE-07",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/adjorder/Pattiyar.pdf",
+      "title": "Pillaiyar Pattiyar Textiles adjudication order",
+      "relation_note": "Order dated 11 December 2007 describes Khandwala cross-deals and rolling-settlement transactions in DSQ Biotech. Respondent is PPTL and proceeding concerns summons compliance; date and legal scope remain separate.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/adjorder/Pattiyar.pdf",
+        "final_url": "https://www.sebi.gov.in/adjorder/Pattiyar.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "e60db4c3abf9d86af3afadf81d029b180cd707dad21f29bed34cd6a22879ad0f",
+        "retrieved_at_utc": "2026-11-15T15:55:02.116770+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-07/source.pdf",
+        "bytes": 46484
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 11,
+        "page_errors": []
+      },
+      "pages_path": "PRE-07/pages.json",
+      "text_path": "PRE-07/text.txt"
+    },
+    {
+      "source_id": "PRE-08",
+      "screening_ids": [
+        "RECON-03"
+      ],
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1290409362790.pdf",
+      "title": "DSQ Biotech company/group order dated 13 January 2009",
+      "relation_note": "Earlier company/group order includes Khandwala transaction details for the relevant investigation period. Signature date is not independently verified publication time; preserve party-specific findings.",
+      "status": "CAPTURED",
+      "capture": {
+        "requested_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1290409362790.pdf",
+        "final_url": "https://www.sebi.gov.in/sebi_data/attachdocs/1290409362790.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "sha256": "4e4defafa13745132baf0bbb63b99eb55ceb799ce464e3610429416e5067eaa5",
+        "retrieved_at_utc": "2026-11-15T15:55:04.102056+00:00",
+        "redirects": [],
+        "request_count": 1,
+        "path": "PRE-08/source.pdf",
+        "bytes": 463154
+      },
+      "extraction": {
+        "status": "OK",
+        "page_count": 48,
+        "page_errors": []
+      },
+      "pages_path": "PRE-08/pages.json",
+      "text_path": "PRE-08/text.txt"
+    }
+  ],
+  "human_review_completed": false,
+  "publication_dates_verified": false,
+  "first_disclosure_verified": false,
+  "research_decision": "NOT_EVALUATED",
+  "limits": {
+    "max_sources": 8,
+    "max_html_bytes": 2000000,
+    "max_pdf_bytes": 20000000,
+    "socket_timeout_seconds": 20,
+    "max_redirects": 4,
+    "automatic_retries": 0,
+    "seconds_between_fetches": 1
+  },
+  "limitations": [
+    "Candidate relationships and dates need source review; acquisition is not independent audit",
+    "Native HTML text may include navigation or lose table layout; exact source bytes are retained",
+    "Retrieval time, displayed dates and document signature dates are separate observations"
+  ],
+  "status": "COMPLETE",
+  "counts": {
+    "requested": 8,
+    "captured": 8,
+    "failed": 0
+  },
+  "files": {
+    "PRE-01/source.html": "6b80f2b5f751dbc30e0d40f414b349ac40927d964d79220ec21a69e535f96b18",
+    "PRE-01/text.txt": "79df3409a1591064c932c9f3c803f2c7a2991a14dfe2c7bdecf3ff97bb7bdd40",
+    "PRE-02/source.html": "bdad5e2a7045df98ca4b3d96fa35476c7ef510f00b9f8acc96695418c17e37b9",
+    "PRE-02/text.txt": "31c410e84140326285b61e140f74923091baa1af9191851e4e011995a6392e6e",
+    "PRE-03/source.html": "39e922c9a19801ee2c2e02d86de6b9bc4aae244d053cc12ea4afac2a7d2e6a60",
+    "PRE-03/text.txt": "7e18f2df866e82004407712d88d10f5f45d0fe35f1dd21234125f38363340ea0",
+    "PRE-04/source.html": "13abc22270c49d1f88540cb97aef29a8067f500010265fabb98281b4c08fba21",
+    "PRE-04/text.txt": "f4052d325e186726830ba207bfb3d5e7501e315bca17fcdcb363fc455d509690",
+    "PRE-05/source.html": "eefe183c4b3999e1ff86605484efd2de452882c5445d2e5e7dd9a11230d40639",
+    "PRE-05/text.txt": "784d04368455a6f558c522ce05e4f98db2fcf89eddc4104373da557adceacdb5",
+    "PRE-06/source.html": "3fbe66febcf6e8561c0412fff8ab4c1c052e82a063e960dfd84c434706185837",
+    "PRE-06/text.txt": "53e5eb6251d6630dedf7dc9858bb536afc75283260ce6c741912ff8b01766582",
+    "PRE-07/pages.json": "c745e01f2b86106788e5f2613865c7254e5f38e68219c13375aa9453b27718d3",
+    "PRE-07/source.pdf": "e60db4c3abf9d86af3afadf81d029b180cd707dad21f29bed34cd6a22879ad0f",
+    "PRE-07/text.txt": "a677d2095867b2b25cd491738da6a9186981b16142070b63d64e78ac3b0499ee",
+    "PRE-08/pages.json": "7f201be22f878c3f5c27046746f8c20bdf22e8cb806b95c77369ecce9a990a78",
+    "PRE-08/source.pdf": "4e4defafa13745132baf0bbb63b99eb55ceb799ce464e3610429416e5067eaa5",
+    "PRE-08/text.txt": "22436293d6646876f0ddc53cb4a8337bd2040180e069d382ee2b5ca870a30afa",
+    "report.html": "4f84deec2241d6e28f0d3d4ecaaaef261fcec0ac7804484d543954f4a2d9d4ee"
+  }
+}
