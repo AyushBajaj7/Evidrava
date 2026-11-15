@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    name: Test (${{ matrix.os }} / Python ${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest ]
+        python-version: [ "3.11", "3.12" ]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install -r requirements-design.lock
+
+      - name: Run unit and integration tests
+        run: |
+          python -m unittest discover -s tests -v
+
+      - name: Run design checker
+        run: |
+          python scripts/check_design.py
+
+      - name: Verify screening batch integrity
+        run: |
+          python scripts/prepare_screening_batch.py --verify-existing
+
+      - name: Verify predecessor reports
+        run: |
+          python scripts/capture_predecessors.py --refresh-report pilot/sources/predecessors-2026-11-15
+          python scripts/capture_predecessors.py --refresh-report pilot/sources/predecessors-supplement-2026-11-15
+          python scripts/capture_predecessors.py --refresh-report pilot/sources/predecessors-date-supplement-2026-11-15
+
+      - name: CLI smoke checks
+        run: |
+          python -m evidrava --help
+          python -m evidrava check-workbook --help
+          python -m evidrava frame-check --help
+          python -m evidrava draw-sample --help
+          python -m evidrava screening-queue --help
+          python -m evidrava screening-report --help

@@ -185,7 +185,19 @@ def _ranked_groups(groups, seed):
 
 
 def _select_groups(groups, target_matters, seed):
-    """Choose a deterministic exact subset without splitting a related group."""
+    """Choose a deterministic exact subset of whole related-matter groups.
+
+    Implements a deterministic subset-sum knapsack over groups ranked by
+    sha256(algorithm\0seed\0group_id). Traverses ranked groups and selects the
+    first reachable combination of whole groups that sums exactly to target_matters.
+
+    STATISTICAL NOTE: This preserves cluster integrity (related matters are never
+    split), but it is NOT a simple random sample (SRS). Because it solves an exact
+    subset-sum problem in hash-rank order without splitting groups, it may favor
+    certain group-size combinations (e.g., smaller groups to fill the final remainder).
+    Sensitivity analysis across candidate seeds is recommended to assess cluster-size
+    distributions prior to protocol freezing.
+    """
     ranked = _ranked_groups(groups, seed)
     paths = {0: ()}
     for group_id, members in ranked:
@@ -230,6 +242,9 @@ def draw_sample(frame_path, protocol_path):
         "group_rank_order": ranked_groups,
         "limitations": [
             "Selection is group-preserving and exact for the declared target; it does not verify the frame's eligibility statements.",
+            "Selection is not a simple random sample (SRS); it uses deterministic subset-sum knapsack selection over SHA-256 ranked groups to hit the exact target without splitting clusters, which can favor certain group-size combinations.",
+            "The candidate frame schema has no stratum column; selection does not stratify by period or matter type as contemplated in proposal v2.4.",
+            "To prevent seed fishing, the candidate frame hash must be publicly committed before fixing the seed from an external verifiable source.",
             "No replacement has been drawn. Any amendment requires a new frozen protocol and manifest.",
             "Selection does not provide source verification, audit credit, market-data coverage or a research decision."
         ]

@@ -25,7 +25,9 @@ class ScreeningQueueTests(unittest.TestCase):
     def setUp(self):
         # Keep report links and preserved packet paths on D: even if the Python
         # temporary directory defaults to C: on this Windows machine.
-        self.temp = tempfile.TemporaryDirectory(dir=ROOT / "runs")
+        runs_dir = ROOT / "runs"
+        runs_dir.mkdir(exist_ok=True)
+        self.temp = tempfile.TemporaryDirectory(dir=runs_dir)
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
 

@@ -10,6 +10,30 @@ A **matter** is one underlying enforcement case that may have multiple orders. A
 
 The draft scope covers cash-equity matters first publicly disclosed in 2011–2025 and proposes about 40 distinct matters. Confirm the population after assessing workload and access. Preserve listing dates and identifiers, follow predecessor orders, resolve related proceedings, and record eligibility and exclusion reasons. Freeze and checksum the eligible frame, canonical matter keys, sampling rules, ranking method, seed and quotas before drawing matters. Preserve the draw and any permitted replacement or amendment in the selection log. Linkage and evidence gaps in otherwise eligible sampled matters remain in the feasibility record. [Frame evidence and screening exercise](data-and-feasibility.md)
 
+### Deterministic group-preserving draw and sampling characteristics
+
+The pilot sample draw is implemented by `evidrava-group-draw-v1` in [`evidrava/frame.py`](../evidrava/frame.py). It operates on a verified, frozen candidate frame (`matter_id`, `matter_name`, `eligibility_status`, `related_matter_group`) and a separately frozen protocol specification (`protocol_id`, `state: FROZEN`, `frozen_at`, `frame_sha256`, `sampling: {algorithm, seed, target_matters, replacement_policy: none}`).
+
+To prevent splitting connected proceedings across training/testing splits or introducing correlated contamination, the algorithm operates at the **group level**:
+1. Groups are ranked deterministically by calculating `SHA-256("evidrava-group-draw-v1\0" + seed + "\0" + group_id)`.
+2. The selection engine executes dynamic programming subset-sum (knapsack) across ranked groups, selecting the first reachable combination of intact whole groups that sums exactly to the target count (e.g., 40 matters).
+
+**Honest statistical description:**
+- **Not simple random sampling (SRS):** While deterministic, fully auditable, and group-preserving, this procedure is *cluster sampling under an exact subset-sum constraint*. It is **not** simple random sampling of matters or groups.
+- **Group size combination skew:** Because it finds the first exact subset-sum match in hash-rank order without splitting groups, the algorithm may favor particular combinations of group sizes (for instance, smaller 1-matter groups that conveniently close the remaining deficit to reach the exact target 40).
+- **Absence of stratification in frame schema:** Proposal v2.4 envisioned stratified sampling across time periods and case types. However, the current 4-column candidate frame schema lacks an explicit stratum field; grouping is strictly by related-matter clusters. Stratification across periods or order types is therefore not enforced by the draw tool.
+- **Pre-freeze sensitivity analysis:** Before fixing the protocol, researchers should run the draw across multiple candidate seeds on the real frame to inspect cluster-size and time-period distributions, documenting any structural selection skews.
+
+### Pre-registration and commit-before-seed protocol
+
+To prevent any possibility or suspicion of "seed fishing" (testing multiple pseudo-random seeds until a favored sample composition is drawn), the protocol enforces a strict two-stage public timestamping procedure:
+
+1. **Stage 1 (Frame Freeze & Fingerprint):** The final candidate frame CSV is frozen. Its exact byte SHA-256 digest is calculated and committed to the public Git repository alongside the frozen protocol draft.
+2. **Stage 2 (External Public Randomness):** The integer seed is determined from an external, unpredictable, publicly verifiable source determined *after* the Stage 1 commit timestamp. Acceptable public sources include:
+   - The integer portion of the closing value of the NSE Nifty 50 or BSE Sensex on a designated future trading session date specified in the protocol.
+   - The output of a designated NIST Randomness Beacon round published after the commit.
+3. **Stage 3 (Sample Draw):** The `python -m evidrava draw-sample` command is executed with the frozen frame and the externally verifiable seed. The output `selection-manifest.json` permanently binds `selected_matter_ids` to the frozen protocol and frame digest.
+
 ## Evidence and audit
 
 Build expected slots from the sampled cohort, the episode inventory and all label versions included in the frozen release. The required fields are provisional until protocol freeze.

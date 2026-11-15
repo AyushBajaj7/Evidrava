@@ -86,13 +86,13 @@ Copy-Item pilot/templates/candidate-frame-template.csv working/candidate-frame.c
 .\.venv-pilot\Scripts\python.exe -m evidrava frame-check --frame working/candidate-frame.csv --out runs/frame-check-01
 ```
 
-Only after the protocol, target and seed have been genuinely settled should you copy `pilot/templates/frozen-protocol-template.json`, replace its frame hash with the `frame-check` result, and change its state to `FROZEN`. Then the following creates an immutable, whole-group selection manifest that the frozen workbook can consume:
+Only after the protocol, target and seed have been genuinely settled should you copy `pilot/templates/frozen-protocol-template.json`, replace its frame hash with the `frame-check` result, and change its state to `FROZEN`. To prevent seed fishing, commit the frame hash to Git before determining the seed from an external verifiable source (e.g., closing index). Then the following creates an immutable, whole-group selection manifest that the frozen workbook can consume:
 
 ```powershell
 .\.venv-pilot\Scripts\python.exe -m evidrava draw-sample --frame working/candidate-frame.csv --protocol working/frozen-protocol.json --out runs/sample-draw-01
 ```
 
-The command refuses a DRAFT protocol, altered frame bytes and targets that would split a related-matter group. It does not draw the real study sample until you provide those frozen inputs, and it never turns the research decision into PASS.
+The command refuses a DRAFT protocol, altered frame bytes and targets that would split a related-matter group. The selection uses deterministic subset-sum over SHA-256 ranked groups; it is reproducible cluster sampling rather than simple random sampling and may favor certain group-size combinations. It does not draw the real study sample until you provide those frozen inputs, and it never turns the research decision into PASS.
 
 ## Start the screening exercise
 
