@@ -5,8 +5,7 @@
 *.pdf binary
 *.zip binary
 *.whl binary
-pilot/sources/** -text
-pilot/screening/** -text
-working/** -text
+pilot/** -text
 fixtures/** -text
 references/** -text
+working/** -text

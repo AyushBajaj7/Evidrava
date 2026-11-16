@@ -75,7 +75,9 @@ def screening_progress(reference_path: Path | None = None, working_path: Path | 
     report files; neither is returned through the browser API.
     """
     reference_path = reference_path or ROOT / "pilot/screening/screening_30.csv"
-    working_path = working_path or ROOT / "working/screening_30.csv"
+    if working_path is None:
+        candidate = ROOT / "working/screening_30.csv"
+        working_path = candidate if candidate.is_file() else reference_path
     try:
         reference, _ = load_reference(reference_path)
         rows, _ = read_csv(working_path)

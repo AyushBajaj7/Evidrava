@@ -8,7 +8,8 @@ data/derived/
 node_modules/
 references/incoming/**/registry_tests/_work/
 references/incoming/**/_work/
-working/
+working/*
+!working/screening_30.csv
 *.egg-info/
 build/
 dist/
