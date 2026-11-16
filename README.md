@@ -30,7 +30,7 @@ A **matter** is an underlying proceeding that may have several orders. An **epis
 
 **Development has started. The research protocol remains DRAFT.** The budget is ₹0 and the delivery target is **4 December 2026**. Reviewer search runs alongside software work, screening, data-access checks and provisional extraction. A missing reviewer does not stop those activities; it prevents evidence from receiving independent-audit credit.
 
-The application now has seven commands: `check-workbook`, `screening-report`, `screening-queue`, `collect-sources`, `review-brief`, `frame-check` and `draw-sample`. A separate local web stack adds a browser frontend, a strict middleware boundary and a backend API. The read-only workbook checker detects missing/duplicate IDs, broken links, invalid order pages, mismatched values, invalid review attribution, post-cutoff sources, unverified legal availability and selection inconsistencies. It adds the requested **duplicate Included-matter guard**, checks template formula fingerprints, and flags edited example rows or input beyond the formula ranges.
+The application now has nine commands: `check-workbook`, `screening-report`, `screening-queue`, `collect-sources`, `review-brief`, `frame-check`, `draw-sample`, `simulate-seeds` and `check-market-data`. A separate local web stack adds a browser frontend, a strict middleware boundary and a backend API. The read-only workbook checker detects missing/duplicate IDs, broken links, invalid order pages, mismatched values, invalid review attribution, post-cutoff sources, unverified legal availability and selection inconsistencies. It adds the requested **duplicate Included-matter guard**, checks template formula fingerprints, and flags edited example rows or input beyond the formula ranges.
 
 The checker reports **input validity**, outstanding obligations and preparation counts. It does **not** recalculate workbook formulas, certify reviewer identity or source contents, verify actual market coverage, reconstruct model snapshots, or issue a research PASS. Its research decision is always **NOT EVALUATED**. [Implemented scope](docs/technical-reference.md)
 
@@ -93,6 +93,22 @@ Only after the protocol, target and seed have been genuinely settled should you 
 ```
 
 The command refuses a DRAFT protocol, altered frame bytes and targets that would split a related-matter group. The selection uses deterministic subset-sum over SHA-256 ranked groups; it is reproducible cluster sampling rather than simple random sampling and may favor certain group-size combinations. It does not draw the real study sample until you provide those frozen inputs, and it never turns the research decision into PASS.
+
+### Simulate seed sensitivity before freeze
+
+Before freezing the protocol seed, run a simulation over multiple candidate seeds on the candidate frame to inspect cluster-size distributions and empirical group selection probabilities:
+
+```powershell
+.\.venv-pilot\Scripts\python.exe -m evidrava simulate-seeds --frame working/candidate-frame.csv --target 40 --seeds 100 --out runs/seed-sim-01
+```
+
+### Validate market price data
+
+Validate daily cash-equity OHLCV market price series and session calendar coverage against the [market data contract](docs/market-data-contract.md):
+
+```powershell
+.\.venv-pilot\Scripts\python.exe -m evidrava check-market-data --data fixtures/market/sample_market_data.csv --out runs/market-check-01
+```
 
 ## Start the screening exercise
 
@@ -165,7 +181,7 @@ The 20-hour engineering increment remains a planning cap. Earlier work was not t
 
 The earlier JSON-schema design remains reference material. Its 33 acceptance scenarios are not all implemented by this preparation checker.
 
-The current local 0.7.2 verification is recorded in the [live-screening-status increment](pilot/development/evidrava-live-screening-status-increment-2026-11-16.json). The 181-test 0.7.1 source-queue and 177-test 0.7.0 workbook-upload records remain historical evidence. The design checker also validated three schemas, three examples and twelve shape mutations; it does not run application or supplied workbook scenarios. The supplied 114-scenario workbook suite has not been rerun here. A local Excel smoke attempt reached an Office repair prompt, so Excel compatibility remains unverified; no repair or workbook change was made.
+The current local 0.7.2 verification is recorded in the [live-screening-status increment](pilot/development/evidrava-live-screening-status-increment-2026-11-16.json). The 181-test 0.7.1 source-queue and 177-test 0.7.0 workbook-upload records remain historical evidence. The design checker also validated three schemas, three examples and twelve shape mutations; it does not run application or supplied workbook scenarios. The supplied 114-scenario workbook suite has not been rerun here. Direct Excel COM automation confirmed that the base incoming workbook (`SEBI_Episode_Registry_v3_3.xlsx`) opens cleanly with zero repair prompts across all 15 sheets; however, synthetic scenario generation in openpyxl reached an Office prompt during temporary scenario evaluation, so automated test runner execution in Excel remains uncertified. No repair or base workbook modification was made.
 
 ```powershell
 .\.venv-design\Scripts\python.exe scripts/check_design.py

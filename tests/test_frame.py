@@ -156,6 +156,22 @@ class FrameIntegrationTests(unittest.TestCase):
             self.assertEqual(selection["selection_algorithm"], ALGORITHM)
             self.assertIn("selected_matter_ids", selection)
 
+    def test_simulate_seeds_function_and_cli(self):
+        from evidrava.seed_simulation import simulate_seeds
+        with tempfile.TemporaryDirectory() as tmp:
+            frame_path = Path(tmp) / "frame.csv"
+            target = Path(tmp) / "sim-report"
+            write_frame(frame_path)
+            res = simulate_seeds(frame_path, target_matters=4, seed_count=5)
+            self.assertEqual(res["status"], "COMPLETED")
+            self.assertEqual(res["summary"]["successful_runs"], 5)
+            cmd = [sys.executable, "-m", "evidrava", "simulate-seeds", "--frame", str(frame_path), "--target", "4", "--seeds", "5", "--out", str(target)]
+            good = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
+            self.assertEqual(good.returncode, 0, good.stderr)
+            sim_json = json.loads((target / "simulation.json").read_text(encoding="utf-8"))
+            self.assertEqual(sim_json["status"], "COMPLETED")
+            self.assertTrue((target / "report.html").exists())
+
 
 if __name__ == "__main__":
     unittest.main()

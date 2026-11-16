@@ -1,6 +1,6 @@
 # Technical Reference
 
-Evidrava 0.7.2 implements a **read-only preparation checker** for workbook v3.3, an offline screening-workload report, a hash-checked human screening queue, bounded official-source collection, a provisional review brief, candidate-frame validation, a frozen-protocol sample draw and a local web console with temporary workbook checking. The first five selected matters will use the workbook as the working record. The normalized registry, general importer, historical replay engine and detector commands later in this document remain deferred designs. [Pilot plan](pilot-plan.md) · [Research method](research-method.md)
+Evidrava 0.7.2 implements a **read-only preparation checker** for workbook v3.3, an offline screening-workload report, a hash-checked human screening queue, bounded official-source collection, a provisional review brief, candidate-frame validation, a frozen-protocol sample draw, a seed sensitivity simulation tool, a daily market-data format validator, and a local web console with temporary workbook checking. The first five selected matters will use the workbook as the working record. The normalized registry, general importer, historical replay engine and detector commands later in this document remain deferred designs. [Pilot plan](pilot-plan.md) · [Research method](research-method.md) · [Market data contract](market-data-contract.md) · [Detector baseline spec](detector-spec.md)
 
 Use Python 3.11 or later and the pinned [pilot dependencies](../requirements-pilot.lock): openpyxl 3.1.5, et_xmlfile 2.0.0 and pypdf 6.21.4. The package and primary command are `evidrava`; `python -m sebi_benchmark` and the installed `sebi-benchmark` command remain compatibility aliases. Historical artifacts retain their original names and hashes.
 
@@ -63,6 +63,22 @@ The candidate frame has exactly four UTF-8 CSV columns: `matter_id`, `related_ma
 - **Not simple random sampling (SRS):** This is deterministic cluster sampling under an exact knapsack constraint, not SRS. It avoids splitting connected matters across splits, but solving the exact subset-sum in rank order can favor specific group-size combinations (such as small 1-matter groups that fill the remaining capacity to reach the target).
 - **No stratum column:** Although proposal v2.4 discussed stratification across periods and case types, the candidate frame schema (`matter_id`, `related_matter_group`, `eligibility_status`, `eligibility_reason`) does not contain a stratum column. Selection is purely cluster-based. Pre-freeze sensitivity analysis across multiple candidate seeds is strongly recommended.
 - **Commit-before-seed protocol:** To eliminate seed-fishing concerns, the candidate frame CSV and frozen protocol draft must be committed to the public Git repository before fixing the seed from an external, publicly verifiable source (e.g. market index close or public randomness beacon). [Templates](../pilot/templates/) · [Implementation](../evidrava/frame.py) · [Tests](../tests/test_frame.py)
+
+## Seed sensitivity simulation command
+
+```text
+python -m evidrava simulate-seeds --frame <candidate-frame.csv> --target 40 --seeds 100 --out <new-directory>
+```
+
+Evaluates selection distributions, empirical group selection probabilities, and knapsack group size combinations across a range of integer seeds before locking the protocol. Outputs `simulation.json`, `report.html`, and a manifest. [Implementation](../evidrava/seed_simulation.py) · [Report renderer](../evidrava/seed_simulation_report.py)
+
+## Market data validation command
+
+```text
+python -m evidrava check-market-data --data <market_data.csv> [--sessions <sessions.csv>] [--warm-up-bars 252] --out <new-directory>
+```
+
+Validates daily cash-equity OHLCV market price series against the [market data contract](market-data-contract.md). Checks numerical price bounds (`low <= open <= high`, `low <= close <= high`), positive price values, non-negative volumes, unique `(isin, date)` records, chronological order, venue calendar sessions, and minimum warm-up lookback requirements. Outputs `market_data.json`, `report.html`, and a manifest. [Implementation](../evidrava/market_data.py) · [Tests](../tests/test_market_data.py)
 
 ## Local frontend, middleware and backend
 
@@ -166,7 +182,7 @@ The 13 November archive is preserved as exact extracted source files with a [rec
 | `Research_Proposal_v2.4_DRAFT_SEBI_Point_in_Time_Benchmark.docx` | `69e13c9d97602f0a2675e50fbcff0c4a1654ba447f92ffc29fce090f26a1c972` |
 | `SEBI_Registry_v3_3_tests.zip` | `65b09ab0a63fc000aa285961483c91a2a09c19f38d8d67462eff94c6e6d8c7d5` |
 
-The supplied author-run LibreOffice report records **114/114 scenarios** and the mutation notes report **11/11 new mutations caught**. Earlier mutation experiments were not repeated. Formula/header inspection and supplied reports are distinct from local recalculation. LibreOffice is not installed here. A local Excel smoke attempt reached an Office repair prompt before one temporary scenario could finish; the prompt was not accepted, Excel was closed, and no supplied workbook or test input was changed. Excel compatibility therefore remains unverified. The upstream runner deletes its work directory and uses the default LibreOffice profile; any future rerun needs a verified disposable directory and isolated profile. [Supplied report](../references/incoming/2026-11-13/registry_tests_v33/last_run_report.txt) · [Mutation notes](../references/incoming/2026-11-13/registry_tests_v33/mutation_check.md)
+The supplied author-run LibreOffice report records **114/114 scenarios** and the mutation notes report **11/11 new mutations caught**. Earlier mutation experiments were not repeated. Formula/header inspection and supplied reports are distinct from local recalculation. LibreOffice is not installed here. Direct Excel COM automation verified that the base received workbook `SEBI_Episode_Registry_v3_3.xlsx` opens cleanly with zero repair prompts and zero formula errors across all 15 sheets. However, automated scenario generation in openpyxl reached an Office prompt during temporary scenario evaluation; the prompt was not accepted, Excel was closed, and no base workbook or test input was modified. Full automated scenario suite execution in Excel therefore remains uncertified. The upstream runner deletes its work directory and uses the default LibreOffice profile; any future rerun needs a verified disposable directory and isolated profile. [Supplied report](../references/incoming/2026-11-13/registry_tests_v33/last_run_report.txt) · [Mutation notes](../references/incoming/2026-11-13/registry_tests_v33/mutation_check.md)
 
 The implementation's application tests exercise preparation semantics, the exact received template, formula/header/example tampering in memory, workload arithmetic, source acquisition, source-queue coverage, provisional brief checks, output hashes, overwrite refusal, the standalone predecessor-capture helper, candidate-frame drawing and the full local web stack including temporary workbook uploads. The current 0.7.1 verification is recorded in the [source-queue increment record](../pilot/development/evidrava-source-queue-increment-2026-11-16.json), with the earlier [workbook-upload increment record](../pilot/development/evidrava-workbook-upload-increment-2026-11-15.json), [web-stack increment record](../pilot/development/evidrava-web-stack-increment-2026-11-15.json), [frame increment record](../pilot/development/evidrava-frame-increment-2026-11-15.json), [release verification record](../pilot/development/evidrava-release-2026-11-15.json), [application test record](../pilot/development/evidrava-increment-2026-11-15.json) and [predecessor increment record](../pilot/development/evidrava-predecessors-2026-11-15.json) retained for history. It does not execute the supplied 114 workbook scenarios, and it does not establish Excel compatibility. [Installation and commands](../README.md#run-the-project)
 

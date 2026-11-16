@@ -249,6 +249,37 @@ class ScreeningIntegrationTests(unittest.TestCase):
             report = json.loads((target / "screening.json").read_text())
             self.assertEqual(report["status"], "INVALID")
 
+    def test_first_five_effort_log_schema_and_integrity(self):
+        log_path = ROOT / "pilot/screening/first_five_effort_log.csv"
+        self.assertTrue(log_path.exists())
+        with log_path.open(encoding="utf-8-sig", newline="") as f:
+            reader = csv.DictReader(f)
+            expected_fields = ["matter_id", "extractor_id", "reviewer_id", "extraction_minutes", "review_minutes", "adjudication_minutes", "notes"]
+            self.assertEqual(reader.fieldnames, expected_fields)
+            rows = list(reader)
+            self.assertEqual(len(rows), 5)
+            self.assertEqual([r["matter_id"] for r in rows], [f"RECON-{i:02d}" for i in range(1, 6)])
+            # Until real human entry occurs, names and times must remain blank
+            for r in rows:
+                self.assertEqual(r["extractor_id"], "")
+                self.assertEqual(r["reviewer_id"], "")
+                self.assertEqual(r["extraction_minutes"], "")
+                self.assertEqual(r["review_minutes"], "")
+                self.assertEqual(r["adjudication_minutes"], "")
+
+    def test_cli_screening_report_with_effort_log(self):
+        log_path = ROOT / "pilot/screening/first_five_effort_log.csv"
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "report"
+            cmd = [sys.executable, "-m", "evidrava", "screening-report", "--csv", str(REFERENCE),
+                   "--effort-log", str(log_path), "--out", str(target)]
+            res = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
+            self.assertEqual(res.returncode, 0, res.stderr)
+            report = json.loads((target / "screening.json").read_text(encoding="utf-8"))
+            self.assertIn("effort_log", report)
+            self.assertEqual(report["effort_log"]["status"], "VALID")
+            self.assertEqual(report["effort_log"]["total_records"], 5)
+
 
 if __name__ == "__main__":
     unittest.main()

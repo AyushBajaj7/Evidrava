@@ -16,7 +16,7 @@ from . import __version__
 from .checks import day, inspect_registry
 from .report import render_html
 from .workbook import load_registry, serial
-from .screening import load_reference, read_csv, summarize_screening
+from .screening import load_reference, read_csv, summarize_screening, verify_effort_log
 from .screening_report import render_screening
 from .screening_queue import DEFAULT_SOURCE_PACKETS, build_screening_queue, render_queue_csv
 from .screening_queue_report import render_screening_queue
@@ -24,6 +24,10 @@ from .sources import collect_sources
 from .brief import build_brief
 from .frame import draw_sample, inspect_frame
 from .frame_report import render_frame
+from .market_data import inspect_market_data
+from .market_data_report import render_market_data
+from .seed_simulation import simulate_seeds
+from .seed_simulation_report import render_seed_simulation
 
 
 def read_sessions(path):
@@ -77,6 +81,7 @@ def main(argv=None):
     screening = commands.add_parser("screening-report", help="Check the working 30-record CSV and summarize observed human workload offline")
     screening.add_argument("--csv", type=Path, required=True, help="Editable working copy of screening_30.csv")
     screening.add_argument("--reference", type=Path, default=Path("pilot/screening/screening_30.csv"), help="Preserved original beside its manifest and raw capture folder")
+    screening.add_argument("--effort-log", type=Path, help="Optional human effort log CSV (first_five_effort_log.csv)")
     screening.add_argument("--out", type=Path, required=True, help="New directory for screening.json, report.html and manifest.json")
     screening.add_argument("--candidate-listings", type=int, help="Optional illustrative initial-screening workload; withheld until all 30 records have complete timing observations")
     queue = commands.add_parser("screening-queue", help="Build a read-only, hash-checked source navigation queue for human screening")
@@ -98,6 +103,17 @@ def main(argv=None):
     draw.add_argument("--frame", type=Path, required=True, help="Candidate-frame CSV matching the frozen protocol hash")
     draw.add_argument("--protocol", type=Path, required=True, help="Explicit frozen protocol JSON that binds the frame SHA-256")
     draw.add_argument("--out", type=Path, required=True, help="New directory for the selection manifest and report")
+    sim = commands.add_parser("simulate-seeds", help="Simulate group draw sensitivity across candidate seeds")
+    sim.add_argument("--frame", type=Path, required=True, help="Candidate-frame CSV matching the declared schema")
+    sim.add_argument("--target", type=int, default=40, help="Target matters to draw (default 40)")
+    sim.add_argument("--seeds", type=int, default=100, help="Number of seeds to simulate (default 100)")
+    sim.add_argument("--start-seed", type=int, default=1, help="Starting integer seed (default 1)")
+    sim.add_argument("--out", type=Path, required=True, help="New directory for simulation.json, report.html and manifest.json")
+    market = commands.add_parser("check-market-data", help="Validate daily cash-equity OHLCV market bars and trading calendar coverage")
+    market.add_argument("--data", type=Path, required=True, help="Market data CSV with date, isin, symbol, OHLC, volume")
+    market.add_argument("--sessions", type=Path, help="Verified venue session CSV with a date column")
+    market.add_argument("--warm-up-bars", type=int, default=0, help="Minimum bars required per ISIN for warm-up lookback")
+    market.add_argument("--out", type=Path, required=True, help="New directory for market_data.json, report.html and manifest.json")
     args = parser.parse_args(argv)
     try:
         if args.out.exists():
@@ -146,6 +162,11 @@ def main(argv=None):
             reference, provenance = load_reference(args.reference)
             rows, digest = read_csv(args.csv)
             result = summarize_screening(rows, reference, args.candidate_listings)
+            if args.effort_log:
+                effort = verify_effort_log(args.effort_log)
+                result["effort_log"] = effort
+                if effort["status"] == "INVALID":
+                    result["status"] = "INVALID"
             result.update({"checker_version": __version__, "created_at_utc": datetime.now(timezone.utc).isoformat(),
                            "input_sha256": digest, "input_name": args.csv.name, "reference_provenance": provenance,
                            "python_version": sys.version.split()[0],
@@ -172,6 +193,27 @@ def main(argv=None):
                               "acquired_records": result["source_preparation"]["acquired_records"],
                               "human_screening_completed": False, "research_decision": "NOT_EVALUATED"}, indent=2))
             return 0
+        if args.command == "simulate-seeds":
+            result = simulate_seeds(args.frame, args.target, args.seeds, args.start_seed)
+            result.update({"checker_version": __version__, "created_at_utc": datetime.now(timezone.utc).isoformat(),
+                           "python_version": sys.version.split()[0]})
+            write_report(args.out, result, render_seed_simulation, "simulation.json", "seed-sensitivity-simulation")
+            print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
+                              "target_matters": result["summary"]["target_matters"] if "summary" in result else args.target,
+                              "successful_runs": result["summary"]["successful_runs"] if "summary" in result else 0,
+                              "research_decision": "NOT_EVALUATED"}, indent=2))
+            return 3 if result["status"] == "UNREACHABLE" else 0
+        if args.command == "check-market-data":
+            sessions = read_sessions(args.sessions) if args.sessions else None
+            result = inspect_market_data(args.data, session_dates=sessions, min_warm_up_bars=args.warm_up_bars)
+            result.update({"checker_version": __version__, "created_at_utc": datetime.now(timezone.utc).isoformat(),
+                           "python_version": sys.version.split()[0]})
+            write_report(args.out, result, render_market_data, "market_data.json", "market-data-check")
+            print(json.dumps({"output": str(args.out.resolve()), "status": result["status"],
+                              "total_rows": result["summary"]["total_rows"],
+                              "unique_isins": result["summary"]["unique_isins"],
+                              "research_decision": "NOT_EVALUATED"}, indent=2))
+            return 3 if result["status"] == "INVALID" else 0
         data = load_registry(args.workbook)
         additional_inputs = {}
         if args.sessions:

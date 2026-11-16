@@ -21,6 +21,72 @@ TIME_FIELDS = ACTIVE_FIELDS + ["access_wait_minutes"]
 REFERENCE_SHA256 = "2379c6b8d1b0aa25e81244744463c3d711b9bdca43c9f9563b2055fb88b4f770"
 
 
+EFFORT_FIELDS = ["matter_id", "extractor_id", "reviewer_id", "extraction_minutes", "review_minutes", "adjudication_minutes", "notes"]
+
+
+def verify_effort_log(path):
+    """Validate a human effort log CSV."""
+    path = Path(path)
+    if not path.is_file():
+        raise ValueError(f"Effort log file not found: {path}")
+    blob = path.read_bytes()
+    reader = csv.DictReader(StringIO(blob.decode("utf-8-sig"), newline=""))
+    if reader.fieldnames != EFFORT_FIELDS:
+        raise ValueError(f"Effort log requires columns: {', '.join(EFFORT_FIELDS)}")
+
+    rows = list(reader)
+    diagnostics = []
+    tot_extraction = 0.0
+    tot_review = 0.0
+    tot_adjudication = 0.0
+    records_with_effort = 0
+
+    for idx, r in enumerate(rows, start=2):
+        mid = (r.get("matter_id") or "").strip()
+        extractor = (r.get("extractor_id") or "").strip()
+        reviewer = (r.get("reviewer_id") or "").strip()
+
+        if extractor and reviewer and extractor == reviewer:
+            diagnostics.append({"row": idx, "code": "EXTRACTOR_REVIEWER_COLLISION", "message": f"Extractor and reviewer cannot be the same person: {extractor}"})
+
+        def check_mins(val_str, field):
+            val_str = (val_str or "").strip()
+            if not val_str:
+                return 0.0
+            try:
+                m = float(val_str)
+                if m < 0:
+                    diagnostics.append({"row": idx, "code": "NEGATIVE_MINUTES", "message": f"Negative minutes in {field}: {m}"})
+                    return 0.0
+                return m
+            except ValueError:
+                diagnostics.append({"row": idx, "code": "INVALID_MINUTES", "message": f"Non-numerical minutes in {field}: {val_str!r}"})
+                return 0.0
+
+        e_m = check_mins(r.get("extraction_minutes"), "extraction_minutes")
+        r_m = check_mins(r.get("review_minutes"), "review_minutes")
+        a_m = check_mins(r.get("adjudication_minutes"), "adjudication_minutes")
+
+        if e_m > 0 or r_m > 0 or a_m > 0:
+            records_with_effort += 1
+        tot_extraction += e_m
+        tot_review += r_m
+        tot_adjudication += a_m
+
+    return {
+        "file_name": path.name,
+        "file_sha256": sha256(blob).hexdigest(),
+        "total_records": len(rows),
+        "records_with_effort": records_with_effort,
+        "total_extraction_minutes": tot_extraction,
+        "total_review_minutes": tot_review,
+        "total_adjudication_minutes": tot_adjudication,
+        "total_active_minutes": tot_extraction + tot_review + tot_adjudication,
+        "diagnostics": diagnostics,
+        "status": "INVALID" if diagnostics else "VALID"
+    }
+
+
 def finite_total(values):
     total = sum(values)
     if not math.isfinite(total):

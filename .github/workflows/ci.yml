@@ -24,6 +24,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+          cache-dependency-path: |
+            requirements-pilot.lock
+            requirements-design.lock
 
       - name: Install dependencies
         run: |
@@ -57,3 +61,13 @@ jobs:
           python -m evidrava draw-sample --help
           python -m evidrava screening-queue --help
           python -m evidrava screening-report --help
+          python -m evidrava simulate-seeds --help
+          python -m evidrava check-market-data --help
+
+      - name: Seed simulation smoke check
+        run: |
+          python scripts/simulate_seeds.py --frame fixtures/frame/candidate-frame-synthetic.csv --target 4 --seeds 10
+
+      - name: Market data smoke check
+        run: |
+          python -m evidrava check-market-data --data fixtures/market/sample_market_data.csv --out runs/ci-market-smoke
